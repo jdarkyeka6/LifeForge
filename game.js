@@ -647,7 +647,9 @@ function openRelationships(){
         <button class="lr-action" data-act="interact_${p.id}">Interact</button></div>`;
     });
   }
-  if(G.s.pets.length){ html+=`<div class="section-head">Pets</div>`; G.s.pets.forEach(pet=>{ html+=rowHTML(pet.icon,pet.name,"Your loyal companion",[{txt:"Play", id:"playpet_"+pet.uid}]); }); }
+  html+=`<div class="section-head">Pets</div>`;
+  if(G.s.pets.length){ G.s.pets.forEach(pet=>{ html+=rowHTML(pet.icon,`${pet.name} (Lv ${pet.level||1})`,pet.breed||"Your loyal companion",[{txt:"Play", id:"playpet_"+pet.uid}]); }); }
+  html+=rowHTML("paw","Pet Center","Train, compete, breed & adopt",[{txt:"Open", id:"petcenter"}]);
   html+=`<div class="section-head">Family</div>`;
   html+=rowHTML("tree","Family Tree","See your lineage",[{txt:"View", id:"famtree"}]);
   html+=`<div class="section-head">Find Someone</div>`;
@@ -663,6 +665,7 @@ function handleRelAction(id){
   else if(id==="dating") datingApp();
   else if(id==="makefriend") makeFriend();
   else if(id==="adoptpet") adoptPet();
+  else if(id==="petcenter") petCenter();
   else if(id.startsWith("playpet_")){ changeStat("happiness",5); toast("You played with your pet! 🐾"); closePanel(); renderAll(); }
 }
 function interactWith(pid){
@@ -881,11 +884,13 @@ function crimeMenu(){
   let html=`<p style="color:var(--text-dim)">Crime pays — until it doesn't. Karma ${Math.round(G.s.karma)} · Notoriety ${G.s.notoriety}</p>`;
   html+=`<div class="section-head">Petty & Serious Crime</div>`;
   crimes.forEach((c,i)=>{ html+=rowHTML(c.icon,c.name,`Reward ${fmtMoney(c.reward[0])}–${fmtMoney(c.reward[1])} · ${Math.round(c.risk*100)}% caught`,[{txt:"Attempt", id:"crime_"+i}]); });
+  html+=`<div class="section-head">Big Score</div>`;
+  html+=rowHTML("crime","Plan a Heist","Assemble a crew for a major job",[{txt:"Plan", id:"heist"}]);
   html+=`<div class="section-head">Organized Crime</div>`;
   if(G.s.mafia) html+=rowHTML("fedora","The Family",`${GAME.mafiaRanks[G.s.mafia.rankIndex]} · ${G.s.mafia.respect} respect`,[{txt:"Open", id:"mafia"}]);
   else if(G.s.age>=18) html+=rowHTML("fedora","Join the Mafia","Rise through the ranks",[{txt:"Join", id:"joinmafia"}]);
   openPanel({icon:"crime", title:"Criminal Activity", bodyHTML:html, choices:[{label:"Back",primary:true,fn:closePanel}]});
-  wireRowActions(id=>{ if(id==="joinmafia"){ joinMafia(); } else if(id==="mafia"){ mafiaCenter(); } else if(id.startsWith("crime_")){ commitCrime(crimes[parseInt(id.slice(6))]); } });
+  wireRowActions(id=>{ if(id==="joinmafia"){ joinMafia(); } else if(id==="mafia"){ mafiaCenter(); } else if(id==="heist"){ heistPlanner(); } else if(id.startsWith("crime_")){ commitCrime(crimes[parseInt(id.slice(6))]); } });
 }
 function commitCrime(c){
   closePanel(); G.s.stats_lifetime.crimes++;
@@ -1424,9 +1429,9 @@ function sellProperty(uid){ const idx=G.s.properties.findIndex(x=>x.uid===uid); 
    ============================================================ */
 function spotlightCareer(){ return G.s.job && CAREERS().find(c=>c.id===G.s.job.careerId && c.fame); }
 function spotlightActions(cid){
-  if(cid==="musician") return [{id:"song",icon:"music",label:"Write a Song",sub:"Quick release",btn:"Write"},{id:"album",icon:"music",label:"Record an Album",sub:"Big project",btn:"Record"},{id:"tour",icon:"mic",label:"Go on Tour",sub:"Money & fame",btn:"Tour"}];
+  if(cid==="musician") return [{id:"song",icon:"music",label:"Write a Song",sub:"Quick release",btn:"Write"},{id:"album",icon:"music",label:"Record an Album",sub:"Big project",btn:"Record"},{id:"tour",icon:"mic",label:"Go on Tour",sub:"Money & fame",btn:"Tour"},{id:"charts",icon:"chart",label:"View Charts",sub:"Your songs' positions",btn:"View"}];
   if(cid==="actor") return [{id:"audition",icon:"drama",label:"Audition for a Role",sub:"Land a part",btn:"Audition"},{id:"film",icon:"drama",label:"Star in a Film",sub:"Your big break",btn:"Star"}];
-  if(cid==="athlete") return [{id:"train",icon:"dumbbell",label:"Train Hard",sub:"Boost fitness",btn:"Train"},{id:"season",icon:"ball",label:"Play the Season",sub:"Glory or injury",btn:"Play"}];
+  if(cid==="athlete") return [{id:"train",icon:"dumbbell",label:"Train Hard",sub:"Boost fitness",btn:"Train"},{id:"league",icon:"trophy",label:"Play the Season",sub:"Full league season",btn:"Play"}];
   if(cid==="model") return [{id:"runway",icon:"star",label:"Walk a Runway",sub:"Strut your stuff",btn:"Walk"},{id:"cover",icon:"camera",label:"Magazine Cover",sub:"Big exposure",btn:"Shoot"}];
   if(cid==="influencer") return [{id:"series",icon:"camera",label:"Launch a Series",sub:"Grow your channel",btn:"Launch"},{id:"collab",icon:"people",label:"Collab",sub:"Cross-promote",btn:"Collab"}];
   return [{id:"work",icon:"star",label:"Create Something",sub:"Try your craft",btn:"Go"}];
@@ -1442,8 +1447,10 @@ function doSpotlight(id){
   closePanel(); const sk=G.s.skills||{};
   const hit=(base)=> chance(Math.min(0.85, base + ((sk.music||0)+(sk.art||0)+(sk.writing||0)+(sk.charisma||0)+(sk.fashion||0)+(sk.athletics||0))/2000));
   switch(id){
-    case "song": if(hit(0.4)){ const f=rand(3,8); changeStat("fame",f); G.s.followers+=rand(2000,20000); adjustMoney(rand(1000,8000)); log(`🎵 Your new song is a hit! +${f} fame.`,"good","Spotlight"); } else { changeStat("fame",1); log("🎵 You released a song. Modest reception.","info","Spotlight"); } break;
-    case "album": if(hit(0.4)){ const f=rand(8,16); changeStat("fame",f); G.s.followers+=rand(20000,150000); adjustMoney(rand(10000,80000)); changeStat("happiness",8); log(`🎵 Your album went platinum! +${f} fame.`,"good","Spotlight"); } else { changeStat("fame",-1); log("🎵 The album flopped.","bad","Spotlight"); } break;
+    case "song": { const nm=songName(); const h=hit(0.4); if(h){ const f=rand(3,8); changeStat("fame",f); G.s.followers+=rand(2000,20000); adjustMoney(rand(1000,8000)); addSong(nm,true); log(`🎵 "${nm}" is a hit! +${f} fame.`,"good","Spotlight"); } else { changeStat("fame",1); addSong(nm,false); log(`🎵 You released "${nm}". Modest reception.`,"info","Spotlight"); } break; }
+    case "album": { const nm=songName(); const h=hit(0.4); if(h){ const f=rand(8,16); changeStat("fame",f); G.s.followers+=rand(20000,150000); adjustMoney(rand(10000,80000)); changeStat("happiness",8); addSong(nm,true); log(`🎵 Your album (lead single "${nm}") went platinum! +${f} fame.`,"good","Spotlight"); } else { changeStat("fame",-1); addSong(nm,false); log("🎵 The album flopped.","bad","Spotlight"); } break; }
+    case "league": return sportsSeason();
+    case "charts": return chartsPanel();
     case "tour": adjustMoney(rand(5000,40000)); changeStat("fame",rand(3,7)); changeStat("health",-3); log("🎤 You toured the country — exhausting but lucrative.","money","Spotlight"); break;
     case "audition": if(hit(0.45)){ changeStat("fame",rand(2,5)); adjustMoney(rand(2000,15000)); log("🎬 You landed the role!","good","Spotlight"); } else log("🎬 You didn't get the part.","bad","Spotlight"); break;
     case "film": if(hit(0.4)){ const f=rand(8,18); changeStat("fame",f); adjustMoney(rand(20000,200000)); changeStat("happiness",8); log(`🎬 Your film was a blockbuster! +${f} fame.`,"good","Spotlight"); if(chance(0.3)){ changeStat("fame",6); log("🏆 You won an acting award!","good","Spotlight"); } } else { changeStat("fame",-2); log("🎬 The film bombed.","bad","Spotlight"); } break;
@@ -1687,12 +1694,129 @@ function saveSlotsPanel(){
 function topMenu(){
   openPanel({icon:"clipboard", title:"Menu", bodyHTML:`<p style="color:var(--text-dim)">Game options & pages.</p>`, choices:[
     {label:"Character Bio", fn:()=>{ closePanel(); bioPage(); }},
+    {label:"Stats & Achievements", fn:()=>{ closePanel(); statsPanel(); }},
     {label:"Family Tree", fn:()=>{ closePanel(); familyTree(); }},
     {label:"Save Slots", fn:()=>{ closePanel(); saveSlotsPanel(); }},
     {label:"Hall of Fame", fn:()=>{ closePanel(); hallOfFamePanel(); }},
     {label:"Main Menu (autosaves)", fn:()=>{ saveGame(); closePanel(); goToMenu(); }},
     {label:"Close", fn:closePanel},
   ]});
+}
+
+/* ============================================================
+   HEIST PLANNER
+   ============================================================ */
+function heistPlanner(){
+  closePanel();
+  let html=`<p style="color:var(--text-dim)">Pick a target, assemble a crew, then pull off the score. Smarts & fighting improve your odds.</p><div class="section-head">Targets</div>`;
+  (GAME.heists||[]).forEach(h=>{ html+=rowHTML(h.icon, h.name, `Reward ${fmtMoney(h.reward[0])}–${fmtMoney(h.reward[1])} · difficulty ${Math.round(h.difficulty*100)}%`, [{txt:"Plan", id:"plan_"+h.id}]); });
+  openPanel({icon:"crime", title:"Heist Planner", bodyHTML:html});
+  wireRowActions(id=>{ if(id.startsWith("plan_")) planHeist(id.slice(5)); });
+}
+function planHeist(hid){
+  const h=(GAME.heists||[]).find(x=>x.id===hid); if(!h) return;
+  const crew={};
+  const render=()=>{
+    let base=0.3+G.s.smarts/300+((G.s.skills&&G.s.skills.fighting)||0)/400 - h.difficulty;
+    let cost=0; (GAME.heistCrew||[]).forEach(c=>{ if(crew[c.id]){ base+=c.bonus; cost+=c.cost; } });
+    const odds=Math.max(0.05,Math.min(0.95,base));
+    let html=`<p style="color:var(--text-dim)">Target: <b>${h.name}</b> · Crew cost ${fmtMoney(cost)} · Est. success <b>${Math.round(odds*100)}%</b></p><div class="section-head">Assemble Crew</div>`;
+    (GAME.heistCrew||[]).forEach(c=>{ html+=`<div class="list-row"><div class="lr-ico">${iconHTML(c.icon)}</div><div class="lr-main"><div class="lr-title">${c.name} ${crew[c.id]?'<span class="tag-pill green">hired</span>':''}</div><div class="lr-sub">+${Math.round(c.bonus*100)}% success · ${fmtMoney(c.cost)}</div></div><button class="lr-action${crew[c.id]?' secondary':''}" data-act="crew_${c.id}">${crew[c.id]?"Drop":"Hire"}</button></div>`; });
+    openPanel({icon:h.icon, title:"Plan: "+h.name, bodyHTML:html, choices:[{label:`Execute Heist (${Math.round(odds*100)}%)`, primary:true, fn:()=>executeHeist(h,crew,cost,odds)},{label:"Back to Targets", fn:heistPlanner}]});
+    wireRowActions(id=>{ if(id.startsWith("crew_")){ const cid=id.slice(5); crew[cid]=!crew[cid]; render(); } });
+  };
+  render();
+}
+function executeHeist(h, crew, cost, odds){
+  closePanel();
+  if(G.s.money<cost){ toast("You can't afford that crew."); return; }
+  adjustMoney(-cost); G.s.stats_lifetime.crimes++;
+  if(chance(odds)){ const haul=rand(h.reward[0],h.reward[1]); adjustMoney(haul); G.s.notoriety+=20; changeStat("karma",-15); changeStat("happiness",12); log(`💰 The ${h.name} heist was a SUCCESS — you scored ${fmtMoney(haul)}!`,"money","Heist"); }
+  else { G.s.criminalRecord.push({crime:h.name+" heist", age:G.s.age}); changeStat("karma",-10); if(chance(0.5)){ log(`🚨 The ${h.name} heist went wrong — you were caught!`,"bad","Heist"); goToPrison(rand(4,10)); } else { changeStat("health",-rand(15,30)); addRandomCondition(); log("🚨 The heist went sideways — you escaped, but hurt.","bad","Heist"); } }
+  renderAll();
+}
+
+/* ============================================================
+   PETS — train, compete, breed, adopt breeds
+   ============================================================ */
+function petCenter(){
+  closePanel();
+  let html=`<p style="color:var(--text-dim)">Cash ${fmtMoney(G.s.money)}</p>`;
+  if(G.s.pets.length){ html+=`<div class="section-head">Your Pets</div>`;
+    G.s.pets.forEach(pt=>{ html+=`<div class="list-row"><div class="lr-ico">${iconHTML(pt.icon)}</div><div class="lr-main"><div class="lr-title">${pt.name} <span class="tag-pill">Lv ${pt.level||1}</span></div><div class="lr-sub">${pt.breed||"companion"}</div></div><div style="display:flex;flex-direction:column;gap:4px"><button class="lr-action" data-act="ptrain_${pt.uid}">Train</button><button class="lr-action secondary" data-act="pcomp_${pt.uid}">Compete</button></div></div>`; });
+    if(G.s.pets.length>=2) html+=rowHTML("paw","Breed Pets","Raise a new companion",[{txt:"Breed", id:"pbreed"}]);
+  } else html+=`<p style="color:var(--text-dim)">You don't have any pets yet.</p>`;
+  html+=`<div class="section-head">Pet Shop ($300)</div>`;
+  (C().pets||[]).forEach(b=>{ html+=rowHTML(b.icon, b.name, "Adopt a "+b.name.toLowerCase(), [{txt:"Adopt", id:"padopt_"+b.id}]); });
+  openPanel({icon:"paw", title:"Pets", bodyHTML:html});
+  wireRowActions(id=>{ if(id.startsWith("ptrain_"))trainPet(id.slice(7)); else if(id.startsWith("pcomp_"))petCompete(id.slice(6)); else if(id==="pbreed")breedPet(); else if(id.startsWith("padopt_"))adoptBreed(id.slice(7)); });
+}
+function trainPet(uid){ const pt=G.s.pets.find(p=>p.uid===uid); if(!pt) return; pt.level=Math.min(20,(pt.level||1)+1); changeStat("happiness",3); toast(`${pt.name} is now level ${pt.level}!`); petCenter(); }
+function petCompete(uid){ const pt=G.s.pets.find(p=>p.uid===uid); if(!pt) return; const lvl=pt.level||1; if(chance(0.3+lvl*0.03)){ const prize=lvl*rand(200,600); adjustMoney(prize); changeStat("happiness",8); log(`🏆 ${pt.name} won a pet competition — ${fmtMoney(prize)}!`,"money","Pets"); } else { changeStat("happiness",2); log(`${pt.name} competed but didn't place. Good effort!`,"info","Pets"); } petCenter(); }
+function breedPet(){ if(G.s.pets.length<2) return; const base=pick(C().pets); G.s.pets.push({uid:"p"+Math.random().toString(36).slice(2,7), name:base.name, icon:base.icon, breed:base.name, level:1}); changeStat("happiness",8); log(`🐾 Your pets had a litter — a new ${base.name} joins the family!`,"good","Pets"); petCenter(); }
+function adoptBreed(id){ const b=(C().pets||[]).find(x=>x.id===id); if(!b) return; const cost=300; if(G.s.money<cost){ toast("Can't afford the adoption fee."); return; } adjustMoney(-cost); G.s.pets.push({uid:"p"+Math.random().toString(36).slice(2,7), name:b.name, icon:b.icon, breed:b.name, level:1}); log(`🐾 You adopted a ${b.name}!`,"good","Pet"); changeStat("happiness",8); petCenter(); }
+
+/* ============================================================
+   STATS & ACHIEVEMENTS DASHBOARD
+   ============================================================ */
+function statsPanel(){
+  closePanel(); const lt=G.s.stats_lifetime||{};
+  const net=G.s.money+G.s.assets.reduce((s,a)=>s+a.value,0)+stockValue()+cryptoValue()+(G.s.properties||[]).reduce((s,p)=>s+p.value,0);
+  let html=`<div class="section-head">This Life</div>`;
+  html+=`<p>Age ${G.s.age} · Generation ${G.s.generation||1}</p>`;
+  html+=`<p>Net worth: <b>${fmtMoney(net)}</b></p>`;
+  html+=`<p>Jobs ${lt.jobsHeld||0} · Businesses ${(G.s.businesses||[]).length} · Properties ${(G.s.properties||[]).length}</p>`;
+  html+=`<p>Crimes ${lt.crimes||0} · Partners ${lt.partners||0} · Kids ${lt.kids||0}</p>`;
+  html+=`<p>Fame ${Math.round(G.s.fame)} · Followers ${fmtFollowers(G.s.followers)} · Karma ${Math.round(G.s.karma)}</p>`;
+  html+=`<div class="section-head">Achievements (${(G.s.achievements||[]).length}/${(GAME.achievements||[]).length})</div>`;
+  html+=`<div style="display:flex;flex-wrap:wrap">`;
+  (GAME.achievements||[]).forEach(a=>{ const got=(G.s.achievements||[]).includes(a.id); html+=`<div style="display:flex;align-items:center;gap:6px;width:50%;margin-bottom:7px;opacity:${got?1:.35}"><span style="width:18px;flex:0 0 18px">${iconHTML(a.icon)}</span><span style="font-size:12px">${a.name}</span></div>`; });
+  html+=`</div>`;
+  openPanel({icon:"scroll", title:"Stats & Achievements", bodyHTML:html});
+}
+
+/* ============================================================
+   SPORTS LEAGUE (athlete spotlight)
+   ============================================================ */
+function sportsSeason(){
+  closePanel();
+  const myTeam="Your Team";
+  const all=[myTeam,"Wolves","Hawks","Titans","Kings","Storm"];
+  const skill=(G.s.fitness+((G.s.skills&&G.s.skills.athletics)||0))/2;
+  const table=all.map(t=>{ const base=t===myTeam?skill:rand(30,80); let w=0,l=0; for(let g=0;g<10;g++){ if(chance(base/120+0.1)) w++; else l++; } return {t,w,l,pts:w*3}; });
+  table.sort((a,b)=>b.pts-a.pts);
+  const rank=table.findIndex(s=>s.t===myTeam)+1;
+  let prize, msg;
+  if(rank===1){ prize=rand(50000,200000); msg="🏆 CHAMPIONS! You won the league!"; changeStat("fame",12); }
+  else if(rank<=3){ prize=rand(10000,50000); msg=`Podium finish — #${rank}!`; changeStat("fame",5); }
+  else { prize=rand(2000,15000); msg=`You finished #${rank}. Next season.`; }
+  adjustMoney(prize); changeStat("happiness", rank<=3?8:2);
+  let html=`<div class="section-head">Final Standings</div>`;
+  table.forEach((s,i)=>{ html+=`<div class="list-row" ${s.t===myTeam?'style="border-color:var(--accent)"':""}><div class="lr-ico">${iconHTML(i===0?"trophy":"ball")}</div><div class="lr-main"><div class="lr-title">#${i+1} ${s.t}</div><div class="lr-sub">${s.w}W – ${s.l}L</div></div></div>`; });
+  html+=`<p style="margin-top:10px;color:var(--accent)">${msg} Prize: ${fmtMoney(prize)}</p>`;
+  openPanel({icon:"trophy", title:"Season Results", bodyHTML:html});
+  renderAll();
+}
+
+/* ============================================================
+   MUSIC CHARTS (musician spotlight)
+   ============================================================ */
+function songName(){ return pick(["Midnight","Golden","Echoes","Wildfire","Neon","Forever","Gravity","Paper","Skyline","Ghost","Crimson","Velvet"])+" "+pick(["Dreams","Nights","Lights","Love","Rain","Eyes","Days","Fire","Hearts","Roads"]); }
+function addSong(name, hit){ const pos=hit?rand(1,20):rand(45,100); G.s.songs.push({name, pos, peak:pos, age:G.s.age}); }
+function processRoyalties(){
+  if(!G.s.songs||!G.s.songs.length) return;
+  let roy=0;
+  G.s.songs.forEach(s=>{ if(s.pos<=40) roy+=Math.round((101-s.pos)*rand(50,200)); s.pos+=rand(2,10); });
+  G.s.songs=G.s.songs.filter(s=>s.pos<=100);
+  if(roy>0){ adjustMoney(roy); log(`🎵 You earned ${fmtMoney(roy)} in music royalties.`,"money","Royalties"); }
+}
+function chartsPanel(){
+  closePanel();
+  let html=`<p style="color:var(--text-dim)">Songs climb the chart when released and slowly fall over the years. Top songs pay royalties.</p>`;
+  const live=(G.s.songs||[]).slice().sort((a,b)=>a.pos-b.pos);
+  if(!live.length) html+=`<p style="color:var(--text-dim)">No songs on the chart — release one from the Spotlight!</p>`;
+  else { html+=`<div class="section-head">The Charts</div>`; live.forEach(s=>{ html+=rowHTML("chart", s.name, `Now #${Math.round(s.pos)} · peak #${s.peak}`, []); }); }
+  openPanel({icon:"music", title:"Music Charts", bodyHTML:html});
 }
 
 /* ============================================================
