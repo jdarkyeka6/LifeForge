@@ -1,0 +1,48 @@
+/* ============================================================
+   events_senior.js — ages 55+
+   ============================================================ */
+window.GAME = window.GAME || {}; window.GAME.events = window.GAME.events || [];
+window.GAME.events.push(
+  {id:"sr_retire", min:60, max:75, cond:{hasJob:true}, once:true, icon:"🏖️", title:"Retirement?", text:"You could retire and enjoy your golden years.",
+    choices:[
+      {label:"Retire now", effects:{loseJob:true,happiness:12,mental:6}, log:"You retired! Time to relax.", kind:"good"},
+      {label:"Keep working", effects:{happiness:-2,gainPerf:3}, log:"You're not done yet.", kind:"info"},
+    ]},
+  {id:"sr_grandkid", min:55, max:90, cond:{hasChild:true}, icon:"👶", title:"Grandchildren", text:"You're a grandparent now!",
+    choices:[
+      {label:"Spoil them rotten", effects:{happiness:12,relChild:6,money:-200}, log:"Grandkids are the best! 🥰", kind:"good"},
+      {label:"Share your wisdom", effects:{happiness:8,smarts:1}, log:"You're the family elder.", kind:"good"},
+    ]},
+  {id:"sr_health", min:60, max:120, icon:"🩺", title:"Health Scare", text:"Your doctor has some concerning news.",
+    choices:[
+      {label:"Follow the treatment plan", effects:{money:-1500,health:6,mental:-3}, log:"You're taking care of yourself.", kind:"good"},
+      {label:"Ignore the advice", effects:{health:-12}, log:"You brushed it off.", kind:"bad"},
+    ]},
+  {id:"sr_hobby", min:60, max:120, icon:"🎣", title:"Golden Years", text:"You have lots of free time now.",
+    choices:[
+      {label:"Take up gardening", effects:{happiness:7,mental:5,health:2}, log:"Your garden is blooming. 🌷", kind:"good"},
+      {label:"Travel the world", effects:{happiness:12,money:-5000,mental:6}, log:"You're seeing the world at last!", kind:"good"},
+      {label:"Spoil yourself", effects:{happiness:6,money:-1000}, log:"You earned it.", kind:"info"},
+    ]},
+  {id:"sr_wisdom", min:65, max:120, icon:"📖", title:"Passing It Down", text:"A young relative asks for life advice.",
+    choices:[
+      {label:"Share hard-won wisdom", effects:{relAll:5,happiness:6,karma:5}, log:"Your words meant the world.", kind:"good"},
+      {label:"Tell wild stories", effects:{happiness:6,relAll:3}, log:"Legend has it...", kind:"good"},
+    ]},
+  {id:"sr_will", min:70, max:120, cond:{moneyMin:10000}, icon:"📜", title:"Writing a Will", text:"It's time to think about your legacy.",
+    choices:[
+      {label:"Leave it to family", effects:{relAll:6,mental:4}, log:"Your affairs are in order.", kind:"good"},
+      {label:"Donate it all to charity", effects:{karma:15,happiness:8}, log:"A generous final act.", kind:"good"},
+      {label:"Don't think about it", effects:{mental:-3}, log:"You'd rather not.", kind:"info"},
+    ]},
+  {id:"sr_fall", min:70, max:120, icon:"🦴", title:"A Nasty Fall", text:"You slipped and took a tumble.",
+    choices:[
+      {label:"Go to hospital", effects:{money:-800,health:-6}, log:"Patched up, but sore.", kind:"bad"},
+      {label:"Tough it out", effects:{health:-14,addCondition:true}, log:"You should have seen a doctor.", kind:"bad"},
+    ]},
+  {id:"sr_memoir", min:65, max:120, icon:"✍️", title:"Write a Memoir", text:"Friends say you should write your life story.",
+    choices:[
+      {label:"Write it", effects:{happiness:8,smarts:3,fame:4}, log:"Your memoir is published! 📚", kind:"good", outcomes:[{chance:0.2,effects:{money:8000},log:"It became a surprise bestseller!",kind:"money"}]},
+      {label:"Keep memories private", effects:{mental:3}, log:"Some stories are just yours.", kind:"info"},
+    ]},
+);

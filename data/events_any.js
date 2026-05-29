@@ -1,0 +1,89 @@
+/* ============================================================
+   events_any.js — slice-of-life events for ANY age.
+   These keep something happening every single year.
+   ============================================================ */
+window.GAME = window.GAME || {}; window.GAME.events = window.GAME.events || [];
+window.GAME.events.push(
+  // health random
+  {id:"an_illness", min:1, max:120, weight:2, icon:"🤒", title:"Under the Weather", text:"You're not feeling well.",
+    choices:[{label:"See how it goes", effects:{addCondition:true}, log:"You came down with something.", kind:"bad"}]},
+  {id:"an_checkupgood", min:5, max:120, icon:"😌", title:"Feeling Great", text:"You wake up feeling fantastic.",
+    choices:[{label:"Seize the day", effects:{happiness:5,health:2}, log:"A wonderful, healthy day.", kind:"good"}]},
+  {id:"an_weather", min:3, max:120, icon:"🌦️", title:"Wild Weather", text:"A huge storm rolls into town.",
+    choices:[
+      {label:"Stay cozy inside", effects:{happiness:3,mental:2}, log:"You waited out the storm.", kind:"good"},
+      {label:"Go play in the rain", effects:{happiness:6,health:-2}, log:"Soaked and grinning.", kind:"info"},
+    ]},
+  {id:"an_compliment", min:6, max:120, icon:"😊", title:"Kind Stranger", text:"A stranger gives you a genuine compliment.",
+    choices:[{label:"Smile and thank them", effects:{happiness:5,mental:3,looks:1}, log:"It made your whole day.", kind:"good"}]},
+  {id:"an_findmoney", min:4, max:120, icon:"💵", title:"Spare Change", text:"You find money in an old jacket.",
+    choices:[{label:"Score!", effects:{money:60,happiness:3}, log:"Found $60 — free money!", kind:"money"}]},
+  {id:"an_argument_online", min:12, max:90, icon:"💬", title:"Online Argument", text:"Someone is wrong on the internet.",
+    choices:[
+      {label:"Argue for hours", effects:{happiness:-3,mental:-3}, log:"You won, but at what cost?", kind:"info"},
+      {label:"Log off", effects:{mental:4}, log:"Touch grass. Wise.", kind:"good"},
+    ]},
+  {id:"an_concert", min:14, max:90, icon:"🎵", title:"Live Concert", text:"Your favorite artist is in town.",
+    choices:[
+      {label:"Buy tickets", effects:{money:-150,happiness:10}, log:"An unforgettable night!", kind:"good"},
+      {label:"Watch the stream at home", effects:{happiness:4}, log:"Couch concert it is.", kind:"info"},
+    ]},
+  {id:"an_diet_fad", min:18, max:90, icon:"🥗", title:"Trendy Diet", text:"Everyone's trying a new fad diet.",
+    choices:[
+      {label:"Try it", effects:{health:3,happiness:-2,looks:2}, log:"You feel a bit healthier.", kind:"good", outcomes:[{chance:0.3,effects:{health:-4},log:"It made you feel awful. Stopped.",kind:"bad"}]},
+      {label:"Eat normally", effects:{happiness:2}, log:"Moderation is your motto.", kind:"info"},
+    ]},
+  {id:"an_protest", min:16, max:80, icon:"📢", title:"A Cause", text:"A protest for a cause you believe in is happening.",
+    choices:[
+      {label:"March for it", effects:{karma:6,happiness:4,mental:3}, log:"You stood up for what's right.", kind:"good"},
+      {label:"Stay out of it", effects:{}, log:"Not your fight today.", kind:"info"},
+    ]},
+  {id:"an_gym_fail", min:16, max:70, icon:"🏋️", title:"At the Gym", text:"You try to impress people with a heavy lift.",
+    choices:[
+      {label:"Go heavy", effects:{fitness:4,looks:2}, log:"Strong show!", kind:"good", outcomes:[{chance:0.3,effects:{health:-8,addCondition:"chronic back pain"},log:"You tweaked your back. Ouch.",kind:"bad"}]},
+      {label:"Lift sensibly", effects:{fitness:5,health:2}, log:"Smart training.", kind:"good"},
+    ]},
+  {id:"an_random_kind", min:8, max:120, icon:"🫶", title:"Random Act", text:"You see someone struggling with heavy bags.",
+    choices:[
+      {label:"Help them", effects:{karma:6,happiness:4}, log:"You helped a stranger. Good karma.", kind:"good"},
+      {label:"Mind your business", effects:{}, log:"You kept walking.", kind:"info"},
+    ]},
+  {id:"an_pickup_skill", min:10, max:90, icon:"📘", title:"Learn Something", text:"You have a free weekend.",
+    choices:[
+      {label:"Learn a language", effects:{smarts:5,happiness:2}, log:"¡Muy bien! New language unlocked.", kind:"good"},
+      {label:"Watch documentaries", effects:{smarts:3}, log:"You feel smarter already.", kind:"good"},
+      {label:"Binge TV all weekend", effects:{happiness:5,smarts:-1}, log:"Glorious laziness.", kind:"info"},
+    ]},
+  {id:"an_food_poison", min:10, max:90, icon:"🤢", title:"Bad Sushi", text:"That gas station sushi looked questionable.",
+    choices:[
+      {label:"Eat it anyway", effects:{happiness:2}, log:"Bold choice...", kind:"info", outcomes:[{chance:0.5,effects:{health:-8,happiness:-5},log:"Food poisoning. Awful night.",kind:"bad"},{chance:0.5,effects:{},log:"Surprisingly fine!",kind:"info"}]},
+      {label:"Skip it", effects:{}, log:"Good call.", kind:"info"},
+    ]},
+  {id:"an_quiet", min:1, max:120, icon:"☀️", title:"A Quiet Year", text:"Not much happened this year.",
+    choices:[{label:"Reflect", effects:{happiness:2,mental:2}, log:"A calm, peaceful year passed.", kind:"info"}]},
+  {id:"an_neighbor_gift", min:8, max:120, icon:"🥧", title:"Neighborly", text:"A neighbor brings you a homemade pie.",
+    choices:[{label:"Accept warmly", effects:{happiness:5,relRandom:3,health:-1}, log:"Delicious! What a kind neighbor.", kind:"good"}]},
+  {id:"an_talent_discover", min:10, max:60, icon:"⭐", title:"Hidden Talent", text:"You discover you're weirdly good at something.",
+    choices:[
+      {label:"Juggling", effects:{happiness:4,looks:1}, log:"You can juggle now. Party trick unlocked.", kind:"good"},
+      {label:"Public speaking", effects:{smarts:3,looks:2}, log:"You command a room.", kind:"good"},
+      {label:"Cooking", effects:{health:2,happiness:3}, log:"A natural in the kitchen.", kind:"good"},
+    ]},
+  {id:"an_phone_scam", min:18, max:120, icon:"📞", title:"Scam Call", text:"\"Your account has been compromised, press 1...\"",
+    choices:[
+      {label:"Hang up", effects:{smarts:1}, log:"You dodged a scam.", kind:"good"},
+      {label:"Follow instructions", effects:{}, log:"You gave them your details...", kind:"info", outcomes:[{chance:0.6,effects:{money:-1200,happiness:-8},log:"Scammed! Money stolen.",kind:"bad"},{chance:0.4,effects:{},log:"Your bank blocked it just in time.",kind:"info"}]},
+    ]},
+  {id:"an_dream", min:5, max:120, icon:"💭", title:"Vivid Dream", text:"You had an intensely vivid dream.",
+    choices:[
+      {label:"Write it down", effects:{smarts:2,mental:3}, log:"Your dream journal grows.", kind:"good"},
+      {label:"Shake it off", effects:{}, log:"Just a dream.", kind:"info"},
+    ]},
+  {id:"an_haircut", min:6, max:120, icon:"💇", title:"New Haircut", text:"Time for a fresh look.",
+    choices:[
+      {label:"Try something bold", effects:{looks:3,happiness:4}, log:"Bold new style!", kind:"good", outcomes:[{chance:0.3,effects:{looks:-4,happiness:-4},log:"It came out terrible. 😩",kind:"bad"}]},
+      {label:"Play it safe", effects:{looks:1,happiness:2}, log:"Clean and classic.", kind:"good"},
+    ]},
+  {id:"an_lucky_break", min:16, max:90, icon:"🍀", title:"Lucky Break", text:"Fortune smiles on you unexpectedly.",
+    choices:[{label:"Embrace it", effects:{money:400,happiness:6}, log:"A surprise bit of good fortune!", kind:"money"}]},
+);

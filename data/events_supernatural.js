@@ -1,0 +1,38 @@
+/* ============================================================
+   events_supernatural.js — vampire & werewolf life.
+   cond.supernatural = "any" | "vampire" | "werewolf"
+   ============================================================ */
+window.GAME = window.GAME || {}; window.GAME.events = window.GAME.events || [];
+window.GAME.events.push(
+  {id:"sn_thirst", min:1, max:200, cond:{supernatural:"vampire"}, icon:"🦇", title:"The Thirst", text:"The hunger is rising. You need to feed.",
+    choices:[
+      {label:"Feed on a stranger", cls:"danger", effects:{health:10,happiness:6,karma:-12}, log:"You fed in the shadows. The thirst is sated.", kind:"bad"},
+      {label:"Drink animal blood", effects:{health:4,karma:-2}, log:"Not satisfying, but it holds the hunger back.", kind:"info"},
+      {label:"Resist the urge", effects:{health:-8,mental:-6,karma:4}, log:"You fought the hunger. It hurt.", kind:"bad"},
+    ]},
+  {id:"sn_sunlight", min:1, max:200, cond:{supernatural:"vampire"}, icon:"🦇", title:"Caught in Daylight", text:"You're caught outside as the sun rises.",
+    choices:[
+      {label:"Race for shelter", effects:{}, log:"You ran for the dark...", kind:"info", outcomes:[{chance:0.6,effects:{happiness:2},log:"You made it just in time.",kind:"good"},{chance:0.4,effects:{health:-20},log:"The sun seared you badly.",kind:"bad"}]},
+    ]},
+  {id:"sn_turn", min:1, max:200, cond:{supernatural:"vampire"}, icon:"🦇", title:"A Willing Soul", text:"Someone begs you for the gift of immortality.",
+    choices:[
+      {label:"Turn them", effects:{karma:-6,newFriend:true}, log:"You created another of your kind.", kind:"info"},
+      {label:"Refuse", effects:{karma:4}, log:"Some gifts are curses. You spared them.", kind:"good"},
+    ]},
+  {id:"sn_fullmoon", min:1, max:200, cond:{supernatural:"werewolf"}, icon:"🌙", title:"Full Moon", text:"The full moon rises and the change takes you.",
+    choices:[
+      {label:"Run free in the wild", effects:{fitness:6,happiness:5}, log:"You ran wild and free beneath the moon.", kind:"good"},
+      {label:"Chain yourself up", effects:{mental:-4,karma:3}, log:"You locked yourself away to keep others safe.", kind:"info"},
+      {label:"Let the beast loose", cls:"danger", effects:{karma:-15,fitness:4}, log:"You don't remember what you did last night...", kind:"bad", outcomes:[{chance:0.3,effects:{notoriety:10},log:"There are reports of an animal attack.",kind:"bad"}]},
+    ]},
+  {id:"sn_pack", min:1, max:200, cond:{supernatural:"werewolf"}, icon:"🐺", title:"The Pack", text:"A pack of werewolves invites you to join them.",
+    choices:[
+      {label:"Join the pack", effects:{happiness:8,newFriend:true,fitness:3}, log:"You found your kind. Strength in the pack.", kind:"good"},
+      {label:"Stay a lone wolf", effects:{mental:2}, log:"You walk alone.", kind:"info"},
+    ]},
+  {id:"sn_hunter", min:1, max:200, cond:{supernatural:"any"}, icon:"🌙", title:"Monster Hunter", text:"A hunter has discovered what you are and is on your trail.",
+    choices:[
+      {label:"Flee the city", effects:{money:-2000,mental:-4}, log:"You vanished and started over elsewhere.", kind:"money"},
+      {label:"Confront the hunter", cls:"danger", effects:{}, log:"You faced your hunter...", kind:"info", outcomes:[{chance:0.55,effects:{happiness:6,karma:-4},log:"You overpowered the hunter.",kind:"good"},{chance:0.45,effects:{health:-25},log:"The hunter nearly ended you.",kind:"bad"}]},
+    ]},
+);

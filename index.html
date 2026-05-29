@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LifeForge — Life Simulator</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="app">
+
+    <!-- ======================= START / MENU SCREEN ======================= -->
+    <div id="menu" class="screen">
+      <div class="menu-card">
+        <h1 class="logo">Life<span>Forge</span></h1>
+        <p class="tagline">Live a thousand lives. Forge your own.</p>
+        <div class="menu-buttons">
+          <button id="btnNewLife" class="menu-btn primary">New Life</button>
+          <button id="btnScenarios" class="menu-btn">Scenarios</button>
+          <button id="btnCustomLife" class="menu-btn">Custom Character</button>
+          <button id="btnContinue" class="menu-btn">Continue</button>
+          <button id="btnSlots" class="menu-btn">Save Slots</button>
+          <button id="btnHOF" class="menu-btn">Hall of Fame</button>
+        </div>
+        <p class="version">v1.0 · placeholder build</p>
+      </div>
+    </div>
+
+    <!-- ======================= CUSTOM CHARACTER ======================= -->
+    <div id="customScreen" class="screen hidden">
+      <div class="menu-card wide">
+        <h2>Create Your Character</h2>
+        <div class="form-grid">
+          <label>First Name <input id="cFirst" type="text" placeholder="random" /></label>
+          <label>Last Name <input id="cLast" type="text" placeholder="random" /></label>
+          <label>Gender
+            <select id="cGender">
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+              <option value="nonbinary">Non-binary</option>
+            </select>
+          </label>
+          <label>Country
+            <select id="cCountry"></select>
+          </label>
+        </div>
+        <div class="form-actions">
+          <button id="btnStartCustom" class="menu-btn primary">Begin Life</button>
+          <button id="btnBackMenu" class="menu-btn">Back</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- ======================= GAME SCREEN ======================= -->
+    <div id="game" class="screen hidden">
+
+      <!-- Top bar: identity + money -->
+      <header id="topbar">
+        <div class="id-block">
+          <div class="avatar" id="avatar">🙂</div>
+          <div class="id-text">
+            <div class="name-row"><span id="charName">—</span> <span id="charFlag"></span></div>
+            <div class="sub" id="charSub">—</div>
+          </div>
+        </div>
+        <div class="top-right">
+          <div class="money" id="moneyDisplay">$0</div>
+          <button id="btnMenuTop" class="icon-btn" title="Menu">☰</button>
+        </div>
+      </header>
+
+      <!-- Event feed (top half) -->
+      <main id="feed"></main>
+
+      <!-- Stat bars -->
+      <section id="stats">
+        <div class="stat" data-stat="happiness"><span class="stat-label" data-icon="smile">Happiness</span><div class="bar"><div class="fill"></div></div><span class="stat-val">0%</span></div>
+        <div class="stat" data-stat="health"><span class="stat-label" data-icon="heart">Health</span><div class="bar"><div class="fill"></div></div><span class="stat-val">0%</span></div>
+        <div class="stat" data-stat="smarts"><span class="stat-label" data-icon="brain">Smarts</span><div class="bar"><div class="fill"></div></div><span class="stat-val">0%</span></div>
+        <div class="stat" data-stat="looks"><span class="stat-label" data-icon="star">Looks</span><div class="bar"><div class="fill"></div></div><span class="stat-val">0%</span></div>
+        <div class="stat" data-stat="mental"><span class="stat-label" data-icon="leaf">Mental</span><div class="bar"><div class="fill"></div></div><span class="stat-val">0%</span></div>
+      </section>
+
+      <!-- Bottom navigation (BitLife style) -->
+      <nav id="navbar">
+        <button class="nav-btn" data-tab="occupation"><span class="nav-ico" data-icon="briefcase"></span><span class="nav-lbl" id="navOccLabel">School</span></button>
+        <button class="nav-btn" data-tab="assets"><span class="nav-ico" data-icon="house"></span><span class="nav-lbl">Assets</span></button>
+        <button id="ageBtn" class="age-btn"><span class="age-plus">+</span><span class="age-num" id="ageNum">0</span></button>
+        <button class="nav-btn" data-tab="relationships"><span class="nav-ico" data-icon="heart"></span><span class="nav-lbl">Relations</span></button>
+        <button class="nav-btn" data-tab="activities"><span class="nav-ico" data-icon="target"></span><span class="nav-lbl">Activities</span></button>
+      </nav>
+    </div>
+
+    <!-- ======================= MODAL LAYER ======================= -->
+    <div id="modalLayer" class="hidden">
+      <div id="modalBackdrop"></div>
+      <div id="modal" class="modal-card">
+        <div id="modalIcon" class="modal-icon">🎲</div>
+        <h3 id="modalTitle">Title</h3>
+        <div id="modalBody" class="modal-body"></div>
+        <div id="modalChoices" class="modal-choices"></div>
+      </div>
+    </div>
+
+    <!-- ======================= TOAST ======================= -->
+    <div id="toast" class="hidden"></div>
+
+  </div>
+  <!-- Our own art assets (load before engine). -->
+  <script src="assets/icons.js"></script>
+  <!-- Game data (load before engine). Edit these to add content. -->
+  <script src="data/core.js"></script>
+  <script src="data/careers.js"></script>
+  <script src="data/shop.js"></script>
+  <script src="data/politics.js"></script>
+  <script src="data/market.js"></script>
+  <script src="data/traits.js"></script>
+  <script src="data/skills.js"></script>
+  <script src="data/military.js"></script>
+  <script src="data/mafia.js"></script>
+  <script src="data/achievements.js"></script>
+  <script src="data/travel.js"></script>
+  <script src="data/scenarios.js"></script>
+  <script src="data/religions.js"></script>
+  <script src="data/zodiac.js"></script>
+  <script src="data/heists.js"></script>
+  <script src="data/events_childhood.js"></script>
+  <script src="data/events_teen.js"></script>
+  <script src="data/events_adult.js"></script>
+  <script src="data/events_relationship.js"></script>
+  <script src="data/events_career.js"></script>
+  <script src="data/events_senior.js"></script>
+  <script src="data/events_any.js"></script>
+  <script src="data/events_legal.js"></script>
+  <script src="data/events_politics.js"></script>
+  <script src="data/events_romance.js"></script>
+  <script src="data/events_emigration.js"></script>
+  <script src="data/events_fame.js"></script>
+  <script src="data/events_health.js"></script>
+  <script src="data/events_family.js"></script>
+  <script src="data/events_world.js"></script>
+  <script src="data/events_military.js"></script>
+  <script src="data/events_mafia.js"></script>
+  <script src="data/events_supernatural.js"></script>
+  <script src="data/events_extended.js"></script>
+  <script src="data/events_religion.js"></script>
+  <script src="data/events_zodiac.js"></script>
+  <!-- Engine -->
+  <script src="game.js"></script>
+</body>
+</html>

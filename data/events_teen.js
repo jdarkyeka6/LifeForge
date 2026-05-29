@@ -1,0 +1,93 @@
+/* ============================================================
+   events_teen.js — ages 13–19
+   ============================================================ */
+window.GAME = window.GAME || {}; window.GAME.events = window.GAME.events || [];
+window.GAME.events.push(
+  {id:"tn_party", min:13, max:19, icon:"🎉", title:"Peer Pressure", text:"Friends dare you to sneak out to a party.",
+    choices:[
+      {label:"Sneak out", effects:{happiness:9}, log:"You snuck out...", kind:"info",
+        outcomes:[{chance:0.3,effects:{happiness:-7,relRandom:-8},log:"Your parents caught you. Grounded!",kind:"bad"},{chance:0.15,effects:{addAddiction:"alcohol"},log:"You drank too much and it stuck with you.",kind:"bad"},{chance:0.55,effects:{newFriend:true},log:"Best night ever. You met someone cool.",kind:"good"}]},
+      {label:"Stay home", effects:{smarts:3}, log:"You studied instead. Responsible.", kind:"info"},
+    ]},
+  {id:"tn_crush", min:13, max:19, cond:{single:true}, icon:"💘", title:"A Crush", text:"You have a huge crush on someone at school.",
+    choices:[
+      {label:"Ask them out", effects:{}, log:"You worked up the courage...", kind:"info",
+        outcomes:[{chance:0.5,effects:{newLover:true,happiness:12},log:"They said yes! 💑",kind:"good"},{chance:0.5,effects:{happiness:-8,mental:-4},log:"They turned you down. Ouch.",kind:"bad"}]},
+      {label:"Write a love note", effects:{happiness:3}, log:"You slipped it in their locker...", kind:"info", outcomes:[{chance:0.35,effects:{newLover:true,happiness:10},log:"It worked! You're dating.",kind:"good"},{chance:0.2,effects:{happiness:-9},log:"They read it aloud to everyone. 💀",kind:"bad"}]},
+      {label:"Say nothing", effects:{mental:-2}, log:"You kept it to yourself.", kind:"info"},
+    ]},
+  {id:"tn_examfail", min:14, max:18, icon:"📄", title:"Big Exam", text:"Final exams are here.",
+    choices:[
+      {label:"Study hard", effects:{smarts:6,happiness:-3}, log:"You aced it!", kind:"good"},
+      {label:"Wing it", effects:{}, log:"You walked in cold...", kind:"info", outcomes:[{chance:0.4,effects:{smarts:-4,happiness:-5},log:"You bombed the exam.",kind:"bad"},{chance:0.6,effects:{happiness:3},log:"Somehow you scraped a pass.",kind:"info"}]},
+      {label:"Cheat", cls:"danger", effects:{karma:-5}, log:"You hid notes up your sleeve...", kind:"info", outcomes:[{chance:0.3,effects:{happiness:-10,smarts:-3},log:"Caught cheating. Suspended!",kind:"bad"},{chance:0.7,effects:{smarts:1},log:"You got away with it.",kind:"info"}]},
+    ]},
+  {id:"tn_driving", min:16, max:19, once:true, icon:"🚗", title:"Driving Test", text:"Time for your driving test!",
+    choices:[{label:"Take the test", effects:{}, log:"You gripped the wheel...", kind:"info",
+      outcomes:[{chance:0.55,effects:{happiness:8},log:"🚗 You passed your driving test!",kind:"good"},{chance:0.45,effects:{happiness:-5},log:"You failed. Try again next year.",kind:"bad"}]}]},
+  {id:"tn_job", min:15, max:19, cond:{noJob:true}, icon:"💼", title:"First Job", text:"A local shop is hiring part-time.",
+    choices:[
+      {label:"Apply", effects:{money:300,smarts:2}, log:"You got a weekend job and some cash!", kind:"money"},
+      {label:"Focus on school", effects:{smarts:4}, log:"Grades over gigs.", kind:"info"},
+    ]},
+  {id:"tn_gym", min:14, max:19, icon:"🏋️", title:"Getting Fit", text:"Some friends invite you to the gym.",
+    choices:[
+      {label:"Start working out", effects:{fitness:8,looks:4,health:3}, log:"You're getting stronger! 💪", kind:"good"},
+      {label:"Nah, gaming instead", effects:{happiness:5,fitness:-2}, log:"Comfy but lazy.", kind:"info"},
+    ]},
+  {id:"tn_prom", min:16, max:18, once:true, icon:"💃", title:"Prom Night", text:"It's prom!",
+    choices:[
+      {label:"Go all out", effects:{happiness:10,looks:3,money:-200}, log:"You stole the show!", kind:"good"},
+      {label:"Go with friends", effects:{happiness:7}, log:"A blast with the squad.", kind:"good"},
+      {label:"Skip it", effects:{happiness:-4,mental:-3}, log:"You stayed home. FOMO hit hard.", kind:"bad"},
+    ]},
+  {id:"tn_socialmedia", min:13, max:19, icon:"📱", title:"Going Viral", text:"A video you posted is blowing up!",
+    choices:[
+      {label:"Lean into it", effects:{fame:8,happiness:6}, log:"You gained thousands of followers!", kind:"good", outcomes:[{chance:0.25,effects:{mental:-6},log:"...but the comments got toxic.",kind:"bad"}]},
+      {label:"Delete it", effects:{mental:3}, log:"You valued your privacy.", kind:"info"},
+    ]},
+  {id:"tn_rebel", min:14, max:19, icon:"🤘", title:"Rebellious Phase", text:"You want to express yourself.",
+    choices:[
+      {label:"Dye your hair", effects:{looks:2,happiness:5,relRandom:-3}, log:"Bold new look!", kind:"good"},
+      {label:"Get a tattoo", effects:{looks:1,happiness:6,relRandom:-5}, log:"Inked at last (your parents fainted).", kind:"info"},
+      {label:"Stay clean-cut", effects:{relRandom:3}, log:"Your parents approve.", kind:"info"},
+    ]},
+  {id:"tn_shoplift", min:13, max:18, icon:"🛍️", title:"Bad Influence", text:"Friends dare you to steal candy from a store.",
+    choices:[
+      {label:"Do it", cls:"danger", effects:{karma:-6}, log:"You pocketed it...", kind:"info", outcomes:[{chance:0.3,effects:{happiness:-8},log:"Security caught you. Your parents were called.",kind:"bad"},{chance:0.7,effects:{happiness:2},log:"You got away with it. Don't make a habit.",kind:"info"}]},
+      {label:"Refuse", effects:{karma:5}, log:"You walked away. Solid.", kind:"good"},
+    ]},
+  {id:"tn_band", min:14, max:19, icon:"🎸", title:"Start a Band", text:"Your friends want to start a garage band.",
+    choices:[
+      {label:"Join as lead singer", effects:{happiness:7,fame:3,looks:2}, log:"You front the band now! 🎤", kind:"good"},
+      {label:"Play drums", effects:{happiness:6,fitness:2}, log:"You keep the beat.", kind:"good"},
+      {label:"Too busy", effects:{}, log:"You passed on the band.", kind:"info"},
+    ]},
+  {id:"tn_breakup", min:15, max:19, cond:{hasPartner:true}, icon:"💔", title:"Teen Drama", text:"You and {partner} are fighting a lot.",
+    choices:[
+      {label:"Work it out", effects:{relPartner:8,mental:-3}, log:"You talked and made up.", kind:"good"},
+      {label:"Break up", cls:"danger", effects:{happiness:-10,mental:-6,relPartner:-40}, log:"You broke up with {partner}.", kind:"bad"},
+    ]},
+  {id:"tn_volunteer", min:14, max:19, icon:"🤝", title:"Volunteering", text:"There's a chance to volunteer at a shelter.",
+    choices:[
+      {label:"Sign up", effects:{karma:10,happiness:5,smarts:2}, log:"You gave back to the community.", kind:"good"},
+      {label:"Skip it", effects:{}, log:"Maybe next time.", kind:"info"},
+    ]},
+  {id:"tn_videogame", min:13, max:19, icon:"🎮", title:"Gaming Tournament", text:"There's a local esports tournament.",
+    choices:[
+      {label:"Compete", effects:{}, log:"You entered the bracket...", kind:"info", outcomes:[{chance:0.3,effects:{money:500,happiness:8,fame:3},log:"You WON the tournament! 🏆",kind:"money"},{chance:0.7,effects:{happiness:3},log:"Knocked out in the quarters. GG.",kind:"info"}]},
+      {label:"Just watch", effects:{happiness:3}, log:"Fun to spectate.", kind:"info"},
+    ]},
+  {id:"tn_collegeapp", min:17, max:19, icon:"🏫", title:"College Applications", text:"University applications are due.",
+    choices:[
+      {label:"Apply to top schools", effects:{smarts:3,mental:-4}, log:"Fingers crossed!", kind:"info", outcomes:[{chance:0.4,effects:{happiness:10},log:"You got into your dream school!",kind:"good"},{chance:0.6,effects:{happiness:-4},log:"Rejection letters stung, but you have options.",kind:"info"}]},
+      {label:"Apply locally", effects:{}, log:"Keeping it close to home.", kind:"info"},
+      {label:"Skip college", effects:{}, log:"You'll find your own path.", kind:"info"},
+    ]},
+  {id:"tn_lunchmoney", min:13, max:17, icon:"💵", title:"The Bully Returns", text:"A bigger kid demands your lunch money.",
+    choices:[
+      {label:"Hand it over", effects:{money:-10,mental:-5}, log:"You gave in. Felt awful.", kind:"bad"},
+      {label:"Stand up to them", effects:{}, log:"You squared up...", kind:"info", outcomes:[{chance:0.5,effects:{happiness:6,karma:3},log:"They backed down. Respect earned.",kind:"good"},{chance:0.5,effects:{health:-10,addCondition:true},log:"You got beaten up.",kind:"bad"}]},
+      {label:"Tell a teacher", effects:{karma:4}, log:"The bully got detention.", kind:"good"},
+    ]},
+);

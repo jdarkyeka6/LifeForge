@@ -1,0 +1,48 @@
+/* ============================================================
+   events_fame.js — celebrity life (needs some fame).
+   cond.fameMin gates these. Uses followers/fame effects.
+   ============================================================ */
+window.GAME = window.GAME || {}; window.GAME.events = window.GAME.events || [];
+window.GAME.events.push(
+  {id:"fm_paparazzi", min:12, max:90, cond:{fameMin:25}, icon:"📸", title:"Paparazzi", text:"Photographers are camped outside your home.",
+    choices:[
+      {label:"Pose for them", effects:{fame:4,followers:2000,happiness:3}, log:"You worked the cameras like a pro.", kind:"good"},
+      {label:"Hide your face", effects:{mental:-3}, log:"You ducked into a car. Exhausting.", kind:"info"},
+      {label:"Lose your temper", cls:"danger", effects:{fame:-4,followers:-5000,karma:-4}, log:"You smashed a camera. It's all over the news.", kind:"bad"},
+    ]},
+  {id:"fm_scandal", min:16, max:90, cond:{fameMin:35}, icon:"📰", title:"Tabloid Scandal", text:"A tabloid is about to run a damaging story about you.",
+    choices:[
+      {label:"Issue a sincere apology", effects:{fame:-3,followers:-8000,mental:-3}, log:"You got ahead of the story.", kind:"info"},
+      {label:"Deny it loudly", effects:{}, log:"You denied everything...", kind:"info", outcomes:[{chance:0.45,effects:{fame:-12,followers:-40000,happiness:-10},log:"The receipts dropped. Career damage.",kind:"bad"},{chance:0.55,effects:{fame:3},log:"It blew over. Fans stayed loyal.",kind:"good"}]},
+      {label:"Sue the tabloid", effects:{money:-5000}, log:"You lawyered up...", kind:"info", outcomes:[{chance:0.5,effects:{money:40000,fame:5},log:"You won the suit and looked vindicated!",kind:"money"},{chance:0.5,effects:{fame:-6},log:"It dragged your name through the mud longer.",kind:"bad"}]},
+    ]},
+  {id:"fm_endorse", min:14, max:90, cond:{fameMin:30}, icon:"🤩", title:"Endorsement Offer", text:"A brand wants to pay you to promote their product.",
+    choices:[
+      {label:"Sign the deal", effects:{money:30000,fame:2,followers:5000}, log:"Cha-ching! Sponsored content secured.", kind:"money"},
+      {label:"Hold out for more", effects:{}, log:"You negotiated hard...", kind:"info", outcomes:[{chance:0.5,effects:{money:60000,fame:3},log:"They doubled the offer!",kind:"money"},{chance:0.5,effects:{},log:"They walked away. Oh well.",kind:"info"}]},
+      {label:"Reject — it's tacky", effects:{fame:1,karma:3}, log:"You protected your brand.", kind:"info"},
+    ]},
+  {id:"fm_talkshow", min:14, max:90, cond:{fameMin:30}, icon:"🎤", title:"Talk Show Invite", text:"A famous talk show wants you as a guest.",
+    choices:[
+      {label:"Be charming & funny", effects:{}, log:"You went on live TV...", kind:"info", outcomes:[{chance:0.6,effects:{fame:8,followers:30000,happiness:6},log:"You killed it! The clip went viral.",kind:"good"},{chance:0.4,effects:{fame:-3,followers:-5000},log:"You froze up on air. Awkward.",kind:"bad"}]},
+      {label:"Decline", effects:{}, log:"You passed on the spotlight.", kind:"info"},
+    ]},
+  {id:"fm_fanmail", min:10, max:90, cond:{fameMin:20}, icon:"💌", title:"Fan Mail", text:"You received a heartfelt letter from a devoted fan.",
+    choices:[
+      {label:"Write back personally", effects:{happiness:6,karma:6,followers:1000}, log:"You made a fan's entire year.", kind:"good"},
+      {label:"Send a signed photo", effects:{happiness:3,followers:500}, log:"A nice gesture.", kind:"good"},
+    ]},
+  {id:"fm_award", min:16, max:90, cond:{fameMin:45}, icon:"👑", title:"Awards Night", text:"You're nominated for a major industry award!",
+    choices:[{label:"Attend the ceremony", effects:{}, log:"You walked the red carpet...", kind:"info", outcomes:[{chance:0.5,effects:{fame:12,followers:80000,happiness:14,money:5000},log:"AND THE WINNER IS... YOU! 🏆",kind:"good"},{chance:0.5,effects:{fame:3,happiness:2},log:"You lost, but the nomination boosted you.",kind:"info"}]}]},
+  {id:"fm_stalker", min:16, max:90, cond:{fameMin:50}, icon:"📸", title:"Obsessed Fan", text:"A fan's attention has crossed into stalking.",
+    choices:[
+      {label:"Hire security", effects:{money:-10000,mental:3}, log:"You feel safer now.", kind:"money"},
+      {label:"Get a restraining order", effects:{mental:-4,fame:1}, log:"The courts stepped in.", kind:"info"},
+      {label:"Ignore it", effects:{mental:-10}, log:"The fear follows you everywhere.", kind:"bad"},
+    ]},
+  {id:"fm_cancel", min:16, max:90, cond:{fameMin:40}, icon:"📣", title:"Cancelled?", text:"An old post of yours resurfaced and people are furious.",
+    choices:[
+      {label:"Apologize genuinely", effects:{fame:-4,followers:-20000,karma:4,mental:-4}, log:"You took accountability.", kind:"info"},
+      {label:"Double down", cls:"danger", effects:{}, log:"You refused to back down...", kind:"info", outcomes:[{chance:0.4,effects:{fame:6,followers:15000},log:"Your honesty won a new fanbase!",kind:"good"},{chance:0.6,effects:{fame:-15,followers:-60000},log:"You got cancelled hard.",kind:"bad"}]},
+    ]},
+);
