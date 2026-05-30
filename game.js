@@ -389,15 +389,46 @@ function weightedPickN(arr, n){
   }
   return out;
 }
+/* Guaranteed filler pool — always age-valid (min:0,max:120) so a
+   popup ALWAYS appears, even when no themed event matches the year.
+   These route through fireEvent(), so they respect the recently-shown
+   list and never repeat back-to-back. */
+const FILLER_EVENTS = [
+  {id:"fil_quiet",    min:0, max:120, icon:"☀️", title:"A Quiet Year",     text:"Life rolled on without much drama this year.", choices:[{label:"Reflect", effects:{happiness:1,mental:1}, log:"A calm, uneventful year passed.", kind:"info"}]},
+  {id:"fil_dream",    min:0, max:120, icon:"💭", title:"A Strange Dream",  text:"You had a vivid, strange dream you can't quite shake.", choices:[{label:"Shrug it off", effects:{mental:1}, log:"What a strange dream that was.", kind:"info"}]},
+  {id:"fil_passed",   min:0, max:120, icon:"⏳", title:"Time Passed",      text:"The seasons came and went, quiet as ever.", choices:[{label:"Carry on", effects:{happiness:1}, log:"Another year slipped quietly by.", kind:"info"}]},
+  {id:"fil_weather",  min:0, max:120, icon:"🌤️", title:"Ordinary Days",    text:"Nothing remarkable happened — just ordinary days.", choices:[{label:"Appreciate it", effects:{mental:2}, log:"A pleasantly ordinary year.", kind:"info"}]},
+  {id:"fil_walk",     min:0, max:120, icon:"🚶", title:"A Long Walk",      text:"You spent time wandering and clearing your head.", choices:[{label:"Enjoy it", effects:{health:1,mental:2}, log:"A peaceful year of long walks.", kind:"good"}]},
+  {id:"fil_nap",      min:0, max:120, icon:"😴", title:"Plenty of Rest",   text:"You caught up on a lot of much-needed rest.", choices:[{label:"Recharge", effects:{health:2,happiness:1}, log:"A restful, restorative year.", kind:"good"}]},
+  {id:"fil_routine",  min:0, max:120, icon:"🔁", title:"Same Old Routine", text:"The same comfortable routine carried you through.", choices:[{label:"Keep going", effects:{mental:1}, log:"A steady, familiar year.", kind:"info"}]},
+  {id:"fil_sky",      min:0, max:120, icon:"🌌", title:"Stargazing",       text:"You spent a few quiet nights looking up at the stars.", choices:[{label:"Wonder", effects:{mental:2,smarts:1}, log:"A contemplative year under the stars.", kind:"good"}]},
+  {id:"fil_tea",      min:0, max:120, icon:"🍵", title:"Small Comforts",   text:"You found comfort in small daily rituals.", choices:[{label:"Savor it", effects:{happiness:2}, log:"A cozy, comfortable year.", kind:"good"}]},
+  {id:"fil_think",    min:0, max:120, icon:"🤔", title:"Lost in Thought",  text:"You spent the year mostly in your own head.", choices:[{label:"Ponder", effects:{smarts:1,mental:1}, log:"A thoughtful, introspective year.", kind:"info"}]},
+  {id:"fil_clean",    min:0, max:120, icon:"🧹", title:"A Fresh Start",    text:"You tidied up and reset a few things in your life.", choices:[{label:"Reset", effects:{happiness:1,mental:1}, log:"You cleared the decks this year.", kind:"info"}]},
+  {id:"fil_window",   min:0, max:120, icon:"🪟", title:"Watching the Rain",text:"You spent quiet hours just watching the world go by.", choices:[{label:"Relax", effects:{mental:2}, log:"A slow, gentle year.", kind:"good"}]},
+  {id:"fil_music",    min:0, max:120, icon:"🎵", title:"Background Music",  text:"A favorite song carried you through the months.", choices:[{label:"Hum along", effects:{happiness:2}, log:"A year with a good soundtrack.", kind:"good"}]},
+  {id:"fil_breeze",   min:0, max:120, icon:"🍃", title:"A Gentle Breeze",  text:"The year drifted by, light and uneventful.", choices:[{label:"Breathe", effects:{mental:1,happiness:1}, log:"An easy, breezy year.", kind:"info"}]},
+  {id:"fil_steady",   min:0, max:120, icon:"⚖️", title:"Steady as She Goes",text:"No highs, no lows — just a steady, stable year.", choices:[{label:"Stay the course", effects:{mental:1}, log:"A stable, even year.", kind:"info"}]},
+];
+function pickFiller(){
+  const lastId = G.s.recentEvents[G.s.recentEvents.length-1];
+  let fresh = FILLER_EVENTS.filter(f => !G.s.recentEvents.includes(f.id));
+  // if everything is "recent", fall back to the full pool but still never
+  // repeat the event shown immediately before this one
+  if(!fresh.length) fresh = FILLER_EVENTS.filter(f => f.id !== lastId);
+  const pool = fresh.length ? fresh : FILLER_EVENTS;
+  return pool[Math.floor(Math.random()*pool.length)];
+}
 function runYearlyEvents(){
-  const elig=eligibleEvents();
-  if(elig.length===0){ // safety net — always show something
-    askQuestion({icon:"☀️", title:"A Quiet Year", body:"Life rolled on without much drama this year.", choices:[{label:"Continue", primary:true, fn:()=>changeStat("happiness",1)}]});
+  // 1) all events valid for this age that haven't fired recently
+  const elig = eligibleEvents();
+  // 2) if one or more match, pick one (weighted) and show it
+  if(elig.length){
+    weightedPickN(elig, 1).forEach(fireEvent);
     return;
   }
-  let count=1+(chance(0.45)?1:0)+(chance(0.15)?1:0);
-  count=Math.min(count, elig.length);
-  weightedPickN(elig, count).forEach(fireEvent);
+  // 3) zero match — guaranteed filler so no year ever passes silently
+  fireEvent(pickFiller());
 }
 function buildCtx(){
   const living=G.s.people.filter(p=>p.alive);
