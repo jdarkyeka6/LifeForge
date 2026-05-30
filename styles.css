@@ -340,3 +340,16 @@ button, .menu-btn, .nav-btn, .age-btn, .icon-btn, .choice-btn, .list-row, .id-bl
   #stats { grid-template-columns: repeat(3, 1fr); }
   .nav-lbl { display: none; }   /* icons only on very narrow phones */
 }
+
+/* ============================================================
+   SETTINGS — accessibility options (added v1.4)
+   ============================================================ */
+html.lf-text-small { font-size: 14px; }
+html.lf-text-large { font-size: 18px; }
+html.lf-reduce-motion *,
+html.lf-reduce-motion *::before,
+html.lf-reduce-motion *::after {
+  animation: none !important;
+  transition: none !important;
+  scroll-behavior: auto !important;
+}

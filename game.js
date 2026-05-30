@@ -1705,6 +1705,7 @@ function topMenu(){
     {label:"Family Tree", fn:()=>{ closePanel(); familyTree(); }},
     {label:"Save Slots", fn:()=>{ closePanel(); saveSlotsPanel(); }},
     {label:"Hall of Fame", fn:()=>{ closePanel(); hallOfFamePanel(); }},
+    {label:"Settings", fn:()=>{ closePanel(); if(window.LF&&LF.settingsPanel) LF.settingsPanel(); }},
     {label:"Main Menu (autosaves)", fn:()=>{ saveGame(); closePanel(); goToMenu(); }},
     {label:"Close", fn:closePanel},
   ]});

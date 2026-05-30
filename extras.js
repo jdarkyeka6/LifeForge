@@ -173,3 +173,100 @@ function handlePetAction(id){
   }
   renderAll(); return petPanel();
 }
+
+/* ============================================================
+   SETTINGS  — accessibility + data management (export/import).
+   Opened from the main menu and the in-game menu.
+   ============================================================ */
+(function(){
+  const SIZES=["small","normal","large"];
+  function textSize(){ return localStorage.getItem("lf_textsize")||"normal"; }
+  function reduceMotion(){ return localStorage.getItem("lf_reducemotion")==="on"; }
+  function soundOn(){ return localStorage.getItem("lf_sound")!=="off"; }
+  LF.applySettings=function(){
+    const html=document.documentElement; if(!html||!html.classList) return;
+    SIZES.forEach(s=> html.classList.remove("lf-text-"+s));
+    if(textSize()!=="normal") html.classList.add("lf-text-"+textSize());
+    html.classList.toggle("lf-reduce-motion", reduceMotion());
+  };
+  function saveKey(){ return (typeof SAVE_KEY!=="undefined") ? SAVE_KEY : "lifeforge_save_v2"; }
+
+  function settingsPanel(){
+    if(window.LF) LF.sfx("click");
+    const sz=textSize();
+    let html=`<div class="section-head">Display</div>`;
+    html+=rowHTML("🔠","Text Size",`Currently: ${sz[0].toUpperCase()+sz.slice(1)}`,[{txt:"Change", id:"set_text"}]);
+    html+=rowHTML("🎞️","Reduce Motion",reduceMotion()?"On — animations off":"Off — animations on",[{txt:reduceMotion()?"Turn off":"Turn on", id:"set_motion"}]);
+    html+=`<div class="section-head">Audio</div>`;
+    html+=rowHTML("🔊","Sound & Haptics",soundOn()?"On":"Off",[{txt:soundOn()?"Mute":"Unmute", id:"set_sound"}]);
+    html+=`<div class="section-head">Your Data</div>`;
+    html+=rowHTML("📤","Export Save","Download a backup file",[{txt:"Export", id:"set_export"}]);
+    html+=rowHTML("📥","Import Save","Restore from a backup file",[{txt:"Import", id:"set_import"}]);
+    html+=rowHTML("🗑️","Wipe All Data","Delete saves & settings",[{txt:"Wipe", id:"set_wipe"}]);
+    openPanel({icon:"⚙️", title:"Settings", bodyHTML:html});
+    wireRowActions(handleSettings);
+  }
+  LF.settingsPanel=settingsPanel;
+
+  function handleSettings(id){
+    if(id==="set_text"){ const i=(SIZES.indexOf(textSize())+1)%SIZES.length; localStorage.setItem("lf_textsize",SIZES[i]); LF.applySettings(); LF.sfx("click"); return settingsPanel(); }
+    if(id==="set_motion"){ localStorage.setItem("lf_reducemotion", reduceMotion()?"off":"on"); LF.applySettings(); return settingsPanel(); }
+    if(id==="set_sound"){ if(LF.toggleSound) LF.toggleSound(); return settingsPanel(); }
+    if(id==="set_export"){ exportSave(); return; }
+    if(id==="set_import"){ importSave(); return; }
+    if(id==="set_wipe"){ confirmWipe(); return; }
+    closePanel();
+  }
+
+  function exportSave(){
+    try{ if(typeof saveGame==="function" && typeof G!=="undefined" && G.s) saveGame(); }catch(e){}
+    const data=localStorage.getItem(saveKey());
+    if(!data){ toast("No save to export yet."); return; }
+    try{
+      const blob=new Blob([data], {type:"application/json"});
+      const url=URL.createObjectURL(blob);
+      const a=document.createElement("a");
+      a.href=url; a.download="lifeforge-save-"+new Date().toISOString().slice(0,10)+".json";
+      document.body.appendChild(a); a.click(); a.remove();
+      setTimeout(()=>URL.revokeObjectURL(url),1000);
+      toast("📤 Save exported.");
+    }catch(e){ toast("Export failed."); }
+  }
+
+  function importSave(){
+    const inp=document.createElement("input");
+    inp.type="file"; inp.accept="application/json,.json";
+    inp.onchange=()=>{
+      const file=inp.files && inp.files[0]; if(!file) return;
+      const reader=new FileReader();
+      reader.onload=()=>{
+        try{
+          const text=String(reader.result);
+          const obj=JSON.parse(text); // validate
+          if(!obj || typeof obj!=="object" || obj.age==null){ toast("That doesn't look like a LifeForge save."); return; }
+          localStorage.setItem(saveKey(), text);
+          if(typeof loadGame==="function" && loadGame()){
+            closePanel();
+            if(typeof startGame==="function") startGame();
+            if(typeof G!=="undefined" && G.s && !G.s.alive && typeof showDeathScreen==="function") showDeathScreen();
+            toast("📥 Save imported!");
+          } else { toast("Could not load that save."); }
+        }catch(e){ toast("Invalid save file."); }
+      };
+      reader.readAsText(file);
+    };
+    inp.click();
+  }
+
+  function confirmWipe(){
+    openPanel({icon:"🗑️", title:"Wipe All Data?", bodyHTML:`<p>This permanently deletes your saved game, save slots and settings on this device. This cannot be undone.</p>`, choices:[
+      {label:"Delete everything", primary:true, fn:()=>{ try{ localStorage.clear(); }catch(e){} closePanel(); if(typeof goToMenu==="function") goToMenu(); toast("All data wiped."); }},
+      {label:"Cancel", fn:()=>settingsPanel()},
+    ]});
+  }
+
+  document.addEventListener("DOMContentLoaded", ()=>{
+    LF.applySettings();
+    const mb=document.getElementById("btnSettings"); if(mb) mb.onclick=settingsPanel;
+  });
+})();
