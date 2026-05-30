@@ -358,6 +358,14 @@ function condMet(cond){
   if(cond.hasRival && !G.s.people.some(p=>p.alive&&p.relation==="rival")) return false;
   if(cond.hasFaith && (!G.s.faith||!G.s.faith.religion)) return false;
   if(cond.zodiac && G.s.zodiac!==cond.zodiac) return false;
+  if(cond.ownHome && !G.s.assets.some(a=>a.type==="homes")) return false;
+  if(cond.ownCar && !G.s.assets.some(a=>a.type==="cars")) return false;
+  if(cond.hasBusiness && !(G.s.businesses&&G.s.businesses.length)) return false;
+  if(cond.hasProperty && !(G.s.properties&&G.s.properties.length)) return false;
+  if(cond.hasCondition && !G.s.conditions.length) return false;
+  if(cond.hasAddiction && !G.s.addictions.length) return false;
+  if(cond.eduMin!=null && G.s.edu<cond.eduMin) return false;
+  if(cond.moneyMax!=null && G.s.money>cond.moneyMax) return false;
   return true;
 }
 function eligibleEvents(){

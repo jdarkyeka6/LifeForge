@@ -3,7 +3,7 @@
    Cache-first so the whole game is playable fully offline once
    it has loaded a single time. Bump CACHE when assets change.
    ============================================================ */
-const CACHE = "lifeforge-v1.1.0";
+const CACHE = "lifeforge-v1.2.0";
 
 const ASSETS = [
   "./",
@@ -51,6 +51,16 @@ const ASSETS = [
   "./data/events_religion.js",
   "./data/events_zodiac.js",
   "./data/events_emergency.js",
+  "./data/events_property.js",
+  "./data/events_vehicle.js",
+  "./data/events_college.js",
+  "./data/events_lawsuit.js",
+  "./data/events_business.js",
+  "./data/events_wellness.js",
+  "./data/events_familylife.js",
+  "./data/events_entertainment.js",
+  "./data/events_sports.js",
+  "./data/events_eras.js",
 ];
 
 self.addEventListener("install", (e) => {
