@@ -27,6 +27,7 @@ window.GAME.careers = [
   {id:"office",   name:"Office Admin",    icon:"🗂️", edu:1, base:38000, ladder:["Clerk","Coordinator","Office Manager","Operations Lead","Director"]},
   {id:"police",   name:"Police Officer",  icon:"👮", edu:1, base:46000, ladder:["Cadet","Officer","Detective","Sergeant","Chief"], fit:true, risky:true},
   {id:"firefighter",name:"Firefighter",   icon:"🚒", edu:1, base:45000, ladder:["Recruit","Firefighter","Engineer","Captain","Fire Chief"], fit:true, risky:true},
+  {id:"paramedic",name:"Paramedic",       icon:"🚑", edu:1, base:43000, ladder:["EMT Trainee","EMT","Paramedic","Senior Paramedic","EMS Chief"], fit:true, risky:true},
   {id:"chef",     name:"Chef",            icon:"👨‍🍳", edu:1, base:36000, ladder:["Line Cook","Chef de Partie","Sous Chef","Head Chef","Executive Chef"]},
   {id:"realtor",  name:"Real Estate",     icon:"🏘️", edu:1, base:42000, ladder:["Agent","Senior Agent","Broker","Senior Broker","Agency Owner"]},
   {id:"electrician",name:"Electrician",   icon:"⚡", edu:1, base:44000, ladder:["Apprentice","Electrician","Senior Electrician","Master Electrician","Contractor"]},

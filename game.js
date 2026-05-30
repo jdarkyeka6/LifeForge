@@ -346,6 +346,7 @@ function condMet(cond){
   if(cond.moneyMin!=null && G.s.money<cond.moneyMin) return false;
   if(cond.gender && G.s.gender!==cond.gender) return false;
   if(cond.risky && !jobIsRisky()) return false;
+  if(cond.career){ if(!G.s.job) return false; const want=Array.isArray(cond.career)?cond.career:[cond.career]; if(!want.includes(G.s.job.careerId)) return false; }
   if(cond.hasOffice && !G.s.politics) return false;
   if(cond.immigrant && G.s.bornCountry===G.s.country) return false;
   if(cond.fameMin!=null && G.s.fame<cond.fameMin) return false;

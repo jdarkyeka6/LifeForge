@@ -2,8 +2,18 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=no" />
   <title>LifeForge — Life Simulator</title>
+  <meta name="description" content="Live a thousand lives. Forge your own. A free life-simulator game." />
+  <!-- PWA: installable + offline -->
+  <link rel="manifest" href="manifest.webmanifest" />
+  <meta name="theme-color" content="#0e1116" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="LifeForge" />
+  <link rel="apple-touch-icon" href="assets/icon-192.png" />
+  <link rel="icon" type="image/png" href="assets/icon-192.png" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -22,7 +32,7 @@
           <button id="btnSlots" class="menu-btn">Save Slots</button>
           <button id="btnHOF" class="menu-btn">Hall of Fame</button>
         </div>
-        <p class="version">v1.0 · placeholder build</p>
+        <p class="version">v1.1 · Emergency Update · installable & offline</p>
       </div>
     </div>
 
@@ -145,7 +155,16 @@
   <script src="data/events_extended.js"></script>
   <script src="data/events_religion.js"></script>
   <script src="data/events_zodiac.js"></script>
+  <script src="data/events_emergency.js"></script>
   <!-- Engine -->
   <script src="game.js"></script>
+  <!-- PWA service worker: makes LifeForge installable & playable offline -->
+  <script>
+    if ("serviceWorker" in navigator) {
+      window.addEventListener("load", () => {
+        navigator.serviceWorker.register("sw.js").catch(() => {});
+      });
+    }
+  </script>
 </body>
 </html>

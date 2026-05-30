@@ -47,6 +47,11 @@ window.GAME.core = {
     {name:"chronic back pain", kind:"physical", minor:false},
     {name:"an eating disorder", kind:"mental", minor:false},
     {name:"burnout", kind:"mental", minor:true},
+    {name:"smoke inhalation", kind:"physical", minor:true},
+    {name:"a concussion", kind:"physical", minor:false},
+    {name:"whiplash", kind:"physical", minor:true},
+    {name:"second-degree burns", kind:"physical", minor:false},
+    {name:"PTSD", kind:"mental", minor:false},
   ],
   pets: [
     {id:"dog",name:"Dog",icon:"🐶"},{id:"cat",name:"Cat",icon:"🐱"},
