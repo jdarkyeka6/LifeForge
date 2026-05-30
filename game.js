@@ -58,6 +58,7 @@ function migrate(){ // backfill fields for older saves
   if(G.s.military===undefined) G.s.military=null;
   if(G.s.mafia===undefined) G.s.mafia=null;
   G.s.properties=G.s.properties||[];
+  if(G.s.sports===undefined) G.s.sports=null;
   if(G.s.supernatural===undefined) G.s.supernatural=null;
   G.s.travels=G.s.travels||[];
   G.s.songs=G.s.songs||[];
@@ -94,7 +95,7 @@ function newCharacter(opts={}){
     bornCountry:country.name, citizenships:[country.name], yearsInCountry:0,
     followers:0, market:null, investments:{stocks:{},crypto:{}}, businesses:[], generation:1,
     traits:pickTraits(3), skills:initSkills(), achievements:[], military:null, mafia:null,
-    properties:[], supernatural:null, travels:[], songs:[],
+    properties:[], supernatural:null, travels:[], songs:[], sports:null,
     faith:null, zodiac:pickZodiac(),
     appearance:{ hair:pick(["black","brown","blonde","red","auburn","gray"]), build:pick(["slim","average","athletic","heavy"]) },
     people:[], pets:[], assets:[],
@@ -559,6 +560,8 @@ function openOccupation(){
   }
   if(spotlightCareer()){ html+=`<div class="section-head">Spotlight</div>`; html+=rowHTML("star", spotlightCareer().name+" Projects", "Create work, build fame", [{txt:"Open", id:"spotlight"}]); }
 
+  if(G.s.job && G.s.job.careerId==="athlete"){ const sp=G.s.sports||{seasons:0,championships:0}; html+=`<div class="section-head">Sports Career</div>`; html+=rowHTML("🏆","Pro Athlete Hub",`${sp.seasons||0} season(s) · ${sp.championships||0} title(s)`,[{txt:"Manage", id:"sports"}]); }
+
   html+=`<div class="section-head">Military</div>`;
   if(G.s.military){ html+=rowHTML("medal", `${GAME.militaryRanks[G.s.military.rankIndex]}, ${branchName()}`, `${G.s.military.years} year(s) served`, [{txt:"Discharge", id:"discharge", sec:true}]); }
   else if(G.s.age>=18){ html+=rowHTML("medal","Enlist in the Military","Serve, rank up & deploy",[{txt:"Enlist", id:"enlist"}]); }
@@ -579,6 +582,7 @@ function handleOccupationAction(id){
   else if(id==="enlist"){ enlist(); }
   else if(id==="discharge"){ dischargeMilitary(); }
   else if(id==="spotlight"){ spotlightPanel(); }
+  else if(id==="sports"){ sportsCenter(); }
   else if(id.startsWith("apply_")){ applyForJob(id.slice(6)); }
 }
 function applyForJob(careerId){
@@ -1818,6 +1822,84 @@ function slotsGame(){
 /* ============================================================
    ROW HELPERS
    ============================================================ */
+/* ============================================================
+   SPORTS CAREER — seasons, titles, contracts & endorsements
+   for the Pro Athlete career. Surfaced from the Occupation panel.
+   ============================================================ */
+function sportsCenter(){
+  if(!(G.s.job && G.s.job.careerId==="athlete")){ toast("You need to be a pro athlete for that."); return; }
+  G.s.sports = G.s.sports || {seasons:0, championships:0, mvps:0};
+  const sp=G.s.sports, job=G.s.job;
+  const form=Math.round((G.s.fitness+job.performance)/2);
+  let html=`<p style="color:var(--text-dim);font-size:12px">Salary ${fmtMoney(job.salary)} · Performance ${Math.round(job.performance)}% · Fitness ${Math.round(G.s.fitness)}%</p>`;
+  html+=`<div class="section-head">Career Record</div>`;
+  html+=`<div class="list-row"><div class="lr-ico">${iconHTML("🏆")}</div><div class="lr-main"><div class="lr-title">${sp.championships} Championship${sp.championships===1?"":"s"} <span class="tag-pill">Form ${form}%</span></div><div class="lr-sub">${sp.seasons} season(s) played · ${sp.mvps} MVP award(s)</div></div></div>`;
+  html+=`<div class="section-head">This Season</div>`;
+  html+=rowHTML("🏋️","Intensive Training","Boost fitness & performance (tiring)",[{txt:"Train", id:"sp_train"}]);
+  html+=rowHTML("🏟️","Play the Season","Compete for the title & prize money",[{txt:"Play", id:"sp_season"}]);
+  html+=`<div class="section-head">Business of Sport</div>`;
+  html+=rowHTML("✍️","Renegotiate Contract","Cash in on strong form",[{txt:"Negotiate", id:"sp_contract"}]);
+  html+=rowHTML("📣","Endorsement Deal","Sponsor cash (needs fame)",[{txt:"Pursue", id:"sp_endorse"}]);
+  openPanel({icon:"🏆", title:"Pro Athlete Hub", bodyHTML:html});
+  wireRowActions(handleSportsAction);
+}
+function handleSportsAction(id){
+  const job=G.s.job; if(!(job && job.careerId==="athlete")){ closePanel(); return; }
+  const sp=G.s.sports;
+  if(id==="sp_train"){
+    changeStat("fitness",rand(5,10)); changeStat("health",rand(1,3));
+    changeStat("happiness",-3); changeStat("mental",-2);
+    job.performance=clamp(job.performance+rand(3,7));
+    toast("🏋️ Brutal session — you're sharper.");
+    renderAll(); return sportsCenter();
+  }
+  if(id==="sp_season"){
+    if(sp.lastSeasonAge===G.s.age){ toast("You've already played this year's season. Age up first."); return; }
+    sp.lastSeasonAge=G.s.age; sp.seasons++;
+    const form=clamp((G.s.fitness+job.performance)/2);
+    const winChance=clamp(0.2+form/150, 0.1, 0.9);
+    let w=0; for(let i=0;i<20;i++) if(chance(winChance)) w++;
+    const l=20-w;
+    let prize=Math.round(job.salary*0.6*(w/20));
+    const playoffs = w>=12;
+    const champ = playoffs && chance(form/140);
+    const mvp = w>=15 && chance(form/220);
+    changeStat("fitness",-rand(3,7)); changeStat("health",-rand(1,4));
+    let parts=[`Season ${sp.seasons}: ${w}–${l}.`], kind="info";
+    if(champ){ sp.championships++; prize+=Math.round(job.salary*1.5); changeStat("happiness",18); changeStat("fame",10); job.performance=clamp(job.performance+12); parts.push("🏆 CHAMPIONS — you won the title!"); kind="good"; }
+    else if(playoffs){ changeStat("happiness",8); changeStat("fame",4); job.performance=clamp(job.performance+6); parts.push("Made the playoffs but came up short."); }
+    else { changeStat("happiness",-4); job.performance=clamp(job.performance-3); parts.push("A losing season."); kind="bad"; }
+    if(mvp){ sp.mvps++; prize+=Math.round(job.salary*0.8); changeStat("fame",8); parts.push("⭐ Named league MVP!"); kind="good"; }
+    if(chance(0.12)){ addNamedCondition("a concussion"); parts.push("You took a knock and were concussed."); }
+    adjustMoney(prize);
+    log(parts.join(" ")+` Earned ${fmtMoney(prize)}.`, kind, "Sports");
+    toast(champ?"🏆 Champions!":(playoffs?"Solid season!":"Tough season."));
+    renderAll(); return sportsCenter();
+  }
+  if(id==="sp_contract"){
+    if(sp.lastContractAge===G.s.age){ toast("Your agent says wait until next year."); return; }
+    const form=clamp((G.s.fitness+job.performance)/2);
+    if(form<45){ toast("Your form isn't strong enough to demand more yet."); return; }
+    sp.lastContractAge=G.s.age;
+    const raise=0.1+form/200;
+    const old=job.salary; job.salary=Math.round(job.salary*(1+raise));
+    changeStat("happiness",6);
+    log(`✍️ New contract signed — salary up from ${fmtMoney(old)} to ${fmtMoney(job.salary)}.`,"money","Sports");
+    toast("✍️ Bigger contract secured!");
+    renderAll(); return sportsCenter();
+  }
+  if(id==="sp_endorse"){
+    if(sp.lastEndorseAge===G.s.age){ toast("You already chased a deal this year."); return; }
+    if(G.s.fame<15){ toast("You're not famous enough for sponsors yet — win some games."); return; }
+    sp.lastEndorseAge=G.s.age;
+    const deal=Math.round((G.s.fame*200 + job.salary*0.2) * (0.6+Math.random()));
+    adjustMoney(deal); changeStat("fame",2); G.s.followers=(G.s.followers||0)+rand(200,800);
+    log(`📣 You signed an endorsement deal worth ${fmtMoney(deal)}!`,"money","Sports");
+    toast("📣 Sponsorship signed!");
+    renderAll(); return sportsCenter();
+  }
+  closePanel(); renderAll();
+}
 function rowHTML(icon,title,sub,actions=[]){
   const btns=actions.map(a=>{ if(a.sec||a.id===undefined) return `<button class="lr-action secondary" disabled>${a.txt}</button>`; return `<button class="lr-action" data-act="${a.id}">${a.txt}</button>`; }).join("");
   return `<div class="list-row"><div class="lr-ico">${iconHTML(icon)}</div><div class="lr-main"><div class="lr-title">${title}</div><div class="lr-sub">${sub}</div></div>${btns}</div>`;
