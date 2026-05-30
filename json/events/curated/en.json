@@ -1,0 +1,349 @@
+[
+  {
+    "id": "en_album",
+    "min": 18,
+    "max": 75,
+    "weight": 1.2,
+    "icon": "💿",
+    "title": "Record an Album",
+    "cond": {
+      "career": [
+        "musician",
+        "actor",
+        "influencer"
+      ]
+    },
+    "text": "Your team thinks it's time to drop a big new project.",
+    "choices": [
+      {
+        "label": "Pour your soul into it",
+        "effects": {
+          "money": -4000,
+          "mental": -3
+        },
+        "log": "Months in the studio chasing the perfect sound.",
+        "kind": "info",
+        "outcomes": [
+          {
+            "chance": 0.6,
+            "effects": {
+              "money": 25000,
+              "fame": 8,
+              "followers": 5000,
+              "happiness": 10
+            },
+            "log": "It's a smash hit — critics and fans love it!",
+            "kind": "good"
+          },
+          {
+            "chance": 0.4,
+            "effects": {
+              "fame": 1,
+              "mental": -4
+            },
+            "log": "It flopped. The reviews were brutal.",
+            "kind": "bad"
+          }
+        ]
+      },
+      {
+        "label": "Play it safe with a familiar sound",
+        "effects": {
+          "money": 6000,
+          "fame": 2,
+          "followers": 800
+        },
+        "log": "Reliable, if a little forgettable.",
+        "kind": "money"
+      }
+    ]
+  },
+  {
+    "id": "en_tour",
+    "min": 18,
+    "max": 70,
+    "weight": 1,
+    "icon": "🎤",
+    "title": "Go On Tour",
+    "cond": {
+      "career": [
+        "musician",
+        "actor"
+      ],
+      "fameMin": 20
+    },
+    "text": "Promoters want you to headline a nationwide tour.",
+    "choices": [
+      {
+        "label": "Hit the road",
+        "effects": {
+          "health": -6,
+          "mental": -4
+        },
+        "log": "Bus, stage, repeat — exhausting and exhilarating.",
+        "kind": "info",
+        "outcomes": [
+          {
+            "chance": 0.7,
+            "effects": {
+              "money": 40000,
+              "fame": 6,
+              "followers": 8000,
+              "happiness": 8
+            },
+            "log": "Sold-out shows everywhere — legendary tour!",
+            "kind": "good"
+          },
+          {
+            "chance": 0.3,
+            "effects": {
+              "money": -5000,
+              "health": -6
+            },
+            "log": "Low ticket sales and you got sick on the road.",
+            "kind": "bad"
+          }
+        ]
+      },
+      {
+        "label": "Stay home and rest",
+        "effects": {
+          "health": 4,
+          "fame": -2
+        },
+        "log": "You chose your wellbeing over the grind.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "en_award",
+    "min": 18,
+    "max": 80,
+    "weight": 0.8,
+    "icon": "🏆",
+    "title": "Awards Night",
+    "cond": {
+      "fameMin": 30
+    },
+    "text": "You've been nominated for a major industry award.",
+    "choices": [
+      {
+        "label": "Walk the red carpet",
+        "effects": {
+          "money": -1000,
+          "looks": 2
+        },
+        "log": "All eyes on you under the flashbulbs.",
+        "kind": "info",
+        "outcomes": [
+          {
+            "chance": 0.45,
+            "effects": {
+              "fame": 10,
+              "happiness": 14,
+              "followers": 6000
+            },
+            "log": "AND THE WINNER IS... YOU! An iconic moment.",
+            "kind": "good"
+          },
+          {
+            "chance": 0.55,
+            "effects": {
+              "fame": 3,
+              "happiness": 2
+            },
+            "log": "You didn't win, but the exposure was huge.",
+            "kind": "info"
+          }
+        ]
+      },
+      {
+        "label": "Skip it — you're above all that",
+        "effects": {
+          "fame": -2,
+          "mental": 2
+        },
+        "log": "You watched from the couch in pajamas.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "en_scandal",
+    "min": 18,
+    "max": 80,
+    "weight": 0.7,
+    "icon": "📰",
+    "title": "Tabloid Scandal",
+    "cond": {
+      "fameMin": 25
+    },
+    "text": "A tabloid is about to run a damaging story about you.",
+    "choices": [
+      {
+        "label": "Get ahead of it with honesty",
+        "effects": {
+          "fame": -2,
+          "karma": 4,
+          "happiness": -2
+        },
+        "log": "You owned it before they could spin it.",
+        "kind": "info",
+        "outcomes": [
+          {
+            "chance": 0.6,
+            "effects": {
+              "fame": 3,
+              "followers": 2000
+            },
+            "log": "Fans respected your honesty — it backfired on them.",
+            "kind": "good"
+          }
+        ]
+      },
+      {
+        "label": "Deny everything",
+        "effects": {},
+        "log": "You sent the lawyers in.",
+        "kind": "info",
+        "outcomes": [
+          {
+            "chance": 0.5,
+            "effects": {
+              "fame": -8,
+              "followers": -4000,
+              "mental": -6
+            },
+            "log": "The truth came out anyway. Reputation hit.",
+            "kind": "bad"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "en_collab",
+    "min": 18,
+    "max": 75,
+    "weight": 0.9,
+    "icon": "🤝",
+    "title": "Big Collab",
+    "cond": {
+      "career": [
+        "musician",
+        "influencer",
+        "model"
+      ],
+      "fameMin": 15
+    },
+    "text": "A bigger star wants to collaborate with you.",
+    "choices": [
+      {
+        "label": "Make it happen",
+        "effects": {
+          "fame": 5,
+          "followers": 4000,
+          "happiness": 6
+        },
+        "log": "The collab introduced you to a whole new audience.",
+        "kind": "good"
+      },
+      {
+        "label": "Hold out to protect your brand",
+        "effects": {
+          "smarts": 2,
+          "fame": 1
+        },
+        "log": "You stayed selective. Quality over clout.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "en_fan",
+    "min": 16,
+    "max": 90,
+    "weight": 0.8,
+    "icon": "🥹",
+    "title": "A Devoted Fan",
+    "cond": {
+      "fameMin": 15
+    },
+    "text": "A young fan tells you, in tears, that your work got them through a dark time.",
+    "choices": [
+      {
+        "label": "Take the time to really connect",
+        "effects": {
+          "karma": 8,
+          "happiness": 10,
+          "fame": 1
+        },
+        "log": "A reminder of why you do this. Unforgettable.",
+        "kind": "good"
+      },
+      {
+        "label": "Quick selfie and move on",
+        "effects": {
+          "happiness": 2,
+          "followers": 200
+        },
+        "log": "Polite, but you were in a hurry.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "en_comeback",
+    "min": 35,
+    "max": 90,
+    "weight": 0.6,
+    "icon": "🔥",
+    "title": "Comeback",
+    "cond": {
+      "fameMin": 10
+    },
+    "text": "Your star has faded, but there's appetite for a comeback.",
+    "choices": [
+      {
+        "label": "Reinvent yourself completely",
+        "effects": {
+          "money": -3000,
+          "looks": 2
+        },
+        "log": "New look, new sound, new you.",
+        "kind": "money",
+        "outcomes": [
+          {
+            "chance": 0.55,
+            "effects": {
+              "fame": 9,
+              "followers": 7000,
+              "happiness": 10
+            },
+            "log": "The comeback of the decade — you're back!",
+            "kind": "good"
+          },
+          {
+            "chance": 0.45,
+            "effects": {
+              "fame": -2,
+              "mental": -4
+            },
+            "log": "The world had moved on. It didn't land.",
+            "kind": "bad"
+          }
+        ]
+      },
+      {
+        "label": "Bow out gracefully",
+        "effects": {
+          "mental": 4,
+          "happiness": 3
+        },
+        "log": "You made peace with your legacy.",
+        "kind": "good"
+      }
+    ]
+  }
+]

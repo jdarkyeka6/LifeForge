@@ -1,0 +1,75 @@
+/* ============================================================
+   events_business.js — running your own company.
+   Gated on owning a business (G.s.businesses). Deepens the
+   Finance Center / Business panel that already exists.
+   ============================================================ */
+window.GAME = window.GAME || {}; window.GAME.events = window.GAME.events || [];
+window.GAME.events.push(
+
+  {id:"bz_viral", min:20, max:100, weight:1.0, icon:"🚀", title:"Product Goes Viral", cond:{hasBusiness:true},
+    text:"One of your products blew up on social media overnight. Orders are flooding in.",
+    choices:[
+      {label:"Scale up fast to meet demand", effects:{money:-8000}, log:"You poured cash into scaling.", kind:"money",
+        outcomes:[{chance:0.7,effects:{money:45000,fame:3,happiness:8,followers:1500},log:"You rode the wave perfectly — record profits!",kind:"good"},{chance:0.3,effects:{money:-3000,mental:-4},log:"You over-extended and the hype faded.",kind:"bad"}]},
+      {label:"Play it safe, keep current output", effects:{money:9000,happiness:4}, log:"Steady gains without the risk.", kind:"money"},
+    ]},
+
+  {id:"bz_employee_theft", min:22, max:100, weight:0.9, icon:"🕵️", title:"Embezzlement", cond:{hasBusiness:true},
+    text:"Your accountant has been skimming money from the company for years.",
+    choices:[
+      {label:"Press charges", effects:{money:-2000,karma:3,mental:-3}, log:"Justice served, but the legal fees stung.", kind:"info",
+        outcomes:[{chance:0.5,effects:{money:6000},log:"The court ordered restitution.",kind:"money"}]},
+      {label:"Fire them quietly to avoid scandal", effects:{money:-9000,happiness:-4}, log:"You ate the loss to protect the brand.", kind:"money"},
+    ]},
+
+  {id:"bz_inspection", min:21, max:100, weight:0.8, icon:"🔍", title:"Surprise Inspection", cond:{hasBusiness:true},
+    text:"A health-and-safety inspector shows up unannounced.",
+    choices:[
+      {label:"Welcome them — you run a tight ship", effects:{happiness:3}, log:"Spotless. They left impressed.", kind:"good"},
+      {label:"Stall and hope for the best", effects:{}, log:"You tried to buy time.", kind:"info",
+        outcomes:[{chance:0.5,effects:{money:-4500,karma:-3},log:"They found violations and fined you.",kind:"bad"},{chance:0.5,effects:{},log:"You scraped through with a warning.",kind:"info"}]},
+    ]},
+
+  {id:"bz_buyout", min:24, max:100, weight:0.9, icon:"🤝", title:"Buyout Offer", cond:{hasBusiness:true},
+    text:"A larger corporation wants to acquire your business — and the offer is generous.",
+    choices:[
+      {label:"Sell and take the payday", effects:{money:80000,happiness:6,mental:-2}, log:"You cashed out. Bittersweet, but rich.", kind:"money"},
+      {label:"Hold out for more", effects:{}, log:"You countered hard.", kind:"info",
+        outcomes:[{chance:0.5,effects:{money:140000,fame:2,smarts:3},log:"They blinked — you got nearly double!",kind:"good"},{chance:0.5,effects:{happiness:-4},log:"They walked away. Deal's off.",kind:"bad"}]},
+    ]},
+
+  {id:"bz_expansion", min:23, max:100, weight:0.9, icon:"🏬", title:"Expansion Chance", cond:{hasBusiness:true,moneyMin:25000},
+    text:"You could open a second location in a promising new market.",
+    choices:[
+      {label:"Open the new branch", effects:{money:-25000}, log:"You signed the new lease.", kind:"money",
+        outcomes:[{chance:0.65,effects:{money:55000,fame:2,happiness:7},log:"The new location is a hit!",kind:"good"},{chance:0.35,effects:{money:-8000,mental:-5},log:"The new market never took off.",kind:"bad"}]},
+      {label:"Stay focused on one location", effects:{happiness:2}, log:"Slow and steady. No new debt.", kind:"info"},
+    ]},
+
+  {id:"bz_competitor", min:22, max:100, weight:0.8, icon:"⚔️", title:"New Competitor", cond:{hasBusiness:true},
+    text:"A flashy competitor just opened across the street and is undercutting your prices.",
+    choices:[
+      {label:"Compete on quality and loyalty", effects:{money:-1500,happiness:3}, log:"You doubled down on what makes you special.", kind:"info",
+        outcomes:[{chance:0.6,effects:{money:7000,fame:1},log:"Your loyal customers stuck with you — and grew.",kind:"good"}]},
+      {label:"Start a price war", effects:{money:-4000}, log:"You slashed prices to fight back.", kind:"money",
+        outcomes:[{chance:0.5,effects:{money:-6000,mental:-4},log:"The race to the bottom hurt you both.",kind:"bad"}]},
+    ]},
+
+  {id:"bz_ip", min:24, max:100, weight:0.7, icon:"💡", title:"Big Client Pitch", cond:{hasBusiness:true},
+    text:"A major client wants an exclusive deal — it would transform your revenue.",
+    choices:[
+      {label:"Pitch them hard", effects:{}, log:"You prepared the pitch of your life.", kind:"info",
+        outcomes:[{chance:0.6,effects:{money:30000,fame:2,smarts:2,happiness:8},log:"You landed the contract!",kind:"good"},{chance:0.4,effects:{mental:-3},log:"They went with someone else.",kind:"bad"}]},
+      {label:"Stay independent — no single client", effects:{smarts:2}, log:"You valued your independence over the deal.", kind:"info"},
+    ]},
+
+  {id:"bz_recession_hit", min:25, max:100, weight:0.6, icon:"📉", title:"Lean Year", cond:{hasBusiness:true},
+    text:"A downturn has customers tightening their belts. Sales are way down.",
+    choices:[
+      {label:"Cut costs and ride it out", effects:{money:-2000,mental:-3}, log:"You trimmed expenses and survived the year.", kind:"info"},
+      {label:"Lay off staff to stay afloat", effects:{money:3000,karma:-6,happiness:-4}, log:"Painful cuts kept the doors open.", kind:"money"},
+      {label:"Invest through the downturn", effects:{money:-6000}, log:"You bet against the gloom.", kind:"money",
+        outcomes:[{chance:0.5,effects:{money:20000,smarts:3},log:"Bold move paid off when the market recovered.",kind:"good"}]},
+    ]},
+
+);

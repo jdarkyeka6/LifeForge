@@ -1,0 +1,189 @@
+[
+  {
+    "id": "mi_deploy",
+    "min": 18,
+    "max": 60,
+    "cond": {
+      "hasMilitary": true
+    },
+    "icon": "🪖",
+    "title": "Deployment",
+    "text": "You've been deployed overseas.",
+    "choices": [
+      {
+        "label": "Serve with courage",
+        "effects": {},
+        "log": "You shipped out...",
+        "kind": "info",
+        "outcomes": [
+          {
+            "chance": 0.6,
+            "effects": {
+              "fitness": 6,
+              "fame": 3,
+              "happiness": 4
+            },
+            "log": "You served with distinction and returned safe.",
+            "kind": "good"
+          },
+          {
+            "chance": 0.4,
+            "effects": {
+              "health": -18,
+              "mental": -10,
+              "addCondition": true
+            },
+            "log": "Combat left you wounded.",
+            "kind": "bad"
+          }
+        ]
+      },
+      {
+        "label": "Request to stay back",
+        "effects": {
+          "mental": -3
+        },
+        "log": "You sat this one out. Mixed feelings.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "mi_training",
+    "min": 18,
+    "max": 60,
+    "cond": {
+      "hasMilitary": true
+    },
+    "icon": "🪖",
+    "title": "Training Exercise",
+    "text": "Intense field training this week.",
+    "choices": [
+      {
+        "label": "Give it everything",
+        "effects": {
+          "fitness": 6,
+          "health": -2,
+          "happiness": 2
+        },
+        "log": "You pushed your limits.",
+        "kind": "good"
+      },
+      {
+        "label": "Coast through it",
+        "effects": {
+          "fitness": 1
+        },
+        "log": "You did the minimum.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "mi_medal",
+    "min": 18,
+    "max": 60,
+    "cond": {
+      "hasMilitary": true
+    },
+    "icon": "🎖️",
+    "title": "Act of Valor",
+    "text": "A dangerous situation calls for a hero.",
+    "choices": [
+      {
+        "label": "Step up",
+        "effects": {},
+        "log": "You acted without hesitation...",
+        "kind": "info",
+        "outcomes": [
+          {
+            "chance": 0.6,
+            "effects": {
+              "fame": 8,
+              "karma": 8,
+              "happiness": 8
+            },
+            "log": "🎖️ You were awarded a medal for valor!",
+            "kind": "good"
+          },
+          {
+            "chance": 0.4,
+            "effects": {
+              "health": -20,
+              "mental": -6
+            },
+            "log": "You were hurt in the attempt.",
+            "kind": "bad"
+          }
+        ]
+      },
+      {
+        "label": "Follow protocol",
+        "effects": {},
+        "log": "You played it by the book.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "mi_ptsd",
+    "min": 20,
+    "max": 70,
+    "cond": {
+      "hasMilitary": true
+    },
+    "icon": "🧠",
+    "title": "Hard Memories",
+    "text": "The things you've seen are weighing on you.",
+    "choices": [
+      {
+        "label": "Seek counseling",
+        "effects": {
+          "mental": 8,
+          "money": -200
+        },
+        "log": "Talking it out helped.",
+        "kind": "good"
+      },
+      {
+        "label": "Bury it deep",
+        "effects": {
+          "mental": -10
+        },
+        "log": "You kept it all inside.",
+        "kind": "bad"
+      }
+    ]
+  },
+  {
+    "id": "mi_leave",
+    "min": 18,
+    "max": 60,
+    "cond": {
+      "hasMilitary": true
+    },
+    "icon": "🏖️",
+    "title": "On Leave",
+    "text": "You've got two weeks of leave.",
+    "choices": [
+      {
+        "label": "Visit family",
+        "effects": {
+          "relAll": 6,
+          "happiness": 8
+        },
+        "log": "Precious time with loved ones.",
+        "kind": "good"
+      },
+      {
+        "label": "Blow off steam",
+        "effects": {
+          "happiness": 6,
+          "health": -2
+        },
+        "log": "You partied with your unit.",
+        "kind": "info"
+      }
+    ]
+  }
+]

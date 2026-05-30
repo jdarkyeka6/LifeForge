@@ -1,0 +1,86 @@
+/* ============================================================
+   events_property.js — homeowner & landlord life.
+   Gated on owning a home (G.s.assets type "homes") or holding
+   investment properties (G.s.properties). Deepens the Real
+   Estate panels that already exist.
+   ============================================================ */
+window.GAME = window.GAME || {}; window.GAME.events = window.GAME.events || [];
+window.GAME.events.push(
+
+  {id:"pr_value_boom", min:20, max:100, weight:0.7, icon:"📈", title:"Neighborhood Booming", cond:{ownHome:true},
+    text:"A trendy district sprang up around your home — values are soaring.",
+    choices:[
+      {label:"Refinance and cash out", effects:{money:18000,happiness:4}, log:"You pulled equity out at the top of the market.", kind:"money"},
+      {label:"Just enjoy the equity", effects:{happiness:5}, log:"Your home is worth a fortune now. Nice.", kind:"good"},
+    ]},
+
+  {id:"pr_burst_pipe", min:20, max:100, weight:0.8, icon:"🚿", title:"Burst Pipe", cond:{ownHome:true},
+    text:"A pipe bursts overnight and floods your ground floor.",
+    choices:[
+      {label:"Call an emergency plumber", effects:{money:-3200,happiness:-4}, log:"Pricey, but fixed fast.", kind:"money"},
+      {label:"Try to fix it yourself", effects:{}, log:"You grabbed the toolbox.", kind:"info",
+        outcomes:[{chance:0.45,effects:{money:-200,smarts:2,happiness:3},log:"You actually fixed it! Saved a fortune.",kind:"good"},{chance:0.55,effects:{money:-7000,mental:-4},log:"You made it worse. The repair bill doubled.",kind:"bad"}]},
+    ]},
+
+  {id:"pr_burglary", min:20, max:100, weight:0.6, icon:"🪟", title:"Break-In", cond:{ownHome:true},
+    text:"You come home to a smashed window — you've been burgled.",
+    choices:[
+      {label:"File an insurance claim", effects:{money:-1500,mental:-5}, log:"Insurance covered most of it, eventually.", kind:"info"},
+      {label:"Install a full security system", effects:{money:-2500,mental:3}, log:"Cameras everywhere now. You sleep easier.", kind:"money"},
+    ]},
+
+  {id:"pr_hoa", min:22, max:100, weight:0.7, icon:"📋", title:"HOA Dispute", cond:{ownHome:true},
+    text:"The homeowners' association is fining you over the color of your front door.",
+    choices:[
+      {label:"Pay the fine and repaint", effects:{money:-400,happiness:-3}, log:"Not worth the fight. You repainted.", kind:"money"},
+      {label:"Fight them at the next meeting", effects:{}, log:"You showed up ready to argue.", kind:"info",
+        outcomes:[{chance:0.5,effects:{happiness:6,karma:2},log:"You won — and got half the rules changed!",kind:"good"},{chance:0.5,effects:{money:-900,mental:-4},log:"You lost, and they doubled the fine.",kind:"bad"}]},
+    ]},
+
+  {id:"pr_renovation", min:24, max:100, weight:0.7, icon:"🔨", title:"Renovation Project", cond:{ownHome:true,moneyMin:8000},
+    text:"You're thinking of renovating to boost your home's value.",
+    choices:[
+      {label:"Gut and remodel the kitchen", effects:{money:-15000}, log:"Big spend on the reno.", kind:"money",
+        outcomes:[{chance:0.7,effects:{money:24000,happiness:6},log:"Stunning result — added serious value.",kind:"good"},{chance:0.3,effects:{money:-5000,mental:-5},log:"Contractor problems blew the budget.",kind:"bad"}]},
+      {label:"Just a fresh coat of paint", effects:{money:-1200,happiness:3}, log:"Cheap and cheerful refresh.", kind:"money"},
+    ]},
+
+  {id:"pr_bad_tenant", min:24, max:100, weight:1.0, icon:"🏚️", title:"Nightmare Tenant", cond:{hasProperty:true},
+    text:"A tenant in one of your rentals has stopped paying and trashed the place.",
+    choices:[
+      {label:"Begin eviction proceedings", effects:{money:-2000,mental:-4}, log:"Slow and costly, but you reclaimed the unit.", kind:"info"},
+      {label:"Offer cash-for-keys to leave quietly", effects:{money:-3000,happiness:2}, log:"You paid them to go. Painless, at least.", kind:"money"},
+    ]},
+
+  {id:"pr_great_tenant", min:24, max:100, weight:0.9, icon:"🔑", title:"Model Tenant", cond:{hasProperty:true},
+    text:"A tenant has paid early every month and even fixed up the yard.",
+    choices:[
+      {label:"Reward them with a small rent freeze", effects:{karma:6,happiness:4}, log:"Loyalty over greed. They'll stay for years.", kind:"good"},
+      {label:"Raise the rent anyway", effects:{money:1800,karma:-4}, log:"More income, but it stings your conscience.", kind:"money"},
+    ]},
+
+  {id:"pr_flip", min:25, max:100, weight:0.8, icon:"🏘️", title:"Flip Opportunity", cond:{hasProperty:true,moneyMin:20000},
+    text:"A run-down property hits the market cheap — a classic flip.",
+    choices:[
+      {label:"Buy, renovate, and resell", effects:{money:-20000}, log:"You took the plunge on the flip.", kind:"money",
+        outcomes:[{chance:0.6,effects:{money:42000,happiness:7,smarts:2},log:"Flipped it for a huge profit!",kind:"good"},{chance:0.4,effects:{money:8000,mental:-3},log:"Sold at a small loss after delays.",kind:"bad"}]},
+      {label:"Too risky — pass", effects:{}, log:"You let this one go.", kind:"info"},
+    ]},
+
+  {id:"pr_squatters", min:26, max:100, weight:0.6, icon:"🚧", title:"Squatters", cond:{hasProperty:true},
+    text:"Squatters have moved into a vacant unit you own.",
+    choices:[
+      {label:"Hire a lawyer to remove them", effects:{money:-4000,mental:-3}, log:"Legal route. Expensive but clean.", kind:"money"},
+      {label:"Negotiate with them directly", effects:{}, log:"You knocked on the door to talk.", kind:"info",
+        outcomes:[{chance:0.5,effects:{karma:4,money:-500},log:"They left peacefully for moving money.",kind:"good"},{chance:0.5,effects:{health:-8,mental:-5},log:"It turned hostile. You had to call the police.",kind:"bad"}]},
+    ]},
+
+  {id:"pr_propertytax", min:28, max:100, weight:0.7, icon:"🧾", title:"Property Tax Hike", cond:{ownHome:true},
+    text:"The city just reassessed your area — your property taxes are jumping.",
+    choices:[
+      {label:"Appeal the assessment", effects:{}, log:"You filed an appeal.", kind:"info",
+        outcomes:[{chance:0.55,effects:{money:1200,smarts:2},log:"Appeal granted — you saved on the bill.",kind:"good"},{chance:0.45,effects:{money:-1800},log:"Denied. You paid the higher rate.",kind:"money"}]},
+      {label:"Just pay it", effects:{money:-1800,happiness:-2}, log:"You grumbled and paid up.", kind:"money"},
+    ]},
+
+);

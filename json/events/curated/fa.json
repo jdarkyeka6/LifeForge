@@ -1,0 +1,245 @@
+[
+  {
+    "id": "fa_firstday",
+    "min": 20,
+    "max": 60,
+    "cond": {
+      "hasChild": true
+    },
+    "icon": "🎒",
+    "title": "First Day of School",
+    "text": "It's {child}'s very first day of school.",
+    "choices": [
+      {
+        "label": "Walk them in",
+        "effects": {
+          "relChild": 8,
+          "happiness": 6
+        },
+        "log": "You held back tears at the gate.",
+        "kind": "good"
+      },
+      {
+        "label": "Quick goodbye",
+        "effects": {
+          "relChild": 2
+        },
+        "log": "{child} ran off happily.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "fa_recital",
+    "min": 22,
+    "max": 65,
+    "cond": {
+      "hasChild": true
+    },
+    "icon": "🎤",
+    "title": "School Recital",
+    "text": "{child} has a big recital tonight.",
+    "choices": [
+      {
+        "label": "Be in the front row",
+        "effects": {
+          "relChild": 10,
+          "happiness": 7
+        },
+        "log": "{child} beamed seeing you there.",
+        "kind": "good"
+      },
+      {
+        "label": "Arrive late from work",
+        "effects": {
+          "relChild": -6
+        },
+        "log": "You missed their part. {child} noticed.",
+        "kind": "bad"
+      },
+      {
+        "label": "Can't make it",
+        "effects": {
+          "relChild": -10,
+          "mental": -3
+        },
+        "log": "Work won. {child} was crushed.",
+        "kind": "bad"
+      }
+    ]
+  },
+  {
+    "id": "fa_values",
+    "min": 25,
+    "max": 65,
+    "cond": {
+      "hasChild": true
+    },
+    "icon": "🧠",
+    "title": "Teaching Moment",
+    "text": "{child} did something wrong and is waiting to see how you react.",
+    "choices": [
+      {
+        "label": "Patient lesson",
+        "effects": {
+          "relChild": 8,
+          "karma": 4
+        },
+        "log": "You taught {child} right from wrong with love.",
+        "kind": "good"
+      },
+      {
+        "label": "Strict punishment",
+        "effects": {
+          "relChild": -4
+        },
+        "log": "{child} learned the rules the hard way.",
+        "kind": "info"
+      },
+      {
+        "label": "Let it slide",
+        "effects": {
+          "relChild": 3,
+          "karma": -2
+        },
+        "log": "You looked the other way.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "fa_sports",
+    "min": 25,
+    "max": 60,
+    "cond": {
+      "hasChild": true
+    },
+    "icon": "⚽",
+    "title": "{child}'s Big Game",
+    "text": "{child} made the team and has a championship game.",
+    "choices": [
+      {
+        "label": "Coach them all week",
+        "effects": {
+          "relChild": 9,
+          "fitness": 2,
+          "happiness": 5
+        },
+        "log": "You and {child} bonded over practice.",
+        "kind": "good"
+      },
+      {
+        "label": "Cheer from the stands",
+        "effects": {
+          "relChild": 5,
+          "happiness": 4
+        },
+        "log": "You were their loudest fan.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "fa_allowance",
+    "min": 25,
+    "max": 65,
+    "cond": {
+      "hasChild": true
+    },
+    "icon": "💵",
+    "title": "Money Lessons",
+    "text": "{child} wants to learn about money.",
+    "choices": [
+      {
+        "label": "Teach budgeting",
+        "effects": {
+          "relChild": 6,
+          "smarts": 1
+        },
+        "log": "{child} started a savings jar.",
+        "kind": "good"
+      },
+      {
+        "label": "Just give them cash",
+        "effects": {
+          "money": -100,
+          "relChild": 5
+        },
+        "log": "{child} was delighted (and spoiled).",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "fa_collegefund",
+    "min": 30,
+    "max": 60,
+    "cond": {
+      "hasChild": true,
+      "moneyMin": 10000
+    },
+    "icon": "🎓",
+    "title": "{child}'s Future",
+    "text": "{child} got into a great university — tuition is steep.",
+    "choices": [
+      {
+        "label": "Pay their tuition",
+        "effects": {
+          "money": -30000,
+          "relChild": 14,
+          "happiness": 6
+        },
+        "log": "You gave {child} a debt-free start.",
+        "kind": "money"
+      },
+      {
+        "label": "Help them get loans",
+        "effects": {
+          "relChild": 3
+        },
+        "log": "{child} will pay it back over time.",
+        "kind": "info"
+      },
+      {
+        "label": "They're on their own",
+        "effects": {
+          "relChild": -12
+        },
+        "log": "{child} was hurt you wouldn't help.",
+        "kind": "bad"
+      }
+    ]
+  },
+  {
+    "id": "fa_proud",
+    "min": 30,
+    "max": 80,
+    "cond": {
+      "hasChild": true
+    },
+    "icon": "🌟",
+    "title": "Proud Parent",
+    "text": "{child} accomplished something amazing.",
+    "choices": [
+      {
+        "label": "Throw a celebration",
+        "effects": {
+          "money": -200,
+          "relChild": 10,
+          "happiness": 10
+        },
+        "log": "The whole family celebrated {child}.",
+        "kind": "good"
+      },
+      {
+        "label": "Tell them you're proud",
+        "effects": {
+          "relChild": 8,
+          "happiness": 6
+        },
+        "log": "Your words meant everything to {child}.",
+        "kind": "good"
+      }
+    ]
+  }
+]

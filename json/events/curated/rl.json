@@ -1,0 +1,747 @@
+[
+  {
+    "id": "rl_anniversary",
+    "min": 18,
+    "max": 120,
+    "cond": {
+      "hasPartner": true
+    },
+    "icon": "💞",
+    "title": "Anniversary",
+    "text": "It's your anniversary with {partner}.",
+    "choices": [
+      {
+        "label": "Plan a romantic surprise",
+        "effects": {
+          "relPartner": 14,
+          "happiness": 8,
+          "money": -300
+        },
+        "log": "{partner} adored it. ❤️",
+        "kind": "good"
+      },
+      {
+        "label": "A simple dinner",
+        "effects": {
+          "relPartner": 7,
+          "happiness": 4,
+          "money": -60
+        },
+        "log": "Sweet and low-key.",
+        "kind": "good"
+      },
+      {
+        "label": "Forget about it",
+        "cls": "danger",
+        "effects": {
+          "relPartner": -18,
+          "happiness": -4
+        },
+        "log": "You forgot. {partner} is hurt.",
+        "kind": "bad"
+      }
+    ]
+  },
+  {
+    "id": "rl_cheat_tempt",
+    "min": 18,
+    "max": 90,
+    "cond": {
+      "hasPartner": true
+    },
+    "icon": "😈",
+    "title": "Temptation",
+    "text": "Someone attractive is openly flirting with you.",
+    "choices": [
+      {
+        "label": "Stay loyal",
+        "effects": {
+          "relPartner": 6,
+          "karma": 6,
+          "mental": 2
+        },
+        "log": "You stayed true to {partner}.",
+        "kind": "good"
+      },
+      {
+        "label": "Flirt back",
+        "effects": {},
+        "log": "You flirted a little...",
+        "kind": "info",
+        "outcomes": [
+          {
+            "chance": 0.4,
+            "effects": {
+              "relPartner": -25,
+              "karma": -12,
+              "mental": -6
+            },
+            "log": "{partner} found out. Trust shattered.",
+            "kind": "bad"
+          },
+          {
+            "chance": 0.6,
+            "effects": {
+              "happiness": 3
+            },
+            "log": "Nothing came of it.",
+            "kind": "info"
+          }
+        ]
+      },
+      {
+        "label": "Cheat",
+        "cls": "danger",
+        "effects": {
+          "karma": -20,
+          "happiness": 5
+        },
+        "log": "You cheated on {partner}...",
+        "kind": "bad",
+        "outcomes": [
+          {
+            "chance": 0.5,
+            "effects": {
+              "relPartner": -50,
+              "mental": -10
+            },
+            "log": "{partner} discovered everything. Devastating.",
+            "kind": "bad"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rl_partnercheat",
+    "min": 20,
+    "max": 90,
+    "cond": {
+      "hasPartner": true
+    },
+    "icon": "💔",
+    "title": "Suspicions",
+    "text": "You suspect {partner} is hiding something.",
+    "choices": [
+      {
+        "label": "Confront them",
+        "effects": {},
+        "log": "You asked them directly...",
+        "kind": "info",
+        "outcomes": [
+          {
+            "chance": 0.3,
+            "effects": {
+              "relPartner": -30,
+              "mental": -12,
+              "happiness": -12
+            },
+            "log": "They confessed to cheating. Heartbreak.",
+            "kind": "bad"
+          },
+          {
+            "chance": 0.7,
+            "effects": {
+              "relPartner": 4
+            },
+            "log": "It was nothing — just a surprise for you.",
+            "kind": "good"
+          }
+        ]
+      },
+      {
+        "label": "Snoop their phone",
+        "effects": {
+          "karma": -4
+        },
+        "log": "You went through their phone...",
+        "kind": "info",
+        "outcomes": [
+          {
+            "chance": 0.3,
+            "effects": {
+              "relPartner": -25,
+              "mental": -10
+            },
+            "log": "You found proof they cheated.",
+            "kind": "bad"
+          },
+          {
+            "chance": 0.7,
+            "effects": {
+              "relPartner": -6,
+              "mental": -4
+            },
+            "log": "Nothing — and you feel guilty.",
+            "kind": "info"
+          }
+        ]
+      },
+      {
+        "label": "Trust them",
+        "effects": {
+          "relPartner": 5,
+          "mental": 3
+        },
+        "log": "You chose trust.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "rl_proposal_in",
+    "min": 20,
+    "max": 70,
+    "cond": {
+      "hasLover": true
+    },
+    "icon": "💍",
+    "title": "The Big Question",
+    "text": "{partner} hints they want to get engaged.",
+    "choices": [
+      {
+        "label": "Propose!",
+        "effects": {},
+        "log": "You got down on one knee...",
+        "kind": "info",
+        "outcomes": [
+          {
+            "chance": 0.75,
+            "effects": {
+              "marryPartner": true,
+              "happiness": 22
+            },
+            "log": "{partner} said YES! 💍",
+            "kind": "good"
+          },
+          {
+            "chance": 0.25,
+            "effects": {
+              "relPartner": -15,
+              "happiness": -12
+            },
+            "log": "It was too soon — they said no.",
+            "kind": "bad"
+          }
+        ]
+      },
+      {
+        "label": "Not ready yet",
+        "effects": {
+          "relPartner": -6
+        },
+        "log": "You held off. {partner} is a bit deflated.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "rl_inlaws",
+    "min": 22,
+    "max": 70,
+    "cond": {
+      "married": true
+    },
+    "icon": "👵",
+    "title": "The In-Laws",
+    "text": "Your in-laws are visiting for a week.",
+    "choices": [
+      {
+        "label": "Be the perfect host",
+        "effects": {
+          "relPartner": 8,
+          "mental": -4,
+          "money": -200
+        },
+        "log": "You won them over.",
+        "kind": "good"
+      },
+      {
+        "label": "Hide in your room",
+        "effects": {
+          "relPartner": -6,
+          "happiness": 2
+        },
+        "log": "You avoided them mostly.",
+        "kind": "info"
+      },
+      {
+        "label": "Start an argument",
+        "cls": "danger",
+        "effects": {
+          "relPartner": -15,
+          "happiness": -5
+        },
+        "log": "Dinner turned into a war zone.",
+        "kind": "bad"
+      }
+    ]
+  },
+  {
+    "id": "rl_babycry",
+    "min": 18,
+    "max": 60,
+    "cond": {
+      "hasChild": true
+    },
+    "icon": "🍼",
+    "title": "Sleepless Night",
+    "text": "{child} won't stop crying at 4am.",
+    "choices": [
+      {
+        "label": "Comfort them all night",
+        "effects": {
+          "relChild": 8,
+          "health": -3,
+          "mental": -2
+        },
+        "log": "Exhausted, but {child} settled.",
+        "kind": "good"
+      },
+      {
+        "label": "Let your partner handle it",
+        "effects": {
+          "relPartner": -5
+        },
+        "log": "You pretended to be asleep.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "rl_kidschool",
+    "min": 25,
+    "max": 60,
+    "cond": {
+      "hasChild": true
+    },
+    "icon": "🏫",
+    "title": "Parent-Teacher Meeting",
+    "text": "{child}'s teacher wants to talk.",
+    "choices": [
+      {
+        "label": "Take it seriously",
+        "effects": {
+          "relChild": 8,
+          "smarts": 1
+        },
+        "log": "You're an engaged parent.",
+        "kind": "good"
+      },
+      {
+        "label": "Defend your kid blindly",
+        "effects": {
+          "relChild": 4,
+          "karma": -3
+        },
+        "log": "You argued with the teacher.",
+        "kind": "info"
+      },
+      {
+        "label": "Blow it off",
+        "effects": {
+          "relChild": -8
+        },
+        "log": "{child} felt let down.",
+        "kind": "bad"
+      }
+    ]
+  },
+  {
+    "id": "rl_kidmoney",
+    "min": 30,
+    "max": 70,
+    "cond": {
+      "hasChild": true
+    },
+    "icon": "💸",
+    "title": "Allowance",
+    "text": "{child} is begging for money for a new game.",
+    "choices": [
+      {
+        "label": "Buy it for them",
+        "effects": {
+          "money": -80,
+          "relChild": 10
+        },
+        "log": "{child} was thrilled!",
+        "kind": "good"
+      },
+      {
+        "label": "Make them earn it",
+        "effects": {
+          "relChild": 4,
+          "smarts": 1
+        },
+        "log": "You taught a good lesson.",
+        "kind": "good"
+      },
+      {
+        "label": "Say no",
+        "effects": {
+          "relChild": -6
+        },
+        "log": "{child} sulked all day.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "rl_kidrebel",
+    "min": 35,
+    "max": 65,
+    "cond": {
+      "hasChild": true
+    },
+    "icon": "🚪",
+    "title": "Teen Trouble",
+    "text": "{child} came home way past curfew.",
+    "choices": [
+      {
+        "label": "Ground them",
+        "effects": {
+          "relChild": -8,
+          "karma": 2
+        },
+        "log": "Tough love. {child} is furious.",
+        "kind": "info"
+      },
+      {
+        "label": "Have a calm talk",
+        "effects": {
+          "relChild": 6,
+          "mental": -2
+        },
+        "log": "You connected with {child}.",
+        "kind": "good"
+      },
+      {
+        "label": "Ignore it",
+        "effects": {
+          "relChild": -3
+        },
+        "log": "You let it slide.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "rl_friendmoney",
+    "min": 18,
+    "max": 90,
+    "cond": {
+      "hasFriend": true,
+      "moneyMin": 500
+    },
+    "icon": "🤝",
+    "title": "A Loan",
+    "text": "{friend} asks to borrow $500.",
+    "choices": [
+      {
+        "label": "Lend it",
+        "effects": {
+          "money": -500
+        },
+        "log": "You helped {friend} out.",
+        "kind": "info",
+        "outcomes": [
+          {
+            "chance": 0.5,
+            "effects": {
+              "money": 500,
+              "relRandom": 6
+            },
+            "log": "{friend} paid you back with thanks.",
+            "kind": "good"
+          },
+          {
+            "chance": 0.5,
+            "effects": {
+              "relRandom": -12
+            },
+            "log": "{friend} ghosted you. Money gone.",
+            "kind": "bad"
+          }
+        ]
+      },
+      {
+        "label": "Refuse",
+        "effects": {
+          "relRandom": -6
+        },
+        "log": "{friend} was disappointed.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "rl_friendbetray",
+    "min": 18,
+    "max": 90,
+    "cond": {
+      "hasFriend": true
+    },
+    "icon": "🗡️",
+    "title": "Backstabbed",
+    "text": "You hear {friend} has been talking behind your back.",
+    "choices": [
+      {
+        "label": "Confront them",
+        "effects": {},
+        "log": "You called them out...",
+        "kind": "info",
+        "outcomes": [
+          {
+            "chance": 0.5,
+            "effects": {
+              "relRandom": 8
+            },
+            "log": "It was a misunderstanding. You're closer now.",
+            "kind": "good"
+          },
+          {
+            "chance": 0.5,
+            "effects": {
+              "relRandom": -20,
+              "mental": -5
+            },
+            "log": "It was true. Friendship over.",
+            "kind": "bad"
+          }
+        ]
+      },
+      {
+        "label": "Cut them off",
+        "effects": {
+          "relRandom": -30,
+          "mental": -4
+        },
+        "log": "You ended the friendship.",
+        "kind": "bad"
+      },
+      {
+        "label": "Let it go",
+        "effects": {
+          "mental": -3
+        },
+        "log": "You swallowed your pride.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "rl_familyargue",
+    "min": 16,
+    "max": 90,
+    "cond": {},
+    "icon": "🗯️",
+    "title": "Family Feud",
+    "text": "A big argument breaks out with {person}.",
+    "choices": [
+      {
+        "label": "Apologize first",
+        "effects": {
+          "relRandom": 10,
+          "mental": 2
+        },
+        "log": "You made peace with {person}.",
+        "kind": "good"
+      },
+      {
+        "label": "Hold your ground",
+        "effects": {
+          "relRandom": -8
+        },
+        "log": "Neither side backed down.",
+        "kind": "info"
+      },
+      {
+        "label": "Say something cruel",
+        "cls": "danger",
+        "effects": {
+          "relRandom": -20,
+          "karma": -6,
+          "happiness": -4
+        },
+        "log": "You said something you can't take back.",
+        "kind": "bad"
+      }
+    ]
+  },
+  {
+    "id": "rl_setup",
+    "min": 20,
+    "max": 55,
+    "cond": {
+      "single": true,
+      "hasFriend": true
+    },
+    "icon": "💑",
+    "title": "Blind Date",
+    "text": "{friend} wants to set you up on a blind date.",
+    "choices": [
+      {
+        "label": "Go for it",
+        "effects": {},
+        "log": "You went on the date...",
+        "kind": "info",
+        "outcomes": [
+          {
+            "chance": 0.5,
+            "effects": {
+              "newLover": true,
+              "happiness": 10
+            },
+            "log": "Sparks flew — you're seeing each other!",
+            "kind": "good"
+          },
+          {
+            "chance": 0.5,
+            "effects": {
+              "happiness": -3
+            },
+            "log": "Awkward. No second date.",
+            "kind": "info"
+          }
+        ]
+      },
+      {
+        "label": "Decline",
+        "effects": {},
+        "log": "You're not ready to date.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "rl_wedding_invite",
+    "min": 20,
+    "max": 70,
+    "icon": "💒",
+    "title": "Wedding Invite",
+    "text": "You're invited to {person}'s wedding.",
+    "choices": [
+      {
+        "label": "Buy a nice gift & go",
+        "effects": {
+          "money": -200,
+          "relRandom": 8,
+          "happiness": 6
+        },
+        "log": "A beautiful celebration.",
+        "kind": "good"
+      },
+      {
+        "label": "Go empty-handed",
+        "effects": {
+          "relRandom": -4,
+          "happiness": 3
+        },
+        "log": "You showed up, at least.",
+        "kind": "info"
+      },
+      {
+        "label": "Skip it",
+        "effects": {
+          "relRandom": -8
+        },
+        "log": "{person} noticed your absence.",
+        "kind": "bad"
+      }
+    ]
+  },
+  {
+    "id": "rl_petsick",
+    "min": 6,
+    "max": 120,
+    "cond": {
+      "hasPet": true
+    },
+    "icon": "🐾",
+    "title": "Sick Pet",
+    "text": "{pet} is unwell and needs the vet.",
+    "choices": [
+      {
+        "label": "Pay for treatment",
+        "effects": {
+          "money": -600,
+          "happiness": 4
+        },
+        "log": "{pet} pulled through!",
+        "kind": "good"
+      },
+      {
+        "label": "Hope it passes",
+        "effects": {},
+        "log": "You waited...",
+        "kind": "info",
+        "outcomes": [
+          {
+            "chance": 0.4,
+            "effects": {
+              "losePet": true,
+              "happiness": -14,
+              "mental": -8
+            },
+            "log": "{pet} sadly passed away. 💔",
+            "kind": "bad"
+          },
+          {
+            "chance": 0.6,
+            "effects": {
+              "happiness": 2
+            },
+            "log": "{pet} recovered on its own.",
+            "kind": "good"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rl_reconnect",
+    "min": 25,
+    "max": 90,
+    "cond": {},
+    "icon": "📞",
+    "title": "Old Flame",
+    "text": "An ex reaches out wanting to reconnect.",
+    "choices": [
+      {
+        "label": "Meet up",
+        "effects": {
+          "happiness": 4
+        },
+        "log": "You met for coffee...",
+        "kind": "info",
+        "outcomes": [
+          {
+            "chance": 0.4,
+            "effects": {
+              "newLover": true,
+              "happiness": 8
+            },
+            "log": "Old feelings reignited!",
+            "kind": "good"
+          },
+          {
+            "chance": 0.6,
+            "effects": {
+              "mental": -3
+            },
+            "log": "Closure, at least.",
+            "kind": "info"
+          }
+        ]
+      },
+      {
+        "label": "Leave the past behind",
+        "effects": {
+          "mental": 4
+        },
+        "log": "You moved on for good.",
+        "kind": "good"
+      }
+    ]
+  }
+]

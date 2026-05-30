@@ -2,8 +2,18 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=no" />
   <title>LifeForge — Life Simulator</title>
+  <meta name="description" content="Live a thousand lives. Forge your own. A free life-simulator game." />
+  <!-- PWA: installable + offline -->
+  <link rel="manifest" href="manifest.webmanifest" />
+  <meta name="theme-color" content="#0e1116" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="LifeForge" />
+  <link rel="apple-touch-icon" href="assets/icon-192.png" />
+  <link rel="icon" type="image/png" href="assets/icon-192.png" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -21,8 +31,9 @@
           <button id="btnContinue" class="menu-btn">Continue</button>
           <button id="btnSlots" class="menu-btn">Save Slots</button>
           <button id="btnHOF" class="menu-btn">Hall of Fame</button>
+          <button id="btnSettings" class="menu-btn">Settings</button>
         </div>
-        <p class="version">v1.0 · placeholder build</p>
+        <p class="version">v1.5 · Mega Event Library · 7,900+ life events</p>
       </div>
     </div>
 
@@ -65,6 +76,7 @@
         </div>
         <div class="top-right">
           <div class="money" id="moneyDisplay">$0</div>
+          <button id="btnSound" class="icon-btn" title="Sound &amp; haptics">🔊</button>
           <button id="btnMenuTop" class="icon-btn" title="Menu">☰</button>
         </div>
       </header>
@@ -111,6 +123,7 @@
   <!-- Game data (load before engine). Edit these to add content. -->
   <script src="data/core.js"></script>
   <script src="data/careers.js"></script>
+  <script src="data/education.js"></script>
   <script src="data/shop.js"></script>
   <script src="data/politics.js"></script>
   <script src="data/market.js"></script>
@@ -145,7 +158,28 @@
   <script src="data/events_extended.js"></script>
   <script src="data/events_religion.js"></script>
   <script src="data/events_zodiac.js"></script>
+  <script src="data/events_emergency.js"></script>
+  <script src="data/events_property.js"></script>
+  <script src="data/events_vehicle.js"></script>
+  <script src="data/events_college.js"></script>
+  <script src="data/events_lawsuit.js"></script>
+  <script src="data/events_business.js"></script>
+  <script src="data/events_wellness.js"></script>
+  <script src="data/events_familylife.js"></script>
+  <script src="data/events_entertainment.js"></script>
+  <script src="data/events_sports.js"></script>
+  <script src="data/events_eras.js"></script>
   <!-- Engine -->
   <script src="game.js"></script>
+  <!-- Feature layer: sound/haptics, prison & pet panels, tutorial -->
+  <script src="extras.js"></script>
+  <!-- PWA service worker: makes LifeForge installable & playable offline -->
+  <script>
+    if ("serviceWorker" in navigator) {
+      window.addEventListener("load", () => {
+        navigator.serviceWorker.register("sw.js").catch(() => {});
+      });
+    }
+  </script>
 </body>
 </html>

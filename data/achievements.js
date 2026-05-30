@@ -28,4 +28,15 @@ window.GAME.achievements = [
   {id:"veteran",    name:"Veteran",          icon:"medal",   desc:"Serve in the military",   test:s=>!!s.military||s._wasMilitary},
   {id:"mademan",    name:"Made Man",         icon:"fedora",  desc:"Join the mafia",          test:s=>!!s.mafia||s._wasMafia},
   {id:"skilled",   name:"Master of Craft",   icon:"scroll",  desc:"Max out any skill",       test:s=>{for(const k in (s.skills||{})) if(s.skills[k]>=100) return true; return false;}},
+  // ---- new systems ----
+  {id:"champion",   name:"Champion",          icon:"trophy",  desc:"Win a sports championship",   test:s=>!!(s.sports&&s.sports.championships>=1)},
+  {id:"sportlegend",name:"Sporting Legend",   icon:"trophy",  desc:"Win 5 championships",          test:s=>!!(s.sports&&s.sports.championships>=5)},
+  {id:"mvp",        name:"League MVP",        icon:"medal",   desc:"Be named league MVP",          test:s=>!!(s.sports&&s.sports.mvps>=1)},
+  {id:"responder",  name:"First Responder",   icon:"medal",   desc:"Work as a first responder",    test:s=>!!(s.job&&["firefighter","paramedic","police"].includes(s.job.careerId))},
+  {id:"homeowner",  name:"Homeowner",         icon:"office",  desc:"Own your own home",            test:s=>(s.assets||[]).some(a=>a.type==="homes")},
+  {id:"landlord",   name:"Landlord",          icon:"office",  desc:"Own an investment property",   test:s=>(s.properties||[]).length>=1},
+  {id:"mogul",      name:"Property Mogul",    icon:"office",  desc:"Own 3+ properties",            test:s=>(s.properties||[]).length>=3},
+  {id:"empire",     name:"Business Empire",   icon:"office",  desc:"Own 3+ businesses",            test:s=>(s.businesses||[]).length>=3},
+  {id:"petlover",   name:"Animal Lover",      icon:"people",  desc:"Care for 2+ pets",             test:s=>(s.pets||[]).length>=2},
+  {id:"bestinshow", name:"Best in Show",      icon:"trophy",  desc:"Win a pet show",               test:s=>(s.pets||[]).some(p=>p.trophies>=1)},
 ];

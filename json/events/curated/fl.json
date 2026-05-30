@@ -1,0 +1,380 @@
+[
+  {
+    "id": "fl_dating_app",
+    "min": 18,
+    "max": 80,
+    "weight": 1,
+    "icon": "📱",
+    "title": "Dating App",
+    "cond": {
+      "single": true
+    },
+    "text": "Lonely nights have you swiping through a dating app.",
+    "choices": [
+      {
+        "label": "Go on a date with a match",
+        "effects": {
+          "money": -80
+        },
+        "log": "You put on your best outfit and headed out.",
+        "kind": "info",
+        "outcomes": [
+          {
+            "chance": 0.5,
+            "effects": {
+              "newLover": true,
+              "happiness": 9
+            },
+            "log": "Sparks flew — you've got a new partner!",
+            "kind": "good"
+          },
+          {
+            "chance": 0.5,
+            "effects": {
+              "happiness": -3,
+              "mental": -2
+            },
+            "log": "Awkward and forgettable. Back to swiping.",
+            "kind": "bad"
+          }
+        ]
+      },
+      {
+        "label": "Delete the app",
+        "effects": {
+          "mental": 3
+        },
+        "log": "You chose to enjoy your own company.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "fl_meet_parents",
+    "min": 18,
+    "max": 70,
+    "weight": 0.9,
+    "icon": "🏡",
+    "title": "Meeting the Parents",
+    "cond": {
+      "hasLover": true
+    },
+    "text": "{partner} wants you to meet their family for the first time.",
+    "choices": [
+      {
+        "label": "Charm them over dinner",
+        "effects": {},
+        "log": "You brought flowers and your best manners.",
+        "kind": "info",
+        "outcomes": [
+          {
+            "chance": 0.7,
+            "effects": {
+              "relPartner": 8,
+              "happiness": 6
+            },
+            "log": "They adored you. {partner} was thrilled.",
+            "kind": "good"
+          },
+          {
+            "chance": 0.3,
+            "effects": {
+              "relPartner": -4,
+              "mental": -3
+            },
+            "log": "It was tense and awkward all night.",
+            "kind": "bad"
+          }
+        ]
+      },
+      {
+        "label": "Make excuses to skip it",
+        "effects": {
+          "relPartner": -6
+        },
+        "log": "{partner} was hurt that you bailed.",
+        "kind": "bad"
+      }
+    ]
+  },
+  {
+    "id": "fl_propose",
+    "min": 20,
+    "max": 75,
+    "weight": 0.9,
+    "icon": "💍",
+    "title": "The Big Question",
+    "cond": {
+      "hasLover": true,
+      "moneyMin": 2000
+    },
+    "text": "Things with {partner} are serious. Is it time to propose?",
+    "choices": [
+      {
+        "label": "Get down on one knee",
+        "effects": {
+          "money": -3000
+        },
+        "log": "Heart pounding, you popped the question.",
+        "kind": "info",
+        "outcomes": [
+          {
+            "chance": 0.8,
+            "effects": {
+              "marryPartner": true,
+              "happiness": 15,
+              "relPartner": 10
+            },
+            "log": "They said YES! Wedding bells ahead.",
+            "kind": "good"
+          },
+          {
+            "chance": 0.2,
+            "effects": {
+              "happiness": -12,
+              "relPartner": -15,
+              "mental": -8
+            },
+            "log": "They said they weren't ready. Devastating.",
+            "kind": "bad"
+          }
+        ]
+      },
+      {
+        "label": "Wait a little longer",
+        "effects": {
+          "relPartner": -2
+        },
+        "log": "You decided the timing wasn't right yet.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "fl_prenup",
+    "min": 22,
+    "max": 75,
+    "weight": 0.6,
+    "icon": "📋",
+    "title": "Prenup Talk",
+    "cond": {
+      "hasLover": true,
+      "moneyMin": 100000
+    },
+    "text": "With your wealth, your lawyer suggests a prenuptial agreement before marriage.",
+    "choices": [
+      {
+        "label": "Ask for a prenup",
+        "effects": {
+          "smarts": 2
+        },
+        "log": "A practical, if unromantic, conversation.",
+        "kind": "info",
+        "outcomes": [
+          {
+            "chance": 0.6,
+            "effects": {
+              "relPartner": -4
+            },
+            "log": "{partner} signed, but felt a little hurt.",
+            "kind": "info"
+          },
+          {
+            "chance": 0.4,
+            "effects": {
+              "relPartner": 4,
+              "happiness": 3
+            },
+            "log": "{partner} agreed it was sensible. No drama.",
+            "kind": "good"
+          }
+        ]
+      },
+      {
+        "label": "Marry on trust alone",
+        "effects": {
+          "relPartner": 6,
+          "happiness": 4
+        },
+        "log": "Love over paperwork.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "fl_anniversary",
+    "min": 21,
+    "max": 90,
+    "weight": 0.9,
+    "icon": "🌹",
+    "title": "Anniversary",
+    "cond": {
+      "married": true
+    },
+    "text": "It's your wedding anniversary with {partner}.",
+    "choices": [
+      {
+        "label": "Plan a romantic getaway",
+        "effects": {
+          "money": -1500,
+          "happiness": 10,
+          "relPartner": 10
+        },
+        "log": "A weekend to remember together.",
+        "kind": "good"
+      },
+      {
+        "label": "A heartfelt home-cooked dinner",
+        "effects": {
+          "money": -100,
+          "happiness": 6,
+          "relPartner": 7
+        },
+        "log": "Simple, warm, and full of love.",
+        "kind": "good"
+      },
+      {
+        "label": "...you forgot",
+        "effects": {
+          "relPartner": -10,
+          "happiness": -4
+        },
+        "log": "{partner} was crushed that you forgot.",
+        "kind": "bad"
+      }
+    ]
+  },
+  {
+    "id": "fl_affair",
+    "min": 24,
+    "max": 75,
+    "weight": 0.6,
+    "icon": "💔",
+    "title": "Temptation",
+    "cond": {
+      "married": true
+    },
+    "text": "A charming coworker is making it very clear they're interested in you.",
+    "choices": [
+      {
+        "label": "Shut it down — you're committed",
+        "effects": {
+          "relPartner": 5,
+          "karma": 5,
+          "mental": 2
+        },
+        "log": "You stayed loyal to {partner}.",
+        "kind": "good"
+      },
+      {
+        "label": "Give in to the affair",
+        "effects": {
+          "happiness": 5,
+          "karma": -8
+        },
+        "log": "A thrilling, dangerous secret.",
+        "kind": "info",
+        "outcomes": [
+          {
+            "chance": 0.5,
+            "effects": {
+              "relPartner": -30,
+              "mental": -10,
+              "happiness": -8
+            },
+            "log": "You got caught. {partner} is heartbroken.",
+            "kind": "bad"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fl_divorce",
+    "min": 24,
+    "max": 90,
+    "weight": 0.5,
+    "icon": "⚖️",
+    "title": "Drifting Apart",
+    "cond": {
+      "married": true
+    },
+    "text": "You and {partner} have been fighting constantly. The spark is gone.",
+    "choices": [
+      {
+        "label": "Go to couples counseling",
+        "effects": {
+          "money": -1200
+        },
+        "log": "You tried to save the marriage.",
+        "kind": "info",
+        "outcomes": [
+          {
+            "chance": 0.55,
+            "effects": {
+              "relPartner": 12,
+              "happiness": 6,
+              "mental": 4
+            },
+            "log": "It worked — you found each other again.",
+            "kind": "good"
+          },
+          {
+            "chance": 0.45,
+            "effects": {
+              "relPartner": -8,
+              "mental": -4
+            },
+            "log": "Too far gone. The distance grew.",
+            "kind": "bad"
+          }
+        ]
+      },
+      {
+        "label": "File for divorce",
+        "effects": {
+          "money": -6000,
+          "mental": -8,
+          "happiness": -6,
+          "relPartner": -20
+        },
+        "log": "It's over. A painful new chapter begins.",
+        "kind": "bad"
+      }
+    ]
+  },
+  {
+    "id": "fl_empty_nest",
+    "min": 45,
+    "max": 90,
+    "weight": 0.7,
+    "icon": "🪺",
+    "title": "Empty Nest",
+    "cond": {
+      "hasChild": true
+    },
+    "text": "{child} is grown and moving out to start their own life.",
+    "choices": [
+      {
+        "label": "Send them off with love",
+        "effects": {
+          "happiness": 5,
+          "relChild": 8,
+          "mental": -2
+        },
+        "log": "Proud and a little teary, you let them fly.",
+        "kind": "good"
+      },
+      {
+        "label": "Rediscover your own hobbies",
+        "effects": {
+          "happiness": 8,
+          "health": 3,
+          "smarts": 2
+        },
+        "log": "The quiet house became a fresh start for you.",
+        "kind": "good"
+      }
+    ]
+  }
+]

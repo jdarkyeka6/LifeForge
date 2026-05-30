@@ -58,6 +58,10 @@ function migrate(){ // backfill fields for older saves
   if(G.s.military===undefined) G.s.military=null;
   if(G.s.mafia===undefined) G.s.mafia=null;
   G.s.properties=G.s.properties||[];
+  if(G.s.sports===undefined) G.s.sports=null;
+  if(G.s.college===undefined) G.s.college=null;
+  if(G.s.major===undefined) G.s.major=null;
+  if(G.s.studentDebt==null) G.s.studentDebt=0;
   if(G.s.supernatural===undefined) G.s.supernatural=null;
   G.s.travels=G.s.travels||[];
   G.s.songs=G.s.songs||[];
@@ -94,7 +98,8 @@ function newCharacter(opts={}){
     bornCountry:country.name, citizenships:[country.name], yearsInCountry:0,
     followers:0, market:null, investments:{stocks:{},crypto:{}}, businesses:[], generation:1,
     traits:pickTraits(3), skills:initSkills(), achievements:[], military:null, mafia:null,
-    properties:[], supernatural:null, travels:[], songs:[],
+    properties:[], supernatural:null, travels:[], songs:[], sports:null,
+    college:null, major:null, studentDebt:0,
     faith:null, zodiac:pickZodiac(),
     appearance:{ hair:pick(["black","brown","blonde","red","auburn","gray"]), build:pick(["slim","average","athletic","heavy"]) },
     people:[], pets:[], assets:[],
@@ -170,6 +175,7 @@ function log(text, kind="info", tag=null){
   G.s.log.push({text, kind, tag, age:G.s.age});
   if(G.s.log.length>500) G.s.log.shift();
   renderFeedItem({text, kind, tag});
+  if(window.LF) LF.sfxForKind(kind);
 }
 function stripEmoji(s){
   if(!s) return s;
@@ -249,6 +255,7 @@ function ageUp(){
   processFollowers();
   processRoyalties();
   payUpkeep();
+  processStudentDebt();
   naturalDrift();
   progressConditions();
   runYearlyEvents();      // guarantees >=1 popup
@@ -288,6 +295,24 @@ function progressConditions(){
   if(G.s.conditions.length<before) log("😌 You recovered from a minor ailment.","good","Health");
 }
 function progressEducation(){
+  // ---- higher education (college/university/grad) — multi-year phase ----
+  if(G.s.college){
+    const col=G.s.college;
+    col.yearsLeft--;
+    G.s.gpa=clamp(G.s.gpa+(G.s.smarts>60?rand(-1,4):rand(-4,2)));
+    changeStat("smarts",rand(2,5));
+    if(col.yearsLeft<=0){
+      G.s.edu=Math.max(G.s.edu, col.targetEdu);
+      const degree=C().eduLevels[G.s.edu];
+      const mj=eduMajorDef(G.s.major);
+      log(`🎓 You graduated — earned a ${degree}${mj&&mj.id!=="general"?` in ${mj.name}`:""} (GPA ${G.s.gpa.toFixed(0)}%)!`,"good","School");
+      changeStat("happiness",10); changeStat("smarts",rand(4,8));
+      G.s.college=null;
+    } else {
+      log(`📚 Another year of ${C().eduLevels[col.targetEdu]} — ${col.yearsLeft} year(s) to go.`,"info","School");
+    }
+    return;
+  }
   if(!G.s.inSchool) return;
   if(G.s.age===5) log("🎒 You started primary school.","info","School");
   if(G.s.age===12) log("🏫 You moved up to secondary school.","info","School");
@@ -296,6 +321,20 @@ function progressEducation(){
     G.s.edu=Math.max(G.s.edu,1); G.s.inSchool=false;
     log(`🎓 You graduated high school with a ${G.s.gpa.toFixed(0)}% GPA!`,"good","School");
     changeStat("smarts",4);
+  }
+}
+function eduMajorDef(id){ return (GAME.education.majors||[]).find(m=>m.id===id)||null; }
+function processStudentDebt(){
+  if(!G.s.studentDebt || G.s.studentDebt<=0){ G.s.studentDebt=0; return; }
+  const ed=GAME.education;
+  const interest=Math.round(G.s.studentDebt*ed.loanInterest);
+  G.s.studentDebt+=interest;
+  // auto-repay from income if you have a job and spare cash
+  if(G.s.job && G.s.money>2000){
+    const pay=Math.min(G.s.studentDebt, Math.max(1000, Math.round(G.s.job.salary*0.08)), G.s.money-1000);
+    if(pay>0){ adjustMoney(-pay); G.s.studentDebt-=pay;
+      if(G.s.studentDebt<=0){ G.s.studentDebt=0; log("🎉 You paid off your student loans!","good","Finance"); }
+    }
   }
 }
 function maybePromotionOrFire(){
@@ -346,6 +385,7 @@ function condMet(cond){
   if(cond.moneyMin!=null && G.s.money<cond.moneyMin) return false;
   if(cond.gender && G.s.gender!==cond.gender) return false;
   if(cond.risky && !jobIsRisky()) return false;
+  if(cond.career){ if(!G.s.job) return false; const want=Array.isArray(cond.career)?cond.career:[cond.career]; if(!want.includes(G.s.job.careerId)) return false; }
   if(cond.hasOffice && !G.s.politics) return false;
   if(cond.immigrant && G.s.bornCountry===G.s.country) return false;
   if(cond.fameMin!=null && G.s.fame<cond.fameMin) return false;
@@ -357,6 +397,14 @@ function condMet(cond){
   if(cond.hasRival && !G.s.people.some(p=>p.alive&&p.relation==="rival")) return false;
   if(cond.hasFaith && (!G.s.faith||!G.s.faith.religion)) return false;
   if(cond.zodiac && G.s.zodiac!==cond.zodiac) return false;
+  if(cond.ownHome && !G.s.assets.some(a=>a.type==="homes")) return false;
+  if(cond.ownCar && !G.s.assets.some(a=>a.type==="cars")) return false;
+  if(cond.hasBusiness && !(G.s.businesses&&G.s.businesses.length)) return false;
+  if(cond.hasProperty && !(G.s.properties&&G.s.properties.length)) return false;
+  if(cond.hasCondition && !G.s.conditions.length) return false;
+  if(cond.hasAddiction && !G.s.addictions.length) return false;
+  if(cond.eduMin!=null && G.s.edu<cond.eduMin) return false;
+  if(cond.moneyMax!=null && G.s.money>cond.moneyMax) return false;
   return true;
 }
 function eligibleEvents(){
@@ -378,15 +426,46 @@ function weightedPickN(arr, n){
   }
   return out;
 }
+/* Guaranteed filler pool — always age-valid (min:0,max:120) so a
+   popup ALWAYS appears, even when no themed event matches the year.
+   These route through fireEvent(), so they respect the recently-shown
+   list and never repeat back-to-back. */
+const FILLER_EVENTS = [
+  {id:"fil_quiet",    min:0, max:120, icon:"☀️", title:"A Quiet Year",     text:"Life rolled on without much drama this year.", choices:[{label:"Reflect", effects:{happiness:1,mental:1}, log:"A calm, uneventful year passed.", kind:"info"}]},
+  {id:"fil_dream",    min:0, max:120, icon:"💭", title:"A Strange Dream",  text:"You had a vivid, strange dream you can't quite shake.", choices:[{label:"Shrug it off", effects:{mental:1}, log:"What a strange dream that was.", kind:"info"}]},
+  {id:"fil_passed",   min:0, max:120, icon:"⏳", title:"Time Passed",      text:"The seasons came and went, quiet as ever.", choices:[{label:"Carry on", effects:{happiness:1}, log:"Another year slipped quietly by.", kind:"info"}]},
+  {id:"fil_weather",  min:0, max:120, icon:"🌤️", title:"Ordinary Days",    text:"Nothing remarkable happened — just ordinary days.", choices:[{label:"Appreciate it", effects:{mental:2}, log:"A pleasantly ordinary year.", kind:"info"}]},
+  {id:"fil_walk",     min:0, max:120, icon:"🚶", title:"A Long Walk",      text:"You spent time wandering and clearing your head.", choices:[{label:"Enjoy it", effects:{health:1,mental:2}, log:"A peaceful year of long walks.", kind:"good"}]},
+  {id:"fil_nap",      min:0, max:120, icon:"😴", title:"Plenty of Rest",   text:"You caught up on a lot of much-needed rest.", choices:[{label:"Recharge", effects:{health:2,happiness:1}, log:"A restful, restorative year.", kind:"good"}]},
+  {id:"fil_routine",  min:0, max:120, icon:"🔁", title:"Same Old Routine", text:"The same comfortable routine carried you through.", choices:[{label:"Keep going", effects:{mental:1}, log:"A steady, familiar year.", kind:"info"}]},
+  {id:"fil_sky",      min:0, max:120, icon:"🌌", title:"Stargazing",       text:"You spent a few quiet nights looking up at the stars.", choices:[{label:"Wonder", effects:{mental:2,smarts:1}, log:"A contemplative year under the stars.", kind:"good"}]},
+  {id:"fil_tea",      min:0, max:120, icon:"🍵", title:"Small Comforts",   text:"You found comfort in small daily rituals.", choices:[{label:"Savor it", effects:{happiness:2}, log:"A cozy, comfortable year.", kind:"good"}]},
+  {id:"fil_think",    min:0, max:120, icon:"🤔", title:"Lost in Thought",  text:"You spent the year mostly in your own head.", choices:[{label:"Ponder", effects:{smarts:1,mental:1}, log:"A thoughtful, introspective year.", kind:"info"}]},
+  {id:"fil_clean",    min:0, max:120, icon:"🧹", title:"A Fresh Start",    text:"You tidied up and reset a few things in your life.", choices:[{label:"Reset", effects:{happiness:1,mental:1}, log:"You cleared the decks this year.", kind:"info"}]},
+  {id:"fil_window",   min:0, max:120, icon:"🪟", title:"Watching the Rain",text:"You spent quiet hours just watching the world go by.", choices:[{label:"Relax", effects:{mental:2}, log:"A slow, gentle year.", kind:"good"}]},
+  {id:"fil_music",    min:0, max:120, icon:"🎵", title:"Background Music",  text:"A favorite song carried you through the months.", choices:[{label:"Hum along", effects:{happiness:2}, log:"A year with a good soundtrack.", kind:"good"}]},
+  {id:"fil_breeze",   min:0, max:120, icon:"🍃", title:"A Gentle Breeze",  text:"The year drifted by, light and uneventful.", choices:[{label:"Breathe", effects:{mental:1,happiness:1}, log:"An easy, breezy year.", kind:"info"}]},
+  {id:"fil_steady",   min:0, max:120, icon:"⚖️", title:"Steady as She Goes",text:"No highs, no lows — just a steady, stable year.", choices:[{label:"Stay the course", effects:{mental:1}, log:"A stable, even year.", kind:"info"}]},
+];
+function pickFiller(){
+  const lastId = G.s.recentEvents[G.s.recentEvents.length-1];
+  let fresh = FILLER_EVENTS.filter(f => !G.s.recentEvents.includes(f.id));
+  // if everything is "recent", fall back to the full pool but still never
+  // repeat the event shown immediately before this one
+  if(!fresh.length) fresh = FILLER_EVENTS.filter(f => f.id !== lastId);
+  const pool = fresh.length ? fresh : FILLER_EVENTS;
+  return pool[Math.floor(Math.random()*pool.length)];
+}
 function runYearlyEvents(){
-  const elig=eligibleEvents();
-  if(elig.length===0){ // safety net — always show something
-    askQuestion({icon:"☀️", title:"A Quiet Year", body:"Life rolled on without much drama this year.", choices:[{label:"Continue", primary:true, fn:()=>changeStat("happiness",1)}]});
+  // 1) all events valid for this age that haven't fired recently
+  const elig = eligibleEvents();
+  // 2) if one or more match, pick one (weighted) and show it
+  if(elig.length){
+    weightedPickN(elig, 1).forEach(fireEvent);
     return;
   }
-  let count=1+(chance(0.45)?1:0)+(chance(0.15)?1:0);
-  count=Math.min(count, elig.length);
-  weightedPickN(elig, count).forEach(fireEvent);
+  // 3) zero match — guaranteed filler so no year ever passes silently
+  fireEvent(pickFiller());
 }
 function buildCtx(){
   const living=G.s.people.filter(p=>p.alive);
@@ -527,7 +606,7 @@ function openTab(tab){
 
 /* ---------- OCCUPATION ---------- */
 function openOccupation(){
-  if(G.s.inPrison){ openPanel({icon:"⛓️", title:"Incarcerated", bodyHTML:`<p>You're locked up. ${G.s.prisonYears} year(s) remain.</p>`}); return; }
+  if(G.s.inPrison){ openPanel({icon:"⛓️", title:"Incarcerated", bodyHTML:`<p>You're serving time — ${G.s.prisonYears} year(s) remain.</p>`, choices:[{label:"Prison Life", primary:true, fn:prisonPanel},{label:"Close", fn:closePanel}]}); return; }
   let html=`<div class="section-head">Current Status</div>`;
   if(G.s.job){
     const job=G.s.job;
@@ -537,8 +616,15 @@ function openOccupation(){
     html+=rowHTML("🎒", schoolName(), `GPA ${G.s.gpa.toFixed(0)}% · Smarts ${Math.round(G.s.smarts)}%`,[{txt:"Study", id:"study"}]);
   } else { html+=`<p style="color:var(--text-dim)">You are currently unemployed.</p>`; }
 
-  html+=`<div class="section-head">Education — ${C().eduLevels[G.s.edu]}</div>`;
-  if(!G.s.inSchool && G.s.age>=18 && G.s.edu<4) html+=rowHTML("🏛️","Enroll in higher education","Boost smarts & unlock careers",[{txt:"Enroll", id:"enroll_uni"}]);
+  const mjNow=G.s.major?eduMajorDef(G.s.major):null;
+  html+=`<div class="section-head">Education — ${C().eduLevels[G.s.edu]}${mjNow&&mjNow.id!=="general"?` · ${mjNow.name}`:""}</div>`;
+  if(G.s.college){
+    const col=G.s.college;
+    html+=rowHTML("🎓", `Studying ${C().eduLevels[col.targetEdu]}`, `${eduMajorDef(G.s.major).name} · ${col.yearsLeft} year(s) left · GPA ${G.s.gpa.toFixed(0)}%`, [{txt:"Study", id:"study"},{txt:"Drop out", id:"dropout", sec:true}]);
+  } else if(!G.s.inSchool && G.s.age>=18 && G.s.edu<4){
+    html+=rowHTML("🏛️","Enroll in higher education","Pick a major, chase scholarships",[{txt:"Enroll", id:"enroll_uni"}]);
+  }
+  if(G.s.studentDebt>0) html+=rowHTML("💳","Student Loan Debt",`You owe ${fmtMoney(Math.round(G.s.studentDebt))}`,[{txt:"Pay off", id:"payloan"}]);
 
   html+=`<div class="section-head">Job Market</div>`;
   if(G.s.age<16){ html+=`<p style="color:var(--text-dim)">You're too young to work.</p>`; }
@@ -549,6 +635,8 @@ function openOccupation(){
     if(locked.length){ html+=`<div class="section-head">Locked — need more education</div>`; locked.forEach(c=>{ html+=rowHTML(c.icon,c.name,`Requires: ${C().eduLevels[c.edu]}`,[]); }); }
   }
   if(spotlightCareer()){ html+=`<div class="section-head">Spotlight</div>`; html+=rowHTML("star", spotlightCareer().name+" Projects", "Create work, build fame", [{txt:"Open", id:"spotlight"}]); }
+
+  if(G.s.job && G.s.job.careerId==="athlete"){ const sp=G.s.sports||{seasons:0,championships:0}; html+=`<div class="section-head">Sports Career</div>`; html+=rowHTML("🏆","Pro Athlete Hub",`${sp.seasons||0} season(s) · ${sp.championships||0} title(s)`,[{txt:"Manage", id:"sports"}]); }
 
   html+=`<div class="section-head">Military</div>`;
   if(G.s.military){ html+=rowHTML("medal", `${GAME.militaryRanks[G.s.military.rankIndex]}, ${branchName()}`, `${G.s.military.years} year(s) served`, [{txt:"Discharge", id:"discharge", sec:true}]); }
@@ -566,10 +654,13 @@ function handleOccupationAction(id){
   else if(id==="quit_job"){ log(`You quit your job as ${currentJobTitle()}.`,"info","Career"); G.s.job=null; closePanel(); renderAll(); }
   else if(id==="study"){ G.s.gpa=clamp(G.s.gpa+rand(3,9)); changeStat("smarts",rand(1,3)); changeStat("happiness",-2); toast("You hit the books. GPA up!"); closePanel(); renderAll(); }
   else if(id==="enroll_uni"){ enrollHigherEd(); }
+  else if(id==="dropout"){ dropOut(); }
+  else if(id==="payloan"){ payStudentLoan(); }
   else if(id==="politics"){ politicsCenter(); }
   else if(id==="enlist"){ enlist(); }
   else if(id==="discharge"){ dischargeMilitary(); }
   else if(id==="spotlight"){ spotlightPanel(); }
+  else if(id==="sports"){ sportsCenter(); }
   else if(id.startsWith("apply_")){ applyForJob(id.slice(6)); }
 }
 function applyForJob(careerId){
@@ -577,6 +668,7 @@ function applyForJob(careerId){
   let p=0.4+(G.s.smarts/300)+(G.s.edu*0.06);
   if(c.fame) p+=G.s.looks/300; if(c.fit) p+=G.s.fitness/300;
   let sb=0; (GAME.skills||[]).forEach(sk=>{ if(sk.boosts.includes(careerId)) sb=Math.max(sb, G.s.skills[sk.id]||0); }); p+=sb/250;
+  const mj=G.s.major?eduMajorDef(G.s.major):null; if(mj && mj.boosts.includes(careerId)) p+=0.15;  // your major helps
   p=Math.min(0.95,p); closePanel();
   if(chance(p)){
     const salary=Math.round(c.base*G.s.wealthFactor);
@@ -586,13 +678,64 @@ function applyForJob(careerId){
   } else { log(`📪 Your application for ${c.name} was rejected.`,"bad","Career"); changeStat("happiness",-4); }
   renderAll();
 }
+function bestScholarship(){
+  return (GAME.education.scholarships||[]).find(s=>
+    (s.minGpa==null||G.s.gpa>=s.minGpa) &&
+    (s.minSmarts==null||G.s.smarts>=s.minSmarts) &&
+    (s.minFitness==null||G.s.fitness>=s.minFitness)
+  )||null;
+}
 function enrollHigherEd(){
-  const cost=Math.round(20000*G.s.wealthFactor); closePanel();
-  askQuestion({icon:"🏛️", title:"Higher Education", body:`Enrolling costs about ${fmtMoney(cost)} but boosts smarts and unlocks careers. Proceed?`,
+  closePanel();
+  // choose a major first
+  const majors=GAME.education.majors;
+  openPanel({icon:"🎓", title:"Choose Your Major", bodyHTML:`<p style="color:var(--text-dim);font-size:13px">A major boosts your odds of landing related careers.</p>`,
+    choices: majors.map(m=>({ label:`${m.icon} ${m.name}`, fn:()=>confirmEnroll(m.id) })).concat([{label:"Cancel"}]) });
+}
+function confirmEnroll(majorId){
+  const ed=GAME.education;
+  const targetEdu=Math.min(4, Math.max(2, G.s.edu+1));
+  const years=ed.collegeYears;
+  const fullTuition=Math.round(ed.tuitionPerYear*years*G.s.wealthFactor);
+  const sch=bestScholarship();
+  const covered=sch?Math.round(fullTuition*sch.coverage):0;
+  const net=fullTuition-covered;
+  const mj=eduMajorDef(majorId);
+  closePanel();
+  const start=(loan)=>{
+    if(!loan){ if(G.s.money<net){ toast("You can't afford tuition up front."); return; } adjustMoney(-net); }
+    else { G.s.studentDebt=(G.s.studentDebt||0)+net; }
+    G.s.major=majorId;
+    G.s.college={ targetEdu, yearsLeft:years, totalYears:years, scholarship:sch?sch.id:null };
+    G.s.inSchool=false;
+    log(`🎓 You enrolled in ${C().eduLevels[targetEdu]} studying ${mj.name}${sch?` with a ${sch.name}`:""}${loan?" (on student loans)":""}.`, "info", "School");
+    closePanel(); renderAll(); openOccupation();
+  };
+  const body=`<p>Studying <b>${mj.name}</b> toward a <b>${C().eduLevels[targetEdu]}</b> takes ${years} years.</p>`+
+    `<p>Tuition: <b>${fmtMoney(fullTuition)}</b>${sch?`<br>🎖️ ${sch.name} covers ${Math.round(sch.coverage*100)}% → you owe <b>${fmtMoney(net)}</b>`:""}</p>`;
+  askQuestion({icon:"🏛️", title:"Enroll?", body, choices:[
+    {label:`Pay now (${fmtMoney(net)})`, primary:true, fn:()=>start(false)},
+    {label:"Take student loans", sub:`Owe ${fmtMoney(net)} + ${Math.round(GAME.education.loanInterest*100)}%/yr`, fn:()=>start(true)},
+    {label:"Never mind"},
+  ]});
+}
+function payStudentLoan(){
+  closePanel();
+  const debt=Math.round(G.s.studentDebt); if(debt<=0){ toast("You have no student debt."); return; }
+  const can=Math.min(debt, G.s.money);
+  askQuestion({icon:"💳", title:"Student Loan", body:`You owe ${fmtMoney(debt)} (growing ${Math.round(GAME.education.loanInterest*100)}%/yr). How much do you want to pay?`,
     choices:[
-      {label:`Pay tuition (${fmtMoney(cost)})`, primary:true, fn:()=>{ if(G.s.money<cost){ log("You can't afford tuition right now.","bad","School"); return; } adjustMoney(-cost); G.s.edu=Math.min(4,G.s.edu+1); changeStat("smarts",rand(6,12)); log(`📜 You earned a ${C().eduLevels[G.s.edu]} qualification!`,"good","School"); }},
-      {label:"Take a student loan", sub:"Debt now, degree now", fn:()=>{ G.s.money-=cost; G.s.edu=Math.min(4,G.s.edu+1); changeStat("smarts",rand(6,12)); changeStat("mental",-4); log(`📜 You earned a ${C().eduLevels[G.s.edu]} (with student debt).`,"info","School"); }},
-      {label:"Never mind"},
+      {label:`Pay it all (${fmtMoney(debt)})`, primary:true, fn:()=>{ if(G.s.money<debt){ toast("You can't afford to clear it all."); return; } adjustMoney(-debt); G.s.studentDebt=0; log("🎉 You cleared your student debt!","good","Finance"); closePanel(); renderAll(); }},
+      {label:`Pay half (${fmtMoney(Math.round(debt/2))})`, fn:()=>{ const h=Math.round(debt/2); if(G.s.money<h){ toast("Not enough cash."); return; } adjustMoney(-h); G.s.studentDebt-=h; log(`💳 You paid ${fmtMoney(h)} toward your loans.`,"money","Finance"); closePanel(); renderAll(); }},
+      {label:"Not now"},
+    ]});
+}
+function dropOut(){
+  closePanel();
+  askQuestion({icon:"🚪", title:"Drop Out?", body:`Leaving ${C().eduLevels[G.s.college.targetEdu]} now means no degree — and any loans still stand. Are you sure?`,
+    choices:[
+      {label:"Drop out", cls:"danger", fn:()=>{ const t=C().eduLevels[G.s.college.targetEdu]; G.s.college=null; changeStat("happiness",-4); changeStat("mental",-4); log(`🚪 You dropped out of ${t}.`,"bad","School"); closePanel(); renderAll(); }},
+      {label:"Stay in school", primary:true},
     ]});
 }
 
@@ -647,7 +790,7 @@ function openRelationships(){
         <button class="lr-action" data-act="interact_${p.id}">Interact</button></div>`;
     });
   }
-  if(G.s.pets.length){ html+=`<div class="section-head">Pets</div>`; G.s.pets.forEach(pet=>{ html+=rowHTML(pet.icon,pet.name,"Your loyal companion",[{txt:"Play", id:"playpet_"+pet.uid}]); }); }
+  if(G.s.pets.length){ html+=`<div class="section-head">Pets</div>`; html+=rowHTML("🐾","Pet Care",`${G.s.pets.length} companion(s) — feed, play, train & show`,[{txt:"Open", id:"petcare"}]); }
   html+=`<div class="section-head">Family</div>`;
   html+=rowHTML("tree","Family Tree","See your lineage",[{txt:"View", id:"famtree"}]);
   html+=`<div class="section-head">Find Someone</div>`;
@@ -659,6 +802,7 @@ function openRelationships(){
 }
 function handleRelAction(id){
   if(id.startsWith("interact_")) interactWith(id.slice(9));
+  else if(id==="petcare") petPanel();
   else if(id==="famtree") familyTree();
   else if(id==="dating") datingApp();
   else if(id==="makefriend") makeFriend();
@@ -1267,7 +1411,7 @@ function checkAchievements(){
   (GAME.achievements||[]).forEach(a=>{
     if(G.s.achievements.includes(a.id)) return;
     let ok=false; try{ ok=a.test(G.s); }catch(e){}
-    if(ok){ G.s.achievements.push(a.id); toast("Achievement: "+a.name); log(`🏆 Achievement unlocked: ${a.name} — ${a.desc}`, "good", "Achievement"); }
+    if(ok){ G.s.achievements.push(a.id); toast("Achievement: "+a.name); log(`🏆 Achievement unlocked: ${a.name} — ${a.desc}`, "good", "Achievement"); if(window.LF){ LF.sfx("level"); LF.vibrate(40); } }
   });
 }
 
@@ -1690,6 +1834,7 @@ function topMenu(){
     {label:"Family Tree", fn:()=>{ closePanel(); familyTree(); }},
     {label:"Save Slots", fn:()=>{ closePanel(); saveSlotsPanel(); }},
     {label:"Hall of Fame", fn:()=>{ closePanel(); hallOfFamePanel(); }},
+    {label:"Settings", fn:()=>{ closePanel(); if(window.LF&&LF.settingsPanel) LF.settingsPanel(); }},
     {label:"Main Menu (autosaves)", fn:()=>{ saveGame(); closePanel(); goToMenu(); }},
     {label:"Close", fn:closePanel},
   ]});
@@ -1809,6 +1954,84 @@ function slotsGame(){
 /* ============================================================
    ROW HELPERS
    ============================================================ */
+/* ============================================================
+   SPORTS CAREER — seasons, titles, contracts & endorsements
+   for the Pro Athlete career. Surfaced from the Occupation panel.
+   ============================================================ */
+function sportsCenter(){
+  if(!(G.s.job && G.s.job.careerId==="athlete")){ toast("You need to be a pro athlete for that."); return; }
+  G.s.sports = G.s.sports || {seasons:0, championships:0, mvps:0};
+  const sp=G.s.sports, job=G.s.job;
+  const form=Math.round((G.s.fitness+job.performance)/2);
+  let html=`<p style="color:var(--text-dim);font-size:12px">Salary ${fmtMoney(job.salary)} · Performance ${Math.round(job.performance)}% · Fitness ${Math.round(G.s.fitness)}%</p>`;
+  html+=`<div class="section-head">Career Record</div>`;
+  html+=`<div class="list-row"><div class="lr-ico">${iconHTML("🏆")}</div><div class="lr-main"><div class="lr-title">${sp.championships} Championship${sp.championships===1?"":"s"} <span class="tag-pill">Form ${form}%</span></div><div class="lr-sub">${sp.seasons} season(s) played · ${sp.mvps} MVP award(s)</div></div></div>`;
+  html+=`<div class="section-head">This Season</div>`;
+  html+=rowHTML("🏋️","Intensive Training","Boost fitness & performance (tiring)",[{txt:"Train", id:"sp_train"}]);
+  html+=rowHTML("🏟️","Play the Season","Compete for the title & prize money",[{txt:"Play", id:"sp_season"}]);
+  html+=`<div class="section-head">Business of Sport</div>`;
+  html+=rowHTML("✍️","Renegotiate Contract","Cash in on strong form",[{txt:"Negotiate", id:"sp_contract"}]);
+  html+=rowHTML("📣","Endorsement Deal","Sponsor cash (needs fame)",[{txt:"Pursue", id:"sp_endorse"}]);
+  openPanel({icon:"🏆", title:"Pro Athlete Hub", bodyHTML:html});
+  wireRowActions(handleSportsAction);
+}
+function handleSportsAction(id){
+  const job=G.s.job; if(!(job && job.careerId==="athlete")){ closePanel(); return; }
+  const sp=G.s.sports;
+  if(id==="sp_train"){
+    changeStat("fitness",rand(5,10)); changeStat("health",rand(1,3));
+    changeStat("happiness",-3); changeStat("mental",-2);
+    job.performance=clamp(job.performance+rand(3,7));
+    toast("🏋️ Brutal session — you're sharper.");
+    renderAll(); return sportsCenter();
+  }
+  if(id==="sp_season"){
+    if(sp.lastSeasonAge===G.s.age){ toast("You've already played this year's season. Age up first."); return; }
+    sp.lastSeasonAge=G.s.age; sp.seasons++;
+    const form=clamp((G.s.fitness+job.performance)/2);
+    const winChance=clamp(0.2+form/150, 0.1, 0.9);
+    let w=0; for(let i=0;i<20;i++) if(chance(winChance)) w++;
+    const l=20-w;
+    let prize=Math.round(job.salary*0.6*(w/20));
+    const playoffs = w>=12;
+    const champ = playoffs && chance(form/140);
+    const mvp = w>=15 && chance(form/220);
+    changeStat("fitness",-rand(3,7)); changeStat("health",-rand(1,4));
+    let parts=[`Season ${sp.seasons}: ${w}–${l}.`], kind="info";
+    if(champ){ sp.championships++; prize+=Math.round(job.salary*1.5); changeStat("happiness",18); changeStat("fame",10); job.performance=clamp(job.performance+12); parts.push("🏆 CHAMPIONS — you won the title!"); kind="good"; }
+    else if(playoffs){ changeStat("happiness",8); changeStat("fame",4); job.performance=clamp(job.performance+6); parts.push("Made the playoffs but came up short."); }
+    else { changeStat("happiness",-4); job.performance=clamp(job.performance-3); parts.push("A losing season."); kind="bad"; }
+    if(mvp){ sp.mvps++; prize+=Math.round(job.salary*0.8); changeStat("fame",8); parts.push("⭐ Named league MVP!"); kind="good"; }
+    if(chance(0.12)){ addNamedCondition("a concussion"); parts.push("You took a knock and were concussed."); }
+    adjustMoney(prize);
+    log(parts.join(" ")+` Earned ${fmtMoney(prize)}.`, kind, "Sports");
+    toast(champ?"🏆 Champions!":(playoffs?"Solid season!":"Tough season."));
+    renderAll(); return sportsCenter();
+  }
+  if(id==="sp_contract"){
+    if(sp.lastContractAge===G.s.age){ toast("Your agent says wait until next year."); return; }
+    const form=clamp((G.s.fitness+job.performance)/2);
+    if(form<45){ toast("Your form isn't strong enough to demand more yet."); return; }
+    sp.lastContractAge=G.s.age;
+    const raise=0.1+form/200;
+    const old=job.salary; job.salary=Math.round(job.salary*(1+raise));
+    changeStat("happiness",6);
+    log(`✍️ New contract signed — salary up from ${fmtMoney(old)} to ${fmtMoney(job.salary)}.`,"money","Sports");
+    toast("✍️ Bigger contract secured!");
+    renderAll(); return sportsCenter();
+  }
+  if(id==="sp_endorse"){
+    if(sp.lastEndorseAge===G.s.age){ toast("You already chased a deal this year."); return; }
+    if(G.s.fame<15){ toast("You're not famous enough for sponsors yet — win some games."); return; }
+    sp.lastEndorseAge=G.s.age;
+    const deal=Math.round((G.s.fame*200 + job.salary*0.2) * (0.6+Math.random()));
+    adjustMoney(deal); changeStat("fame",2); G.s.followers=(G.s.followers||0)+rand(200,800);
+    log(`📣 You signed an endorsement deal worth ${fmtMoney(deal)}!`,"money","Sports");
+    toast("📣 Sponsorship signed!");
+    renderAll(); return sportsCenter();
+  }
+  closePanel(); renderAll();
+}
 function rowHTML(icon,title,sub,actions=[]){
   const btns=actions.map(a=>{ if(a.sec||a.id===undefined) return `<button class="lr-action secondary" disabled>${a.txt}</button>`; return `<button class="lr-action" data-act="${a.id}">${a.txt}</button>`; }).join("");
   return `<div class="list-row"><div class="lr-ico">${iconHTML(icon)}</div><div class="lr-main"><div class="lr-title">${title}</div><div class="lr-sub">${sub}</div></div>${btns}</div>`;
@@ -1825,23 +2048,46 @@ function checkDeath(){
   if(chance(p)) die(pick(["old age","heart failure","natural causes","a sudden illness"]));
 }
 function die(cause){ G.s.alive=false; G.s.causeOfDeath=cause; checkAchievements(); recordLife(); log(`⚰️ You died of ${cause} at age ${G.s.age}.`,"bad","The End"); }
+function lifeHighlights(){
+  const s=G.s, h=[];
+  h.push(`👶 Born in ${s.bornCountry||s.country}.`);
+  if(s.edu>=1){ const mj=s.major?eduMajorDef(s.major):null; h.push(`🎓 Reached ${C().eduLevels[s.edu]}${mj&&mj.id!=="general"?` (${mj.name})`:""}.`); }
+  if((s.stats_lifetime||{}).jobsHeld) h.push(`💼 Held ${s.stats_lifetime.jobsHeld} job(s) over a lifetime.`);
+  if(s.sports && s.sports.championships) h.push(`🏆 Won ${s.sports.championships} sporting championship(s)${s.sports.mvps?` and ${s.sports.mvps} MVP award(s)`:""}.`);
+  if(s.politics && GAME.offices[s.politics.officeIndex]) h.push(`🏛️ Served as ${GAME.offices[s.politics.officeIndex].name}.`);
+  if(s.military) h.push(`🎖️ Served in the ${branchName()}.`);
+  if(s.mafia) h.push(`🕴️ Was part of the criminal underworld.`);
+  if((s.businesses||[]).length) h.push(`🏢 Founded ${s.businesses.length} business(es).`);
+  if((s.properties||[]).length) h.push(`🏘️ Built a portfolio of ${s.properties.length} propertie(s).`);
+  if((s.stats_lifetime||{}).partners) h.push(`💍 Loved ${s.stats_lifetime.partners} partner(s).`);
+  if((s.stats_lifetime||{}).kids) h.push(`👨‍👩‍👧 Raised ${s.stats_lifetime.kids} child(ren).`);
+  if(s.fame>=40) h.push(`⭐ Became famous (${Math.round(s.fame)} fame).`);
+  if(s._wentToPrison) h.push(`⛓️ Did time behind bars.`);
+  if((s.criminalRecord||[]).length) h.push(`🚔 Racked up ${s.criminalRecord.length} criminal charge(s).`);
+  if((s.citizenships||[]).length>1) h.push(`🌍 Held citizenship in ${s.citizenships.length} countries.`);
+  if((s.pets||[]).some(p=>p.trophies)) h.push(`🐾 Won pet-show trophies with a beloved companion.`);
+  return h;
+}
 function showDeathScreen(){
   const lt=G.s.stats_lifetime||{}; const netWorth=G.s.money+G.s.assets.reduce((s,a)=>s+a.value,0);
   const heir=G.s.people.find(p=>p.alive && p.relation==="child");
   const inheritance=Math.max(0, Math.round(G.s.money*0.6));
+  const ach=(G.s.achievements||[]);
+  const achPills=ach.length? ach.map(id=>{ const a=GAME.achievements.find(x=>x.id===id); return a?`<span class="tag-pill green">${a.name}</span> `:""; }).join("") : `<span style="color:var(--text-dim)">None this life.</span>`;
+  const highlights=lifeHighlights().map(x=>`<p style="font-size:13px;margin:2px 0">${x}</p>`).join("");
   const choices=[];
   if(heir){ choices.push({label:`Continue as ${heir.name} (Gen ${(G.s.generation||1)+1})`, primary:true, fn:()=>continueAsChild(heir)}); }
   choices.push({label:"Start a New Life", primary:!heir, fn:()=>{ localStorage.removeItem(SAVE_KEY); closePanel(); goToMenu(); }});
   openPanel({icon:"⚰️", title:`${fullName(G.s)} · ${G.s.age} years`,
     bodyHTML:`<p style="text-align:center">Cause of death: <b>${G.s.causeOfDeath}</b></p>
-      <div class="section-head">Life Summary (Generation ${G.s.generation||1})</div>
-      <p>Net worth: <b>${fmtMoney(netWorth)}</b></p>
-      <p>Jobs held: ${lt.jobsHeld||0} · Businesses: ${(G.s.businesses||[]).length}</p>
-      <p>Partners: ${lt.partners||0} · Kids: ${lt.kids||0}</p>
-      <p>Crimes committed: ${lt.crimes||0}</p>
-      <p>Happiness ${Math.round(G.s.happiness)}% · Mental ${Math.round(G.s.mental)}%</p>
-      <p>Karma ${Math.round(G.s.karma)} · Fame ${Math.round(G.s.fame)} · Followers ${fmtFollowers(G.s.followers)}</p>
-      ${heir?`<p style="color:var(--accent);margin-top:8px">${heir.name} will inherit ${fmtMoney(inheritance)} and the family's property.</p>`:""}`,
+      <div class="section-head">Life Highlights (Generation ${G.s.generation||1})</div>
+      ${highlights}
+      <div class="section-head">Final Tally</div>
+      <p>Net worth: <b>${fmtMoney(netWorth)}</b> · Fame ${Math.round(G.s.fame)} · Followers ${fmtFollowers(G.s.followers)}</p>
+      <p>Happiness ${Math.round(G.s.happiness)}% · Health ${Math.round(G.s.health)}% · Smarts ${Math.round(G.s.smarts)}% · Karma ${Math.round(G.s.karma)}</p>
+      <div class="section-head">Achievements (${ach.length}/${(GAME.achievements||[]).length})</div>
+      <div>${achPills}</div>
+      ${heir?`<p style="color:var(--accent);margin-top:10px">${heir.name} will inherit ${fmtMoney(inheritance)} and the family's property.</p>`:""}`,
     choices});
 }
 function continueAsChild(heir){
@@ -1865,6 +2111,7 @@ function continueAsChild(heir){
     looks:  heir.looksGene!=null?heir.looksGene:rand(30,85),
     mental:rand(55,85), karma:50, fame:0, fitness:rand(20,50),
     edu: age>=18?1:0, inSchool: age<18, gpa:rand(50,90),
+    college:null, major:null, studentDebt:0,
     job:null, addictions:[], conditions:[], criminalRecord:[],
     inPrison:false, prisonYears:0, notoriety:0,
     politics:null, lawRetainer:false,
@@ -1892,7 +2139,7 @@ function schoolName(){ if(G.s.age<5) return "Toddler"; if(G.s.age<12) return "Pr
    ============================================================ */
 function showScreen(id){ $$(".screen").forEach(s=>s.classList.add("hidden")); $(id).classList.remove("hidden"); }
 function goToMenu(){ showScreen("#menu"); $("#btnContinue").style.display=hasSave()?"block":"none"; }
-function startGame(){ showScreen("#game"); $("#feed").innerHTML=""; renderFeed(); renderAll(); }
+function startGame(){ showScreen("#game"); $("#feed").innerHTML=""; renderFeed(); renderAll(); if(window.LF && LF.maybeTutorial) LF.maybeTutorial(); }
 
 function boot(){
   // inject our custom SVG icons into static slots (stats, nav)

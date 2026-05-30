@@ -271,3 +271,85 @@ h2 { margin-bottom: 4px; }
 .avatar { overflow: hidden; padding: 4px; }
 .avatar svg { width: 100%; height: 100%; display: block; }
 .choice-sub .lf-ic { width: 14px; height: 14px; }
+
+/* ============================================================
+   MOBILE & TOUCH POLISH  (added v1.1)
+   The base layout targets wide screens; this makes LifeForge
+   feel native on phones — dynamic viewport height, safe-area
+   insets for notches, bigger tap targets, no tap-flash/zoom.
+   ============================================================ */
+
+/* Crisp taps: kill the grey flash and double-tap zoom on controls. */
+button, .menu-btn, .nav-btn, .age-btn, .icon-btn, .choice-btn, .list-row, .id-block {
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+}
+
+/* Use the dynamic viewport unit where supported so mobile browser
+   bars don't crop the bottom navbar / age button. */
+@supports (height: 100dvh) {
+  html, body { height: 100dvh; }
+  #app, .screen, #game { height: 100dvh; }
+}
+
+/* Respect notches / rounded corners / home indicators. */
+#game {
+  padding-top: calc(14px + env(safe-area-inset-top));
+  padding-left: max(18px, env(safe-area-inset-left));
+  padding-right: max(18px, env(safe-area-inset-right));
+}
+#navbar { padding-bottom: calc(16px + env(safe-area-inset-bottom)); }
+
+@media (max-width: 720px) {
+  :root { font-size: 15px; }
+
+  #game { padding: calc(8px + env(safe-area-inset-top)) 10px 0; }
+
+  /* Top bar tightens up */
+  #topbar { padding: 8px 12px; margin-bottom: 9px; }
+  .avatar { width: 44px; height: 44px; font-size: 23px; }
+  .name-row { font-size: 17px; }
+  .money { font-size: 19px; }
+  .top-right { gap: 9px; }
+  .icon-btn { width: 38px; height: 38px; font-size: 17px; }
+
+  /* Stats: 5 across is cramped on a phone — go to two rows of bars */
+  #stats { grid-template-columns: repeat(4, 1fr); gap: 8px; padding: 10px 0; }
+  .stat { font-size: 11px; }
+
+  /* Bottom nav + age button scale down but stay thumb-friendly */
+  #navbar { gap: 4px; padding-left: 4px; padding-right: 4px; }
+  .nav-btn { padding: 9px 2px; border-radius: 12px; }
+  .nav-ico { font-size: 20px; }
+  .nav-lbl { font-size: 10.5px; }
+  .age-btn { width: 74px; height: 74px; margin-top: -16px; }
+  .age-plus { font-size: 23px; }
+
+  /* Modals fill more of the screen and sit comfortably above the nav */
+  .modal-card { width: 94vw; padding: 20px 18px; max-height: 88vh; }
+  .modal-icon { font-size: 40px; }
+  #modalTitle { font-size: 18px; }
+  .choice-btn { padding: 14px 13px; }   /* keep ~48px tap height */
+
+  /* Menu card breathes less on small screens */
+  .menu-card { padding: 34px 26px; }
+  .logo { font-size: 48px; }
+}
+
+@media (max-width: 380px) {
+  #stats { grid-template-columns: repeat(3, 1fr); }
+  .nav-lbl { display: none; }   /* icons only on very narrow phones */
+}
+
+/* ============================================================
+   SETTINGS — accessibility options (added v1.4)
+   ============================================================ */
+html.lf-text-small { font-size: 14px; }
+html.lf-text-large { font-size: 18px; }
+html.lf-reduce-motion *,
+html.lf-reduce-motion *::before,
+html.lf-reduce-motion *::after {
+  animation: none !important;
+  transition: none !important;
+  scroll-behavior: auto !important;
+}
