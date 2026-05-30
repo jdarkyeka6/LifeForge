@@ -11762,5 +11762,3365 @@
         "kind": "good"
       }
     ]
+  },
+  {
+    "id": "gen_chat_02881",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with a chatty neighbor about the weather.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02882",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with a chatty neighbor about a shared favorite show.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02883",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with a chatty neighbor about childhood memories.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02884",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with a chatty neighbor about future dreams.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02885",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with a chatty neighbor about a funny mishap.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02886",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with a chatty neighbor about weekend plans.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02887",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with a chatty neighbor about a great meal you had.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02888",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with a chatty neighbor about a book recommendation.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02889",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with a chatty neighbor about local news.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02890",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with a chatty neighbor about an old inside joke.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02891",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with a chatty neighbor about travel stories.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02892",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with a chatty neighbor about a new gadget.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02893",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with a chatty neighbor about music tastes.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02894",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with a chatty neighbor about a wild coincidence.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02895",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with a chatty neighbor about pet stories.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02896",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with a chatty neighbor about a embarrassing moment.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02897",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with a chatty neighbor about life advice.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02898",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with a chatty neighbor about a hot take on coffee.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02899",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with a chatty neighbor about conspiracy theories for fun.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02900",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with a chatty neighbor about what you'd do with a lottery win.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02901",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with a chatty neighbor about favorite seasons.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02902",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with a chatty neighbor about dream jobs as a kid.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02903",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with a chatty neighbor about the best meal ever.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02904",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with a chatty neighbor about a skill you wish you had.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02905",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with a chatty neighbor about your hometown.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02906",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with a chatty neighbor about a movie that changed you.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02907",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with a chatty neighbor about the perfect day off.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02908",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with a chatty neighbor about weird food combos.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02909",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with a chatty neighbor about a goal for the year.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02910",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with a chatty neighbor about what makes you laugh.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02911",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with a coworker on break about the weather.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02912",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with a coworker on break about a shared favorite show.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02913",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with a coworker on break about childhood memories.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02914",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with a coworker on break about future dreams.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02915",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with a coworker on break about a funny mishap.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02916",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with a coworker on break about weekend plans.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02917",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with a coworker on break about a great meal you had.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02918",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with a coworker on break about a book recommendation.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02919",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with a coworker on break about local news.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02920",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with a coworker on break about an old inside joke.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02921",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with a coworker on break about travel stories.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02922",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with a coworker on break about a new gadget.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02923",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with a coworker on break about music tastes.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02924",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with a coworker on break about a wild coincidence.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02925",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with a coworker on break about pet stories.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02926",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with a coworker on break about a embarrassing moment.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02927",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with a coworker on break about life advice.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02928",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with a coworker on break about a hot take on coffee.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02929",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with a coworker on break about conspiracy theories for fun.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02930",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with a coworker on break about what you'd do with a lottery win.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02931",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with a coworker on break about favorite seasons.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02932",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with a coworker on break about dream jobs as a kid.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02933",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with a coworker on break about the best meal ever.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02934",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with a coworker on break about a skill you wish you had.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02935",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with a coworker on break about your hometown.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02936",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with a coworker on break about a movie that changed you.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02937",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with a coworker on break about the perfect day off.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02938",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with a coworker on break about weird food combos.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02939",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with a coworker on break about a goal for the year.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02940",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with a coworker on break about what makes you laugh.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02941",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with a friendly barista about the weather.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02942",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with a friendly barista about a shared favorite show.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02943",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with a friendly barista about childhood memories.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02944",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with a friendly barista about future dreams.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02945",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with a friendly barista about a funny mishap.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02946",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with a friendly barista about weekend plans.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02947",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with a friendly barista about a great meal you had.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02948",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with a friendly barista about a book recommendation.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02949",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with a friendly barista about local news.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02950",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with a friendly barista about an old inside joke.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02951",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with a friendly barista about travel stories.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02952",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with a friendly barista about a new gadget.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02953",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with a friendly barista about music tastes.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02954",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with a friendly barista about a wild coincidence.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02955",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with a friendly barista about pet stories.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02956",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with a friendly barista about a embarrassing moment.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02957",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with a friendly barista about life advice.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02958",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with a friendly barista about a hot take on coffee.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02959",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with a friendly barista about conspiracy theories for fun.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02960",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with a friendly barista about what you'd do with a lottery win.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02961",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with a friendly barista about favorite seasons.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02962",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with a friendly barista about dream jobs as a kid.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02963",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with a friendly barista about the best meal ever.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02964",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with a friendly barista about a skill you wish you had.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02965",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with a friendly barista about your hometown.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02966",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with a friendly barista about a movie that changed you.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02967",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with a friendly barista about the perfect day off.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02968",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with a friendly barista about weird food combos.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02969",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with a friendly barista about a goal for the year.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02970",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with a friendly barista about what makes you laugh.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02971",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with an old acquaintance about the weather.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02972",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with an old acquaintance about a shared favorite show.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02973",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with an old acquaintance about childhood memories.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02974",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with an old acquaintance about future dreams.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02975",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with an old acquaintance about a funny mishap.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02976",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with an old acquaintance about weekend plans.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02977",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with an old acquaintance about a great meal you had.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02978",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with an old acquaintance about a book recommendation.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02979",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with an old acquaintance about local news.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02980",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with an old acquaintance about an old inside joke.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02981",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with an old acquaintance about travel stories.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02982",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with an old acquaintance about a new gadget.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02983",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with an old acquaintance about music tastes.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02984",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with an old acquaintance about a wild coincidence.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02985",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with an old acquaintance about pet stories.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02986",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with an old acquaintance about a embarrassing moment.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02987",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with an old acquaintance about life advice.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02988",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with an old acquaintance about a hot take on coffee.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02989",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with an old acquaintance about conspiracy theories for fun.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02990",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with an old acquaintance about what you'd do with a lottery win.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02991",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with an old acquaintance about favorite seasons.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02992",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with an old acquaintance about dream jobs as a kid.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02993",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with an old acquaintance about the best meal ever.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02994",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with an old acquaintance about a skill you wish you had.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02995",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with an old acquaintance about your hometown.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02996",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with an old acquaintance about a movie that changed you.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02997",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with an old acquaintance about the perfect day off.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02998",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with an old acquaintance about weird food combos.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_02999",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with an old acquaintance about a goal for the year.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_chat_03000",
+    "min": 8,
+    "max": 105,
+    "weight": 0.2,
+    "icon": "💬",
+    "title": "Small Talk",
+    "text": "You end up chatting with an old acquaintance about what makes you laugh.",
+    "choices": [
+      {
+        "label": "Really connect",
+        "effects": {
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "A nice little chat.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it brief",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Pleasant enough.",
+        "kind": "info"
+      }
+    ]
   }
 ]

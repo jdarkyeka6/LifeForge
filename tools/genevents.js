@@ -471,6 +471,17 @@ errands.forEach((er,ei)=> [0,1].forEach(v=>{
     ]}));
 }));
 
+/* --- Conversations & small talk (large set to round out library) --- */
+const convTopics=["the weather","a shared favorite show","childhood memories","future dreams","a funny mishap","weekend plans","a great meal you had","a book recommendation","local news","an old inside joke","travel stories","a new gadget","music tastes","a wild coincidence","pet stories","a embarrassing moment","life advice","a hot take on coffee","conspiracy theories for fun","what you'd do with a lottery win","favorite seasons","dream jobs as a kid","the best meal ever","a skill you wish you had","your hometown","a movie that changed you","the perfect day off","weird food combos","a goal for the year","what makes you laugh"];
+const convPeople=["a chatty neighbor","a coworker on break","a friendly barista","an old acquaintance","a fellow passenger","a new acquaintance","a relative at dinner","someone at the gym","a person in the queue","a friend of a friend","a taxi driver","a hairdresser","a dog owner at the park","a market vendor","a fellow hobbyist"];
+convPeople.forEach((p,pi)=> convTopics.forEach((t,ti)=>{
+  events.push(ev("chat",{min:8,max:105,icon:"💬",title:"Small Talk",text:`You end up chatting with ${p} about ${t}.`,
+    choices:[
+      {label:"Really connect",effects:e({happiness:4,karma:2}),log:`A nice little chat.`,kind:"good"},
+      {label:"Keep it brief",effects:e({happiness:2}),log:`Pleasant enough.`,kind:"info"},
+    ]}));
+}));
+
 /* ---------- write generated in chunks ---------- */
 const CHUNK = 500;
 const genFiles = [];
