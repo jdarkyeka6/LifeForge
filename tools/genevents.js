@@ -395,6 +395,44 @@ reflectScn.forEach((s,si)=> reflectReact.forEach((r,ri)=>{
     choices:[{label:v?"Cherish it":"Take it in",effects:e({mental:5,happiness:v?4:3}),log:`A thoughtful moment.`,kind:"good"},{label:"Let it pass",effects:e({happiness:2}),log:`Life goes on.`,kind:"info"}]})));
 }));
 
+/* --- Quirky micro-moments (large filler set, still varied) --- */
+const quirks=["you find a perfect parking spot","your coffee order is exactly right","a song you love comes on the radio","you finish a great book","you nail a recipe on the first try","you get a genuine belly laugh","you have the house to yourself","you catch a beautiful sunset","you finally beat a tough level","you get a heartfelt thank-you text","you wake up before your alarm feeling rested","you find cash in old jeans","your team wins a close one","you fix something that's bugged you for ages","you reconnect with an old hobby","you have a great hair day","you cook for friends and they love it","you get lost in a good conversation","you find the perfect gift for someone","you have a productive morning","you take a nap that hits just right","you stumble on a hidden gem of a café","you finish your to-do list","you get a compliment from a stranger","you watch a storm from your window","you bake something that smells amazing","you organize a messy drawer","you learn a fun fact","you make someone's day","you find a new favorite spot","you get a surprise day off","you finally relax after a long week","you hear from an old friend","you discover a great playlist","you have a moment of pure calm","you laugh at an old memory","you try a new route and love it","you get a small win at work","you watch the rain with tea","you feel proud of yourself"];
+const quirkReact=[
+  {a:["Soak it in",e({happiness:4,mental:2})],b:["Share the moment",e({happiness:3,karma:2})]},
+  {a:["Let it lift your day",e({happiness:5})],b:["Pay it forward",e({karma:4,happiness:2})]},
+  {a:["Savor it fully",e({happiness:4,mental:3})],b:["Note it in your journal",e({smarts:1,happiness:3})]},
+];
+quirks.forEach((q,qi)=> quirkReact.forEach((r,ri)=>{
+  events.push(ev("moment",{min:5,max:110,icon:"✨",title:"A Good Moment",text:`Today, ${q}.`,
+    choices:[{label:r.a[0],effects:r.a[1],log:`A little joy in the everyday.`,kind:"good"},{label:r.b[0],effects:r.b[1],log:`The small things matter.`,kind:"info"}]}));
+}));
+
+/* --- Minor annoyances (balance the good) --- */
+const annoy=["your shoelace snaps","you stub your toe","the wifi drops mid-show","you spill your drink","a button falls off","you get a paper cut","traffic makes you late","your phone dies at the worst time","it rains the day you wash the car","you forget why you walked into a room","a fly won't leave you alone","you bite your tongue","the milk's gone off","you misplace your keys","an app update ruins your routine","you get a splinter","the printer jams","you sneeze seven times in a row","you hit every red light","your favorite mug chips","a song gets stuck in your head","you tear a grocery bag","the elevator stops on every floor","you mistype a password five times","a hangnail catches everything","your earbuds tangle impossibly","you drop toast butter-side down","the queue you pick is slowest","you forget an umbrella","your pen runs out mid-sentence"];
+const annoyReact=[
+  {a:["Laugh it off",e({mental:3,happiness:2})],b:["Let it bug you",e({happiness:-1})]},
+  {a:["Shrug and move on",e({mental:2})],b:["Fix it properly",e({happiness:1,smarts:1})]},
+];
+annoy.forEach((a,ai)=> annoyReact.forEach((r,ri)=>{
+  events.push(ev("annoy",{min:6,max:110,icon:"😅",title:"Minor Inconvenience",text:`Ugh — ${a}.`,
+    choices:[{label:r.a[0],effects:r.a[1],log:`These things happen.`,kind:"info"},{label:r.b[0],effects:r.b[1],log:`Crisis averted.`,kind:"info"}]}));
+}));
+
+/* --- Skills practice flavor --- */
+const practice=["you finally get the hang of it","you hit a frustrating plateau","a breakthrough clicks into place","you teach someone else and learn more","you record yourself to improve","you join a class to level up","you practice until late","you compare yourself to others","you find a great tutorial","you set a daily streak","you enter a small contest","you get honest feedback","you mix two skills together","you rediscover the joy of it","you take a break and come back fresh","you master a tricky technique"];
+const skills2=["drawing","guitar","cooking","coding","writing","singing","dancing","photography","public speaking","chess","running","painting","languages","editing","woodwork","gardening"];
+skills2.forEach((s,si)=> practice.forEach((p,pi)=>{
+  events.push(ev("skill",{min:8,max:95,icon:"📈",title:"Skill Up",text:`With your ${s}, ${p}.`,
+    choices:[{label:"Keep grinding",effects:e({smarts:3,happiness:2}),log:`Your ${s} improved.`,kind:"good"},{label:"Enjoy the process",effects:e({happiness:4,mental:2}),log:`Progress, not perfection.`,kind:"info"}]}));
+}));
+
+/* --- Friendship moments (cond hasFriend) --- */
+const friendScn=["plans a surprise for you","needs advice","invites you on a trip","starts a new chapter in life","goes through a tough time","celebrates a big win","asks for a favor","wants to start a project with you","drifts a little distant","surprises you with a visit","shares exciting news","needs cheering up","throws a get-together","remembers something you forgot","stands up for you","picks you first"];
+friendScn.forEach((f,fi)=> [0,1].forEach(v=>{
+  events.push(ev("friend",{min:8,max:95,icon:"🧑‍🤝‍🧑",cond:{hasFriend:true},title:"Friendship",text:`Your friend ${f}.`,
+    choices:[{label:v?"Show up for them":"Be there",effects:e({karma:4,happiness:5,relRandom:5}),log:`Friendship strengthened.`,kind:"good"},{label:"Keep it light",effects:e({happiness:3,relRandom:2}),log:`Good to have friends.`,kind:"info"}]}));
+}));
+
 /* ---------- write generated in chunks ---------- */
 const CHUNK = 500;
 const genFiles = [];

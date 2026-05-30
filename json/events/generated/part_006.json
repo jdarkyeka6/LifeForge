@@ -1,0 +1,8134 @@
+[
+  {
+    "id": "gen_skill_02501",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your drawing, you mix two skills together.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your drawing improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02502",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your drawing, you rediscover the joy of it.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your drawing improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02503",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your drawing, you take a break and come back fresh.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your drawing improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02504",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your drawing, you master a tricky technique.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your drawing improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02505",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your guitar, you finally get the hang of it.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your guitar improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02506",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your guitar, you hit a frustrating plateau.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your guitar improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02507",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your guitar, a breakthrough clicks into place.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your guitar improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02508",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your guitar, you teach someone else and learn more.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your guitar improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02509",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your guitar, you record yourself to improve.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your guitar improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02510",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your guitar, you join a class to level up.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your guitar improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02511",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your guitar, you practice until late.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your guitar improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02512",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your guitar, you compare yourself to others.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your guitar improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02513",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your guitar, you find a great tutorial.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your guitar improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02514",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your guitar, you set a daily streak.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your guitar improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02515",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your guitar, you enter a small contest.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your guitar improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02516",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your guitar, you get honest feedback.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your guitar improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02517",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your guitar, you mix two skills together.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your guitar improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02518",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your guitar, you rediscover the joy of it.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your guitar improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02519",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your guitar, you take a break and come back fresh.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your guitar improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02520",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your guitar, you master a tricky technique.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your guitar improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02521",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your cooking, you finally get the hang of it.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your cooking improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02522",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your cooking, you hit a frustrating plateau.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your cooking improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02523",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your cooking, a breakthrough clicks into place.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your cooking improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02524",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your cooking, you teach someone else and learn more.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your cooking improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02525",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your cooking, you record yourself to improve.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your cooking improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02526",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your cooking, you join a class to level up.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your cooking improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02527",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your cooking, you practice until late.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your cooking improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02528",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your cooking, you compare yourself to others.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your cooking improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02529",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your cooking, you find a great tutorial.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your cooking improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02530",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your cooking, you set a daily streak.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your cooking improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02531",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your cooking, you enter a small contest.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your cooking improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02532",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your cooking, you get honest feedback.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your cooking improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02533",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your cooking, you mix two skills together.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your cooking improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02534",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your cooking, you rediscover the joy of it.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your cooking improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02535",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your cooking, you take a break and come back fresh.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your cooking improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02536",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your cooking, you master a tricky technique.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your cooking improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02537",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your coding, you finally get the hang of it.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your coding improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02538",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your coding, you hit a frustrating plateau.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your coding improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02539",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your coding, a breakthrough clicks into place.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your coding improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02540",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your coding, you teach someone else and learn more.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your coding improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02541",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your coding, you record yourself to improve.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your coding improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02542",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your coding, you join a class to level up.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your coding improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02543",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your coding, you practice until late.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your coding improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02544",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your coding, you compare yourself to others.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your coding improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02545",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your coding, you find a great tutorial.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your coding improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02546",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your coding, you set a daily streak.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your coding improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02547",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your coding, you enter a small contest.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your coding improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02548",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your coding, you get honest feedback.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your coding improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02549",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your coding, you mix two skills together.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your coding improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02550",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your coding, you rediscover the joy of it.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your coding improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02551",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your coding, you take a break and come back fresh.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your coding improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02552",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your coding, you master a tricky technique.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your coding improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02553",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your writing, you finally get the hang of it.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your writing improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02554",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your writing, you hit a frustrating plateau.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your writing improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02555",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your writing, a breakthrough clicks into place.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your writing improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02556",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your writing, you teach someone else and learn more.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your writing improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02557",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your writing, you record yourself to improve.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your writing improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02558",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your writing, you join a class to level up.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your writing improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02559",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your writing, you practice until late.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your writing improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02560",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your writing, you compare yourself to others.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your writing improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02561",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your writing, you find a great tutorial.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your writing improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02562",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your writing, you set a daily streak.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your writing improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02563",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your writing, you enter a small contest.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your writing improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02564",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your writing, you get honest feedback.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your writing improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02565",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your writing, you mix two skills together.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your writing improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02566",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your writing, you rediscover the joy of it.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your writing improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02567",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your writing, you take a break and come back fresh.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your writing improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02568",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your writing, you master a tricky technique.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your writing improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02569",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your singing, you finally get the hang of it.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your singing improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02570",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your singing, you hit a frustrating plateau.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your singing improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02571",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your singing, a breakthrough clicks into place.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your singing improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02572",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your singing, you teach someone else and learn more.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your singing improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02573",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your singing, you record yourself to improve.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your singing improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02574",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your singing, you join a class to level up.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your singing improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02575",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your singing, you practice until late.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your singing improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02576",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your singing, you compare yourself to others.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your singing improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02577",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your singing, you find a great tutorial.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your singing improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02578",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your singing, you set a daily streak.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your singing improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02579",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your singing, you enter a small contest.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your singing improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02580",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your singing, you get honest feedback.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your singing improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02581",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your singing, you mix two skills together.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your singing improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02582",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your singing, you rediscover the joy of it.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your singing improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02583",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your singing, you take a break and come back fresh.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your singing improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02584",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your singing, you master a tricky technique.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your singing improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02585",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your dancing, you finally get the hang of it.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your dancing improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02586",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your dancing, you hit a frustrating plateau.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your dancing improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02587",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your dancing, a breakthrough clicks into place.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your dancing improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02588",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your dancing, you teach someone else and learn more.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your dancing improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02589",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your dancing, you record yourself to improve.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your dancing improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02590",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your dancing, you join a class to level up.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your dancing improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02591",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your dancing, you practice until late.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your dancing improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02592",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your dancing, you compare yourself to others.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your dancing improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02593",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your dancing, you find a great tutorial.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your dancing improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02594",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your dancing, you set a daily streak.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your dancing improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02595",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your dancing, you enter a small contest.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your dancing improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02596",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your dancing, you get honest feedback.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your dancing improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02597",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your dancing, you mix two skills together.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your dancing improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02598",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your dancing, you rediscover the joy of it.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your dancing improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02599",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your dancing, you take a break and come back fresh.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your dancing improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02600",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your dancing, you master a tricky technique.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your dancing improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02601",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your photography, you finally get the hang of it.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your photography improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02602",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your photography, you hit a frustrating plateau.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your photography improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02603",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your photography, a breakthrough clicks into place.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your photography improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02604",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your photography, you teach someone else and learn more.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your photography improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02605",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your photography, you record yourself to improve.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your photography improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02606",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your photography, you join a class to level up.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your photography improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02607",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your photography, you practice until late.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your photography improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02608",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your photography, you compare yourself to others.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your photography improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02609",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your photography, you find a great tutorial.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your photography improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02610",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your photography, you set a daily streak.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your photography improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02611",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your photography, you enter a small contest.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your photography improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02612",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your photography, you get honest feedback.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your photography improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02613",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your photography, you mix two skills together.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your photography improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02614",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your photography, you rediscover the joy of it.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your photography improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02615",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your photography, you take a break and come back fresh.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your photography improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02616",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your photography, you master a tricky technique.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your photography improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02617",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your public speaking, you finally get the hang of it.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your public speaking improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02618",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your public speaking, you hit a frustrating plateau.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your public speaking improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02619",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your public speaking, a breakthrough clicks into place.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your public speaking improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02620",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your public speaking, you teach someone else and learn more.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your public speaking improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02621",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your public speaking, you record yourself to improve.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your public speaking improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02622",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your public speaking, you join a class to level up.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your public speaking improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02623",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your public speaking, you practice until late.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your public speaking improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02624",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your public speaking, you compare yourself to others.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your public speaking improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02625",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your public speaking, you find a great tutorial.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your public speaking improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02626",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your public speaking, you set a daily streak.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your public speaking improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02627",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your public speaking, you enter a small contest.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your public speaking improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02628",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your public speaking, you get honest feedback.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your public speaking improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02629",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your public speaking, you mix two skills together.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your public speaking improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02630",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your public speaking, you rediscover the joy of it.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your public speaking improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02631",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your public speaking, you take a break and come back fresh.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your public speaking improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02632",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your public speaking, you master a tricky technique.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your public speaking improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02633",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your chess, you finally get the hang of it.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your chess improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02634",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your chess, you hit a frustrating plateau.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your chess improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02635",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your chess, a breakthrough clicks into place.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your chess improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02636",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your chess, you teach someone else and learn more.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your chess improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02637",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your chess, you record yourself to improve.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your chess improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02638",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your chess, you join a class to level up.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your chess improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02639",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your chess, you practice until late.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your chess improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02640",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your chess, you compare yourself to others.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your chess improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02641",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your chess, you find a great tutorial.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your chess improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02642",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your chess, you set a daily streak.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your chess improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02643",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your chess, you enter a small contest.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your chess improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02644",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your chess, you get honest feedback.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your chess improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02645",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your chess, you mix two skills together.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your chess improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02646",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your chess, you rediscover the joy of it.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your chess improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02647",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your chess, you take a break and come back fresh.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your chess improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02648",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your chess, you master a tricky technique.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your chess improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02649",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your running, you finally get the hang of it.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your running improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02650",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your running, you hit a frustrating plateau.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your running improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02651",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your running, a breakthrough clicks into place.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your running improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02652",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your running, you teach someone else and learn more.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your running improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02653",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your running, you record yourself to improve.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your running improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02654",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your running, you join a class to level up.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your running improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02655",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your running, you practice until late.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your running improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02656",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your running, you compare yourself to others.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your running improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02657",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your running, you find a great tutorial.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your running improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02658",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your running, you set a daily streak.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your running improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02659",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your running, you enter a small contest.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your running improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02660",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your running, you get honest feedback.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your running improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02661",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your running, you mix two skills together.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your running improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02662",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your running, you rediscover the joy of it.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your running improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02663",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your running, you take a break and come back fresh.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your running improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02664",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your running, you master a tricky technique.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your running improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02665",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your painting, you finally get the hang of it.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your painting improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02666",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your painting, you hit a frustrating plateau.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your painting improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02667",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your painting, a breakthrough clicks into place.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your painting improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02668",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your painting, you teach someone else and learn more.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your painting improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02669",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your painting, you record yourself to improve.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your painting improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02670",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your painting, you join a class to level up.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your painting improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02671",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your painting, you practice until late.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your painting improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02672",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your painting, you compare yourself to others.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your painting improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02673",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your painting, you find a great tutorial.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your painting improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02674",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your painting, you set a daily streak.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your painting improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02675",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your painting, you enter a small contest.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your painting improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02676",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your painting, you get honest feedback.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your painting improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02677",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your painting, you mix two skills together.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your painting improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02678",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your painting, you rediscover the joy of it.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your painting improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02679",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your painting, you take a break and come back fresh.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your painting improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02680",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your painting, you master a tricky technique.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your painting improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02681",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your languages, you finally get the hang of it.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your languages improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02682",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your languages, you hit a frustrating plateau.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your languages improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02683",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your languages, a breakthrough clicks into place.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your languages improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02684",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your languages, you teach someone else and learn more.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your languages improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02685",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your languages, you record yourself to improve.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your languages improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02686",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your languages, you join a class to level up.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your languages improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02687",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your languages, you practice until late.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your languages improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02688",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your languages, you compare yourself to others.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your languages improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02689",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your languages, you find a great tutorial.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your languages improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02690",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your languages, you set a daily streak.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your languages improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02691",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your languages, you enter a small contest.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your languages improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02692",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your languages, you get honest feedback.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your languages improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02693",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your languages, you mix two skills together.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your languages improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02694",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your languages, you rediscover the joy of it.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your languages improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02695",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your languages, you take a break and come back fresh.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your languages improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02696",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your languages, you master a tricky technique.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your languages improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02697",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your editing, you finally get the hang of it.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your editing improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02698",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your editing, you hit a frustrating plateau.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your editing improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02699",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your editing, a breakthrough clicks into place.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your editing improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02700",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your editing, you teach someone else and learn more.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your editing improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02701",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your editing, you record yourself to improve.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your editing improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02702",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your editing, you join a class to level up.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your editing improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02703",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your editing, you practice until late.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your editing improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02704",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your editing, you compare yourself to others.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your editing improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02705",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your editing, you find a great tutorial.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your editing improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02706",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your editing, you set a daily streak.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your editing improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02707",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your editing, you enter a small contest.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your editing improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02708",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your editing, you get honest feedback.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your editing improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02709",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your editing, you mix two skills together.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your editing improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02710",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your editing, you rediscover the joy of it.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your editing improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02711",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your editing, you take a break and come back fresh.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your editing improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02712",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your editing, you master a tricky technique.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your editing improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02713",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your woodwork, you finally get the hang of it.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your woodwork improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02714",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your woodwork, you hit a frustrating plateau.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your woodwork improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02715",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your woodwork, a breakthrough clicks into place.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your woodwork improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02716",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your woodwork, you teach someone else and learn more.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your woodwork improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02717",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your woodwork, you record yourself to improve.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your woodwork improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02718",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your woodwork, you join a class to level up.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your woodwork improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02719",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your woodwork, you practice until late.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your woodwork improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02720",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your woodwork, you compare yourself to others.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your woodwork improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02721",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your woodwork, you find a great tutorial.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your woodwork improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02722",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your woodwork, you set a daily streak.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your woodwork improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02723",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your woodwork, you enter a small contest.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your woodwork improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02724",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your woodwork, you get honest feedback.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your woodwork improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02725",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your woodwork, you mix two skills together.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your woodwork improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02726",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your woodwork, you rediscover the joy of it.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your woodwork improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02727",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your woodwork, you take a break and come back fresh.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your woodwork improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02728",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your woodwork, you master a tricky technique.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your woodwork improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02729",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your gardening, you finally get the hang of it.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your gardening improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02730",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your gardening, you hit a frustrating plateau.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your gardening improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02731",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your gardening, a breakthrough clicks into place.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your gardening improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02732",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your gardening, you teach someone else and learn more.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your gardening improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02733",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your gardening, you record yourself to improve.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your gardening improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02734",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your gardening, you join a class to level up.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your gardening improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02735",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your gardening, you practice until late.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your gardening improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02736",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your gardening, you compare yourself to others.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your gardening improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02737",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your gardening, you find a great tutorial.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your gardening improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02738",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your gardening, you set a daily streak.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your gardening improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02739",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your gardening, you enter a small contest.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your gardening improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02740",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your gardening, you get honest feedback.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your gardening improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02741",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your gardening, you mix two skills together.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your gardening improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02742",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your gardening, you rediscover the joy of it.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your gardening improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02743",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your gardening, you take a break and come back fresh.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your gardening improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02744",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your gardening, you master a tricky technique.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your gardening improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_friend_02745",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🧑‍🤝‍🧑",
+    "cond": {
+      "hasFriend": true
+    },
+    "title": "Friendship",
+    "text": "Your friend plans a surprise for you.",
+    "choices": [
+      {
+        "label": "Be there",
+        "effects": {
+          "karma": 4,
+          "happiness": 5,
+          "relRandom": 5
+        },
+        "log": "Friendship strengthened.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it light",
+        "effects": {
+          "happiness": 3,
+          "relRandom": 2
+        },
+        "log": "Good to have friends.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_friend_02746",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🧑‍🤝‍🧑",
+    "cond": {
+      "hasFriend": true
+    },
+    "title": "Friendship",
+    "text": "Your friend plans a surprise for you.",
+    "choices": [
+      {
+        "label": "Show up for them",
+        "effects": {
+          "karma": 4,
+          "happiness": 5,
+          "relRandom": 5
+        },
+        "log": "Friendship strengthened.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it light",
+        "effects": {
+          "happiness": 3,
+          "relRandom": 2
+        },
+        "log": "Good to have friends.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_friend_02747",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🧑‍🤝‍🧑",
+    "cond": {
+      "hasFriend": true
+    },
+    "title": "Friendship",
+    "text": "Your friend needs advice.",
+    "choices": [
+      {
+        "label": "Be there",
+        "effects": {
+          "karma": 4,
+          "happiness": 5,
+          "relRandom": 5
+        },
+        "log": "Friendship strengthened.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it light",
+        "effects": {
+          "happiness": 3,
+          "relRandom": 2
+        },
+        "log": "Good to have friends.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_friend_02748",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🧑‍🤝‍🧑",
+    "cond": {
+      "hasFriend": true
+    },
+    "title": "Friendship",
+    "text": "Your friend needs advice.",
+    "choices": [
+      {
+        "label": "Show up for them",
+        "effects": {
+          "karma": 4,
+          "happiness": 5,
+          "relRandom": 5
+        },
+        "log": "Friendship strengthened.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it light",
+        "effects": {
+          "happiness": 3,
+          "relRandom": 2
+        },
+        "log": "Good to have friends.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_friend_02749",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🧑‍🤝‍🧑",
+    "cond": {
+      "hasFriend": true
+    },
+    "title": "Friendship",
+    "text": "Your friend invites you on a trip.",
+    "choices": [
+      {
+        "label": "Be there",
+        "effects": {
+          "karma": 4,
+          "happiness": 5,
+          "relRandom": 5
+        },
+        "log": "Friendship strengthened.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it light",
+        "effects": {
+          "happiness": 3,
+          "relRandom": 2
+        },
+        "log": "Good to have friends.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_friend_02750",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🧑‍🤝‍🧑",
+    "cond": {
+      "hasFriend": true
+    },
+    "title": "Friendship",
+    "text": "Your friend invites you on a trip.",
+    "choices": [
+      {
+        "label": "Show up for them",
+        "effects": {
+          "karma": 4,
+          "happiness": 5,
+          "relRandom": 5
+        },
+        "log": "Friendship strengthened.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it light",
+        "effects": {
+          "happiness": 3,
+          "relRandom": 2
+        },
+        "log": "Good to have friends.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_friend_02751",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🧑‍🤝‍🧑",
+    "cond": {
+      "hasFriend": true
+    },
+    "title": "Friendship",
+    "text": "Your friend starts a new chapter in life.",
+    "choices": [
+      {
+        "label": "Be there",
+        "effects": {
+          "karma": 4,
+          "happiness": 5,
+          "relRandom": 5
+        },
+        "log": "Friendship strengthened.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it light",
+        "effects": {
+          "happiness": 3,
+          "relRandom": 2
+        },
+        "log": "Good to have friends.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_friend_02752",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🧑‍🤝‍🧑",
+    "cond": {
+      "hasFriend": true
+    },
+    "title": "Friendship",
+    "text": "Your friend starts a new chapter in life.",
+    "choices": [
+      {
+        "label": "Show up for them",
+        "effects": {
+          "karma": 4,
+          "happiness": 5,
+          "relRandom": 5
+        },
+        "log": "Friendship strengthened.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it light",
+        "effects": {
+          "happiness": 3,
+          "relRandom": 2
+        },
+        "log": "Good to have friends.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_friend_02753",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🧑‍🤝‍🧑",
+    "cond": {
+      "hasFriend": true
+    },
+    "title": "Friendship",
+    "text": "Your friend goes through a tough time.",
+    "choices": [
+      {
+        "label": "Be there",
+        "effects": {
+          "karma": 4,
+          "happiness": 5,
+          "relRandom": 5
+        },
+        "log": "Friendship strengthened.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it light",
+        "effects": {
+          "happiness": 3,
+          "relRandom": 2
+        },
+        "log": "Good to have friends.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_friend_02754",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🧑‍🤝‍🧑",
+    "cond": {
+      "hasFriend": true
+    },
+    "title": "Friendship",
+    "text": "Your friend goes through a tough time.",
+    "choices": [
+      {
+        "label": "Show up for them",
+        "effects": {
+          "karma": 4,
+          "happiness": 5,
+          "relRandom": 5
+        },
+        "log": "Friendship strengthened.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it light",
+        "effects": {
+          "happiness": 3,
+          "relRandom": 2
+        },
+        "log": "Good to have friends.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_friend_02755",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🧑‍🤝‍🧑",
+    "cond": {
+      "hasFriend": true
+    },
+    "title": "Friendship",
+    "text": "Your friend celebrates a big win.",
+    "choices": [
+      {
+        "label": "Be there",
+        "effects": {
+          "karma": 4,
+          "happiness": 5,
+          "relRandom": 5
+        },
+        "log": "Friendship strengthened.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it light",
+        "effects": {
+          "happiness": 3,
+          "relRandom": 2
+        },
+        "log": "Good to have friends.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_friend_02756",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🧑‍🤝‍🧑",
+    "cond": {
+      "hasFriend": true
+    },
+    "title": "Friendship",
+    "text": "Your friend celebrates a big win.",
+    "choices": [
+      {
+        "label": "Show up for them",
+        "effects": {
+          "karma": 4,
+          "happiness": 5,
+          "relRandom": 5
+        },
+        "log": "Friendship strengthened.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it light",
+        "effects": {
+          "happiness": 3,
+          "relRandom": 2
+        },
+        "log": "Good to have friends.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_friend_02757",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🧑‍🤝‍🧑",
+    "cond": {
+      "hasFriend": true
+    },
+    "title": "Friendship",
+    "text": "Your friend asks for a favor.",
+    "choices": [
+      {
+        "label": "Be there",
+        "effects": {
+          "karma": 4,
+          "happiness": 5,
+          "relRandom": 5
+        },
+        "log": "Friendship strengthened.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it light",
+        "effects": {
+          "happiness": 3,
+          "relRandom": 2
+        },
+        "log": "Good to have friends.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_friend_02758",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🧑‍🤝‍🧑",
+    "cond": {
+      "hasFriend": true
+    },
+    "title": "Friendship",
+    "text": "Your friend asks for a favor.",
+    "choices": [
+      {
+        "label": "Show up for them",
+        "effects": {
+          "karma": 4,
+          "happiness": 5,
+          "relRandom": 5
+        },
+        "log": "Friendship strengthened.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it light",
+        "effects": {
+          "happiness": 3,
+          "relRandom": 2
+        },
+        "log": "Good to have friends.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_friend_02759",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🧑‍🤝‍🧑",
+    "cond": {
+      "hasFriend": true
+    },
+    "title": "Friendship",
+    "text": "Your friend wants to start a project with you.",
+    "choices": [
+      {
+        "label": "Be there",
+        "effects": {
+          "karma": 4,
+          "happiness": 5,
+          "relRandom": 5
+        },
+        "log": "Friendship strengthened.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it light",
+        "effects": {
+          "happiness": 3,
+          "relRandom": 2
+        },
+        "log": "Good to have friends.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_friend_02760",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🧑‍🤝‍🧑",
+    "cond": {
+      "hasFriend": true
+    },
+    "title": "Friendship",
+    "text": "Your friend wants to start a project with you.",
+    "choices": [
+      {
+        "label": "Show up for them",
+        "effects": {
+          "karma": 4,
+          "happiness": 5,
+          "relRandom": 5
+        },
+        "log": "Friendship strengthened.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it light",
+        "effects": {
+          "happiness": 3,
+          "relRandom": 2
+        },
+        "log": "Good to have friends.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_friend_02761",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🧑‍🤝‍🧑",
+    "cond": {
+      "hasFriend": true
+    },
+    "title": "Friendship",
+    "text": "Your friend drifts a little distant.",
+    "choices": [
+      {
+        "label": "Be there",
+        "effects": {
+          "karma": 4,
+          "happiness": 5,
+          "relRandom": 5
+        },
+        "log": "Friendship strengthened.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it light",
+        "effects": {
+          "happiness": 3,
+          "relRandom": 2
+        },
+        "log": "Good to have friends.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_friend_02762",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🧑‍🤝‍🧑",
+    "cond": {
+      "hasFriend": true
+    },
+    "title": "Friendship",
+    "text": "Your friend drifts a little distant.",
+    "choices": [
+      {
+        "label": "Show up for them",
+        "effects": {
+          "karma": 4,
+          "happiness": 5,
+          "relRandom": 5
+        },
+        "log": "Friendship strengthened.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it light",
+        "effects": {
+          "happiness": 3,
+          "relRandom": 2
+        },
+        "log": "Good to have friends.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_friend_02763",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🧑‍🤝‍🧑",
+    "cond": {
+      "hasFriend": true
+    },
+    "title": "Friendship",
+    "text": "Your friend surprises you with a visit.",
+    "choices": [
+      {
+        "label": "Be there",
+        "effects": {
+          "karma": 4,
+          "happiness": 5,
+          "relRandom": 5
+        },
+        "log": "Friendship strengthened.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it light",
+        "effects": {
+          "happiness": 3,
+          "relRandom": 2
+        },
+        "log": "Good to have friends.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_friend_02764",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🧑‍🤝‍🧑",
+    "cond": {
+      "hasFriend": true
+    },
+    "title": "Friendship",
+    "text": "Your friend surprises you with a visit.",
+    "choices": [
+      {
+        "label": "Show up for them",
+        "effects": {
+          "karma": 4,
+          "happiness": 5,
+          "relRandom": 5
+        },
+        "log": "Friendship strengthened.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it light",
+        "effects": {
+          "happiness": 3,
+          "relRandom": 2
+        },
+        "log": "Good to have friends.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_friend_02765",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🧑‍🤝‍🧑",
+    "cond": {
+      "hasFriend": true
+    },
+    "title": "Friendship",
+    "text": "Your friend shares exciting news.",
+    "choices": [
+      {
+        "label": "Be there",
+        "effects": {
+          "karma": 4,
+          "happiness": 5,
+          "relRandom": 5
+        },
+        "log": "Friendship strengthened.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it light",
+        "effects": {
+          "happiness": 3,
+          "relRandom": 2
+        },
+        "log": "Good to have friends.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_friend_02766",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🧑‍🤝‍🧑",
+    "cond": {
+      "hasFriend": true
+    },
+    "title": "Friendship",
+    "text": "Your friend shares exciting news.",
+    "choices": [
+      {
+        "label": "Show up for them",
+        "effects": {
+          "karma": 4,
+          "happiness": 5,
+          "relRandom": 5
+        },
+        "log": "Friendship strengthened.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it light",
+        "effects": {
+          "happiness": 3,
+          "relRandom": 2
+        },
+        "log": "Good to have friends.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_friend_02767",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🧑‍🤝‍🧑",
+    "cond": {
+      "hasFriend": true
+    },
+    "title": "Friendship",
+    "text": "Your friend needs cheering up.",
+    "choices": [
+      {
+        "label": "Be there",
+        "effects": {
+          "karma": 4,
+          "happiness": 5,
+          "relRandom": 5
+        },
+        "log": "Friendship strengthened.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it light",
+        "effects": {
+          "happiness": 3,
+          "relRandom": 2
+        },
+        "log": "Good to have friends.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_friend_02768",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🧑‍🤝‍🧑",
+    "cond": {
+      "hasFriend": true
+    },
+    "title": "Friendship",
+    "text": "Your friend needs cheering up.",
+    "choices": [
+      {
+        "label": "Show up for them",
+        "effects": {
+          "karma": 4,
+          "happiness": 5,
+          "relRandom": 5
+        },
+        "log": "Friendship strengthened.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it light",
+        "effects": {
+          "happiness": 3,
+          "relRandom": 2
+        },
+        "log": "Good to have friends.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_friend_02769",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🧑‍🤝‍🧑",
+    "cond": {
+      "hasFriend": true
+    },
+    "title": "Friendship",
+    "text": "Your friend throws a get-together.",
+    "choices": [
+      {
+        "label": "Be there",
+        "effects": {
+          "karma": 4,
+          "happiness": 5,
+          "relRandom": 5
+        },
+        "log": "Friendship strengthened.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it light",
+        "effects": {
+          "happiness": 3,
+          "relRandom": 2
+        },
+        "log": "Good to have friends.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_friend_02770",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🧑‍🤝‍🧑",
+    "cond": {
+      "hasFriend": true
+    },
+    "title": "Friendship",
+    "text": "Your friend throws a get-together.",
+    "choices": [
+      {
+        "label": "Show up for them",
+        "effects": {
+          "karma": 4,
+          "happiness": 5,
+          "relRandom": 5
+        },
+        "log": "Friendship strengthened.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it light",
+        "effects": {
+          "happiness": 3,
+          "relRandom": 2
+        },
+        "log": "Good to have friends.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_friend_02771",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🧑‍🤝‍🧑",
+    "cond": {
+      "hasFriend": true
+    },
+    "title": "Friendship",
+    "text": "Your friend remembers something you forgot.",
+    "choices": [
+      {
+        "label": "Be there",
+        "effects": {
+          "karma": 4,
+          "happiness": 5,
+          "relRandom": 5
+        },
+        "log": "Friendship strengthened.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it light",
+        "effects": {
+          "happiness": 3,
+          "relRandom": 2
+        },
+        "log": "Good to have friends.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_friend_02772",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🧑‍🤝‍🧑",
+    "cond": {
+      "hasFriend": true
+    },
+    "title": "Friendship",
+    "text": "Your friend remembers something you forgot.",
+    "choices": [
+      {
+        "label": "Show up for them",
+        "effects": {
+          "karma": 4,
+          "happiness": 5,
+          "relRandom": 5
+        },
+        "log": "Friendship strengthened.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it light",
+        "effects": {
+          "happiness": 3,
+          "relRandom": 2
+        },
+        "log": "Good to have friends.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_friend_02773",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🧑‍🤝‍🧑",
+    "cond": {
+      "hasFriend": true
+    },
+    "title": "Friendship",
+    "text": "Your friend stands up for you.",
+    "choices": [
+      {
+        "label": "Be there",
+        "effects": {
+          "karma": 4,
+          "happiness": 5,
+          "relRandom": 5
+        },
+        "log": "Friendship strengthened.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it light",
+        "effects": {
+          "happiness": 3,
+          "relRandom": 2
+        },
+        "log": "Good to have friends.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_friend_02774",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🧑‍🤝‍🧑",
+    "cond": {
+      "hasFriend": true
+    },
+    "title": "Friendship",
+    "text": "Your friend stands up for you.",
+    "choices": [
+      {
+        "label": "Show up for them",
+        "effects": {
+          "karma": 4,
+          "happiness": 5,
+          "relRandom": 5
+        },
+        "log": "Friendship strengthened.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it light",
+        "effects": {
+          "happiness": 3,
+          "relRandom": 2
+        },
+        "log": "Good to have friends.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_friend_02775",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🧑‍🤝‍🧑",
+    "cond": {
+      "hasFriend": true
+    },
+    "title": "Friendship",
+    "text": "Your friend picks you first.",
+    "choices": [
+      {
+        "label": "Be there",
+        "effects": {
+          "karma": 4,
+          "happiness": 5,
+          "relRandom": 5
+        },
+        "log": "Friendship strengthened.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it light",
+        "effects": {
+          "happiness": 3,
+          "relRandom": 2
+        },
+        "log": "Good to have friends.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_friend_02776",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🧑‍🤝‍🧑",
+    "cond": {
+      "hasFriend": true
+    },
+    "title": "Friendship",
+    "text": "Your friend picks you first.",
+    "choices": [
+      {
+        "label": "Show up for them",
+        "effects": {
+          "karma": 4,
+          "happiness": 5,
+          "relRandom": 5
+        },
+        "log": "Friendship strengthened.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it light",
+        "effects": {
+          "happiness": 3,
+          "relRandom": 2
+        },
+        "log": "Good to have friends.",
+        "kind": "info"
+      }
+    ]
+  }
+]

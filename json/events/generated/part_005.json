@@ -8790,5 +8790,5473 @@
         "kind": "info"
       }
     ]
+  },
+  {
+    "id": "gen_moment_02309",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you find a perfect parking spot.",
+    "choices": [
+      {
+        "label": "Soak it in",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Share the moment",
+        "effects": {
+          "happiness": 3,
+          "karma": 2
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02310",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you find a perfect parking spot.",
+    "choices": [
+      {
+        "label": "Let it lift your day",
+        "effects": {
+          "happiness": 5
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Pay it forward",
+        "effects": {
+          "karma": 4,
+          "happiness": 2
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02311",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you find a perfect parking spot.",
+    "choices": [
+      {
+        "label": "Savor it fully",
+        "effects": {
+          "happiness": 4,
+          "mental": 3
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Note it in your journal",
+        "effects": {
+          "smarts": 1,
+          "happiness": 3
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02312",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, your coffee order is exactly right.",
+    "choices": [
+      {
+        "label": "Soak it in",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Share the moment",
+        "effects": {
+          "happiness": 3,
+          "karma": 2
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02313",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, your coffee order is exactly right.",
+    "choices": [
+      {
+        "label": "Let it lift your day",
+        "effects": {
+          "happiness": 5
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Pay it forward",
+        "effects": {
+          "karma": 4,
+          "happiness": 2
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02314",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, your coffee order is exactly right.",
+    "choices": [
+      {
+        "label": "Savor it fully",
+        "effects": {
+          "happiness": 4,
+          "mental": 3
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Note it in your journal",
+        "effects": {
+          "smarts": 1,
+          "happiness": 3
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02315",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, a song you love comes on the radio.",
+    "choices": [
+      {
+        "label": "Soak it in",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Share the moment",
+        "effects": {
+          "happiness": 3,
+          "karma": 2
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02316",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, a song you love comes on the radio.",
+    "choices": [
+      {
+        "label": "Let it lift your day",
+        "effects": {
+          "happiness": 5
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Pay it forward",
+        "effects": {
+          "karma": 4,
+          "happiness": 2
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02317",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, a song you love comes on the radio.",
+    "choices": [
+      {
+        "label": "Savor it fully",
+        "effects": {
+          "happiness": 4,
+          "mental": 3
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Note it in your journal",
+        "effects": {
+          "smarts": 1,
+          "happiness": 3
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02318",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you finish a great book.",
+    "choices": [
+      {
+        "label": "Soak it in",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Share the moment",
+        "effects": {
+          "happiness": 3,
+          "karma": 2
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02319",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you finish a great book.",
+    "choices": [
+      {
+        "label": "Let it lift your day",
+        "effects": {
+          "happiness": 5
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Pay it forward",
+        "effects": {
+          "karma": 4,
+          "happiness": 2
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02320",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you finish a great book.",
+    "choices": [
+      {
+        "label": "Savor it fully",
+        "effects": {
+          "happiness": 4,
+          "mental": 3
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Note it in your journal",
+        "effects": {
+          "smarts": 1,
+          "happiness": 3
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02321",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you nail a recipe on the first try.",
+    "choices": [
+      {
+        "label": "Soak it in",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Share the moment",
+        "effects": {
+          "happiness": 3,
+          "karma": 2
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02322",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you nail a recipe on the first try.",
+    "choices": [
+      {
+        "label": "Let it lift your day",
+        "effects": {
+          "happiness": 5
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Pay it forward",
+        "effects": {
+          "karma": 4,
+          "happiness": 2
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02323",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you nail a recipe on the first try.",
+    "choices": [
+      {
+        "label": "Savor it fully",
+        "effects": {
+          "happiness": 4,
+          "mental": 3
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Note it in your journal",
+        "effects": {
+          "smarts": 1,
+          "happiness": 3
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02324",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you get a genuine belly laugh.",
+    "choices": [
+      {
+        "label": "Soak it in",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Share the moment",
+        "effects": {
+          "happiness": 3,
+          "karma": 2
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02325",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you get a genuine belly laugh.",
+    "choices": [
+      {
+        "label": "Let it lift your day",
+        "effects": {
+          "happiness": 5
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Pay it forward",
+        "effects": {
+          "karma": 4,
+          "happiness": 2
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02326",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you get a genuine belly laugh.",
+    "choices": [
+      {
+        "label": "Savor it fully",
+        "effects": {
+          "happiness": 4,
+          "mental": 3
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Note it in your journal",
+        "effects": {
+          "smarts": 1,
+          "happiness": 3
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02327",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you have the house to yourself.",
+    "choices": [
+      {
+        "label": "Soak it in",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Share the moment",
+        "effects": {
+          "happiness": 3,
+          "karma": 2
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02328",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you have the house to yourself.",
+    "choices": [
+      {
+        "label": "Let it lift your day",
+        "effects": {
+          "happiness": 5
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Pay it forward",
+        "effects": {
+          "karma": 4,
+          "happiness": 2
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02329",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you have the house to yourself.",
+    "choices": [
+      {
+        "label": "Savor it fully",
+        "effects": {
+          "happiness": 4,
+          "mental": 3
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Note it in your journal",
+        "effects": {
+          "smarts": 1,
+          "happiness": 3
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02330",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you catch a beautiful sunset.",
+    "choices": [
+      {
+        "label": "Soak it in",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Share the moment",
+        "effects": {
+          "happiness": 3,
+          "karma": 2
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02331",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you catch a beautiful sunset.",
+    "choices": [
+      {
+        "label": "Let it lift your day",
+        "effects": {
+          "happiness": 5
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Pay it forward",
+        "effects": {
+          "karma": 4,
+          "happiness": 2
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02332",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you catch a beautiful sunset.",
+    "choices": [
+      {
+        "label": "Savor it fully",
+        "effects": {
+          "happiness": 4,
+          "mental": 3
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Note it in your journal",
+        "effects": {
+          "smarts": 1,
+          "happiness": 3
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02333",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you finally beat a tough level.",
+    "choices": [
+      {
+        "label": "Soak it in",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Share the moment",
+        "effects": {
+          "happiness": 3,
+          "karma": 2
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02334",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you finally beat a tough level.",
+    "choices": [
+      {
+        "label": "Let it lift your day",
+        "effects": {
+          "happiness": 5
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Pay it forward",
+        "effects": {
+          "karma": 4,
+          "happiness": 2
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02335",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you finally beat a tough level.",
+    "choices": [
+      {
+        "label": "Savor it fully",
+        "effects": {
+          "happiness": 4,
+          "mental": 3
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Note it in your journal",
+        "effects": {
+          "smarts": 1,
+          "happiness": 3
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02336",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you get a heartfelt thank-you text.",
+    "choices": [
+      {
+        "label": "Soak it in",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Share the moment",
+        "effects": {
+          "happiness": 3,
+          "karma": 2
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02337",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you get a heartfelt thank-you text.",
+    "choices": [
+      {
+        "label": "Let it lift your day",
+        "effects": {
+          "happiness": 5
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Pay it forward",
+        "effects": {
+          "karma": 4,
+          "happiness": 2
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02338",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you get a heartfelt thank-you text.",
+    "choices": [
+      {
+        "label": "Savor it fully",
+        "effects": {
+          "happiness": 4,
+          "mental": 3
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Note it in your journal",
+        "effects": {
+          "smarts": 1,
+          "happiness": 3
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02339",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you wake up before your alarm feeling rested.",
+    "choices": [
+      {
+        "label": "Soak it in",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Share the moment",
+        "effects": {
+          "happiness": 3,
+          "karma": 2
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02340",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you wake up before your alarm feeling rested.",
+    "choices": [
+      {
+        "label": "Let it lift your day",
+        "effects": {
+          "happiness": 5
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Pay it forward",
+        "effects": {
+          "karma": 4,
+          "happiness": 2
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02341",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you wake up before your alarm feeling rested.",
+    "choices": [
+      {
+        "label": "Savor it fully",
+        "effects": {
+          "happiness": 4,
+          "mental": 3
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Note it in your journal",
+        "effects": {
+          "smarts": 1,
+          "happiness": 3
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02342",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you find cash in old jeans.",
+    "choices": [
+      {
+        "label": "Soak it in",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Share the moment",
+        "effects": {
+          "happiness": 3,
+          "karma": 2
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02343",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you find cash in old jeans.",
+    "choices": [
+      {
+        "label": "Let it lift your day",
+        "effects": {
+          "happiness": 5
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Pay it forward",
+        "effects": {
+          "karma": 4,
+          "happiness": 2
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02344",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you find cash in old jeans.",
+    "choices": [
+      {
+        "label": "Savor it fully",
+        "effects": {
+          "happiness": 4,
+          "mental": 3
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Note it in your journal",
+        "effects": {
+          "smarts": 1,
+          "happiness": 3
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02345",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, your team wins a close one.",
+    "choices": [
+      {
+        "label": "Soak it in",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Share the moment",
+        "effects": {
+          "happiness": 3,
+          "karma": 2
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02346",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, your team wins a close one.",
+    "choices": [
+      {
+        "label": "Let it lift your day",
+        "effects": {
+          "happiness": 5
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Pay it forward",
+        "effects": {
+          "karma": 4,
+          "happiness": 2
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02347",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, your team wins a close one.",
+    "choices": [
+      {
+        "label": "Savor it fully",
+        "effects": {
+          "happiness": 4,
+          "mental": 3
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Note it in your journal",
+        "effects": {
+          "smarts": 1,
+          "happiness": 3
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02348",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you fix something that's bugged you for ages.",
+    "choices": [
+      {
+        "label": "Soak it in",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Share the moment",
+        "effects": {
+          "happiness": 3,
+          "karma": 2
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02349",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you fix something that's bugged you for ages.",
+    "choices": [
+      {
+        "label": "Let it lift your day",
+        "effects": {
+          "happiness": 5
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Pay it forward",
+        "effects": {
+          "karma": 4,
+          "happiness": 2
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02350",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you fix something that's bugged you for ages.",
+    "choices": [
+      {
+        "label": "Savor it fully",
+        "effects": {
+          "happiness": 4,
+          "mental": 3
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Note it in your journal",
+        "effects": {
+          "smarts": 1,
+          "happiness": 3
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02351",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you reconnect with an old hobby.",
+    "choices": [
+      {
+        "label": "Soak it in",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Share the moment",
+        "effects": {
+          "happiness": 3,
+          "karma": 2
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02352",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you reconnect with an old hobby.",
+    "choices": [
+      {
+        "label": "Let it lift your day",
+        "effects": {
+          "happiness": 5
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Pay it forward",
+        "effects": {
+          "karma": 4,
+          "happiness": 2
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02353",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you reconnect with an old hobby.",
+    "choices": [
+      {
+        "label": "Savor it fully",
+        "effects": {
+          "happiness": 4,
+          "mental": 3
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Note it in your journal",
+        "effects": {
+          "smarts": 1,
+          "happiness": 3
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02354",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you have a great hair day.",
+    "choices": [
+      {
+        "label": "Soak it in",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Share the moment",
+        "effects": {
+          "happiness": 3,
+          "karma": 2
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02355",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you have a great hair day.",
+    "choices": [
+      {
+        "label": "Let it lift your day",
+        "effects": {
+          "happiness": 5
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Pay it forward",
+        "effects": {
+          "karma": 4,
+          "happiness": 2
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02356",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you have a great hair day.",
+    "choices": [
+      {
+        "label": "Savor it fully",
+        "effects": {
+          "happiness": 4,
+          "mental": 3
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Note it in your journal",
+        "effects": {
+          "smarts": 1,
+          "happiness": 3
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02357",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you cook for friends and they love it.",
+    "choices": [
+      {
+        "label": "Soak it in",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Share the moment",
+        "effects": {
+          "happiness": 3,
+          "karma": 2
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02358",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you cook for friends and they love it.",
+    "choices": [
+      {
+        "label": "Let it lift your day",
+        "effects": {
+          "happiness": 5
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Pay it forward",
+        "effects": {
+          "karma": 4,
+          "happiness": 2
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02359",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you cook for friends and they love it.",
+    "choices": [
+      {
+        "label": "Savor it fully",
+        "effects": {
+          "happiness": 4,
+          "mental": 3
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Note it in your journal",
+        "effects": {
+          "smarts": 1,
+          "happiness": 3
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02360",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you get lost in a good conversation.",
+    "choices": [
+      {
+        "label": "Soak it in",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Share the moment",
+        "effects": {
+          "happiness": 3,
+          "karma": 2
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02361",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you get lost in a good conversation.",
+    "choices": [
+      {
+        "label": "Let it lift your day",
+        "effects": {
+          "happiness": 5
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Pay it forward",
+        "effects": {
+          "karma": 4,
+          "happiness": 2
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02362",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you get lost in a good conversation.",
+    "choices": [
+      {
+        "label": "Savor it fully",
+        "effects": {
+          "happiness": 4,
+          "mental": 3
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Note it in your journal",
+        "effects": {
+          "smarts": 1,
+          "happiness": 3
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02363",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you find the perfect gift for someone.",
+    "choices": [
+      {
+        "label": "Soak it in",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Share the moment",
+        "effects": {
+          "happiness": 3,
+          "karma": 2
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02364",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you find the perfect gift for someone.",
+    "choices": [
+      {
+        "label": "Let it lift your day",
+        "effects": {
+          "happiness": 5
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Pay it forward",
+        "effects": {
+          "karma": 4,
+          "happiness": 2
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02365",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you find the perfect gift for someone.",
+    "choices": [
+      {
+        "label": "Savor it fully",
+        "effects": {
+          "happiness": 4,
+          "mental": 3
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Note it in your journal",
+        "effects": {
+          "smarts": 1,
+          "happiness": 3
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02366",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you have a productive morning.",
+    "choices": [
+      {
+        "label": "Soak it in",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Share the moment",
+        "effects": {
+          "happiness": 3,
+          "karma": 2
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02367",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you have a productive morning.",
+    "choices": [
+      {
+        "label": "Let it lift your day",
+        "effects": {
+          "happiness": 5
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Pay it forward",
+        "effects": {
+          "karma": 4,
+          "happiness": 2
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02368",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you have a productive morning.",
+    "choices": [
+      {
+        "label": "Savor it fully",
+        "effects": {
+          "happiness": 4,
+          "mental": 3
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Note it in your journal",
+        "effects": {
+          "smarts": 1,
+          "happiness": 3
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02369",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you take a nap that hits just right.",
+    "choices": [
+      {
+        "label": "Soak it in",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Share the moment",
+        "effects": {
+          "happiness": 3,
+          "karma": 2
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02370",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you take a nap that hits just right.",
+    "choices": [
+      {
+        "label": "Let it lift your day",
+        "effects": {
+          "happiness": 5
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Pay it forward",
+        "effects": {
+          "karma": 4,
+          "happiness": 2
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02371",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you take a nap that hits just right.",
+    "choices": [
+      {
+        "label": "Savor it fully",
+        "effects": {
+          "happiness": 4,
+          "mental": 3
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Note it in your journal",
+        "effects": {
+          "smarts": 1,
+          "happiness": 3
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02372",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you stumble on a hidden gem of a café.",
+    "choices": [
+      {
+        "label": "Soak it in",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Share the moment",
+        "effects": {
+          "happiness": 3,
+          "karma": 2
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02373",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you stumble on a hidden gem of a café.",
+    "choices": [
+      {
+        "label": "Let it lift your day",
+        "effects": {
+          "happiness": 5
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Pay it forward",
+        "effects": {
+          "karma": 4,
+          "happiness": 2
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02374",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you stumble on a hidden gem of a café.",
+    "choices": [
+      {
+        "label": "Savor it fully",
+        "effects": {
+          "happiness": 4,
+          "mental": 3
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Note it in your journal",
+        "effects": {
+          "smarts": 1,
+          "happiness": 3
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02375",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you finish your to-do list.",
+    "choices": [
+      {
+        "label": "Soak it in",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Share the moment",
+        "effects": {
+          "happiness": 3,
+          "karma": 2
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02376",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you finish your to-do list.",
+    "choices": [
+      {
+        "label": "Let it lift your day",
+        "effects": {
+          "happiness": 5
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Pay it forward",
+        "effects": {
+          "karma": 4,
+          "happiness": 2
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02377",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you finish your to-do list.",
+    "choices": [
+      {
+        "label": "Savor it fully",
+        "effects": {
+          "happiness": 4,
+          "mental": 3
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Note it in your journal",
+        "effects": {
+          "smarts": 1,
+          "happiness": 3
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02378",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you get a compliment from a stranger.",
+    "choices": [
+      {
+        "label": "Soak it in",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Share the moment",
+        "effects": {
+          "happiness": 3,
+          "karma": 2
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02379",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you get a compliment from a stranger.",
+    "choices": [
+      {
+        "label": "Let it lift your day",
+        "effects": {
+          "happiness": 5
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Pay it forward",
+        "effects": {
+          "karma": 4,
+          "happiness": 2
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02380",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you get a compliment from a stranger.",
+    "choices": [
+      {
+        "label": "Savor it fully",
+        "effects": {
+          "happiness": 4,
+          "mental": 3
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Note it in your journal",
+        "effects": {
+          "smarts": 1,
+          "happiness": 3
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02381",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you watch a storm from your window.",
+    "choices": [
+      {
+        "label": "Soak it in",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Share the moment",
+        "effects": {
+          "happiness": 3,
+          "karma": 2
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02382",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you watch a storm from your window.",
+    "choices": [
+      {
+        "label": "Let it lift your day",
+        "effects": {
+          "happiness": 5
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Pay it forward",
+        "effects": {
+          "karma": 4,
+          "happiness": 2
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02383",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you watch a storm from your window.",
+    "choices": [
+      {
+        "label": "Savor it fully",
+        "effects": {
+          "happiness": 4,
+          "mental": 3
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Note it in your journal",
+        "effects": {
+          "smarts": 1,
+          "happiness": 3
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02384",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you bake something that smells amazing.",
+    "choices": [
+      {
+        "label": "Soak it in",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Share the moment",
+        "effects": {
+          "happiness": 3,
+          "karma": 2
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02385",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you bake something that smells amazing.",
+    "choices": [
+      {
+        "label": "Let it lift your day",
+        "effects": {
+          "happiness": 5
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Pay it forward",
+        "effects": {
+          "karma": 4,
+          "happiness": 2
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02386",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you bake something that smells amazing.",
+    "choices": [
+      {
+        "label": "Savor it fully",
+        "effects": {
+          "happiness": 4,
+          "mental": 3
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Note it in your journal",
+        "effects": {
+          "smarts": 1,
+          "happiness": 3
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02387",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you organize a messy drawer.",
+    "choices": [
+      {
+        "label": "Soak it in",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Share the moment",
+        "effects": {
+          "happiness": 3,
+          "karma": 2
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02388",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you organize a messy drawer.",
+    "choices": [
+      {
+        "label": "Let it lift your day",
+        "effects": {
+          "happiness": 5
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Pay it forward",
+        "effects": {
+          "karma": 4,
+          "happiness": 2
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02389",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you organize a messy drawer.",
+    "choices": [
+      {
+        "label": "Savor it fully",
+        "effects": {
+          "happiness": 4,
+          "mental": 3
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Note it in your journal",
+        "effects": {
+          "smarts": 1,
+          "happiness": 3
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02390",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you learn a fun fact.",
+    "choices": [
+      {
+        "label": "Soak it in",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Share the moment",
+        "effects": {
+          "happiness": 3,
+          "karma": 2
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02391",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you learn a fun fact.",
+    "choices": [
+      {
+        "label": "Let it lift your day",
+        "effects": {
+          "happiness": 5
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Pay it forward",
+        "effects": {
+          "karma": 4,
+          "happiness": 2
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02392",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you learn a fun fact.",
+    "choices": [
+      {
+        "label": "Savor it fully",
+        "effects": {
+          "happiness": 4,
+          "mental": 3
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Note it in your journal",
+        "effects": {
+          "smarts": 1,
+          "happiness": 3
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02393",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you make someone's day.",
+    "choices": [
+      {
+        "label": "Soak it in",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Share the moment",
+        "effects": {
+          "happiness": 3,
+          "karma": 2
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02394",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you make someone's day.",
+    "choices": [
+      {
+        "label": "Let it lift your day",
+        "effects": {
+          "happiness": 5
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Pay it forward",
+        "effects": {
+          "karma": 4,
+          "happiness": 2
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02395",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you make someone's day.",
+    "choices": [
+      {
+        "label": "Savor it fully",
+        "effects": {
+          "happiness": 4,
+          "mental": 3
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Note it in your journal",
+        "effects": {
+          "smarts": 1,
+          "happiness": 3
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02396",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you find a new favorite spot.",
+    "choices": [
+      {
+        "label": "Soak it in",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Share the moment",
+        "effects": {
+          "happiness": 3,
+          "karma": 2
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02397",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you find a new favorite spot.",
+    "choices": [
+      {
+        "label": "Let it lift your day",
+        "effects": {
+          "happiness": 5
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Pay it forward",
+        "effects": {
+          "karma": 4,
+          "happiness": 2
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02398",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you find a new favorite spot.",
+    "choices": [
+      {
+        "label": "Savor it fully",
+        "effects": {
+          "happiness": 4,
+          "mental": 3
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Note it in your journal",
+        "effects": {
+          "smarts": 1,
+          "happiness": 3
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02399",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you get a surprise day off.",
+    "choices": [
+      {
+        "label": "Soak it in",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Share the moment",
+        "effects": {
+          "happiness": 3,
+          "karma": 2
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02400",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you get a surprise day off.",
+    "choices": [
+      {
+        "label": "Let it lift your day",
+        "effects": {
+          "happiness": 5
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Pay it forward",
+        "effects": {
+          "karma": 4,
+          "happiness": 2
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02401",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you get a surprise day off.",
+    "choices": [
+      {
+        "label": "Savor it fully",
+        "effects": {
+          "happiness": 4,
+          "mental": 3
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Note it in your journal",
+        "effects": {
+          "smarts": 1,
+          "happiness": 3
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02402",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you finally relax after a long week.",
+    "choices": [
+      {
+        "label": "Soak it in",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Share the moment",
+        "effects": {
+          "happiness": 3,
+          "karma": 2
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02403",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you finally relax after a long week.",
+    "choices": [
+      {
+        "label": "Let it lift your day",
+        "effects": {
+          "happiness": 5
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Pay it forward",
+        "effects": {
+          "karma": 4,
+          "happiness": 2
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02404",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you finally relax after a long week.",
+    "choices": [
+      {
+        "label": "Savor it fully",
+        "effects": {
+          "happiness": 4,
+          "mental": 3
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Note it in your journal",
+        "effects": {
+          "smarts": 1,
+          "happiness": 3
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02405",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you hear from an old friend.",
+    "choices": [
+      {
+        "label": "Soak it in",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Share the moment",
+        "effects": {
+          "happiness": 3,
+          "karma": 2
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02406",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you hear from an old friend.",
+    "choices": [
+      {
+        "label": "Let it lift your day",
+        "effects": {
+          "happiness": 5
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Pay it forward",
+        "effects": {
+          "karma": 4,
+          "happiness": 2
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02407",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you hear from an old friend.",
+    "choices": [
+      {
+        "label": "Savor it fully",
+        "effects": {
+          "happiness": 4,
+          "mental": 3
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Note it in your journal",
+        "effects": {
+          "smarts": 1,
+          "happiness": 3
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02408",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you discover a great playlist.",
+    "choices": [
+      {
+        "label": "Soak it in",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Share the moment",
+        "effects": {
+          "happiness": 3,
+          "karma": 2
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02409",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you discover a great playlist.",
+    "choices": [
+      {
+        "label": "Let it lift your day",
+        "effects": {
+          "happiness": 5
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Pay it forward",
+        "effects": {
+          "karma": 4,
+          "happiness": 2
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02410",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you discover a great playlist.",
+    "choices": [
+      {
+        "label": "Savor it fully",
+        "effects": {
+          "happiness": 4,
+          "mental": 3
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Note it in your journal",
+        "effects": {
+          "smarts": 1,
+          "happiness": 3
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02411",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you have a moment of pure calm.",
+    "choices": [
+      {
+        "label": "Soak it in",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Share the moment",
+        "effects": {
+          "happiness": 3,
+          "karma": 2
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02412",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you have a moment of pure calm.",
+    "choices": [
+      {
+        "label": "Let it lift your day",
+        "effects": {
+          "happiness": 5
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Pay it forward",
+        "effects": {
+          "karma": 4,
+          "happiness": 2
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02413",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you have a moment of pure calm.",
+    "choices": [
+      {
+        "label": "Savor it fully",
+        "effects": {
+          "happiness": 4,
+          "mental": 3
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Note it in your journal",
+        "effects": {
+          "smarts": 1,
+          "happiness": 3
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02414",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you laugh at an old memory.",
+    "choices": [
+      {
+        "label": "Soak it in",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Share the moment",
+        "effects": {
+          "happiness": 3,
+          "karma": 2
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02415",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you laugh at an old memory.",
+    "choices": [
+      {
+        "label": "Let it lift your day",
+        "effects": {
+          "happiness": 5
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Pay it forward",
+        "effects": {
+          "karma": 4,
+          "happiness": 2
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02416",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you laugh at an old memory.",
+    "choices": [
+      {
+        "label": "Savor it fully",
+        "effects": {
+          "happiness": 4,
+          "mental": 3
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Note it in your journal",
+        "effects": {
+          "smarts": 1,
+          "happiness": 3
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02417",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you try a new route and love it.",
+    "choices": [
+      {
+        "label": "Soak it in",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Share the moment",
+        "effects": {
+          "happiness": 3,
+          "karma": 2
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02418",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you try a new route and love it.",
+    "choices": [
+      {
+        "label": "Let it lift your day",
+        "effects": {
+          "happiness": 5
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Pay it forward",
+        "effects": {
+          "karma": 4,
+          "happiness": 2
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02419",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you try a new route and love it.",
+    "choices": [
+      {
+        "label": "Savor it fully",
+        "effects": {
+          "happiness": 4,
+          "mental": 3
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Note it in your journal",
+        "effects": {
+          "smarts": 1,
+          "happiness": 3
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02420",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you get a small win at work.",
+    "choices": [
+      {
+        "label": "Soak it in",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Share the moment",
+        "effects": {
+          "happiness": 3,
+          "karma": 2
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02421",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you get a small win at work.",
+    "choices": [
+      {
+        "label": "Let it lift your day",
+        "effects": {
+          "happiness": 5
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Pay it forward",
+        "effects": {
+          "karma": 4,
+          "happiness": 2
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02422",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you get a small win at work.",
+    "choices": [
+      {
+        "label": "Savor it fully",
+        "effects": {
+          "happiness": 4,
+          "mental": 3
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Note it in your journal",
+        "effects": {
+          "smarts": 1,
+          "happiness": 3
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02423",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you watch the rain with tea.",
+    "choices": [
+      {
+        "label": "Soak it in",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Share the moment",
+        "effects": {
+          "happiness": 3,
+          "karma": 2
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02424",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you watch the rain with tea.",
+    "choices": [
+      {
+        "label": "Let it lift your day",
+        "effects": {
+          "happiness": 5
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Pay it forward",
+        "effects": {
+          "karma": 4,
+          "happiness": 2
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02425",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you watch the rain with tea.",
+    "choices": [
+      {
+        "label": "Savor it fully",
+        "effects": {
+          "happiness": 4,
+          "mental": 3
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Note it in your journal",
+        "effects": {
+          "smarts": 1,
+          "happiness": 3
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02426",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you feel proud of yourself.",
+    "choices": [
+      {
+        "label": "Soak it in",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Share the moment",
+        "effects": {
+          "happiness": 3,
+          "karma": 2
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02427",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you feel proud of yourself.",
+    "choices": [
+      {
+        "label": "Let it lift your day",
+        "effects": {
+          "happiness": 5
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Pay it forward",
+        "effects": {
+          "karma": 4,
+          "happiness": 2
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_moment_02428",
+    "min": 5,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "✨",
+    "title": "A Good Moment",
+    "text": "Today, you feel proud of yourself.",
+    "choices": [
+      {
+        "label": "Savor it fully",
+        "effects": {
+          "happiness": 4,
+          "mental": 3
+        },
+        "log": "A little joy in the everyday.",
+        "kind": "good"
+      },
+      {
+        "label": "Note it in your journal",
+        "effects": {
+          "smarts": 1,
+          "happiness": 3
+        },
+        "log": "The small things matter.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_annoy_02429",
+    "min": 6,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "😅",
+    "title": "Minor Inconvenience",
+    "text": "Ugh — your shoelace snaps.",
+    "choices": [
+      {
+        "label": "Laugh it off",
+        "effects": {
+          "mental": 3,
+          "happiness": 2
+        },
+        "log": "These things happen.",
+        "kind": "info"
+      },
+      {
+        "label": "Let it bug you",
+        "effects": {
+          "happiness": -1
+        },
+        "log": "Crisis averted.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_annoy_02430",
+    "min": 6,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "😅",
+    "title": "Minor Inconvenience",
+    "text": "Ugh — your shoelace snaps.",
+    "choices": [
+      {
+        "label": "Shrug and move on",
+        "effects": {
+          "mental": 2
+        },
+        "log": "These things happen.",
+        "kind": "info"
+      },
+      {
+        "label": "Fix it properly",
+        "effects": {
+          "happiness": 1,
+          "smarts": 1
+        },
+        "log": "Crisis averted.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_annoy_02431",
+    "min": 6,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "😅",
+    "title": "Minor Inconvenience",
+    "text": "Ugh — you stub your toe.",
+    "choices": [
+      {
+        "label": "Laugh it off",
+        "effects": {
+          "mental": 3,
+          "happiness": 2
+        },
+        "log": "These things happen.",
+        "kind": "info"
+      },
+      {
+        "label": "Let it bug you",
+        "effects": {
+          "happiness": -1
+        },
+        "log": "Crisis averted.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_annoy_02432",
+    "min": 6,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "😅",
+    "title": "Minor Inconvenience",
+    "text": "Ugh — you stub your toe.",
+    "choices": [
+      {
+        "label": "Shrug and move on",
+        "effects": {
+          "mental": 2
+        },
+        "log": "These things happen.",
+        "kind": "info"
+      },
+      {
+        "label": "Fix it properly",
+        "effects": {
+          "happiness": 1,
+          "smarts": 1
+        },
+        "log": "Crisis averted.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_annoy_02433",
+    "min": 6,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "😅",
+    "title": "Minor Inconvenience",
+    "text": "Ugh — the wifi drops mid-show.",
+    "choices": [
+      {
+        "label": "Laugh it off",
+        "effects": {
+          "mental": 3,
+          "happiness": 2
+        },
+        "log": "These things happen.",
+        "kind": "info"
+      },
+      {
+        "label": "Let it bug you",
+        "effects": {
+          "happiness": -1
+        },
+        "log": "Crisis averted.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_annoy_02434",
+    "min": 6,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "😅",
+    "title": "Minor Inconvenience",
+    "text": "Ugh — the wifi drops mid-show.",
+    "choices": [
+      {
+        "label": "Shrug and move on",
+        "effects": {
+          "mental": 2
+        },
+        "log": "These things happen.",
+        "kind": "info"
+      },
+      {
+        "label": "Fix it properly",
+        "effects": {
+          "happiness": 1,
+          "smarts": 1
+        },
+        "log": "Crisis averted.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_annoy_02435",
+    "min": 6,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "😅",
+    "title": "Minor Inconvenience",
+    "text": "Ugh — you spill your drink.",
+    "choices": [
+      {
+        "label": "Laugh it off",
+        "effects": {
+          "mental": 3,
+          "happiness": 2
+        },
+        "log": "These things happen.",
+        "kind": "info"
+      },
+      {
+        "label": "Let it bug you",
+        "effects": {
+          "happiness": -1
+        },
+        "log": "Crisis averted.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_annoy_02436",
+    "min": 6,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "😅",
+    "title": "Minor Inconvenience",
+    "text": "Ugh — you spill your drink.",
+    "choices": [
+      {
+        "label": "Shrug and move on",
+        "effects": {
+          "mental": 2
+        },
+        "log": "These things happen.",
+        "kind": "info"
+      },
+      {
+        "label": "Fix it properly",
+        "effects": {
+          "happiness": 1,
+          "smarts": 1
+        },
+        "log": "Crisis averted.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_annoy_02437",
+    "min": 6,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "😅",
+    "title": "Minor Inconvenience",
+    "text": "Ugh — a button falls off.",
+    "choices": [
+      {
+        "label": "Laugh it off",
+        "effects": {
+          "mental": 3,
+          "happiness": 2
+        },
+        "log": "These things happen.",
+        "kind": "info"
+      },
+      {
+        "label": "Let it bug you",
+        "effects": {
+          "happiness": -1
+        },
+        "log": "Crisis averted.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_annoy_02438",
+    "min": 6,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "😅",
+    "title": "Minor Inconvenience",
+    "text": "Ugh — a button falls off.",
+    "choices": [
+      {
+        "label": "Shrug and move on",
+        "effects": {
+          "mental": 2
+        },
+        "log": "These things happen.",
+        "kind": "info"
+      },
+      {
+        "label": "Fix it properly",
+        "effects": {
+          "happiness": 1,
+          "smarts": 1
+        },
+        "log": "Crisis averted.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_annoy_02439",
+    "min": 6,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "😅",
+    "title": "Minor Inconvenience",
+    "text": "Ugh — you get a paper cut.",
+    "choices": [
+      {
+        "label": "Laugh it off",
+        "effects": {
+          "mental": 3,
+          "happiness": 2
+        },
+        "log": "These things happen.",
+        "kind": "info"
+      },
+      {
+        "label": "Let it bug you",
+        "effects": {
+          "happiness": -1
+        },
+        "log": "Crisis averted.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_annoy_02440",
+    "min": 6,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "😅",
+    "title": "Minor Inconvenience",
+    "text": "Ugh — you get a paper cut.",
+    "choices": [
+      {
+        "label": "Shrug and move on",
+        "effects": {
+          "mental": 2
+        },
+        "log": "These things happen.",
+        "kind": "info"
+      },
+      {
+        "label": "Fix it properly",
+        "effects": {
+          "happiness": 1,
+          "smarts": 1
+        },
+        "log": "Crisis averted.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_annoy_02441",
+    "min": 6,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "😅",
+    "title": "Minor Inconvenience",
+    "text": "Ugh — traffic makes you late.",
+    "choices": [
+      {
+        "label": "Laugh it off",
+        "effects": {
+          "mental": 3,
+          "happiness": 2
+        },
+        "log": "These things happen.",
+        "kind": "info"
+      },
+      {
+        "label": "Let it bug you",
+        "effects": {
+          "happiness": -1
+        },
+        "log": "Crisis averted.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_annoy_02442",
+    "min": 6,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "😅",
+    "title": "Minor Inconvenience",
+    "text": "Ugh — traffic makes you late.",
+    "choices": [
+      {
+        "label": "Shrug and move on",
+        "effects": {
+          "mental": 2
+        },
+        "log": "These things happen.",
+        "kind": "info"
+      },
+      {
+        "label": "Fix it properly",
+        "effects": {
+          "happiness": 1,
+          "smarts": 1
+        },
+        "log": "Crisis averted.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_annoy_02443",
+    "min": 6,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "😅",
+    "title": "Minor Inconvenience",
+    "text": "Ugh — your phone dies at the worst time.",
+    "choices": [
+      {
+        "label": "Laugh it off",
+        "effects": {
+          "mental": 3,
+          "happiness": 2
+        },
+        "log": "These things happen.",
+        "kind": "info"
+      },
+      {
+        "label": "Let it bug you",
+        "effects": {
+          "happiness": -1
+        },
+        "log": "Crisis averted.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_annoy_02444",
+    "min": 6,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "😅",
+    "title": "Minor Inconvenience",
+    "text": "Ugh — your phone dies at the worst time.",
+    "choices": [
+      {
+        "label": "Shrug and move on",
+        "effects": {
+          "mental": 2
+        },
+        "log": "These things happen.",
+        "kind": "info"
+      },
+      {
+        "label": "Fix it properly",
+        "effects": {
+          "happiness": 1,
+          "smarts": 1
+        },
+        "log": "Crisis averted.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_annoy_02445",
+    "min": 6,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "😅",
+    "title": "Minor Inconvenience",
+    "text": "Ugh — it rains the day you wash the car.",
+    "choices": [
+      {
+        "label": "Laugh it off",
+        "effects": {
+          "mental": 3,
+          "happiness": 2
+        },
+        "log": "These things happen.",
+        "kind": "info"
+      },
+      {
+        "label": "Let it bug you",
+        "effects": {
+          "happiness": -1
+        },
+        "log": "Crisis averted.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_annoy_02446",
+    "min": 6,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "😅",
+    "title": "Minor Inconvenience",
+    "text": "Ugh — it rains the day you wash the car.",
+    "choices": [
+      {
+        "label": "Shrug and move on",
+        "effects": {
+          "mental": 2
+        },
+        "log": "These things happen.",
+        "kind": "info"
+      },
+      {
+        "label": "Fix it properly",
+        "effects": {
+          "happiness": 1,
+          "smarts": 1
+        },
+        "log": "Crisis averted.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_annoy_02447",
+    "min": 6,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "😅",
+    "title": "Minor Inconvenience",
+    "text": "Ugh — you forget why you walked into a room.",
+    "choices": [
+      {
+        "label": "Laugh it off",
+        "effects": {
+          "mental": 3,
+          "happiness": 2
+        },
+        "log": "These things happen.",
+        "kind": "info"
+      },
+      {
+        "label": "Let it bug you",
+        "effects": {
+          "happiness": -1
+        },
+        "log": "Crisis averted.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_annoy_02448",
+    "min": 6,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "😅",
+    "title": "Minor Inconvenience",
+    "text": "Ugh — you forget why you walked into a room.",
+    "choices": [
+      {
+        "label": "Shrug and move on",
+        "effects": {
+          "mental": 2
+        },
+        "log": "These things happen.",
+        "kind": "info"
+      },
+      {
+        "label": "Fix it properly",
+        "effects": {
+          "happiness": 1,
+          "smarts": 1
+        },
+        "log": "Crisis averted.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_annoy_02449",
+    "min": 6,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "😅",
+    "title": "Minor Inconvenience",
+    "text": "Ugh — a fly won't leave you alone.",
+    "choices": [
+      {
+        "label": "Laugh it off",
+        "effects": {
+          "mental": 3,
+          "happiness": 2
+        },
+        "log": "These things happen.",
+        "kind": "info"
+      },
+      {
+        "label": "Let it bug you",
+        "effects": {
+          "happiness": -1
+        },
+        "log": "Crisis averted.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_annoy_02450",
+    "min": 6,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "😅",
+    "title": "Minor Inconvenience",
+    "text": "Ugh — a fly won't leave you alone.",
+    "choices": [
+      {
+        "label": "Shrug and move on",
+        "effects": {
+          "mental": 2
+        },
+        "log": "These things happen.",
+        "kind": "info"
+      },
+      {
+        "label": "Fix it properly",
+        "effects": {
+          "happiness": 1,
+          "smarts": 1
+        },
+        "log": "Crisis averted.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_annoy_02451",
+    "min": 6,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "😅",
+    "title": "Minor Inconvenience",
+    "text": "Ugh — you bite your tongue.",
+    "choices": [
+      {
+        "label": "Laugh it off",
+        "effects": {
+          "mental": 3,
+          "happiness": 2
+        },
+        "log": "These things happen.",
+        "kind": "info"
+      },
+      {
+        "label": "Let it bug you",
+        "effects": {
+          "happiness": -1
+        },
+        "log": "Crisis averted.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_annoy_02452",
+    "min": 6,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "😅",
+    "title": "Minor Inconvenience",
+    "text": "Ugh — you bite your tongue.",
+    "choices": [
+      {
+        "label": "Shrug and move on",
+        "effects": {
+          "mental": 2
+        },
+        "log": "These things happen.",
+        "kind": "info"
+      },
+      {
+        "label": "Fix it properly",
+        "effects": {
+          "happiness": 1,
+          "smarts": 1
+        },
+        "log": "Crisis averted.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_annoy_02453",
+    "min": 6,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "😅",
+    "title": "Minor Inconvenience",
+    "text": "Ugh — the milk's gone off.",
+    "choices": [
+      {
+        "label": "Laugh it off",
+        "effects": {
+          "mental": 3,
+          "happiness": 2
+        },
+        "log": "These things happen.",
+        "kind": "info"
+      },
+      {
+        "label": "Let it bug you",
+        "effects": {
+          "happiness": -1
+        },
+        "log": "Crisis averted.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_annoy_02454",
+    "min": 6,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "😅",
+    "title": "Minor Inconvenience",
+    "text": "Ugh — the milk's gone off.",
+    "choices": [
+      {
+        "label": "Shrug and move on",
+        "effects": {
+          "mental": 2
+        },
+        "log": "These things happen.",
+        "kind": "info"
+      },
+      {
+        "label": "Fix it properly",
+        "effects": {
+          "happiness": 1,
+          "smarts": 1
+        },
+        "log": "Crisis averted.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_annoy_02455",
+    "min": 6,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "😅",
+    "title": "Minor Inconvenience",
+    "text": "Ugh — you misplace your keys.",
+    "choices": [
+      {
+        "label": "Laugh it off",
+        "effects": {
+          "mental": 3,
+          "happiness": 2
+        },
+        "log": "These things happen.",
+        "kind": "info"
+      },
+      {
+        "label": "Let it bug you",
+        "effects": {
+          "happiness": -1
+        },
+        "log": "Crisis averted.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_annoy_02456",
+    "min": 6,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "😅",
+    "title": "Minor Inconvenience",
+    "text": "Ugh — you misplace your keys.",
+    "choices": [
+      {
+        "label": "Shrug and move on",
+        "effects": {
+          "mental": 2
+        },
+        "log": "These things happen.",
+        "kind": "info"
+      },
+      {
+        "label": "Fix it properly",
+        "effects": {
+          "happiness": 1,
+          "smarts": 1
+        },
+        "log": "Crisis averted.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_annoy_02457",
+    "min": 6,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "😅",
+    "title": "Minor Inconvenience",
+    "text": "Ugh — an app update ruins your routine.",
+    "choices": [
+      {
+        "label": "Laugh it off",
+        "effects": {
+          "mental": 3,
+          "happiness": 2
+        },
+        "log": "These things happen.",
+        "kind": "info"
+      },
+      {
+        "label": "Let it bug you",
+        "effects": {
+          "happiness": -1
+        },
+        "log": "Crisis averted.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_annoy_02458",
+    "min": 6,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "😅",
+    "title": "Minor Inconvenience",
+    "text": "Ugh — an app update ruins your routine.",
+    "choices": [
+      {
+        "label": "Shrug and move on",
+        "effects": {
+          "mental": 2
+        },
+        "log": "These things happen.",
+        "kind": "info"
+      },
+      {
+        "label": "Fix it properly",
+        "effects": {
+          "happiness": 1,
+          "smarts": 1
+        },
+        "log": "Crisis averted.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_annoy_02459",
+    "min": 6,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "😅",
+    "title": "Minor Inconvenience",
+    "text": "Ugh — you get a splinter.",
+    "choices": [
+      {
+        "label": "Laugh it off",
+        "effects": {
+          "mental": 3,
+          "happiness": 2
+        },
+        "log": "These things happen.",
+        "kind": "info"
+      },
+      {
+        "label": "Let it bug you",
+        "effects": {
+          "happiness": -1
+        },
+        "log": "Crisis averted.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_annoy_02460",
+    "min": 6,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "😅",
+    "title": "Minor Inconvenience",
+    "text": "Ugh — you get a splinter.",
+    "choices": [
+      {
+        "label": "Shrug and move on",
+        "effects": {
+          "mental": 2
+        },
+        "log": "These things happen.",
+        "kind": "info"
+      },
+      {
+        "label": "Fix it properly",
+        "effects": {
+          "happiness": 1,
+          "smarts": 1
+        },
+        "log": "Crisis averted.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_annoy_02461",
+    "min": 6,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "😅",
+    "title": "Minor Inconvenience",
+    "text": "Ugh — the printer jams.",
+    "choices": [
+      {
+        "label": "Laugh it off",
+        "effects": {
+          "mental": 3,
+          "happiness": 2
+        },
+        "log": "These things happen.",
+        "kind": "info"
+      },
+      {
+        "label": "Let it bug you",
+        "effects": {
+          "happiness": -1
+        },
+        "log": "Crisis averted.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_annoy_02462",
+    "min": 6,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "😅",
+    "title": "Minor Inconvenience",
+    "text": "Ugh — the printer jams.",
+    "choices": [
+      {
+        "label": "Shrug and move on",
+        "effects": {
+          "mental": 2
+        },
+        "log": "These things happen.",
+        "kind": "info"
+      },
+      {
+        "label": "Fix it properly",
+        "effects": {
+          "happiness": 1,
+          "smarts": 1
+        },
+        "log": "Crisis averted.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_annoy_02463",
+    "min": 6,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "😅",
+    "title": "Minor Inconvenience",
+    "text": "Ugh — you sneeze seven times in a row.",
+    "choices": [
+      {
+        "label": "Laugh it off",
+        "effects": {
+          "mental": 3,
+          "happiness": 2
+        },
+        "log": "These things happen.",
+        "kind": "info"
+      },
+      {
+        "label": "Let it bug you",
+        "effects": {
+          "happiness": -1
+        },
+        "log": "Crisis averted.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_annoy_02464",
+    "min": 6,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "😅",
+    "title": "Minor Inconvenience",
+    "text": "Ugh — you sneeze seven times in a row.",
+    "choices": [
+      {
+        "label": "Shrug and move on",
+        "effects": {
+          "mental": 2
+        },
+        "log": "These things happen.",
+        "kind": "info"
+      },
+      {
+        "label": "Fix it properly",
+        "effects": {
+          "happiness": 1,
+          "smarts": 1
+        },
+        "log": "Crisis averted.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_annoy_02465",
+    "min": 6,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "😅",
+    "title": "Minor Inconvenience",
+    "text": "Ugh — you hit every red light.",
+    "choices": [
+      {
+        "label": "Laugh it off",
+        "effects": {
+          "mental": 3,
+          "happiness": 2
+        },
+        "log": "These things happen.",
+        "kind": "info"
+      },
+      {
+        "label": "Let it bug you",
+        "effects": {
+          "happiness": -1
+        },
+        "log": "Crisis averted.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_annoy_02466",
+    "min": 6,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "😅",
+    "title": "Minor Inconvenience",
+    "text": "Ugh — you hit every red light.",
+    "choices": [
+      {
+        "label": "Shrug and move on",
+        "effects": {
+          "mental": 2
+        },
+        "log": "These things happen.",
+        "kind": "info"
+      },
+      {
+        "label": "Fix it properly",
+        "effects": {
+          "happiness": 1,
+          "smarts": 1
+        },
+        "log": "Crisis averted.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_annoy_02467",
+    "min": 6,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "😅",
+    "title": "Minor Inconvenience",
+    "text": "Ugh — your favorite mug chips.",
+    "choices": [
+      {
+        "label": "Laugh it off",
+        "effects": {
+          "mental": 3,
+          "happiness": 2
+        },
+        "log": "These things happen.",
+        "kind": "info"
+      },
+      {
+        "label": "Let it bug you",
+        "effects": {
+          "happiness": -1
+        },
+        "log": "Crisis averted.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_annoy_02468",
+    "min": 6,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "😅",
+    "title": "Minor Inconvenience",
+    "text": "Ugh — your favorite mug chips.",
+    "choices": [
+      {
+        "label": "Shrug and move on",
+        "effects": {
+          "mental": 2
+        },
+        "log": "These things happen.",
+        "kind": "info"
+      },
+      {
+        "label": "Fix it properly",
+        "effects": {
+          "happiness": 1,
+          "smarts": 1
+        },
+        "log": "Crisis averted.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_annoy_02469",
+    "min": 6,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "😅",
+    "title": "Minor Inconvenience",
+    "text": "Ugh — a song gets stuck in your head.",
+    "choices": [
+      {
+        "label": "Laugh it off",
+        "effects": {
+          "mental": 3,
+          "happiness": 2
+        },
+        "log": "These things happen.",
+        "kind": "info"
+      },
+      {
+        "label": "Let it bug you",
+        "effects": {
+          "happiness": -1
+        },
+        "log": "Crisis averted.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_annoy_02470",
+    "min": 6,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "😅",
+    "title": "Minor Inconvenience",
+    "text": "Ugh — a song gets stuck in your head.",
+    "choices": [
+      {
+        "label": "Shrug and move on",
+        "effects": {
+          "mental": 2
+        },
+        "log": "These things happen.",
+        "kind": "info"
+      },
+      {
+        "label": "Fix it properly",
+        "effects": {
+          "happiness": 1,
+          "smarts": 1
+        },
+        "log": "Crisis averted.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_annoy_02471",
+    "min": 6,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "😅",
+    "title": "Minor Inconvenience",
+    "text": "Ugh — you tear a grocery bag.",
+    "choices": [
+      {
+        "label": "Laugh it off",
+        "effects": {
+          "mental": 3,
+          "happiness": 2
+        },
+        "log": "These things happen.",
+        "kind": "info"
+      },
+      {
+        "label": "Let it bug you",
+        "effects": {
+          "happiness": -1
+        },
+        "log": "Crisis averted.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_annoy_02472",
+    "min": 6,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "😅",
+    "title": "Minor Inconvenience",
+    "text": "Ugh — you tear a grocery bag.",
+    "choices": [
+      {
+        "label": "Shrug and move on",
+        "effects": {
+          "mental": 2
+        },
+        "log": "These things happen.",
+        "kind": "info"
+      },
+      {
+        "label": "Fix it properly",
+        "effects": {
+          "happiness": 1,
+          "smarts": 1
+        },
+        "log": "Crisis averted.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_annoy_02473",
+    "min": 6,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "😅",
+    "title": "Minor Inconvenience",
+    "text": "Ugh — the elevator stops on every floor.",
+    "choices": [
+      {
+        "label": "Laugh it off",
+        "effects": {
+          "mental": 3,
+          "happiness": 2
+        },
+        "log": "These things happen.",
+        "kind": "info"
+      },
+      {
+        "label": "Let it bug you",
+        "effects": {
+          "happiness": -1
+        },
+        "log": "Crisis averted.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_annoy_02474",
+    "min": 6,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "😅",
+    "title": "Minor Inconvenience",
+    "text": "Ugh — the elevator stops on every floor.",
+    "choices": [
+      {
+        "label": "Shrug and move on",
+        "effects": {
+          "mental": 2
+        },
+        "log": "These things happen.",
+        "kind": "info"
+      },
+      {
+        "label": "Fix it properly",
+        "effects": {
+          "happiness": 1,
+          "smarts": 1
+        },
+        "log": "Crisis averted.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_annoy_02475",
+    "min": 6,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "😅",
+    "title": "Minor Inconvenience",
+    "text": "Ugh — you mistype a password five times.",
+    "choices": [
+      {
+        "label": "Laugh it off",
+        "effects": {
+          "mental": 3,
+          "happiness": 2
+        },
+        "log": "These things happen.",
+        "kind": "info"
+      },
+      {
+        "label": "Let it bug you",
+        "effects": {
+          "happiness": -1
+        },
+        "log": "Crisis averted.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_annoy_02476",
+    "min": 6,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "😅",
+    "title": "Minor Inconvenience",
+    "text": "Ugh — you mistype a password five times.",
+    "choices": [
+      {
+        "label": "Shrug and move on",
+        "effects": {
+          "mental": 2
+        },
+        "log": "These things happen.",
+        "kind": "info"
+      },
+      {
+        "label": "Fix it properly",
+        "effects": {
+          "happiness": 1,
+          "smarts": 1
+        },
+        "log": "Crisis averted.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_annoy_02477",
+    "min": 6,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "😅",
+    "title": "Minor Inconvenience",
+    "text": "Ugh — a hangnail catches everything.",
+    "choices": [
+      {
+        "label": "Laugh it off",
+        "effects": {
+          "mental": 3,
+          "happiness": 2
+        },
+        "log": "These things happen.",
+        "kind": "info"
+      },
+      {
+        "label": "Let it bug you",
+        "effects": {
+          "happiness": -1
+        },
+        "log": "Crisis averted.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_annoy_02478",
+    "min": 6,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "😅",
+    "title": "Minor Inconvenience",
+    "text": "Ugh — a hangnail catches everything.",
+    "choices": [
+      {
+        "label": "Shrug and move on",
+        "effects": {
+          "mental": 2
+        },
+        "log": "These things happen.",
+        "kind": "info"
+      },
+      {
+        "label": "Fix it properly",
+        "effects": {
+          "happiness": 1,
+          "smarts": 1
+        },
+        "log": "Crisis averted.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_annoy_02479",
+    "min": 6,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "😅",
+    "title": "Minor Inconvenience",
+    "text": "Ugh — your earbuds tangle impossibly.",
+    "choices": [
+      {
+        "label": "Laugh it off",
+        "effects": {
+          "mental": 3,
+          "happiness": 2
+        },
+        "log": "These things happen.",
+        "kind": "info"
+      },
+      {
+        "label": "Let it bug you",
+        "effects": {
+          "happiness": -1
+        },
+        "log": "Crisis averted.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_annoy_02480",
+    "min": 6,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "😅",
+    "title": "Minor Inconvenience",
+    "text": "Ugh — your earbuds tangle impossibly.",
+    "choices": [
+      {
+        "label": "Shrug and move on",
+        "effects": {
+          "mental": 2
+        },
+        "log": "These things happen.",
+        "kind": "info"
+      },
+      {
+        "label": "Fix it properly",
+        "effects": {
+          "happiness": 1,
+          "smarts": 1
+        },
+        "log": "Crisis averted.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_annoy_02481",
+    "min": 6,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "😅",
+    "title": "Minor Inconvenience",
+    "text": "Ugh — you drop toast butter-side down.",
+    "choices": [
+      {
+        "label": "Laugh it off",
+        "effects": {
+          "mental": 3,
+          "happiness": 2
+        },
+        "log": "These things happen.",
+        "kind": "info"
+      },
+      {
+        "label": "Let it bug you",
+        "effects": {
+          "happiness": -1
+        },
+        "log": "Crisis averted.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_annoy_02482",
+    "min": 6,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "😅",
+    "title": "Minor Inconvenience",
+    "text": "Ugh — you drop toast butter-side down.",
+    "choices": [
+      {
+        "label": "Shrug and move on",
+        "effects": {
+          "mental": 2
+        },
+        "log": "These things happen.",
+        "kind": "info"
+      },
+      {
+        "label": "Fix it properly",
+        "effects": {
+          "happiness": 1,
+          "smarts": 1
+        },
+        "log": "Crisis averted.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_annoy_02483",
+    "min": 6,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "😅",
+    "title": "Minor Inconvenience",
+    "text": "Ugh — the queue you pick is slowest.",
+    "choices": [
+      {
+        "label": "Laugh it off",
+        "effects": {
+          "mental": 3,
+          "happiness": 2
+        },
+        "log": "These things happen.",
+        "kind": "info"
+      },
+      {
+        "label": "Let it bug you",
+        "effects": {
+          "happiness": -1
+        },
+        "log": "Crisis averted.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_annoy_02484",
+    "min": 6,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "😅",
+    "title": "Minor Inconvenience",
+    "text": "Ugh — the queue you pick is slowest.",
+    "choices": [
+      {
+        "label": "Shrug and move on",
+        "effects": {
+          "mental": 2
+        },
+        "log": "These things happen.",
+        "kind": "info"
+      },
+      {
+        "label": "Fix it properly",
+        "effects": {
+          "happiness": 1,
+          "smarts": 1
+        },
+        "log": "Crisis averted.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_annoy_02485",
+    "min": 6,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "😅",
+    "title": "Minor Inconvenience",
+    "text": "Ugh — you forget an umbrella.",
+    "choices": [
+      {
+        "label": "Laugh it off",
+        "effects": {
+          "mental": 3,
+          "happiness": 2
+        },
+        "log": "These things happen.",
+        "kind": "info"
+      },
+      {
+        "label": "Let it bug you",
+        "effects": {
+          "happiness": -1
+        },
+        "log": "Crisis averted.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_annoy_02486",
+    "min": 6,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "😅",
+    "title": "Minor Inconvenience",
+    "text": "Ugh — you forget an umbrella.",
+    "choices": [
+      {
+        "label": "Shrug and move on",
+        "effects": {
+          "mental": 2
+        },
+        "log": "These things happen.",
+        "kind": "info"
+      },
+      {
+        "label": "Fix it properly",
+        "effects": {
+          "happiness": 1,
+          "smarts": 1
+        },
+        "log": "Crisis averted.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_annoy_02487",
+    "min": 6,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "😅",
+    "title": "Minor Inconvenience",
+    "text": "Ugh — your pen runs out mid-sentence.",
+    "choices": [
+      {
+        "label": "Laugh it off",
+        "effects": {
+          "mental": 3,
+          "happiness": 2
+        },
+        "log": "These things happen.",
+        "kind": "info"
+      },
+      {
+        "label": "Let it bug you",
+        "effects": {
+          "happiness": -1
+        },
+        "log": "Crisis averted.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_annoy_02488",
+    "min": 6,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "😅",
+    "title": "Minor Inconvenience",
+    "text": "Ugh — your pen runs out mid-sentence.",
+    "choices": [
+      {
+        "label": "Shrug and move on",
+        "effects": {
+          "mental": 2
+        },
+        "log": "These things happen.",
+        "kind": "info"
+      },
+      {
+        "label": "Fix it properly",
+        "effects": {
+          "happiness": 1,
+          "smarts": 1
+        },
+        "log": "Crisis averted.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02489",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your drawing, you finally get the hang of it.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your drawing improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02490",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your drawing, you hit a frustrating plateau.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your drawing improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02491",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your drawing, a breakthrough clicks into place.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your drawing improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02492",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your drawing, you teach someone else and learn more.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your drawing improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02493",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your drawing, you record yourself to improve.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your drawing improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02494",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your drawing, you join a class to level up.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your drawing improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02495",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your drawing, you practice until late.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your drawing improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02496",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your drawing, you compare yourself to others.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your drawing improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02497",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your drawing, you find a great tutorial.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your drawing improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02498",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your drawing, you set a daily streak.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your drawing improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02499",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your drawing, you enter a small contest.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your drawing improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_skill_02500",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "📈",
+    "title": "Skill Up",
+    "text": "With your drawing, you get honest feedback.",
+    "choices": [
+      {
+        "label": "Keep grinding",
+        "effects": {
+          "smarts": 3,
+          "happiness": 2
+        },
+        "log": "Your drawing improved.",
+        "kind": "good"
+      },
+      {
+        "label": "Enjoy the process",
+        "effects": {
+          "happiness": 4,
+          "mental": 2
+        },
+        "log": "Progress, not perfection.",
+        "kind": "info"
+      }
+    ]
   }
 ]
