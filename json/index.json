@@ -1,8 +1,8 @@
 {
   "description": "LifeForge event library. 'generated' files are loaded into the game at runtime; 'curated' are JSON copies of the hand-written events in data/events_*.js.",
-  "generatedCount": 2776,
+  "generatedCount": 2880,
   "curatedCount": 298,
-  "totalEvents": 3074,
+  "totalEvents": 3178,
   "generated": [
     "generated/part_001.json",
     "generated/part_002.json",

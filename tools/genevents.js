@@ -433,6 +433,44 @@ friendScn.forEach((f,fi)=> [0,1].forEach(v=>{
     choices:[{label:v?"Show up for them":"Be there",effects:e({karma:4,happiness:5,relRandom:5}),log:`Friendship strengthened.`,kind:"good"},{label:"Keep it light",effects:e({happiness:3,relRandom:2}),log:`Good to have friends.`,kind:"info"}]}));
 }));
 
+/* --- Seasonal activities (4 seasons x many activities) --- */
+const seasons=["spring","summer","autumn","winter"];
+const seasonAct={
+  spring:["plant a garden","go on a picnic","watch the blossoms","do spring cleaning","fly a kite","visit a farmers market","take a nature hike","start a new project","watch baby birds","jump in puddles"],
+  summer:["go to the beach","have a barbecue","watch fireworks","go camping","eat ice cream","take a road trip","swim in a lake","watch a sunset","catch fireflies","go to a festival"],
+  autumn:["jump in leaf piles","carve pumpkins","go apple picking","drink warm cider","take cozy walks","watch the leaves turn","bake pies","visit a corn maze","knit a scarf","stargaze on cool nights"],
+  winter:["build a snowman","go sledding","sip hot cocoa","decorate for the holidays","ice skate","read by the fire","have a snowball fight","watch the snow fall","make soup","cozy up under blankets"],
+};
+seasons.forEach((sea,sx)=> seasonAct[sea].forEach((act,ax)=>{
+  events.push(ev("season",{min:4,max:110,icon:"📅",title:`${cap(sea)} Days`,text:`This ${sea}, you decide to ${act}.`,
+    choices:[
+      {label:"Make the most of it",effects:e({happiness:6,mental:3}),log:`A perfect ${sea} day.`,kind:"good"},
+      {label:"Invite others along",effects:e({happiness:5,karma:3}),log:`Shared ${sea} joy.`,kind:"good"},
+      {label:"Keep it low-key",effects:e({mental:4,happiness:2}),log:`A quiet ${sea} moment.`,kind:"info"},
+    ]}));
+}));
+
+/* --- Decisions & dilemmas (light, universal) --- */
+const dilemmas=["take a risk or play it safe","speak your mind or keep the peace","save money or seize an experience","help a stranger or mind your business","follow the crowd or go your own way","rest or push a little harder","try the new thing or stick with what works","be honest or be kind","plan ahead or be spontaneous","lead or support","forgive or stand firm","spend on others or treat yourself","stay in or go out","start now or wait for the right moment","keep a secret or share the truth","chase the dream or build the safety net"];
+dilemmas.forEach((d,di)=> [0,1].forEach(v=>{
+  events.push(ev("choice",{min:14,max:100,icon:"⚖️",title:"A Small Crossroads",text:`You face a familiar choice: ${d}.`,
+    choices:[
+      {label:"Be bold",effects:e({happiness:5,mental:v?2:3}),log:`You chose courage.`,kind:"good"},
+      {label:"Be measured",effects:e({mental:4,smarts:2}),log:`You chose wisdom.`,kind:"info"},
+      {label:"Be kind",effects:e({karma:5,happiness:2}),log:`You chose kindness.`,kind:"good"},
+    ]}));
+}));
+
+/* --- Local life / errands --- */
+const errands=["the post office has a huge line","you discover a new bakery","the bank teller is extra friendly","you finally return that overdue item","the corner store restocked your favorite","a busker plays beautifully outside","you find the shop's last one in your size","a sample tray tempts you","the cashier remembers your name","you help someone reach a top shelf","you find a great deal in the clearance bin","the bus driver waits for you","a kid offers you a sticker","you get the last fresh loaf","a shopkeeper throws in a freebie","the parking meter has free time left"];
+errands.forEach((er,ei)=> [0,1].forEach(v=>{
+  events.push(ev("errand",{min:10,max:100,icon:"🛒",title:"Running Errands",text:`Out and about, ${er}.`,
+    choices:[
+      {label:"Enjoy the little moment",effects:e({happiness:4}),log:`Errands done, mood up.`,kind:"good"},
+      {label:"Spread some kindness",effects:e({karma:4,happiness:2}),log:`A small good deed.`,kind:"good"},
+    ]}));
+}));
+
 /* ---------- write generated in chunks ---------- */
 const CHUNK = 500;
 const genFiles = [];

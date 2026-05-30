@@ -8130,5 +8130,3637 @@
         "kind": "info"
       }
     ]
+  },
+  {
+    "id": "gen_season_02777",
+    "min": 4,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "📅",
+    "title": "Spring Days",
+    "text": "This spring, you decide to plant a garden.",
+    "choices": [
+      {
+        "label": "Make the most of it",
+        "effects": {
+          "happiness": 6,
+          "mental": 3
+        },
+        "log": "A perfect spring day.",
+        "kind": "good"
+      },
+      {
+        "label": "Invite others along",
+        "effects": {
+          "happiness": 5,
+          "karma": 3
+        },
+        "log": "Shared spring joy.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it low-key",
+        "effects": {
+          "mental": 4,
+          "happiness": 2
+        },
+        "log": "A quiet spring moment.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_season_02778",
+    "min": 4,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "📅",
+    "title": "Spring Days",
+    "text": "This spring, you decide to go on a picnic.",
+    "choices": [
+      {
+        "label": "Make the most of it",
+        "effects": {
+          "happiness": 6,
+          "mental": 3
+        },
+        "log": "A perfect spring day.",
+        "kind": "good"
+      },
+      {
+        "label": "Invite others along",
+        "effects": {
+          "happiness": 5,
+          "karma": 3
+        },
+        "log": "Shared spring joy.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it low-key",
+        "effects": {
+          "mental": 4,
+          "happiness": 2
+        },
+        "log": "A quiet spring moment.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_season_02779",
+    "min": 4,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "📅",
+    "title": "Spring Days",
+    "text": "This spring, you decide to watch the blossoms.",
+    "choices": [
+      {
+        "label": "Make the most of it",
+        "effects": {
+          "happiness": 6,
+          "mental": 3
+        },
+        "log": "A perfect spring day.",
+        "kind": "good"
+      },
+      {
+        "label": "Invite others along",
+        "effects": {
+          "happiness": 5,
+          "karma": 3
+        },
+        "log": "Shared spring joy.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it low-key",
+        "effects": {
+          "mental": 4,
+          "happiness": 2
+        },
+        "log": "A quiet spring moment.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_season_02780",
+    "min": 4,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "📅",
+    "title": "Spring Days",
+    "text": "This spring, you decide to do spring cleaning.",
+    "choices": [
+      {
+        "label": "Make the most of it",
+        "effects": {
+          "happiness": 6,
+          "mental": 3
+        },
+        "log": "A perfect spring day.",
+        "kind": "good"
+      },
+      {
+        "label": "Invite others along",
+        "effects": {
+          "happiness": 5,
+          "karma": 3
+        },
+        "log": "Shared spring joy.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it low-key",
+        "effects": {
+          "mental": 4,
+          "happiness": 2
+        },
+        "log": "A quiet spring moment.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_season_02781",
+    "min": 4,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "📅",
+    "title": "Spring Days",
+    "text": "This spring, you decide to fly a kite.",
+    "choices": [
+      {
+        "label": "Make the most of it",
+        "effects": {
+          "happiness": 6,
+          "mental": 3
+        },
+        "log": "A perfect spring day.",
+        "kind": "good"
+      },
+      {
+        "label": "Invite others along",
+        "effects": {
+          "happiness": 5,
+          "karma": 3
+        },
+        "log": "Shared spring joy.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it low-key",
+        "effects": {
+          "mental": 4,
+          "happiness": 2
+        },
+        "log": "A quiet spring moment.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_season_02782",
+    "min": 4,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "📅",
+    "title": "Spring Days",
+    "text": "This spring, you decide to visit a farmers market.",
+    "choices": [
+      {
+        "label": "Make the most of it",
+        "effects": {
+          "happiness": 6,
+          "mental": 3
+        },
+        "log": "A perfect spring day.",
+        "kind": "good"
+      },
+      {
+        "label": "Invite others along",
+        "effects": {
+          "happiness": 5,
+          "karma": 3
+        },
+        "log": "Shared spring joy.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it low-key",
+        "effects": {
+          "mental": 4,
+          "happiness": 2
+        },
+        "log": "A quiet spring moment.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_season_02783",
+    "min": 4,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "📅",
+    "title": "Spring Days",
+    "text": "This spring, you decide to take a nature hike.",
+    "choices": [
+      {
+        "label": "Make the most of it",
+        "effects": {
+          "happiness": 6,
+          "mental": 3
+        },
+        "log": "A perfect spring day.",
+        "kind": "good"
+      },
+      {
+        "label": "Invite others along",
+        "effects": {
+          "happiness": 5,
+          "karma": 3
+        },
+        "log": "Shared spring joy.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it low-key",
+        "effects": {
+          "mental": 4,
+          "happiness": 2
+        },
+        "log": "A quiet spring moment.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_season_02784",
+    "min": 4,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "📅",
+    "title": "Spring Days",
+    "text": "This spring, you decide to start a new project.",
+    "choices": [
+      {
+        "label": "Make the most of it",
+        "effects": {
+          "happiness": 6,
+          "mental": 3
+        },
+        "log": "A perfect spring day.",
+        "kind": "good"
+      },
+      {
+        "label": "Invite others along",
+        "effects": {
+          "happiness": 5,
+          "karma": 3
+        },
+        "log": "Shared spring joy.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it low-key",
+        "effects": {
+          "mental": 4,
+          "happiness": 2
+        },
+        "log": "A quiet spring moment.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_season_02785",
+    "min": 4,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "📅",
+    "title": "Spring Days",
+    "text": "This spring, you decide to watch baby birds.",
+    "choices": [
+      {
+        "label": "Make the most of it",
+        "effects": {
+          "happiness": 6,
+          "mental": 3
+        },
+        "log": "A perfect spring day.",
+        "kind": "good"
+      },
+      {
+        "label": "Invite others along",
+        "effects": {
+          "happiness": 5,
+          "karma": 3
+        },
+        "log": "Shared spring joy.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it low-key",
+        "effects": {
+          "mental": 4,
+          "happiness": 2
+        },
+        "log": "A quiet spring moment.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_season_02786",
+    "min": 4,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "📅",
+    "title": "Spring Days",
+    "text": "This spring, you decide to jump in puddles.",
+    "choices": [
+      {
+        "label": "Make the most of it",
+        "effects": {
+          "happiness": 6,
+          "mental": 3
+        },
+        "log": "A perfect spring day.",
+        "kind": "good"
+      },
+      {
+        "label": "Invite others along",
+        "effects": {
+          "happiness": 5,
+          "karma": 3
+        },
+        "log": "Shared spring joy.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it low-key",
+        "effects": {
+          "mental": 4,
+          "happiness": 2
+        },
+        "log": "A quiet spring moment.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_season_02787",
+    "min": 4,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "📅",
+    "title": "Summer Days",
+    "text": "This summer, you decide to go to the beach.",
+    "choices": [
+      {
+        "label": "Make the most of it",
+        "effects": {
+          "happiness": 6,
+          "mental": 3
+        },
+        "log": "A perfect summer day.",
+        "kind": "good"
+      },
+      {
+        "label": "Invite others along",
+        "effects": {
+          "happiness": 5,
+          "karma": 3
+        },
+        "log": "Shared summer joy.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it low-key",
+        "effects": {
+          "mental": 4,
+          "happiness": 2
+        },
+        "log": "A quiet summer moment.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_season_02788",
+    "min": 4,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "📅",
+    "title": "Summer Days",
+    "text": "This summer, you decide to have a barbecue.",
+    "choices": [
+      {
+        "label": "Make the most of it",
+        "effects": {
+          "happiness": 6,
+          "mental": 3
+        },
+        "log": "A perfect summer day.",
+        "kind": "good"
+      },
+      {
+        "label": "Invite others along",
+        "effects": {
+          "happiness": 5,
+          "karma": 3
+        },
+        "log": "Shared summer joy.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it low-key",
+        "effects": {
+          "mental": 4,
+          "happiness": 2
+        },
+        "log": "A quiet summer moment.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_season_02789",
+    "min": 4,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "📅",
+    "title": "Summer Days",
+    "text": "This summer, you decide to watch fireworks.",
+    "choices": [
+      {
+        "label": "Make the most of it",
+        "effects": {
+          "happiness": 6,
+          "mental": 3
+        },
+        "log": "A perfect summer day.",
+        "kind": "good"
+      },
+      {
+        "label": "Invite others along",
+        "effects": {
+          "happiness": 5,
+          "karma": 3
+        },
+        "log": "Shared summer joy.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it low-key",
+        "effects": {
+          "mental": 4,
+          "happiness": 2
+        },
+        "log": "A quiet summer moment.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_season_02790",
+    "min": 4,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "📅",
+    "title": "Summer Days",
+    "text": "This summer, you decide to go camping.",
+    "choices": [
+      {
+        "label": "Make the most of it",
+        "effects": {
+          "happiness": 6,
+          "mental": 3
+        },
+        "log": "A perfect summer day.",
+        "kind": "good"
+      },
+      {
+        "label": "Invite others along",
+        "effects": {
+          "happiness": 5,
+          "karma": 3
+        },
+        "log": "Shared summer joy.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it low-key",
+        "effects": {
+          "mental": 4,
+          "happiness": 2
+        },
+        "log": "A quiet summer moment.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_season_02791",
+    "min": 4,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "📅",
+    "title": "Summer Days",
+    "text": "This summer, you decide to eat ice cream.",
+    "choices": [
+      {
+        "label": "Make the most of it",
+        "effects": {
+          "happiness": 6,
+          "mental": 3
+        },
+        "log": "A perfect summer day.",
+        "kind": "good"
+      },
+      {
+        "label": "Invite others along",
+        "effects": {
+          "happiness": 5,
+          "karma": 3
+        },
+        "log": "Shared summer joy.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it low-key",
+        "effects": {
+          "mental": 4,
+          "happiness": 2
+        },
+        "log": "A quiet summer moment.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_season_02792",
+    "min": 4,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "📅",
+    "title": "Summer Days",
+    "text": "This summer, you decide to take a road trip.",
+    "choices": [
+      {
+        "label": "Make the most of it",
+        "effects": {
+          "happiness": 6,
+          "mental": 3
+        },
+        "log": "A perfect summer day.",
+        "kind": "good"
+      },
+      {
+        "label": "Invite others along",
+        "effects": {
+          "happiness": 5,
+          "karma": 3
+        },
+        "log": "Shared summer joy.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it low-key",
+        "effects": {
+          "mental": 4,
+          "happiness": 2
+        },
+        "log": "A quiet summer moment.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_season_02793",
+    "min": 4,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "📅",
+    "title": "Summer Days",
+    "text": "This summer, you decide to swim in a lake.",
+    "choices": [
+      {
+        "label": "Make the most of it",
+        "effects": {
+          "happiness": 6,
+          "mental": 3
+        },
+        "log": "A perfect summer day.",
+        "kind": "good"
+      },
+      {
+        "label": "Invite others along",
+        "effects": {
+          "happiness": 5,
+          "karma": 3
+        },
+        "log": "Shared summer joy.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it low-key",
+        "effects": {
+          "mental": 4,
+          "happiness": 2
+        },
+        "log": "A quiet summer moment.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_season_02794",
+    "min": 4,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "📅",
+    "title": "Summer Days",
+    "text": "This summer, you decide to watch a sunset.",
+    "choices": [
+      {
+        "label": "Make the most of it",
+        "effects": {
+          "happiness": 6,
+          "mental": 3
+        },
+        "log": "A perfect summer day.",
+        "kind": "good"
+      },
+      {
+        "label": "Invite others along",
+        "effects": {
+          "happiness": 5,
+          "karma": 3
+        },
+        "log": "Shared summer joy.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it low-key",
+        "effects": {
+          "mental": 4,
+          "happiness": 2
+        },
+        "log": "A quiet summer moment.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_season_02795",
+    "min": 4,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "📅",
+    "title": "Summer Days",
+    "text": "This summer, you decide to catch fireflies.",
+    "choices": [
+      {
+        "label": "Make the most of it",
+        "effects": {
+          "happiness": 6,
+          "mental": 3
+        },
+        "log": "A perfect summer day.",
+        "kind": "good"
+      },
+      {
+        "label": "Invite others along",
+        "effects": {
+          "happiness": 5,
+          "karma": 3
+        },
+        "log": "Shared summer joy.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it low-key",
+        "effects": {
+          "mental": 4,
+          "happiness": 2
+        },
+        "log": "A quiet summer moment.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_season_02796",
+    "min": 4,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "📅",
+    "title": "Summer Days",
+    "text": "This summer, you decide to go to a festival.",
+    "choices": [
+      {
+        "label": "Make the most of it",
+        "effects": {
+          "happiness": 6,
+          "mental": 3
+        },
+        "log": "A perfect summer day.",
+        "kind": "good"
+      },
+      {
+        "label": "Invite others along",
+        "effects": {
+          "happiness": 5,
+          "karma": 3
+        },
+        "log": "Shared summer joy.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it low-key",
+        "effects": {
+          "mental": 4,
+          "happiness": 2
+        },
+        "log": "A quiet summer moment.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_season_02797",
+    "min": 4,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "📅",
+    "title": "Autumn Days",
+    "text": "This autumn, you decide to jump in leaf piles.",
+    "choices": [
+      {
+        "label": "Make the most of it",
+        "effects": {
+          "happiness": 6,
+          "mental": 3
+        },
+        "log": "A perfect autumn day.",
+        "kind": "good"
+      },
+      {
+        "label": "Invite others along",
+        "effects": {
+          "happiness": 5,
+          "karma": 3
+        },
+        "log": "Shared autumn joy.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it low-key",
+        "effects": {
+          "mental": 4,
+          "happiness": 2
+        },
+        "log": "A quiet autumn moment.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_season_02798",
+    "min": 4,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "📅",
+    "title": "Autumn Days",
+    "text": "This autumn, you decide to carve pumpkins.",
+    "choices": [
+      {
+        "label": "Make the most of it",
+        "effects": {
+          "happiness": 6,
+          "mental": 3
+        },
+        "log": "A perfect autumn day.",
+        "kind": "good"
+      },
+      {
+        "label": "Invite others along",
+        "effects": {
+          "happiness": 5,
+          "karma": 3
+        },
+        "log": "Shared autumn joy.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it low-key",
+        "effects": {
+          "mental": 4,
+          "happiness": 2
+        },
+        "log": "A quiet autumn moment.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_season_02799",
+    "min": 4,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "📅",
+    "title": "Autumn Days",
+    "text": "This autumn, you decide to go apple picking.",
+    "choices": [
+      {
+        "label": "Make the most of it",
+        "effects": {
+          "happiness": 6,
+          "mental": 3
+        },
+        "log": "A perfect autumn day.",
+        "kind": "good"
+      },
+      {
+        "label": "Invite others along",
+        "effects": {
+          "happiness": 5,
+          "karma": 3
+        },
+        "log": "Shared autumn joy.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it low-key",
+        "effects": {
+          "mental": 4,
+          "happiness": 2
+        },
+        "log": "A quiet autumn moment.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_season_02800",
+    "min": 4,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "📅",
+    "title": "Autumn Days",
+    "text": "This autumn, you decide to drink warm cider.",
+    "choices": [
+      {
+        "label": "Make the most of it",
+        "effects": {
+          "happiness": 6,
+          "mental": 3
+        },
+        "log": "A perfect autumn day.",
+        "kind": "good"
+      },
+      {
+        "label": "Invite others along",
+        "effects": {
+          "happiness": 5,
+          "karma": 3
+        },
+        "log": "Shared autumn joy.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it low-key",
+        "effects": {
+          "mental": 4,
+          "happiness": 2
+        },
+        "log": "A quiet autumn moment.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_season_02801",
+    "min": 4,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "📅",
+    "title": "Autumn Days",
+    "text": "This autumn, you decide to take cozy walks.",
+    "choices": [
+      {
+        "label": "Make the most of it",
+        "effects": {
+          "happiness": 6,
+          "mental": 3
+        },
+        "log": "A perfect autumn day.",
+        "kind": "good"
+      },
+      {
+        "label": "Invite others along",
+        "effects": {
+          "happiness": 5,
+          "karma": 3
+        },
+        "log": "Shared autumn joy.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it low-key",
+        "effects": {
+          "mental": 4,
+          "happiness": 2
+        },
+        "log": "A quiet autumn moment.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_season_02802",
+    "min": 4,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "📅",
+    "title": "Autumn Days",
+    "text": "This autumn, you decide to watch the leaves turn.",
+    "choices": [
+      {
+        "label": "Make the most of it",
+        "effects": {
+          "happiness": 6,
+          "mental": 3
+        },
+        "log": "A perfect autumn day.",
+        "kind": "good"
+      },
+      {
+        "label": "Invite others along",
+        "effects": {
+          "happiness": 5,
+          "karma": 3
+        },
+        "log": "Shared autumn joy.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it low-key",
+        "effects": {
+          "mental": 4,
+          "happiness": 2
+        },
+        "log": "A quiet autumn moment.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_season_02803",
+    "min": 4,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "📅",
+    "title": "Autumn Days",
+    "text": "This autumn, you decide to bake pies.",
+    "choices": [
+      {
+        "label": "Make the most of it",
+        "effects": {
+          "happiness": 6,
+          "mental": 3
+        },
+        "log": "A perfect autumn day.",
+        "kind": "good"
+      },
+      {
+        "label": "Invite others along",
+        "effects": {
+          "happiness": 5,
+          "karma": 3
+        },
+        "log": "Shared autumn joy.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it low-key",
+        "effects": {
+          "mental": 4,
+          "happiness": 2
+        },
+        "log": "A quiet autumn moment.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_season_02804",
+    "min": 4,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "📅",
+    "title": "Autumn Days",
+    "text": "This autumn, you decide to visit a corn maze.",
+    "choices": [
+      {
+        "label": "Make the most of it",
+        "effects": {
+          "happiness": 6,
+          "mental": 3
+        },
+        "log": "A perfect autumn day.",
+        "kind": "good"
+      },
+      {
+        "label": "Invite others along",
+        "effects": {
+          "happiness": 5,
+          "karma": 3
+        },
+        "log": "Shared autumn joy.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it low-key",
+        "effects": {
+          "mental": 4,
+          "happiness": 2
+        },
+        "log": "A quiet autumn moment.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_season_02805",
+    "min": 4,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "📅",
+    "title": "Autumn Days",
+    "text": "This autumn, you decide to knit a scarf.",
+    "choices": [
+      {
+        "label": "Make the most of it",
+        "effects": {
+          "happiness": 6,
+          "mental": 3
+        },
+        "log": "A perfect autumn day.",
+        "kind": "good"
+      },
+      {
+        "label": "Invite others along",
+        "effects": {
+          "happiness": 5,
+          "karma": 3
+        },
+        "log": "Shared autumn joy.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it low-key",
+        "effects": {
+          "mental": 4,
+          "happiness": 2
+        },
+        "log": "A quiet autumn moment.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_season_02806",
+    "min": 4,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "📅",
+    "title": "Autumn Days",
+    "text": "This autumn, you decide to stargaze on cool nights.",
+    "choices": [
+      {
+        "label": "Make the most of it",
+        "effects": {
+          "happiness": 6,
+          "mental": 3
+        },
+        "log": "A perfect autumn day.",
+        "kind": "good"
+      },
+      {
+        "label": "Invite others along",
+        "effects": {
+          "happiness": 5,
+          "karma": 3
+        },
+        "log": "Shared autumn joy.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it low-key",
+        "effects": {
+          "mental": 4,
+          "happiness": 2
+        },
+        "log": "A quiet autumn moment.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_season_02807",
+    "min": 4,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "📅",
+    "title": "Winter Days",
+    "text": "This winter, you decide to build a snowman.",
+    "choices": [
+      {
+        "label": "Make the most of it",
+        "effects": {
+          "happiness": 6,
+          "mental": 3
+        },
+        "log": "A perfect winter day.",
+        "kind": "good"
+      },
+      {
+        "label": "Invite others along",
+        "effects": {
+          "happiness": 5,
+          "karma": 3
+        },
+        "log": "Shared winter joy.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it low-key",
+        "effects": {
+          "mental": 4,
+          "happiness": 2
+        },
+        "log": "A quiet winter moment.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_season_02808",
+    "min": 4,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "📅",
+    "title": "Winter Days",
+    "text": "This winter, you decide to go sledding.",
+    "choices": [
+      {
+        "label": "Make the most of it",
+        "effects": {
+          "happiness": 6,
+          "mental": 3
+        },
+        "log": "A perfect winter day.",
+        "kind": "good"
+      },
+      {
+        "label": "Invite others along",
+        "effects": {
+          "happiness": 5,
+          "karma": 3
+        },
+        "log": "Shared winter joy.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it low-key",
+        "effects": {
+          "mental": 4,
+          "happiness": 2
+        },
+        "log": "A quiet winter moment.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_season_02809",
+    "min": 4,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "📅",
+    "title": "Winter Days",
+    "text": "This winter, you decide to sip hot cocoa.",
+    "choices": [
+      {
+        "label": "Make the most of it",
+        "effects": {
+          "happiness": 6,
+          "mental": 3
+        },
+        "log": "A perfect winter day.",
+        "kind": "good"
+      },
+      {
+        "label": "Invite others along",
+        "effects": {
+          "happiness": 5,
+          "karma": 3
+        },
+        "log": "Shared winter joy.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it low-key",
+        "effects": {
+          "mental": 4,
+          "happiness": 2
+        },
+        "log": "A quiet winter moment.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_season_02810",
+    "min": 4,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "📅",
+    "title": "Winter Days",
+    "text": "This winter, you decide to decorate for the holidays.",
+    "choices": [
+      {
+        "label": "Make the most of it",
+        "effects": {
+          "happiness": 6,
+          "mental": 3
+        },
+        "log": "A perfect winter day.",
+        "kind": "good"
+      },
+      {
+        "label": "Invite others along",
+        "effects": {
+          "happiness": 5,
+          "karma": 3
+        },
+        "log": "Shared winter joy.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it low-key",
+        "effects": {
+          "mental": 4,
+          "happiness": 2
+        },
+        "log": "A quiet winter moment.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_season_02811",
+    "min": 4,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "📅",
+    "title": "Winter Days",
+    "text": "This winter, you decide to ice skate.",
+    "choices": [
+      {
+        "label": "Make the most of it",
+        "effects": {
+          "happiness": 6,
+          "mental": 3
+        },
+        "log": "A perfect winter day.",
+        "kind": "good"
+      },
+      {
+        "label": "Invite others along",
+        "effects": {
+          "happiness": 5,
+          "karma": 3
+        },
+        "log": "Shared winter joy.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it low-key",
+        "effects": {
+          "mental": 4,
+          "happiness": 2
+        },
+        "log": "A quiet winter moment.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_season_02812",
+    "min": 4,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "📅",
+    "title": "Winter Days",
+    "text": "This winter, you decide to read by the fire.",
+    "choices": [
+      {
+        "label": "Make the most of it",
+        "effects": {
+          "happiness": 6,
+          "mental": 3
+        },
+        "log": "A perfect winter day.",
+        "kind": "good"
+      },
+      {
+        "label": "Invite others along",
+        "effects": {
+          "happiness": 5,
+          "karma": 3
+        },
+        "log": "Shared winter joy.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it low-key",
+        "effects": {
+          "mental": 4,
+          "happiness": 2
+        },
+        "log": "A quiet winter moment.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_season_02813",
+    "min": 4,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "📅",
+    "title": "Winter Days",
+    "text": "This winter, you decide to have a snowball fight.",
+    "choices": [
+      {
+        "label": "Make the most of it",
+        "effects": {
+          "happiness": 6,
+          "mental": 3
+        },
+        "log": "A perfect winter day.",
+        "kind": "good"
+      },
+      {
+        "label": "Invite others along",
+        "effects": {
+          "happiness": 5,
+          "karma": 3
+        },
+        "log": "Shared winter joy.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it low-key",
+        "effects": {
+          "mental": 4,
+          "happiness": 2
+        },
+        "log": "A quiet winter moment.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_season_02814",
+    "min": 4,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "📅",
+    "title": "Winter Days",
+    "text": "This winter, you decide to watch the snow fall.",
+    "choices": [
+      {
+        "label": "Make the most of it",
+        "effects": {
+          "happiness": 6,
+          "mental": 3
+        },
+        "log": "A perfect winter day.",
+        "kind": "good"
+      },
+      {
+        "label": "Invite others along",
+        "effects": {
+          "happiness": 5,
+          "karma": 3
+        },
+        "log": "Shared winter joy.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it low-key",
+        "effects": {
+          "mental": 4,
+          "happiness": 2
+        },
+        "log": "A quiet winter moment.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_season_02815",
+    "min": 4,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "📅",
+    "title": "Winter Days",
+    "text": "This winter, you decide to make soup.",
+    "choices": [
+      {
+        "label": "Make the most of it",
+        "effects": {
+          "happiness": 6,
+          "mental": 3
+        },
+        "log": "A perfect winter day.",
+        "kind": "good"
+      },
+      {
+        "label": "Invite others along",
+        "effects": {
+          "happiness": 5,
+          "karma": 3
+        },
+        "log": "Shared winter joy.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it low-key",
+        "effects": {
+          "mental": 4,
+          "happiness": 2
+        },
+        "log": "A quiet winter moment.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_season_02816",
+    "min": 4,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "📅",
+    "title": "Winter Days",
+    "text": "This winter, you decide to cozy up under blankets.",
+    "choices": [
+      {
+        "label": "Make the most of it",
+        "effects": {
+          "happiness": 6,
+          "mental": 3
+        },
+        "log": "A perfect winter day.",
+        "kind": "good"
+      },
+      {
+        "label": "Invite others along",
+        "effects": {
+          "happiness": 5,
+          "karma": 3
+        },
+        "log": "Shared winter joy.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it low-key",
+        "effects": {
+          "mental": 4,
+          "happiness": 2
+        },
+        "log": "A quiet winter moment.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_choice_02817",
+    "min": 14,
+    "max": 100,
+    "weight": 0.2,
+    "icon": "⚖️",
+    "title": "A Small Crossroads",
+    "text": "You face a familiar choice: take a risk or play it safe.",
+    "choices": [
+      {
+        "label": "Be bold",
+        "effects": {
+          "happiness": 5,
+          "mental": 3
+        },
+        "log": "You chose courage.",
+        "kind": "good"
+      },
+      {
+        "label": "Be measured",
+        "effects": {
+          "mental": 4,
+          "smarts": 2
+        },
+        "log": "You chose wisdom.",
+        "kind": "info"
+      },
+      {
+        "label": "Be kind",
+        "effects": {
+          "karma": 5,
+          "happiness": 2
+        },
+        "log": "You chose kindness.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "gen_choice_02818",
+    "min": 14,
+    "max": 100,
+    "weight": 0.2,
+    "icon": "⚖️",
+    "title": "A Small Crossroads",
+    "text": "You face a familiar choice: take a risk or play it safe.",
+    "choices": [
+      {
+        "label": "Be bold",
+        "effects": {
+          "happiness": 5,
+          "mental": 2
+        },
+        "log": "You chose courage.",
+        "kind": "good"
+      },
+      {
+        "label": "Be measured",
+        "effects": {
+          "mental": 4,
+          "smarts": 2
+        },
+        "log": "You chose wisdom.",
+        "kind": "info"
+      },
+      {
+        "label": "Be kind",
+        "effects": {
+          "karma": 5,
+          "happiness": 2
+        },
+        "log": "You chose kindness.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "gen_choice_02819",
+    "min": 14,
+    "max": 100,
+    "weight": 0.2,
+    "icon": "⚖️",
+    "title": "A Small Crossroads",
+    "text": "You face a familiar choice: speak your mind or keep the peace.",
+    "choices": [
+      {
+        "label": "Be bold",
+        "effects": {
+          "happiness": 5,
+          "mental": 3
+        },
+        "log": "You chose courage.",
+        "kind": "good"
+      },
+      {
+        "label": "Be measured",
+        "effects": {
+          "mental": 4,
+          "smarts": 2
+        },
+        "log": "You chose wisdom.",
+        "kind": "info"
+      },
+      {
+        "label": "Be kind",
+        "effects": {
+          "karma": 5,
+          "happiness": 2
+        },
+        "log": "You chose kindness.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "gen_choice_02820",
+    "min": 14,
+    "max": 100,
+    "weight": 0.2,
+    "icon": "⚖️",
+    "title": "A Small Crossroads",
+    "text": "You face a familiar choice: speak your mind or keep the peace.",
+    "choices": [
+      {
+        "label": "Be bold",
+        "effects": {
+          "happiness": 5,
+          "mental": 2
+        },
+        "log": "You chose courage.",
+        "kind": "good"
+      },
+      {
+        "label": "Be measured",
+        "effects": {
+          "mental": 4,
+          "smarts": 2
+        },
+        "log": "You chose wisdom.",
+        "kind": "info"
+      },
+      {
+        "label": "Be kind",
+        "effects": {
+          "karma": 5,
+          "happiness": 2
+        },
+        "log": "You chose kindness.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "gen_choice_02821",
+    "min": 14,
+    "max": 100,
+    "weight": 0.2,
+    "icon": "⚖️",
+    "title": "A Small Crossroads",
+    "text": "You face a familiar choice: save money or seize an experience.",
+    "choices": [
+      {
+        "label": "Be bold",
+        "effects": {
+          "happiness": 5,
+          "mental": 3
+        },
+        "log": "You chose courage.",
+        "kind": "good"
+      },
+      {
+        "label": "Be measured",
+        "effects": {
+          "mental": 4,
+          "smarts": 2
+        },
+        "log": "You chose wisdom.",
+        "kind": "info"
+      },
+      {
+        "label": "Be kind",
+        "effects": {
+          "karma": 5,
+          "happiness": 2
+        },
+        "log": "You chose kindness.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "gen_choice_02822",
+    "min": 14,
+    "max": 100,
+    "weight": 0.2,
+    "icon": "⚖️",
+    "title": "A Small Crossroads",
+    "text": "You face a familiar choice: save money or seize an experience.",
+    "choices": [
+      {
+        "label": "Be bold",
+        "effects": {
+          "happiness": 5,
+          "mental": 2
+        },
+        "log": "You chose courage.",
+        "kind": "good"
+      },
+      {
+        "label": "Be measured",
+        "effects": {
+          "mental": 4,
+          "smarts": 2
+        },
+        "log": "You chose wisdom.",
+        "kind": "info"
+      },
+      {
+        "label": "Be kind",
+        "effects": {
+          "karma": 5,
+          "happiness": 2
+        },
+        "log": "You chose kindness.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "gen_choice_02823",
+    "min": 14,
+    "max": 100,
+    "weight": 0.2,
+    "icon": "⚖️",
+    "title": "A Small Crossroads",
+    "text": "You face a familiar choice: help a stranger or mind your business.",
+    "choices": [
+      {
+        "label": "Be bold",
+        "effects": {
+          "happiness": 5,
+          "mental": 3
+        },
+        "log": "You chose courage.",
+        "kind": "good"
+      },
+      {
+        "label": "Be measured",
+        "effects": {
+          "mental": 4,
+          "smarts": 2
+        },
+        "log": "You chose wisdom.",
+        "kind": "info"
+      },
+      {
+        "label": "Be kind",
+        "effects": {
+          "karma": 5,
+          "happiness": 2
+        },
+        "log": "You chose kindness.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "gen_choice_02824",
+    "min": 14,
+    "max": 100,
+    "weight": 0.2,
+    "icon": "⚖️",
+    "title": "A Small Crossroads",
+    "text": "You face a familiar choice: help a stranger or mind your business.",
+    "choices": [
+      {
+        "label": "Be bold",
+        "effects": {
+          "happiness": 5,
+          "mental": 2
+        },
+        "log": "You chose courage.",
+        "kind": "good"
+      },
+      {
+        "label": "Be measured",
+        "effects": {
+          "mental": 4,
+          "smarts": 2
+        },
+        "log": "You chose wisdom.",
+        "kind": "info"
+      },
+      {
+        "label": "Be kind",
+        "effects": {
+          "karma": 5,
+          "happiness": 2
+        },
+        "log": "You chose kindness.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "gen_choice_02825",
+    "min": 14,
+    "max": 100,
+    "weight": 0.2,
+    "icon": "⚖️",
+    "title": "A Small Crossroads",
+    "text": "You face a familiar choice: follow the crowd or go your own way.",
+    "choices": [
+      {
+        "label": "Be bold",
+        "effects": {
+          "happiness": 5,
+          "mental": 3
+        },
+        "log": "You chose courage.",
+        "kind": "good"
+      },
+      {
+        "label": "Be measured",
+        "effects": {
+          "mental": 4,
+          "smarts": 2
+        },
+        "log": "You chose wisdom.",
+        "kind": "info"
+      },
+      {
+        "label": "Be kind",
+        "effects": {
+          "karma": 5,
+          "happiness": 2
+        },
+        "log": "You chose kindness.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "gen_choice_02826",
+    "min": 14,
+    "max": 100,
+    "weight": 0.2,
+    "icon": "⚖️",
+    "title": "A Small Crossroads",
+    "text": "You face a familiar choice: follow the crowd or go your own way.",
+    "choices": [
+      {
+        "label": "Be bold",
+        "effects": {
+          "happiness": 5,
+          "mental": 2
+        },
+        "log": "You chose courage.",
+        "kind": "good"
+      },
+      {
+        "label": "Be measured",
+        "effects": {
+          "mental": 4,
+          "smarts": 2
+        },
+        "log": "You chose wisdom.",
+        "kind": "info"
+      },
+      {
+        "label": "Be kind",
+        "effects": {
+          "karma": 5,
+          "happiness": 2
+        },
+        "log": "You chose kindness.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "gen_choice_02827",
+    "min": 14,
+    "max": 100,
+    "weight": 0.2,
+    "icon": "⚖️",
+    "title": "A Small Crossroads",
+    "text": "You face a familiar choice: rest or push a little harder.",
+    "choices": [
+      {
+        "label": "Be bold",
+        "effects": {
+          "happiness": 5,
+          "mental": 3
+        },
+        "log": "You chose courage.",
+        "kind": "good"
+      },
+      {
+        "label": "Be measured",
+        "effects": {
+          "mental": 4,
+          "smarts": 2
+        },
+        "log": "You chose wisdom.",
+        "kind": "info"
+      },
+      {
+        "label": "Be kind",
+        "effects": {
+          "karma": 5,
+          "happiness": 2
+        },
+        "log": "You chose kindness.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "gen_choice_02828",
+    "min": 14,
+    "max": 100,
+    "weight": 0.2,
+    "icon": "⚖️",
+    "title": "A Small Crossroads",
+    "text": "You face a familiar choice: rest or push a little harder.",
+    "choices": [
+      {
+        "label": "Be bold",
+        "effects": {
+          "happiness": 5,
+          "mental": 2
+        },
+        "log": "You chose courage.",
+        "kind": "good"
+      },
+      {
+        "label": "Be measured",
+        "effects": {
+          "mental": 4,
+          "smarts": 2
+        },
+        "log": "You chose wisdom.",
+        "kind": "info"
+      },
+      {
+        "label": "Be kind",
+        "effects": {
+          "karma": 5,
+          "happiness": 2
+        },
+        "log": "You chose kindness.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "gen_choice_02829",
+    "min": 14,
+    "max": 100,
+    "weight": 0.2,
+    "icon": "⚖️",
+    "title": "A Small Crossroads",
+    "text": "You face a familiar choice: try the new thing or stick with what works.",
+    "choices": [
+      {
+        "label": "Be bold",
+        "effects": {
+          "happiness": 5,
+          "mental": 3
+        },
+        "log": "You chose courage.",
+        "kind": "good"
+      },
+      {
+        "label": "Be measured",
+        "effects": {
+          "mental": 4,
+          "smarts": 2
+        },
+        "log": "You chose wisdom.",
+        "kind": "info"
+      },
+      {
+        "label": "Be kind",
+        "effects": {
+          "karma": 5,
+          "happiness": 2
+        },
+        "log": "You chose kindness.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "gen_choice_02830",
+    "min": 14,
+    "max": 100,
+    "weight": 0.2,
+    "icon": "⚖️",
+    "title": "A Small Crossroads",
+    "text": "You face a familiar choice: try the new thing or stick with what works.",
+    "choices": [
+      {
+        "label": "Be bold",
+        "effects": {
+          "happiness": 5,
+          "mental": 2
+        },
+        "log": "You chose courage.",
+        "kind": "good"
+      },
+      {
+        "label": "Be measured",
+        "effects": {
+          "mental": 4,
+          "smarts": 2
+        },
+        "log": "You chose wisdom.",
+        "kind": "info"
+      },
+      {
+        "label": "Be kind",
+        "effects": {
+          "karma": 5,
+          "happiness": 2
+        },
+        "log": "You chose kindness.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "gen_choice_02831",
+    "min": 14,
+    "max": 100,
+    "weight": 0.2,
+    "icon": "⚖️",
+    "title": "A Small Crossroads",
+    "text": "You face a familiar choice: be honest or be kind.",
+    "choices": [
+      {
+        "label": "Be bold",
+        "effects": {
+          "happiness": 5,
+          "mental": 3
+        },
+        "log": "You chose courage.",
+        "kind": "good"
+      },
+      {
+        "label": "Be measured",
+        "effects": {
+          "mental": 4,
+          "smarts": 2
+        },
+        "log": "You chose wisdom.",
+        "kind": "info"
+      },
+      {
+        "label": "Be kind",
+        "effects": {
+          "karma": 5,
+          "happiness": 2
+        },
+        "log": "You chose kindness.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "gen_choice_02832",
+    "min": 14,
+    "max": 100,
+    "weight": 0.2,
+    "icon": "⚖️",
+    "title": "A Small Crossroads",
+    "text": "You face a familiar choice: be honest or be kind.",
+    "choices": [
+      {
+        "label": "Be bold",
+        "effects": {
+          "happiness": 5,
+          "mental": 2
+        },
+        "log": "You chose courage.",
+        "kind": "good"
+      },
+      {
+        "label": "Be measured",
+        "effects": {
+          "mental": 4,
+          "smarts": 2
+        },
+        "log": "You chose wisdom.",
+        "kind": "info"
+      },
+      {
+        "label": "Be kind",
+        "effects": {
+          "karma": 5,
+          "happiness": 2
+        },
+        "log": "You chose kindness.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "gen_choice_02833",
+    "min": 14,
+    "max": 100,
+    "weight": 0.2,
+    "icon": "⚖️",
+    "title": "A Small Crossroads",
+    "text": "You face a familiar choice: plan ahead or be spontaneous.",
+    "choices": [
+      {
+        "label": "Be bold",
+        "effects": {
+          "happiness": 5,
+          "mental": 3
+        },
+        "log": "You chose courage.",
+        "kind": "good"
+      },
+      {
+        "label": "Be measured",
+        "effects": {
+          "mental": 4,
+          "smarts": 2
+        },
+        "log": "You chose wisdom.",
+        "kind": "info"
+      },
+      {
+        "label": "Be kind",
+        "effects": {
+          "karma": 5,
+          "happiness": 2
+        },
+        "log": "You chose kindness.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "gen_choice_02834",
+    "min": 14,
+    "max": 100,
+    "weight": 0.2,
+    "icon": "⚖️",
+    "title": "A Small Crossroads",
+    "text": "You face a familiar choice: plan ahead or be spontaneous.",
+    "choices": [
+      {
+        "label": "Be bold",
+        "effects": {
+          "happiness": 5,
+          "mental": 2
+        },
+        "log": "You chose courage.",
+        "kind": "good"
+      },
+      {
+        "label": "Be measured",
+        "effects": {
+          "mental": 4,
+          "smarts": 2
+        },
+        "log": "You chose wisdom.",
+        "kind": "info"
+      },
+      {
+        "label": "Be kind",
+        "effects": {
+          "karma": 5,
+          "happiness": 2
+        },
+        "log": "You chose kindness.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "gen_choice_02835",
+    "min": 14,
+    "max": 100,
+    "weight": 0.2,
+    "icon": "⚖️",
+    "title": "A Small Crossroads",
+    "text": "You face a familiar choice: lead or support.",
+    "choices": [
+      {
+        "label": "Be bold",
+        "effects": {
+          "happiness": 5,
+          "mental": 3
+        },
+        "log": "You chose courage.",
+        "kind": "good"
+      },
+      {
+        "label": "Be measured",
+        "effects": {
+          "mental": 4,
+          "smarts": 2
+        },
+        "log": "You chose wisdom.",
+        "kind": "info"
+      },
+      {
+        "label": "Be kind",
+        "effects": {
+          "karma": 5,
+          "happiness": 2
+        },
+        "log": "You chose kindness.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "gen_choice_02836",
+    "min": 14,
+    "max": 100,
+    "weight": 0.2,
+    "icon": "⚖️",
+    "title": "A Small Crossroads",
+    "text": "You face a familiar choice: lead or support.",
+    "choices": [
+      {
+        "label": "Be bold",
+        "effects": {
+          "happiness": 5,
+          "mental": 2
+        },
+        "log": "You chose courage.",
+        "kind": "good"
+      },
+      {
+        "label": "Be measured",
+        "effects": {
+          "mental": 4,
+          "smarts": 2
+        },
+        "log": "You chose wisdom.",
+        "kind": "info"
+      },
+      {
+        "label": "Be kind",
+        "effects": {
+          "karma": 5,
+          "happiness": 2
+        },
+        "log": "You chose kindness.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "gen_choice_02837",
+    "min": 14,
+    "max": 100,
+    "weight": 0.2,
+    "icon": "⚖️",
+    "title": "A Small Crossroads",
+    "text": "You face a familiar choice: forgive or stand firm.",
+    "choices": [
+      {
+        "label": "Be bold",
+        "effects": {
+          "happiness": 5,
+          "mental": 3
+        },
+        "log": "You chose courage.",
+        "kind": "good"
+      },
+      {
+        "label": "Be measured",
+        "effects": {
+          "mental": 4,
+          "smarts": 2
+        },
+        "log": "You chose wisdom.",
+        "kind": "info"
+      },
+      {
+        "label": "Be kind",
+        "effects": {
+          "karma": 5,
+          "happiness": 2
+        },
+        "log": "You chose kindness.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "gen_choice_02838",
+    "min": 14,
+    "max": 100,
+    "weight": 0.2,
+    "icon": "⚖️",
+    "title": "A Small Crossroads",
+    "text": "You face a familiar choice: forgive or stand firm.",
+    "choices": [
+      {
+        "label": "Be bold",
+        "effects": {
+          "happiness": 5,
+          "mental": 2
+        },
+        "log": "You chose courage.",
+        "kind": "good"
+      },
+      {
+        "label": "Be measured",
+        "effects": {
+          "mental": 4,
+          "smarts": 2
+        },
+        "log": "You chose wisdom.",
+        "kind": "info"
+      },
+      {
+        "label": "Be kind",
+        "effects": {
+          "karma": 5,
+          "happiness": 2
+        },
+        "log": "You chose kindness.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "gen_choice_02839",
+    "min": 14,
+    "max": 100,
+    "weight": 0.2,
+    "icon": "⚖️",
+    "title": "A Small Crossroads",
+    "text": "You face a familiar choice: spend on others or treat yourself.",
+    "choices": [
+      {
+        "label": "Be bold",
+        "effects": {
+          "happiness": 5,
+          "mental": 3
+        },
+        "log": "You chose courage.",
+        "kind": "good"
+      },
+      {
+        "label": "Be measured",
+        "effects": {
+          "mental": 4,
+          "smarts": 2
+        },
+        "log": "You chose wisdom.",
+        "kind": "info"
+      },
+      {
+        "label": "Be kind",
+        "effects": {
+          "karma": 5,
+          "happiness": 2
+        },
+        "log": "You chose kindness.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "gen_choice_02840",
+    "min": 14,
+    "max": 100,
+    "weight": 0.2,
+    "icon": "⚖️",
+    "title": "A Small Crossroads",
+    "text": "You face a familiar choice: spend on others or treat yourself.",
+    "choices": [
+      {
+        "label": "Be bold",
+        "effects": {
+          "happiness": 5,
+          "mental": 2
+        },
+        "log": "You chose courage.",
+        "kind": "good"
+      },
+      {
+        "label": "Be measured",
+        "effects": {
+          "mental": 4,
+          "smarts": 2
+        },
+        "log": "You chose wisdom.",
+        "kind": "info"
+      },
+      {
+        "label": "Be kind",
+        "effects": {
+          "karma": 5,
+          "happiness": 2
+        },
+        "log": "You chose kindness.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "gen_choice_02841",
+    "min": 14,
+    "max": 100,
+    "weight": 0.2,
+    "icon": "⚖️",
+    "title": "A Small Crossroads",
+    "text": "You face a familiar choice: stay in or go out.",
+    "choices": [
+      {
+        "label": "Be bold",
+        "effects": {
+          "happiness": 5,
+          "mental": 3
+        },
+        "log": "You chose courage.",
+        "kind": "good"
+      },
+      {
+        "label": "Be measured",
+        "effects": {
+          "mental": 4,
+          "smarts": 2
+        },
+        "log": "You chose wisdom.",
+        "kind": "info"
+      },
+      {
+        "label": "Be kind",
+        "effects": {
+          "karma": 5,
+          "happiness": 2
+        },
+        "log": "You chose kindness.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "gen_choice_02842",
+    "min": 14,
+    "max": 100,
+    "weight": 0.2,
+    "icon": "⚖️",
+    "title": "A Small Crossroads",
+    "text": "You face a familiar choice: stay in or go out.",
+    "choices": [
+      {
+        "label": "Be bold",
+        "effects": {
+          "happiness": 5,
+          "mental": 2
+        },
+        "log": "You chose courage.",
+        "kind": "good"
+      },
+      {
+        "label": "Be measured",
+        "effects": {
+          "mental": 4,
+          "smarts": 2
+        },
+        "log": "You chose wisdom.",
+        "kind": "info"
+      },
+      {
+        "label": "Be kind",
+        "effects": {
+          "karma": 5,
+          "happiness": 2
+        },
+        "log": "You chose kindness.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "gen_choice_02843",
+    "min": 14,
+    "max": 100,
+    "weight": 0.2,
+    "icon": "⚖️",
+    "title": "A Small Crossroads",
+    "text": "You face a familiar choice: start now or wait for the right moment.",
+    "choices": [
+      {
+        "label": "Be bold",
+        "effects": {
+          "happiness": 5,
+          "mental": 3
+        },
+        "log": "You chose courage.",
+        "kind": "good"
+      },
+      {
+        "label": "Be measured",
+        "effects": {
+          "mental": 4,
+          "smarts": 2
+        },
+        "log": "You chose wisdom.",
+        "kind": "info"
+      },
+      {
+        "label": "Be kind",
+        "effects": {
+          "karma": 5,
+          "happiness": 2
+        },
+        "log": "You chose kindness.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "gen_choice_02844",
+    "min": 14,
+    "max": 100,
+    "weight": 0.2,
+    "icon": "⚖️",
+    "title": "A Small Crossroads",
+    "text": "You face a familiar choice: start now or wait for the right moment.",
+    "choices": [
+      {
+        "label": "Be bold",
+        "effects": {
+          "happiness": 5,
+          "mental": 2
+        },
+        "log": "You chose courage.",
+        "kind": "good"
+      },
+      {
+        "label": "Be measured",
+        "effects": {
+          "mental": 4,
+          "smarts": 2
+        },
+        "log": "You chose wisdom.",
+        "kind": "info"
+      },
+      {
+        "label": "Be kind",
+        "effects": {
+          "karma": 5,
+          "happiness": 2
+        },
+        "log": "You chose kindness.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "gen_choice_02845",
+    "min": 14,
+    "max": 100,
+    "weight": 0.2,
+    "icon": "⚖️",
+    "title": "A Small Crossroads",
+    "text": "You face a familiar choice: keep a secret or share the truth.",
+    "choices": [
+      {
+        "label": "Be bold",
+        "effects": {
+          "happiness": 5,
+          "mental": 3
+        },
+        "log": "You chose courage.",
+        "kind": "good"
+      },
+      {
+        "label": "Be measured",
+        "effects": {
+          "mental": 4,
+          "smarts": 2
+        },
+        "log": "You chose wisdom.",
+        "kind": "info"
+      },
+      {
+        "label": "Be kind",
+        "effects": {
+          "karma": 5,
+          "happiness": 2
+        },
+        "log": "You chose kindness.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "gen_choice_02846",
+    "min": 14,
+    "max": 100,
+    "weight": 0.2,
+    "icon": "⚖️",
+    "title": "A Small Crossroads",
+    "text": "You face a familiar choice: keep a secret or share the truth.",
+    "choices": [
+      {
+        "label": "Be bold",
+        "effects": {
+          "happiness": 5,
+          "mental": 2
+        },
+        "log": "You chose courage.",
+        "kind": "good"
+      },
+      {
+        "label": "Be measured",
+        "effects": {
+          "mental": 4,
+          "smarts": 2
+        },
+        "log": "You chose wisdom.",
+        "kind": "info"
+      },
+      {
+        "label": "Be kind",
+        "effects": {
+          "karma": 5,
+          "happiness": 2
+        },
+        "log": "You chose kindness.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "gen_choice_02847",
+    "min": 14,
+    "max": 100,
+    "weight": 0.2,
+    "icon": "⚖️",
+    "title": "A Small Crossroads",
+    "text": "You face a familiar choice: chase the dream or build the safety net.",
+    "choices": [
+      {
+        "label": "Be bold",
+        "effects": {
+          "happiness": 5,
+          "mental": 3
+        },
+        "log": "You chose courage.",
+        "kind": "good"
+      },
+      {
+        "label": "Be measured",
+        "effects": {
+          "mental": 4,
+          "smarts": 2
+        },
+        "log": "You chose wisdom.",
+        "kind": "info"
+      },
+      {
+        "label": "Be kind",
+        "effects": {
+          "karma": 5,
+          "happiness": 2
+        },
+        "log": "You chose kindness.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "gen_choice_02848",
+    "min": 14,
+    "max": 100,
+    "weight": 0.2,
+    "icon": "⚖️",
+    "title": "A Small Crossroads",
+    "text": "You face a familiar choice: chase the dream or build the safety net.",
+    "choices": [
+      {
+        "label": "Be bold",
+        "effects": {
+          "happiness": 5,
+          "mental": 2
+        },
+        "log": "You chose courage.",
+        "kind": "good"
+      },
+      {
+        "label": "Be measured",
+        "effects": {
+          "mental": 4,
+          "smarts": 2
+        },
+        "log": "You chose wisdom.",
+        "kind": "info"
+      },
+      {
+        "label": "Be kind",
+        "effects": {
+          "karma": 5,
+          "happiness": 2
+        },
+        "log": "You chose kindness.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "gen_errand_02849",
+    "min": 10,
+    "max": 100,
+    "weight": 0.2,
+    "icon": "🛒",
+    "title": "Running Errands",
+    "text": "Out and about, the post office has a huge line.",
+    "choices": [
+      {
+        "label": "Enjoy the little moment",
+        "effects": {
+          "happiness": 4
+        },
+        "log": "Errands done, mood up.",
+        "kind": "good"
+      },
+      {
+        "label": "Spread some kindness",
+        "effects": {
+          "karma": 4,
+          "happiness": 2
+        },
+        "log": "A small good deed.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "gen_errand_02850",
+    "min": 10,
+    "max": 100,
+    "weight": 0.2,
+    "icon": "🛒",
+    "title": "Running Errands",
+    "text": "Out and about, the post office has a huge line.",
+    "choices": [
+      {
+        "label": "Enjoy the little moment",
+        "effects": {
+          "happiness": 4
+        },
+        "log": "Errands done, mood up.",
+        "kind": "good"
+      },
+      {
+        "label": "Spread some kindness",
+        "effects": {
+          "karma": 4,
+          "happiness": 2
+        },
+        "log": "A small good deed.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "gen_errand_02851",
+    "min": 10,
+    "max": 100,
+    "weight": 0.2,
+    "icon": "🛒",
+    "title": "Running Errands",
+    "text": "Out and about, you discover a new bakery.",
+    "choices": [
+      {
+        "label": "Enjoy the little moment",
+        "effects": {
+          "happiness": 4
+        },
+        "log": "Errands done, mood up.",
+        "kind": "good"
+      },
+      {
+        "label": "Spread some kindness",
+        "effects": {
+          "karma": 4,
+          "happiness": 2
+        },
+        "log": "A small good deed.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "gen_errand_02852",
+    "min": 10,
+    "max": 100,
+    "weight": 0.2,
+    "icon": "🛒",
+    "title": "Running Errands",
+    "text": "Out and about, you discover a new bakery.",
+    "choices": [
+      {
+        "label": "Enjoy the little moment",
+        "effects": {
+          "happiness": 4
+        },
+        "log": "Errands done, mood up.",
+        "kind": "good"
+      },
+      {
+        "label": "Spread some kindness",
+        "effects": {
+          "karma": 4,
+          "happiness": 2
+        },
+        "log": "A small good deed.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "gen_errand_02853",
+    "min": 10,
+    "max": 100,
+    "weight": 0.2,
+    "icon": "🛒",
+    "title": "Running Errands",
+    "text": "Out and about, the bank teller is extra friendly.",
+    "choices": [
+      {
+        "label": "Enjoy the little moment",
+        "effects": {
+          "happiness": 4
+        },
+        "log": "Errands done, mood up.",
+        "kind": "good"
+      },
+      {
+        "label": "Spread some kindness",
+        "effects": {
+          "karma": 4,
+          "happiness": 2
+        },
+        "log": "A small good deed.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "gen_errand_02854",
+    "min": 10,
+    "max": 100,
+    "weight": 0.2,
+    "icon": "🛒",
+    "title": "Running Errands",
+    "text": "Out and about, the bank teller is extra friendly.",
+    "choices": [
+      {
+        "label": "Enjoy the little moment",
+        "effects": {
+          "happiness": 4
+        },
+        "log": "Errands done, mood up.",
+        "kind": "good"
+      },
+      {
+        "label": "Spread some kindness",
+        "effects": {
+          "karma": 4,
+          "happiness": 2
+        },
+        "log": "A small good deed.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "gen_errand_02855",
+    "min": 10,
+    "max": 100,
+    "weight": 0.2,
+    "icon": "🛒",
+    "title": "Running Errands",
+    "text": "Out and about, you finally return that overdue item.",
+    "choices": [
+      {
+        "label": "Enjoy the little moment",
+        "effects": {
+          "happiness": 4
+        },
+        "log": "Errands done, mood up.",
+        "kind": "good"
+      },
+      {
+        "label": "Spread some kindness",
+        "effects": {
+          "karma": 4,
+          "happiness": 2
+        },
+        "log": "A small good deed.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "gen_errand_02856",
+    "min": 10,
+    "max": 100,
+    "weight": 0.2,
+    "icon": "🛒",
+    "title": "Running Errands",
+    "text": "Out and about, you finally return that overdue item.",
+    "choices": [
+      {
+        "label": "Enjoy the little moment",
+        "effects": {
+          "happiness": 4
+        },
+        "log": "Errands done, mood up.",
+        "kind": "good"
+      },
+      {
+        "label": "Spread some kindness",
+        "effects": {
+          "karma": 4,
+          "happiness": 2
+        },
+        "log": "A small good deed.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "gen_errand_02857",
+    "min": 10,
+    "max": 100,
+    "weight": 0.2,
+    "icon": "🛒",
+    "title": "Running Errands",
+    "text": "Out and about, the corner store restocked your favorite.",
+    "choices": [
+      {
+        "label": "Enjoy the little moment",
+        "effects": {
+          "happiness": 4
+        },
+        "log": "Errands done, mood up.",
+        "kind": "good"
+      },
+      {
+        "label": "Spread some kindness",
+        "effects": {
+          "karma": 4,
+          "happiness": 2
+        },
+        "log": "A small good deed.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "gen_errand_02858",
+    "min": 10,
+    "max": 100,
+    "weight": 0.2,
+    "icon": "🛒",
+    "title": "Running Errands",
+    "text": "Out and about, the corner store restocked your favorite.",
+    "choices": [
+      {
+        "label": "Enjoy the little moment",
+        "effects": {
+          "happiness": 4
+        },
+        "log": "Errands done, mood up.",
+        "kind": "good"
+      },
+      {
+        "label": "Spread some kindness",
+        "effects": {
+          "karma": 4,
+          "happiness": 2
+        },
+        "log": "A small good deed.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "gen_errand_02859",
+    "min": 10,
+    "max": 100,
+    "weight": 0.2,
+    "icon": "🛒",
+    "title": "Running Errands",
+    "text": "Out and about, a busker plays beautifully outside.",
+    "choices": [
+      {
+        "label": "Enjoy the little moment",
+        "effects": {
+          "happiness": 4
+        },
+        "log": "Errands done, mood up.",
+        "kind": "good"
+      },
+      {
+        "label": "Spread some kindness",
+        "effects": {
+          "karma": 4,
+          "happiness": 2
+        },
+        "log": "A small good deed.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "gen_errand_02860",
+    "min": 10,
+    "max": 100,
+    "weight": 0.2,
+    "icon": "🛒",
+    "title": "Running Errands",
+    "text": "Out and about, a busker plays beautifully outside.",
+    "choices": [
+      {
+        "label": "Enjoy the little moment",
+        "effects": {
+          "happiness": 4
+        },
+        "log": "Errands done, mood up.",
+        "kind": "good"
+      },
+      {
+        "label": "Spread some kindness",
+        "effects": {
+          "karma": 4,
+          "happiness": 2
+        },
+        "log": "A small good deed.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "gen_errand_02861",
+    "min": 10,
+    "max": 100,
+    "weight": 0.2,
+    "icon": "🛒",
+    "title": "Running Errands",
+    "text": "Out and about, you find the shop's last one in your size.",
+    "choices": [
+      {
+        "label": "Enjoy the little moment",
+        "effects": {
+          "happiness": 4
+        },
+        "log": "Errands done, mood up.",
+        "kind": "good"
+      },
+      {
+        "label": "Spread some kindness",
+        "effects": {
+          "karma": 4,
+          "happiness": 2
+        },
+        "log": "A small good deed.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "gen_errand_02862",
+    "min": 10,
+    "max": 100,
+    "weight": 0.2,
+    "icon": "🛒",
+    "title": "Running Errands",
+    "text": "Out and about, you find the shop's last one in your size.",
+    "choices": [
+      {
+        "label": "Enjoy the little moment",
+        "effects": {
+          "happiness": 4
+        },
+        "log": "Errands done, mood up.",
+        "kind": "good"
+      },
+      {
+        "label": "Spread some kindness",
+        "effects": {
+          "karma": 4,
+          "happiness": 2
+        },
+        "log": "A small good deed.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "gen_errand_02863",
+    "min": 10,
+    "max": 100,
+    "weight": 0.2,
+    "icon": "🛒",
+    "title": "Running Errands",
+    "text": "Out and about, a sample tray tempts you.",
+    "choices": [
+      {
+        "label": "Enjoy the little moment",
+        "effects": {
+          "happiness": 4
+        },
+        "log": "Errands done, mood up.",
+        "kind": "good"
+      },
+      {
+        "label": "Spread some kindness",
+        "effects": {
+          "karma": 4,
+          "happiness": 2
+        },
+        "log": "A small good deed.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "gen_errand_02864",
+    "min": 10,
+    "max": 100,
+    "weight": 0.2,
+    "icon": "🛒",
+    "title": "Running Errands",
+    "text": "Out and about, a sample tray tempts you.",
+    "choices": [
+      {
+        "label": "Enjoy the little moment",
+        "effects": {
+          "happiness": 4
+        },
+        "log": "Errands done, mood up.",
+        "kind": "good"
+      },
+      {
+        "label": "Spread some kindness",
+        "effects": {
+          "karma": 4,
+          "happiness": 2
+        },
+        "log": "A small good deed.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "gen_errand_02865",
+    "min": 10,
+    "max": 100,
+    "weight": 0.2,
+    "icon": "🛒",
+    "title": "Running Errands",
+    "text": "Out and about, the cashier remembers your name.",
+    "choices": [
+      {
+        "label": "Enjoy the little moment",
+        "effects": {
+          "happiness": 4
+        },
+        "log": "Errands done, mood up.",
+        "kind": "good"
+      },
+      {
+        "label": "Spread some kindness",
+        "effects": {
+          "karma": 4,
+          "happiness": 2
+        },
+        "log": "A small good deed.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "gen_errand_02866",
+    "min": 10,
+    "max": 100,
+    "weight": 0.2,
+    "icon": "🛒",
+    "title": "Running Errands",
+    "text": "Out and about, the cashier remembers your name.",
+    "choices": [
+      {
+        "label": "Enjoy the little moment",
+        "effects": {
+          "happiness": 4
+        },
+        "log": "Errands done, mood up.",
+        "kind": "good"
+      },
+      {
+        "label": "Spread some kindness",
+        "effects": {
+          "karma": 4,
+          "happiness": 2
+        },
+        "log": "A small good deed.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "gen_errand_02867",
+    "min": 10,
+    "max": 100,
+    "weight": 0.2,
+    "icon": "🛒",
+    "title": "Running Errands",
+    "text": "Out and about, you help someone reach a top shelf.",
+    "choices": [
+      {
+        "label": "Enjoy the little moment",
+        "effects": {
+          "happiness": 4
+        },
+        "log": "Errands done, mood up.",
+        "kind": "good"
+      },
+      {
+        "label": "Spread some kindness",
+        "effects": {
+          "karma": 4,
+          "happiness": 2
+        },
+        "log": "A small good deed.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "gen_errand_02868",
+    "min": 10,
+    "max": 100,
+    "weight": 0.2,
+    "icon": "🛒",
+    "title": "Running Errands",
+    "text": "Out and about, you help someone reach a top shelf.",
+    "choices": [
+      {
+        "label": "Enjoy the little moment",
+        "effects": {
+          "happiness": 4
+        },
+        "log": "Errands done, mood up.",
+        "kind": "good"
+      },
+      {
+        "label": "Spread some kindness",
+        "effects": {
+          "karma": 4,
+          "happiness": 2
+        },
+        "log": "A small good deed.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "gen_errand_02869",
+    "min": 10,
+    "max": 100,
+    "weight": 0.2,
+    "icon": "🛒",
+    "title": "Running Errands",
+    "text": "Out and about, you find a great deal in the clearance bin.",
+    "choices": [
+      {
+        "label": "Enjoy the little moment",
+        "effects": {
+          "happiness": 4
+        },
+        "log": "Errands done, mood up.",
+        "kind": "good"
+      },
+      {
+        "label": "Spread some kindness",
+        "effects": {
+          "karma": 4,
+          "happiness": 2
+        },
+        "log": "A small good deed.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "gen_errand_02870",
+    "min": 10,
+    "max": 100,
+    "weight": 0.2,
+    "icon": "🛒",
+    "title": "Running Errands",
+    "text": "Out and about, you find a great deal in the clearance bin.",
+    "choices": [
+      {
+        "label": "Enjoy the little moment",
+        "effects": {
+          "happiness": 4
+        },
+        "log": "Errands done, mood up.",
+        "kind": "good"
+      },
+      {
+        "label": "Spread some kindness",
+        "effects": {
+          "karma": 4,
+          "happiness": 2
+        },
+        "log": "A small good deed.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "gen_errand_02871",
+    "min": 10,
+    "max": 100,
+    "weight": 0.2,
+    "icon": "🛒",
+    "title": "Running Errands",
+    "text": "Out and about, the bus driver waits for you.",
+    "choices": [
+      {
+        "label": "Enjoy the little moment",
+        "effects": {
+          "happiness": 4
+        },
+        "log": "Errands done, mood up.",
+        "kind": "good"
+      },
+      {
+        "label": "Spread some kindness",
+        "effects": {
+          "karma": 4,
+          "happiness": 2
+        },
+        "log": "A small good deed.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "gen_errand_02872",
+    "min": 10,
+    "max": 100,
+    "weight": 0.2,
+    "icon": "🛒",
+    "title": "Running Errands",
+    "text": "Out and about, the bus driver waits for you.",
+    "choices": [
+      {
+        "label": "Enjoy the little moment",
+        "effects": {
+          "happiness": 4
+        },
+        "log": "Errands done, mood up.",
+        "kind": "good"
+      },
+      {
+        "label": "Spread some kindness",
+        "effects": {
+          "karma": 4,
+          "happiness": 2
+        },
+        "log": "A small good deed.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "gen_errand_02873",
+    "min": 10,
+    "max": 100,
+    "weight": 0.2,
+    "icon": "🛒",
+    "title": "Running Errands",
+    "text": "Out and about, a kid offers you a sticker.",
+    "choices": [
+      {
+        "label": "Enjoy the little moment",
+        "effects": {
+          "happiness": 4
+        },
+        "log": "Errands done, mood up.",
+        "kind": "good"
+      },
+      {
+        "label": "Spread some kindness",
+        "effects": {
+          "karma": 4,
+          "happiness": 2
+        },
+        "log": "A small good deed.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "gen_errand_02874",
+    "min": 10,
+    "max": 100,
+    "weight": 0.2,
+    "icon": "🛒",
+    "title": "Running Errands",
+    "text": "Out and about, a kid offers you a sticker.",
+    "choices": [
+      {
+        "label": "Enjoy the little moment",
+        "effects": {
+          "happiness": 4
+        },
+        "log": "Errands done, mood up.",
+        "kind": "good"
+      },
+      {
+        "label": "Spread some kindness",
+        "effects": {
+          "karma": 4,
+          "happiness": 2
+        },
+        "log": "A small good deed.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "gen_errand_02875",
+    "min": 10,
+    "max": 100,
+    "weight": 0.2,
+    "icon": "🛒",
+    "title": "Running Errands",
+    "text": "Out and about, you get the last fresh loaf.",
+    "choices": [
+      {
+        "label": "Enjoy the little moment",
+        "effects": {
+          "happiness": 4
+        },
+        "log": "Errands done, mood up.",
+        "kind": "good"
+      },
+      {
+        "label": "Spread some kindness",
+        "effects": {
+          "karma": 4,
+          "happiness": 2
+        },
+        "log": "A small good deed.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "gen_errand_02876",
+    "min": 10,
+    "max": 100,
+    "weight": 0.2,
+    "icon": "🛒",
+    "title": "Running Errands",
+    "text": "Out and about, you get the last fresh loaf.",
+    "choices": [
+      {
+        "label": "Enjoy the little moment",
+        "effects": {
+          "happiness": 4
+        },
+        "log": "Errands done, mood up.",
+        "kind": "good"
+      },
+      {
+        "label": "Spread some kindness",
+        "effects": {
+          "karma": 4,
+          "happiness": 2
+        },
+        "log": "A small good deed.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "gen_errand_02877",
+    "min": 10,
+    "max": 100,
+    "weight": 0.2,
+    "icon": "🛒",
+    "title": "Running Errands",
+    "text": "Out and about, a shopkeeper throws in a freebie.",
+    "choices": [
+      {
+        "label": "Enjoy the little moment",
+        "effects": {
+          "happiness": 4
+        },
+        "log": "Errands done, mood up.",
+        "kind": "good"
+      },
+      {
+        "label": "Spread some kindness",
+        "effects": {
+          "karma": 4,
+          "happiness": 2
+        },
+        "log": "A small good deed.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "gen_errand_02878",
+    "min": 10,
+    "max": 100,
+    "weight": 0.2,
+    "icon": "🛒",
+    "title": "Running Errands",
+    "text": "Out and about, a shopkeeper throws in a freebie.",
+    "choices": [
+      {
+        "label": "Enjoy the little moment",
+        "effects": {
+          "happiness": 4
+        },
+        "log": "Errands done, mood up.",
+        "kind": "good"
+      },
+      {
+        "label": "Spread some kindness",
+        "effects": {
+          "karma": 4,
+          "happiness": 2
+        },
+        "log": "A small good deed.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "gen_errand_02879",
+    "min": 10,
+    "max": 100,
+    "weight": 0.2,
+    "icon": "🛒",
+    "title": "Running Errands",
+    "text": "Out and about, the parking meter has free time left.",
+    "choices": [
+      {
+        "label": "Enjoy the little moment",
+        "effects": {
+          "happiness": 4
+        },
+        "log": "Errands done, mood up.",
+        "kind": "good"
+      },
+      {
+        "label": "Spread some kindness",
+        "effects": {
+          "karma": 4,
+          "happiness": 2
+        },
+        "log": "A small good deed.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "gen_errand_02880",
+    "min": 10,
+    "max": 100,
+    "weight": 0.2,
+    "icon": "🛒",
+    "title": "Running Errands",
+    "text": "Out and about, the parking meter has free time left.",
+    "choices": [
+      {
+        "label": "Enjoy the little moment",
+        "effects": {
+          "happiness": 4
+        },
+        "log": "Errands done, mood up.",
+        "kind": "good"
+      },
+      {
+        "label": "Spread some kindness",
+        "effects": {
+          "karma": 4,
+          "happiness": 2
+        },
+        "log": "A small good deed.",
+        "kind": "good"
+      }
+    ]
   }
 ]
