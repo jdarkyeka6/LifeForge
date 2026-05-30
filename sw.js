@@ -3,13 +3,14 @@
    Cache-first so the whole game is playable fully offline once
    it has loaded a single time. Bump CACHE when assets change.
    ============================================================ */
-const CACHE = "lifeforge-v1.2.0";
+const CACHE = "lifeforge-v1.3.0";
 
 const ASSETS = [
   "./",
   "./index.html",
   "./styles.css",
   "./game.js",
+  "./extras.js",
   "./manifest.webmanifest",
   "./assets/icons.js",
   "./assets/icon-192.png",

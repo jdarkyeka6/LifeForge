@@ -171,6 +171,7 @@ function log(text, kind="info", tag=null){
   G.s.log.push({text, kind, tag, age:G.s.age});
   if(G.s.log.length>500) G.s.log.shift();
   renderFeedItem({text, kind, tag});
+  if(window.LF) LF.sfxForKind(kind);
 }
 function stripEmoji(s){
   if(!s) return s;
@@ -537,7 +538,7 @@ function openTab(tab){
 
 /* ---------- OCCUPATION ---------- */
 function openOccupation(){
-  if(G.s.inPrison){ openPanel({icon:"⛓️", title:"Incarcerated", bodyHTML:`<p>You're locked up. ${G.s.prisonYears} year(s) remain.</p>`}); return; }
+  if(G.s.inPrison){ openPanel({icon:"⛓️", title:"Incarcerated", bodyHTML:`<p>You're serving time — ${G.s.prisonYears} year(s) remain.</p>`, choices:[{label:"Prison Life", primary:true, fn:prisonPanel},{label:"Close", fn:closePanel}]}); return; }
   let html=`<div class="section-head">Current Status</div>`;
   if(G.s.job){
     const job=G.s.job;
@@ -660,7 +661,7 @@ function openRelationships(){
         <button class="lr-action" data-act="interact_${p.id}">Interact</button></div>`;
     });
   }
-  if(G.s.pets.length){ html+=`<div class="section-head">Pets</div>`; G.s.pets.forEach(pet=>{ html+=rowHTML(pet.icon,pet.name,"Your loyal companion",[{txt:"Play", id:"playpet_"+pet.uid}]); }); }
+  if(G.s.pets.length){ html+=`<div class="section-head">Pets</div>`; html+=rowHTML("🐾","Pet Care",`${G.s.pets.length} companion(s) — feed, play, train & show`,[{txt:"Open", id:"petcare"}]); }
   html+=`<div class="section-head">Family</div>`;
   html+=rowHTML("tree","Family Tree","See your lineage",[{txt:"View", id:"famtree"}]);
   html+=`<div class="section-head">Find Someone</div>`;
@@ -672,6 +673,7 @@ function openRelationships(){
 }
 function handleRelAction(id){
   if(id.startsWith("interact_")) interactWith(id.slice(9));
+  else if(id==="petcare") petPanel();
   else if(id==="famtree") familyTree();
   else if(id==="dating") datingApp();
   else if(id==="makefriend") makeFriend();
@@ -1280,7 +1282,7 @@ function checkAchievements(){
   (GAME.achievements||[]).forEach(a=>{
     if(G.s.achievements.includes(a.id)) return;
     let ok=false; try{ ok=a.test(G.s); }catch(e){}
-    if(ok){ G.s.achievements.push(a.id); toast("Achievement: "+a.name); log(`🏆 Achievement unlocked: ${a.name} — ${a.desc}`, "good", "Achievement"); }
+    if(ok){ G.s.achievements.push(a.id); toast("Achievement: "+a.name); log(`🏆 Achievement unlocked: ${a.name} — ${a.desc}`, "good", "Achievement"); if(window.LF){ LF.sfx("level"); LF.vibrate(40); } }
   });
 }
 
@@ -1916,23 +1918,46 @@ function checkDeath(){
   if(chance(p)) die(pick(["old age","heart failure","natural causes","a sudden illness"]));
 }
 function die(cause){ G.s.alive=false; G.s.causeOfDeath=cause; checkAchievements(); recordLife(); log(`⚰️ You died of ${cause} at age ${G.s.age}.`,"bad","The End"); }
+function lifeHighlights(){
+  const s=G.s, h=[];
+  h.push(`👶 Born in ${s.bornCountry||s.country}.`);
+  if(s.edu>=1) h.push(`🎓 Reached ${C().eduLevels[s.edu]}.`);
+  if((s.stats_lifetime||{}).jobsHeld) h.push(`💼 Held ${s.stats_lifetime.jobsHeld} job(s) over a lifetime.`);
+  if(s.sports && s.sports.championships) h.push(`🏆 Won ${s.sports.championships} sporting championship(s)${s.sports.mvps?` and ${s.sports.mvps} MVP award(s)`:""}.`);
+  if(s.politics && GAME.offices[s.politics.officeIndex]) h.push(`🏛️ Served as ${GAME.offices[s.politics.officeIndex].name}.`);
+  if(s.military) h.push(`🎖️ Served in the ${branchName()}.`);
+  if(s.mafia) h.push(`🕴️ Was part of the criminal underworld.`);
+  if((s.businesses||[]).length) h.push(`🏢 Founded ${s.businesses.length} business(es).`);
+  if((s.properties||[]).length) h.push(`🏘️ Built a portfolio of ${s.properties.length} propertie(s).`);
+  if((s.stats_lifetime||{}).partners) h.push(`💍 Loved ${s.stats_lifetime.partners} partner(s).`);
+  if((s.stats_lifetime||{}).kids) h.push(`👨‍👩‍👧 Raised ${s.stats_lifetime.kids} child(ren).`);
+  if(s.fame>=40) h.push(`⭐ Became famous (${Math.round(s.fame)} fame).`);
+  if(s._wentToPrison) h.push(`⛓️ Did time behind bars.`);
+  if((s.criminalRecord||[]).length) h.push(`🚔 Racked up ${s.criminalRecord.length} criminal charge(s).`);
+  if((s.citizenships||[]).length>1) h.push(`🌍 Held citizenship in ${s.citizenships.length} countries.`);
+  if((s.pets||[]).some(p=>p.trophies)) h.push(`🐾 Won pet-show trophies with a beloved companion.`);
+  return h;
+}
 function showDeathScreen(){
   const lt=G.s.stats_lifetime||{}; const netWorth=G.s.money+G.s.assets.reduce((s,a)=>s+a.value,0);
   const heir=G.s.people.find(p=>p.alive && p.relation==="child");
   const inheritance=Math.max(0, Math.round(G.s.money*0.6));
+  const ach=(G.s.achievements||[]);
+  const achPills=ach.length? ach.map(id=>{ const a=GAME.achievements.find(x=>x.id===id); return a?`<span class="tag-pill green">${a.name}</span> `:""; }).join("") : `<span style="color:var(--text-dim)">None this life.</span>`;
+  const highlights=lifeHighlights().map(x=>`<p style="font-size:13px;margin:2px 0">${x}</p>`).join("");
   const choices=[];
   if(heir){ choices.push({label:`Continue as ${heir.name} (Gen ${(G.s.generation||1)+1})`, primary:true, fn:()=>continueAsChild(heir)}); }
   choices.push({label:"Start a New Life", primary:!heir, fn:()=>{ localStorage.removeItem(SAVE_KEY); closePanel(); goToMenu(); }});
   openPanel({icon:"⚰️", title:`${fullName(G.s)} · ${G.s.age} years`,
     bodyHTML:`<p style="text-align:center">Cause of death: <b>${G.s.causeOfDeath}</b></p>
-      <div class="section-head">Life Summary (Generation ${G.s.generation||1})</div>
-      <p>Net worth: <b>${fmtMoney(netWorth)}</b></p>
-      <p>Jobs held: ${lt.jobsHeld||0} · Businesses: ${(G.s.businesses||[]).length}</p>
-      <p>Partners: ${lt.partners||0} · Kids: ${lt.kids||0}</p>
-      <p>Crimes committed: ${lt.crimes||0}</p>
-      <p>Happiness ${Math.round(G.s.happiness)}% · Mental ${Math.round(G.s.mental)}%</p>
-      <p>Karma ${Math.round(G.s.karma)} · Fame ${Math.round(G.s.fame)} · Followers ${fmtFollowers(G.s.followers)}</p>
-      ${heir?`<p style="color:var(--accent);margin-top:8px">${heir.name} will inherit ${fmtMoney(inheritance)} and the family's property.</p>`:""}`,
+      <div class="section-head">Life Highlights (Generation ${G.s.generation||1})</div>
+      ${highlights}
+      <div class="section-head">Final Tally</div>
+      <p>Net worth: <b>${fmtMoney(netWorth)}</b> · Fame ${Math.round(G.s.fame)} · Followers ${fmtFollowers(G.s.followers)}</p>
+      <p>Happiness ${Math.round(G.s.happiness)}% · Health ${Math.round(G.s.health)}% · Smarts ${Math.round(G.s.smarts)}% · Karma ${Math.round(G.s.karma)}</p>
+      <div class="section-head">Achievements (${ach.length}/${(GAME.achievements||[]).length})</div>
+      <div>${achPills}</div>
+      ${heir?`<p style="color:var(--accent);margin-top:10px">${heir.name} will inherit ${fmtMoney(inheritance)} and the family's property.</p>`:""}`,
     choices});
 }
 function continueAsChild(heir){
@@ -1983,7 +2008,7 @@ function schoolName(){ if(G.s.age<5) return "Toddler"; if(G.s.age<12) return "Pr
    ============================================================ */
 function showScreen(id){ $$(".screen").forEach(s=>s.classList.add("hidden")); $(id).classList.remove("hidden"); }
 function goToMenu(){ showScreen("#menu"); $("#btnContinue").style.display=hasSave()?"block":"none"; }
-function startGame(){ showScreen("#game"); $("#feed").innerHTML=""; renderFeed(); renderAll(); }
+function startGame(){ showScreen("#game"); $("#feed").innerHTML=""; renderFeed(); renderAll(); if(window.LF && LF.maybeTutorial) LF.maybeTutorial(); }
 
 function boot(){
   // inject our custom SVG icons into static slots (stats, nav)

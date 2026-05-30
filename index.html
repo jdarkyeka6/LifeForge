@@ -32,7 +32,7 @@
           <button id="btnSlots" class="menu-btn">Save Slots</button>
           <button id="btnHOF" class="menu-btn">Hall of Fame</button>
         </div>
-        <p class="version">v1.2 · Big Systems Update · installable & offline</p>
+        <p class="version">v1.3 · Life & Legacy Update · installable & offline</p>
       </div>
     </div>
 
@@ -75,6 +75,7 @@
         </div>
         <div class="top-right">
           <div class="money" id="moneyDisplay">$0</div>
+          <button id="btnSound" class="icon-btn" title="Sound &amp; haptics">🔊</button>
           <button id="btnMenuTop" class="icon-btn" title="Menu">☰</button>
         </div>
       </header>
@@ -168,6 +169,8 @@
   <script src="data/events_eras.js"></script>
   <!-- Engine -->
   <script src="game.js"></script>
+  <!-- Feature layer: sound/haptics, prison & pet panels, tutorial -->
+  <script src="extras.js"></script>
   <!-- PWA service worker: makes LifeForge installable & playable offline -->
   <script>
     if ("serviceWorker" in navigator) {
