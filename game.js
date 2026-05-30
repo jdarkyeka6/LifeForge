@@ -59,6 +59,9 @@ function migrate(){ // backfill fields for older saves
   if(G.s.mafia===undefined) G.s.mafia=null;
   G.s.properties=G.s.properties||[];
   if(G.s.sports===undefined) G.s.sports=null;
+  if(G.s.college===undefined) G.s.college=null;
+  if(G.s.major===undefined) G.s.major=null;
+  if(G.s.studentDebt==null) G.s.studentDebt=0;
   if(G.s.supernatural===undefined) G.s.supernatural=null;
   G.s.travels=G.s.travels||[];
   G.s.songs=G.s.songs||[];
@@ -96,6 +99,7 @@ function newCharacter(opts={}){
     followers:0, market:null, investments:{stocks:{},crypto:{}}, businesses:[], generation:1,
     traits:pickTraits(3), skills:initSkills(), achievements:[], military:null, mafia:null,
     properties:[], supernatural:null, travels:[], songs:[], sports:null,
+    college:null, major:null, studentDebt:0,
     faith:null, zodiac:pickZodiac(),
     appearance:{ hair:pick(["black","brown","blonde","red","auburn","gray"]), build:pick(["slim","average","athletic","heavy"]) },
     people:[], pets:[], assets:[],
@@ -251,6 +255,7 @@ function ageUp(){
   processFollowers();
   processRoyalties();
   payUpkeep();
+  processStudentDebt();
   naturalDrift();
   progressConditions();
   runYearlyEvents();      // guarantees >=1 popup
@@ -290,6 +295,24 @@ function progressConditions(){
   if(G.s.conditions.length<before) log("😌 You recovered from a minor ailment.","good","Health");
 }
 function progressEducation(){
+  // ---- higher education (college/university/grad) — multi-year phase ----
+  if(G.s.college){
+    const col=G.s.college;
+    col.yearsLeft--;
+    G.s.gpa=clamp(G.s.gpa+(G.s.smarts>60?rand(-1,4):rand(-4,2)));
+    changeStat("smarts",rand(2,5));
+    if(col.yearsLeft<=0){
+      G.s.edu=Math.max(G.s.edu, col.targetEdu);
+      const degree=C().eduLevels[G.s.edu];
+      const mj=eduMajorDef(G.s.major);
+      log(`🎓 You graduated — earned a ${degree}${mj&&mj.id!=="general"?` in ${mj.name}`:""} (GPA ${G.s.gpa.toFixed(0)}%)!`,"good","School");
+      changeStat("happiness",10); changeStat("smarts",rand(4,8));
+      G.s.college=null;
+    } else {
+      log(`📚 Another year of ${C().eduLevels[col.targetEdu]} — ${col.yearsLeft} year(s) to go.`,"info","School");
+    }
+    return;
+  }
   if(!G.s.inSchool) return;
   if(G.s.age===5) log("🎒 You started primary school.","info","School");
   if(G.s.age===12) log("🏫 You moved up to secondary school.","info","School");
@@ -298,6 +321,20 @@ function progressEducation(){
     G.s.edu=Math.max(G.s.edu,1); G.s.inSchool=false;
     log(`🎓 You graduated high school with a ${G.s.gpa.toFixed(0)}% GPA!`,"good","School");
     changeStat("smarts",4);
+  }
+}
+function eduMajorDef(id){ return (GAME.education.majors||[]).find(m=>m.id===id)||null; }
+function processStudentDebt(){
+  if(!G.s.studentDebt || G.s.studentDebt<=0){ G.s.studentDebt=0; return; }
+  const ed=GAME.education;
+  const interest=Math.round(G.s.studentDebt*ed.loanInterest);
+  G.s.studentDebt+=interest;
+  // auto-repay from income if you have a job and spare cash
+  if(G.s.job && G.s.money>2000){
+    const pay=Math.min(G.s.studentDebt, Math.max(1000, Math.round(G.s.job.salary*0.08)), G.s.money-1000);
+    if(pay>0){ adjustMoney(-pay); G.s.studentDebt-=pay;
+      if(G.s.studentDebt<=0){ G.s.studentDebt=0; log("🎉 You paid off your student loans!","good","Finance"); }
+    }
   }
 }
 function maybePromotionOrFire(){
@@ -579,8 +616,15 @@ function openOccupation(){
     html+=rowHTML("🎒", schoolName(), `GPA ${G.s.gpa.toFixed(0)}% · Smarts ${Math.round(G.s.smarts)}%`,[{txt:"Study", id:"study"}]);
   } else { html+=`<p style="color:var(--text-dim)">You are currently unemployed.</p>`; }
 
-  html+=`<div class="section-head">Education — ${C().eduLevels[G.s.edu]}</div>`;
-  if(!G.s.inSchool && G.s.age>=18 && G.s.edu<4) html+=rowHTML("🏛️","Enroll in higher education","Boost smarts & unlock careers",[{txt:"Enroll", id:"enroll_uni"}]);
+  const mjNow=G.s.major?eduMajorDef(G.s.major):null;
+  html+=`<div class="section-head">Education — ${C().eduLevels[G.s.edu]}${mjNow&&mjNow.id!=="general"?` · ${mjNow.name}`:""}</div>`;
+  if(G.s.college){
+    const col=G.s.college;
+    html+=rowHTML("🎓", `Studying ${C().eduLevels[col.targetEdu]}`, `${eduMajorDef(G.s.major).name} · ${col.yearsLeft} year(s) left · GPA ${G.s.gpa.toFixed(0)}%`, [{txt:"Study", id:"study"},{txt:"Drop out", id:"dropout", sec:true}]);
+  } else if(!G.s.inSchool && G.s.age>=18 && G.s.edu<4){
+    html+=rowHTML("🏛️","Enroll in higher education","Pick a major, chase scholarships",[{txt:"Enroll", id:"enroll_uni"}]);
+  }
+  if(G.s.studentDebt>0) html+=rowHTML("💳","Student Loan Debt",`You owe ${fmtMoney(Math.round(G.s.studentDebt))}`,[{txt:"Pay off", id:"payloan"}]);
 
   html+=`<div class="section-head">Job Market</div>`;
   if(G.s.age<16){ html+=`<p style="color:var(--text-dim)">You're too young to work.</p>`; }
@@ -610,6 +654,8 @@ function handleOccupationAction(id){
   else if(id==="quit_job"){ log(`You quit your job as ${currentJobTitle()}.`,"info","Career"); G.s.job=null; closePanel(); renderAll(); }
   else if(id==="study"){ G.s.gpa=clamp(G.s.gpa+rand(3,9)); changeStat("smarts",rand(1,3)); changeStat("happiness",-2); toast("You hit the books. GPA up!"); closePanel(); renderAll(); }
   else if(id==="enroll_uni"){ enrollHigherEd(); }
+  else if(id==="dropout"){ dropOut(); }
+  else if(id==="payloan"){ payStudentLoan(); }
   else if(id==="politics"){ politicsCenter(); }
   else if(id==="enlist"){ enlist(); }
   else if(id==="discharge"){ dischargeMilitary(); }
@@ -622,6 +668,7 @@ function applyForJob(careerId){
   let p=0.4+(G.s.smarts/300)+(G.s.edu*0.06);
   if(c.fame) p+=G.s.looks/300; if(c.fit) p+=G.s.fitness/300;
   let sb=0; (GAME.skills||[]).forEach(sk=>{ if(sk.boosts.includes(careerId)) sb=Math.max(sb, G.s.skills[sk.id]||0); }); p+=sb/250;
+  const mj=G.s.major?eduMajorDef(G.s.major):null; if(mj && mj.boosts.includes(careerId)) p+=0.15;  // your major helps
   p=Math.min(0.95,p); closePanel();
   if(chance(p)){
     const salary=Math.round(c.base*G.s.wealthFactor);
@@ -631,13 +678,64 @@ function applyForJob(careerId){
   } else { log(`📪 Your application for ${c.name} was rejected.`,"bad","Career"); changeStat("happiness",-4); }
   renderAll();
 }
+function bestScholarship(){
+  return (GAME.education.scholarships||[]).find(s=>
+    (s.minGpa==null||G.s.gpa>=s.minGpa) &&
+    (s.minSmarts==null||G.s.smarts>=s.minSmarts) &&
+    (s.minFitness==null||G.s.fitness>=s.minFitness)
+  )||null;
+}
 function enrollHigherEd(){
-  const cost=Math.round(20000*G.s.wealthFactor); closePanel();
-  askQuestion({icon:"🏛️", title:"Higher Education", body:`Enrolling costs about ${fmtMoney(cost)} but boosts smarts and unlocks careers. Proceed?`,
+  closePanel();
+  // choose a major first
+  const majors=GAME.education.majors;
+  openPanel({icon:"🎓", title:"Choose Your Major", bodyHTML:`<p style="color:var(--text-dim);font-size:13px">A major boosts your odds of landing related careers.</p>`,
+    choices: majors.map(m=>({ label:`${m.icon} ${m.name}`, fn:()=>confirmEnroll(m.id) })).concat([{label:"Cancel"}]) });
+}
+function confirmEnroll(majorId){
+  const ed=GAME.education;
+  const targetEdu=Math.min(4, Math.max(2, G.s.edu+1));
+  const years=ed.collegeYears;
+  const fullTuition=Math.round(ed.tuitionPerYear*years*G.s.wealthFactor);
+  const sch=bestScholarship();
+  const covered=sch?Math.round(fullTuition*sch.coverage):0;
+  const net=fullTuition-covered;
+  const mj=eduMajorDef(majorId);
+  closePanel();
+  const start=(loan)=>{
+    if(!loan){ if(G.s.money<net){ toast("You can't afford tuition up front."); return; } adjustMoney(-net); }
+    else { G.s.studentDebt=(G.s.studentDebt||0)+net; }
+    G.s.major=majorId;
+    G.s.college={ targetEdu, yearsLeft:years, totalYears:years, scholarship:sch?sch.id:null };
+    G.s.inSchool=false;
+    log(`🎓 You enrolled in ${C().eduLevels[targetEdu]} studying ${mj.name}${sch?` with a ${sch.name}`:""}${loan?" (on student loans)":""}.`, "info", "School");
+    closePanel(); renderAll(); openOccupation();
+  };
+  const body=`<p>Studying <b>${mj.name}</b> toward a <b>${C().eduLevels[targetEdu]}</b> takes ${years} years.</p>`+
+    `<p>Tuition: <b>${fmtMoney(fullTuition)}</b>${sch?`<br>🎖️ ${sch.name} covers ${Math.round(sch.coverage*100)}% → you owe <b>${fmtMoney(net)}</b>`:""}</p>`;
+  askQuestion({icon:"🏛️", title:"Enroll?", body, choices:[
+    {label:`Pay now (${fmtMoney(net)})`, primary:true, fn:()=>start(false)},
+    {label:"Take student loans", sub:`Owe ${fmtMoney(net)} + ${Math.round(GAME.education.loanInterest*100)}%/yr`, fn:()=>start(true)},
+    {label:"Never mind"},
+  ]});
+}
+function payStudentLoan(){
+  closePanel();
+  const debt=Math.round(G.s.studentDebt); if(debt<=0){ toast("You have no student debt."); return; }
+  const can=Math.min(debt, G.s.money);
+  askQuestion({icon:"💳", title:"Student Loan", body:`You owe ${fmtMoney(debt)} (growing ${Math.round(GAME.education.loanInterest*100)}%/yr). How much do you want to pay?`,
     choices:[
-      {label:`Pay tuition (${fmtMoney(cost)})`, primary:true, fn:()=>{ if(G.s.money<cost){ log("You can't afford tuition right now.","bad","School"); return; } adjustMoney(-cost); G.s.edu=Math.min(4,G.s.edu+1); changeStat("smarts",rand(6,12)); log(`📜 You earned a ${C().eduLevels[G.s.edu]} qualification!`,"good","School"); }},
-      {label:"Take a student loan", sub:"Debt now, degree now", fn:()=>{ G.s.money-=cost; G.s.edu=Math.min(4,G.s.edu+1); changeStat("smarts",rand(6,12)); changeStat("mental",-4); log(`📜 You earned a ${C().eduLevels[G.s.edu]} (with student debt).`,"info","School"); }},
-      {label:"Never mind"},
+      {label:`Pay it all (${fmtMoney(debt)})`, primary:true, fn:()=>{ if(G.s.money<debt){ toast("You can't afford to clear it all."); return; } adjustMoney(-debt); G.s.studentDebt=0; log("🎉 You cleared your student debt!","good","Finance"); closePanel(); renderAll(); }},
+      {label:`Pay half (${fmtMoney(Math.round(debt/2))})`, fn:()=>{ const h=Math.round(debt/2); if(G.s.money<h){ toast("Not enough cash."); return; } adjustMoney(-h); G.s.studentDebt-=h; log(`💳 You paid ${fmtMoney(h)} toward your loans.`,"money","Finance"); closePanel(); renderAll(); }},
+      {label:"Not now"},
+    ]});
+}
+function dropOut(){
+  closePanel();
+  askQuestion({icon:"🚪", title:"Drop Out?", body:`Leaving ${C().eduLevels[G.s.college.targetEdu]} now means no degree — and any loans still stand. Are you sure?`,
+    choices:[
+      {label:"Drop out", cls:"danger", fn:()=>{ const t=C().eduLevels[G.s.college.targetEdu]; G.s.college=null; changeStat("happiness",-4); changeStat("mental",-4); log(`🚪 You dropped out of ${t}.`,"bad","School"); closePanel(); renderAll(); }},
+      {label:"Stay in school", primary:true},
     ]});
 }
 
@@ -1953,7 +2051,7 @@ function die(cause){ G.s.alive=false; G.s.causeOfDeath=cause; checkAchievements(
 function lifeHighlights(){
   const s=G.s, h=[];
   h.push(`👶 Born in ${s.bornCountry||s.country}.`);
-  if(s.edu>=1) h.push(`🎓 Reached ${C().eduLevels[s.edu]}.`);
+  if(s.edu>=1){ const mj=s.major?eduMajorDef(s.major):null; h.push(`🎓 Reached ${C().eduLevels[s.edu]}${mj&&mj.id!=="general"?` (${mj.name})`:""}.`); }
   if((s.stats_lifetime||{}).jobsHeld) h.push(`💼 Held ${s.stats_lifetime.jobsHeld} job(s) over a lifetime.`);
   if(s.sports && s.sports.championships) h.push(`🏆 Won ${s.sports.championships} sporting championship(s)${s.sports.mvps?` and ${s.sports.mvps} MVP award(s)`:""}.`);
   if(s.politics && GAME.offices[s.politics.officeIndex]) h.push(`🏛️ Served as ${GAME.offices[s.politics.officeIndex].name}.`);
@@ -2013,6 +2111,7 @@ function continueAsChild(heir){
     looks:  heir.looksGene!=null?heir.looksGene:rand(30,85),
     mental:rand(55,85), karma:50, fame:0, fitness:rand(20,50),
     edu: age>=18?1:0, inSchool: age<18, gpa:rand(50,90),
+    college:null, major:null, studentDebt:0,
     job:null, addictions:[], conditions:[], criminalRecord:[],
     inPrison:false, prisonYears:0, notoriety:0,
     politics:null, lawRetainer:false,

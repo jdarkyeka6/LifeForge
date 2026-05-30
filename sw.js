@@ -19,6 +19,7 @@ const ASSETS = [
   "./assets/icon-512.png",
   "./data/core.js",
   "./data/careers.js",
+  "./data/education.js",
   "./data/shop.js",
   "./data/politics.js",
   "./data/market.js",
