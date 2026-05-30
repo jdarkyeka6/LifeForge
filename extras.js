@@ -270,3 +270,29 @@ function handlePetAction(id){
     const mb=document.getElementById("btnSettings"); if(mb) mb.onclick=settingsPanel;
   });
 })();
+
+/* ============================================================
+   JSON EVENT LIBRARY LOADER
+   Pulls the large generated event library (json/) into the
+   game at runtime so thousands of extra life moments can fire.
+   Fails silently if fetch is unavailable (e.g. file://) — the
+   built-in JS events always work regardless.
+   ============================================================ */
+(function(){
+  if(typeof fetch!=="function") return;
+  LF.libraryLoaded=0;
+  function mergeEvents(list){
+    if(!Array.isArray(list)||!window.GAME) return;
+    window.GAME.events = window.GAME.events || [];
+    const seen=new Set(window.GAME.events.map(e=>e.id));
+    list.forEach(ev=>{ if(ev&&ev.id&&!seen.has(ev.id)){ seen.add(ev.id); window.GAME.events.push(ev); LF.libraryLoaded++; } });
+  }
+  document.addEventListener("DOMContentLoaded", ()=>{
+    fetch("json/index.json").then(r=> r.ok? r.json() : null).then(idx=>{
+      if(!idx || !Array.isArray(idx.generated)) return;
+      idx.generated.forEach(file=>{
+        fetch("json/events/"+file).then(r=> r.ok? r.json() : []).then(mergeEvents).catch(()=>{});
+      });
+    }).catch(()=>{});
+  });
+})();

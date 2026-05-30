@@ -1,0 +1,317 @@
+[
+  {
+    "id": "cl_frat",
+    "min": 18,
+    "max": 25,
+    "weight": 1,
+    "icon": "🎉",
+    "title": "Rush Week",
+    "cond": {
+      "inSchool": true
+    },
+    "text": "A fraternity/sorority is rushing you. Do you want in?",
+    "choices": [
+      {
+        "label": "Pledge and join",
+        "effects": {
+          "happiness": 8,
+          "relRandom": 5,
+          "smarts": -1,
+          "newFriend": true
+        },
+        "log": "Instant social circle — and a wild few years ahead.",
+        "kind": "good",
+        "outcomes": [
+          {
+            "chance": 0.25,
+            "effects": {
+              "health": -4,
+              "addAddiction": "alcohol"
+            },
+            "log": "The party lifestyle got out of hand.",
+            "kind": "bad"
+          }
+        ]
+      },
+      {
+        "label": "Focus on studying instead",
+        "effects": {
+          "smarts": 5,
+          "happiness": -2
+        },
+        "log": "Books over beer pong.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "cl_exam",
+    "min": 18,
+    "max": 26,
+    "weight": 1.1,
+    "icon": "📝",
+    "title": "Finals Week",
+    "cond": {
+      "inSchool": true
+    },
+    "text": "Final exams are here and the pressure is on.",
+    "choices": [
+      {
+        "label": "Pull all-nighters to cram",
+        "effects": {
+          "mental": -5,
+          "health": -3
+        },
+        "log": "You ran on caffeine and panic.",
+        "kind": "info",
+        "outcomes": [
+          {
+            "chance": 0.6,
+            "effects": {
+              "smarts": 6,
+              "happiness": 5
+            },
+            "log": "Aced them! Worth the exhaustion.",
+            "kind": "good"
+          },
+          {
+            "chance": 0.4,
+            "effects": {
+              "smarts": 1,
+              "mental": -3
+            },
+            "log": "Burned out and barely scraped by.",
+            "kind": "bad"
+          }
+        ]
+      },
+      {
+        "label": "Study steadily and sleep well",
+        "effects": {
+          "smarts": 5,
+          "health": 2,
+          "happiness": 3
+        },
+        "log": "Balanced and prepared. Solid grades.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "cl_scholarship",
+    "min": 17,
+    "max": 24,
+    "weight": 0.9,
+    "icon": "🎓",
+    "title": "Scholarship",
+    "cond": {
+      "inSchool": true
+    },
+    "text": "A competitive scholarship could cover a chunk of your tuition.",
+    "choices": [
+      {
+        "label": "Apply with a great essay",
+        "effects": {
+          "smarts": 2
+        },
+        "log": "You poured your heart into the application.",
+        "kind": "info",
+        "outcomes": [
+          {
+            "chance": 0.5,
+            "effects": {
+              "money": 12000,
+              "happiness": 8,
+              "fame": 1
+            },
+            "log": "You won the scholarship!",
+            "kind": "money"
+          },
+          {
+            "chance": 0.5,
+            "effects": {
+              "mental": -2
+            },
+            "log": "Not selected this time.",
+            "kind": "info"
+          }
+        ]
+      },
+      {
+        "label": "Don't bother",
+        "effects": {},
+        "log": "You skipped it.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "cl_roommate",
+    "min": 18,
+    "max": 25,
+    "weight": 0.9,
+    "icon": "🛏️",
+    "title": "Roommate Trouble",
+    "cond": {
+      "inSchool": true
+    },
+    "text": "Your dorm roommate is a complete nightmare — loud, messy, and rude.",
+    "choices": [
+      {
+        "label": "Confront them calmly",
+        "effects": {},
+        "log": "You sat them down to talk.",
+        "kind": "info",
+        "outcomes": [
+          {
+            "chance": 0.6,
+            "effects": {
+              "relRandom": 5,
+              "smarts": 1,
+              "happiness": 3
+            },
+            "log": "They actually listened. You became friends.",
+            "kind": "good"
+          },
+          {
+            "chance": 0.4,
+            "effects": {
+              "mental": -4
+            },
+            "log": "It blew up into a screaming match.",
+            "kind": "bad"
+          }
+        ]
+      },
+      {
+        "label": "Request a room transfer",
+        "effects": {
+          "happiness": 4
+        },
+        "log": "A fresh start in a quieter dorm.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "cl_study_abroad",
+    "min": 19,
+    "max": 24,
+    "weight": 0.7,
+    "icon": "✈️",
+    "title": "Study Abroad",
+    "cond": {
+      "inSchool": true,
+      "moneyMin": 2000
+    },
+    "text": "You have the chance to study abroad for a semester.",
+    "choices": [
+      {
+        "label": "Go for it",
+        "effects": {
+          "money": -3000,
+          "happiness": 12,
+          "smarts": 5,
+          "looks": 1
+        },
+        "log": "A life-changing semester overseas.",
+        "kind": "good"
+      },
+      {
+        "label": "Stay on campus",
+        "effects": {
+          "smarts": 2
+        },
+        "log": "You kept your routine at home.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "cl_plagiarism",
+    "min": 18,
+    "max": 26,
+    "weight": 0.6,
+    "icon": "⚠️",
+    "title": "Tempting Shortcut",
+    "cond": {
+      "inSchool": true
+    },
+    "text": "You're swamped, and a classmate offers to sell you a finished essay.",
+    "choices": [
+      {
+        "label": "Write your own, however rough",
+        "effects": {
+          "smarts": 3,
+          "mental": -2,
+          "karma": 3
+        },
+        "log": "You did it the honest way.",
+        "kind": "good"
+      },
+      {
+        "label": "Buy the essay",
+        "effects": {
+          "money": -150,
+          "happiness": 2
+        },
+        "log": "A risky shortcut.",
+        "kind": "info",
+        "outcomes": [
+          {
+            "chance": 0.35,
+            "effects": {
+              "smarts": -3,
+              "mental": -6,
+              "karma": -5
+            },
+            "log": "You got caught — academic probation.",
+            "kind": "bad"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cl_club",
+    "min": 18,
+    "max": 25,
+    "weight": 0.8,
+    "icon": "🎭",
+    "title": "Campus Club",
+    "cond": {
+      "inSchool": true
+    },
+    "text": "There's a club fair on the quad with everything from debate to robotics.",
+    "choices": [
+      {
+        "label": "Join the debate society",
+        "effects": {
+          "smarts": 4,
+          "looks": 1,
+          "newFriend": true
+        },
+        "log": "You found your people — and sharpened your mind.",
+        "kind": "good"
+      },
+      {
+        "label": "Join an intramural sport",
+        "effects": {
+          "fitness": 5,
+          "happiness": 4,
+          "newFriend": true
+        },
+        "log": "Sweat, teamwork, and new friends.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep to yourself",
+        "effects": {
+          "smarts": 1
+        },
+        "log": "You stayed in your lane.",
+        "kind": "info"
+      }
+    ]
+  }
+]

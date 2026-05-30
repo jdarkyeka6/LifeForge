@@ -2,8 +2,10 @@
    sw.js — LifeForge service worker.
    Cache-first so the whole game is playable fully offline once
    it has loaded a single time. Bump CACHE when assets change.
+   The big json/ event library is cached on demand by the fetch
+   handler (runtime caching), so it stays in sync automatically.
    ============================================================ */
-const CACHE = "lifeforge-v1.3.0";
+const CACHE = "lifeforge-v1.5.0";
 
 const ASSETS = [
   "./",
@@ -62,6 +64,7 @@ const ASSETS = [
   "./data/events_entertainment.js",
   "./data/events_sports.js",
   "./data/events_eras.js",
+  "./json/index.json",
 ];
 
 self.addEventListener("install", (e) => {
@@ -83,12 +86,12 @@ self.addEventListener("fetch", (e) => {
   if (req.method !== "GET") return;
   // Navigations: serve the app shell offline.
   if (req.mode === "navigate") {
-    e.respondWith(
-      fetch(req).catch(() => caches.match("./index.html"))
-    );
+    e.respondWith(fetch(req).catch(() => caches.match("./index.html")));
     return;
   }
-  // Everything else: cache-first, then network (and cache it).
+  // Everything else (incl. the json/ library): cache-first, then
+  // network — and cache successful responses so the whole event
+  // library becomes available offline after the first playthrough.
   e.respondWith(
     caches.match(req).then((hit) => {
       if (hit) return hit;

@@ -1,0 +1,837 @@
+[
+  {
+    "id": "ad_wallet",
+    "min": 18,
+    "max": 120,
+    "icon": "💸",
+    "title": "Found a Wallet",
+    "text": "You find a wallet stuffed with cash on the sidewalk.",
+    "choices": [
+      {
+        "label": "Keep the cash",
+        "effects": {
+          "money": 280,
+          "karma": -7,
+          "happiness": 4
+        },
+        "log": "You kept the money. Finders keepers?",
+        "kind": "money"
+      },
+      {
+        "label": "Return it",
+        "effects": {
+          "karma": 11,
+          "happiness": 4
+        },
+        "log": "You returned it.",
+        "kind": "good",
+        "outcomes": [
+          {
+            "chance": 0.4,
+            "effects": {
+              "money": 150
+            },
+            "log": "The owner gave you a reward!",
+            "kind": "money"
+          }
+        ]
+      },
+      {
+        "label": "Hand it to police",
+        "effects": {
+          "karma": 6
+        },
+        "log": "You did the right thing.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "ad_scratch",
+    "min": 18,
+    "max": 120,
+    "icon": "🎰",
+    "title": "Scratch Ticket",
+    "text": "You buy a lottery scratch card.",
+    "choices": [
+      {
+        "label": "Scratch it",
+        "effects": {
+          "money": -5
+        },
+        "log": "Scratch scratch...",
+        "kind": "info",
+        "outcomes": [
+          {
+            "chance": 0.12,
+            "effects": {
+              "money": 25000,
+              "happiness": 14
+            },
+            "log": "💰 JACKPOT! You won big!",
+            "kind": "money"
+          },
+          {
+            "chance": 0.25,
+            "effects": {
+              "money": 50
+            },
+            "log": "Small win — $50!",
+            "kind": "money"
+          },
+          {
+            "chance": 0.63,
+            "effects": {
+              "happiness": -2
+            },
+            "log": "Nothing. Better luck next time.",
+            "kind": "info"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ad_gym",
+    "min": 18,
+    "max": 80,
+    "icon": "🏃",
+    "title": "New Year's Resolution",
+    "text": "You vow to get in shape this year.",
+    "choices": [
+      {
+        "label": "Commit fully",
+        "effects": {
+          "fitness": 10,
+          "health": 5,
+          "looks": 4,
+          "happiness": 3
+        },
+        "log": "You transformed your body! 💪",
+        "kind": "good"
+      },
+      {
+        "label": "Give up by February",
+        "effects": {
+          "happiness": 2,
+          "fitness": -1
+        },
+        "log": "Classic. The gym misses you.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "ad_neighbor",
+    "min": 20,
+    "max": 90,
+    "icon": "🏘️",
+    "title": "Noisy Neighbor",
+    "text": "Your neighbor blasts music at 3am.",
+    "choices": [
+      {
+        "label": "Politely ask them to stop",
+        "effects": {
+          "karma": 3
+        },
+        "log": "They turned it down. Nice.",
+        "kind": "good"
+      },
+      {
+        "label": "Call the cops",
+        "effects": {},
+        "log": "The party got shut down.",
+        "kind": "info",
+        "outcomes": [
+          {
+            "chance": 0.3,
+            "effects": {
+              "happiness": -3
+            },
+            "log": "Now they hate you.",
+            "kind": "bad"
+          }
+        ]
+      },
+      {
+        "label": "Join the party",
+        "effects": {
+          "happiness": 7,
+          "newFriend": true,
+          "health": -2
+        },
+        "log": "If you can't beat 'em! 🎉",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "ad_carbreak",
+    "min": 20,
+    "max": 90,
+    "icon": "🚗",
+    "title": "Car Trouble",
+    "text": "Your car breaks down on the highway.",
+    "choices": [
+      {
+        "label": "Pay for repairs",
+        "effects": {
+          "money": -1200,
+          "happiness": -3
+        },
+        "log": "Fixed, but pricey.",
+        "kind": "money"
+      },
+      {
+        "label": "Fix it yourself",
+        "effects": {
+          "smarts": 3
+        },
+        "log": "You watched a tutorial and fixed it!",
+        "kind": "good",
+        "outcomes": [
+          {
+            "chance": 0.3,
+            "effects": {
+              "money": -1800,
+              "happiness": -5
+            },
+            "log": "You made it worse. Bigger bill.",
+            "kind": "bad"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ad_diet",
+    "min": 25,
+    "max": 90,
+    "icon": "🍔",
+    "title": "Late Night Cravings",
+    "text": "You really want fast food.",
+    "choices": [
+      {
+        "label": "Order a feast",
+        "effects": {
+          "happiness": 6,
+          "health": -3,
+          "fitness": -2
+        },
+        "log": "Worth every bite.",
+        "kind": "info"
+      },
+      {
+        "label": "Cook something healthy",
+        "effects": {
+          "health": 4,
+          "happiness": 2
+        },
+        "log": "Your body thanks you.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "ad_robbed",
+    "min": 20,
+    "max": 90,
+    "icon": "🦹",
+    "title": "Mugged!",
+    "text": "Someone tries to rob you in an alley.",
+    "choices": [
+      {
+        "label": "Hand over your wallet",
+        "effects": {
+          "money": -200,
+          "mental": -5
+        },
+        "log": "Shaken but safe.",
+        "kind": "bad"
+      },
+      {
+        "label": "Fight back",
+        "effects": {},
+        "log": "You swung first...",
+        "kind": "info",
+        "outcomes": [
+          {
+            "chance": 0.45,
+            "effects": {
+              "happiness": 5,
+              "karma": 2
+            },
+            "log": "You scared them off!",
+            "kind": "good"
+          },
+          {
+            "chance": 0.55,
+            "effects": {
+              "health": -18,
+              "money": -200,
+              "addCondition": true
+            },
+            "log": "You got hurt and robbed anyway.",
+            "kind": "bad"
+          }
+        ]
+      },
+      {
+        "label": "Run",
+        "effects": {
+          "fitness": 1
+        },
+        "log": "You sprinted to safety.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "ad_invest",
+    "min": 21,
+    "max": 80,
+    "cond": {
+      "moneyMin": 5000
+    },
+    "icon": "📈",
+    "title": "Investment Tip",
+    "text": "A friend swears a hot stock will skyrocket.",
+    "choices": [
+      {
+        "label": "Invest $5,000",
+        "effects": {
+          "money": -5000
+        },
+        "log": "You put money in the market...",
+        "kind": "info",
+        "outcomes": [
+          {
+            "chance": 0.45,
+            "effects": {
+              "money": 12000,
+              "happiness": 8
+            },
+            "log": "It paid off! Big return!",
+            "kind": "money"
+          },
+          {
+            "chance": 0.55,
+            "effects": {
+              "happiness": -7
+            },
+            "log": "The stock tanked. Money gone.",
+            "kind": "bad"
+          }
+        ]
+      },
+      {
+        "label": "Too risky",
+        "effects": {
+          "smarts": 2
+        },
+        "log": "You kept your savings safe.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "ad_promotionrumor",
+    "min": 25,
+    "max": 60,
+    "cond": {
+      "hasJob": true
+    },
+    "icon": "🪜",
+    "title": "Office Rumor",
+    "text": "A promotion is opening up at work.",
+    "choices": [
+      {
+        "label": "Lobby hard for it",
+        "effects": {
+          "gainPerf": 12,
+          "mental": -3
+        },
+        "log": "You made your case to the boss.",
+        "kind": "good"
+      },
+      {
+        "label": "Sabotage a rival",
+        "cls": "danger",
+        "effects": {
+          "karma": -10
+        },
+        "log": "You spread a rumor...",
+        "kind": "bad",
+        "outcomes": [
+          {
+            "chance": 0.4,
+            "effects": {
+              "loseJob": true,
+              "happiness": -12
+            },
+            "log": "It backfired — you got fired!",
+            "kind": "bad"
+          },
+          {
+            "chance": 0.6,
+            "effects": {
+              "gainPerf": 10
+            },
+            "log": "Your rival fell out of favor.",
+            "kind": "info"
+          }
+        ]
+      },
+      {
+        "label": "Let your work speak",
+        "effects": {
+          "gainPerf": 6
+        },
+        "log": "Quiet confidence.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "ad_reunion",
+    "min": 28,
+    "max": 70,
+    "icon": "🎓",
+    "title": "School Reunion",
+    "text": "Your old classmates are throwing a reunion.",
+    "choices": [
+      {
+        "label": "Show off your success",
+        "effects": {
+          "happiness": 6,
+          "relAll": 2
+        },
+        "log": "You felt great catching up.",
+        "kind": "good"
+      },
+      {
+        "label": "Reconnect with old friends",
+        "effects": {
+          "newFriend": true,
+          "happiness": 5
+        },
+        "log": "You rekindled a friendship.",
+        "kind": "good"
+      },
+      {
+        "label": "Skip it",
+        "effects": {},
+        "log": "Not feeling nostalgic.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "ad_hobby",
+    "min": 20,
+    "max": 90,
+    "icon": "🎨",
+    "title": "New Hobby",
+    "text": "You want to pick up a hobby.",
+    "choices": [
+      {
+        "label": "Learn to paint",
+        "effects": {
+          "happiness": 6,
+          "smarts": 2,
+          "mental": 4
+        },
+        "log": "Art soothes your soul.",
+        "kind": "good"
+      },
+      {
+        "label": "Learn an instrument",
+        "effects": {
+          "happiness": 5,
+          "smarts": 3
+        },
+        "log": "You're learning guitar! 🎸",
+        "kind": "good"
+      },
+      {
+        "label": "Take up cooking",
+        "effects": {
+          "happiness": 5,
+          "health": 3
+        },
+        "log": "You're becoming a home chef.",
+        "kind": "good"
+      },
+      {
+        "label": "Start running",
+        "effects": {
+          "fitness": 6,
+          "health": 4
+        },
+        "log": "Runner's high achieved.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "ad_pyramidscheme",
+    "min": 22,
+    "max": 70,
+    "icon": "📦",
+    "title": "\"Business Opportunity\"",
+    "text": "An old acquaintance pitches you a 'can't-miss' business.",
+    "choices": [
+      {
+        "label": "Buy in ($2,000)",
+        "effects": {
+          "money": -2000
+        },
+        "log": "You joined the venture...",
+        "kind": "info",
+        "outcomes": [
+          {
+            "chance": 0.15,
+            "effects": {
+              "money": 6000,
+              "happiness": 5
+            },
+            "log": "Somehow it actually worked!",
+            "kind": "money"
+          },
+          {
+            "chance": 0.85,
+            "effects": {
+              "happiness": -8,
+              "relRandom": -6
+            },
+            "log": "It was a pyramid scheme. Money gone.",
+            "kind": "bad"
+          }
+        ]
+      },
+      {
+        "label": "Decline",
+        "effects": {
+          "smarts": 3
+        },
+        "log": "You smelled a scam.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "ad_jury",
+    "min": 21,
+    "max": 70,
+    "icon": "⚖️",
+    "title": "Jury Duty",
+    "text": "You've been summoned for jury duty.",
+    "choices": [
+      {
+        "label": "Serve dutifully",
+        "effects": {
+          "karma": 6,
+          "smarts": 2,
+          "happiness": -2
+        },
+        "log": "You did your civic duty.",
+        "kind": "good"
+      },
+      {
+        "label": "Fake an excuse",
+        "effects": {
+          "karma": -4,
+          "happiness": 3
+        },
+        "log": "You wriggled out of it.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "ad_lottowin_small",
+    "min": 18,
+    "max": 120,
+    "icon": "🍀",
+    "title": "Lucky Day",
+    "text": "You feel oddly lucky today.",
+    "choices": [
+      {
+        "label": "Buy a lotto ticket",
+        "effects": {
+          "money": -10
+        },
+        "log": "You picked your numbers...",
+        "kind": "info",
+        "outcomes": [
+          {
+            "chance": 0.05,
+            "effects": {
+              "money": 200000,
+              "happiness": 20
+            },
+            "log": "🎉 YOU WON THE LOTTERY!",
+            "kind": "money"
+          },
+          {
+            "chance": 0.95,
+            "effects": {},
+            "log": "No luck this time.",
+            "kind": "info"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ad_burnout",
+    "min": 25,
+    "max": 60,
+    "cond": {
+      "hasJob": true
+    },
+    "icon": "🔥",
+    "title": "Feeling Burned Out",
+    "text": "Work has been crushing you lately.",
+    "choices": [
+      {
+        "label": "Take a mental health day",
+        "effects": {
+          "mental": 8,
+          "happiness": 5,
+          "gainPerf": -3
+        },
+        "log": "You recharged.",
+        "kind": "good"
+      },
+      {
+        "label": "Push through",
+        "effects": {
+          "mental": -8,
+          "gainPerf": 4
+        },
+        "log": "You powered on, but at a cost.",
+        "kind": "bad"
+      },
+      {
+        "label": "Quit on the spot",
+        "cls": "danger",
+        "effects": {
+          "loseJob": true,
+          "mental": 6,
+          "happiness": -3
+        },
+        "log": "You dramatically quit your job.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "ad_charity",
+    "min": 22,
+    "max": 90,
+    "cond": {
+      "moneyMin": 1000
+    },
+    "icon": "💝",
+    "title": "Charity Drive",
+    "text": "A charity is collecting donations.",
+    "choices": [
+      {
+        "label": "Donate $500",
+        "effects": {
+          "money": -500,
+          "karma": 10,
+          "happiness": 6
+        },
+        "log": "Generosity feels good.",
+        "kind": "good"
+      },
+      {
+        "label": "Donate your time",
+        "effects": {
+          "karma": 6,
+          "happiness": 4
+        },
+        "log": "You volunteered all weekend.",
+        "kind": "good"
+      },
+      {
+        "label": "Walk past",
+        "effects": {},
+        "log": "Not today.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "ad_fender",
+    "min": 18,
+    "max": 90,
+    "icon": "🚙",
+    "title": "Fender Bender",
+    "text": "You bumped another car in the parking lot.",
+    "choices": [
+      {
+        "label": "Leave a note",
+        "effects": {
+          "karma": 8,
+          "money": -400
+        },
+        "log": "Honest — you covered the damage.",
+        "kind": "good"
+      },
+      {
+        "label": "Drive off",
+        "cls": "danger",
+        "effects": {
+          "karma": -8
+        },
+        "log": "You fled...",
+        "kind": "info",
+        "outcomes": [
+          {
+            "chance": 0.3,
+            "effects": {
+              "money": -1500,
+              "happiness": -6
+            },
+            "log": "A camera caught you. Fined.",
+            "kind": "bad"
+          },
+          {
+            "chance": 0.7,
+            "effects": {},
+            "log": "No one saw.",
+            "kind": "info"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ad_midlife",
+    "min": 40,
+    "max": 55,
+    "once": true,
+    "icon": "🏍️",
+    "title": "Midlife Crisis",
+    "text": "You feel the urge to do something drastic.",
+    "choices": [
+      {
+        "label": "Buy a motorcycle",
+        "effects": {
+          "money": -9000,
+          "happiness": 10,
+          "looks": 2
+        },
+        "log": "Vroom! Feeling young again.",
+        "kind": "info",
+        "outcomes": [
+          {
+            "chance": 0.15,
+            "effects": {
+              "health": -15,
+              "addCondition": true
+            },
+            "log": "You crashed it. Ouch.",
+            "kind": "bad"
+          }
+        ]
+      },
+      {
+        "label": "Quit and travel",
+        "effects": {
+          "loseJob": true,
+          "happiness": 14,
+          "mental": 8
+        },
+        "log": "You sold everything to see the world.",
+        "kind": "info"
+      },
+      {
+        "label": "Embrace your age",
+        "effects": {
+          "mental": 6,
+          "happiness": 4
+        },
+        "log": "You found peace with who you are.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "ad_neighborcat",
+    "min": 20,
+    "max": 90,
+    "cond": {
+      "hasPet": false
+    },
+    "icon": "🐱",
+    "title": "Stray Cat",
+    "text": "A stray cat keeps showing up at your door.",
+    "choices": [
+      {
+        "label": "Adopt it",
+        "effects": {
+          "newPet": true,
+          "happiness": 8,
+          "karma": 4
+        },
+        "log": "You have a new furry friend! 🐱",
+        "kind": "good"
+      },
+      {
+        "label": "Shoo it away",
+        "effects": {
+          "karma": -3
+        },
+        "log": "It slinked off into the night.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "ad_taxes",
+    "min": 21,
+    "max": 70,
+    "cond": {
+      "moneyMin": 2000
+    },
+    "icon": "🧾",
+    "title": "Tax Season",
+    "text": "It's time to file your taxes.",
+    "choices": [
+      {
+        "label": "File honestly",
+        "effects": {
+          "money": -300,
+          "karma": 3
+        },
+        "log": "All squared away.",
+        "kind": "info"
+      },
+      {
+        "label": "Fudge the numbers",
+        "cls": "danger",
+        "effects": {
+          "karma": -6,
+          "money": 400
+        },
+        "log": "You under-reported...",
+        "kind": "money",
+        "outcomes": [
+          {
+            "chance": 0.25,
+            "effects": {
+              "money": -3000,
+              "happiness": -10
+            },
+            "log": "You got audited! Heavy fine.",
+            "kind": "bad"
+          }
+        ]
+      }
+    ]
+  }
+]

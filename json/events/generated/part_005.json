@@ -1,0 +1,8794 @@
+[
+  {
+    "id": "gen_neighbor_02001",
+    "min": 14,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🏘️",
+    "title": "The Neighbors",
+    "text": "Your neighbor builds a fence too high.",
+    "choices": [
+      {
+        "label": "Be a good neighbor",
+        "effects": {
+          "karma": 6,
+          "happiness": 3
+        },
+        "log": "Neighborly relations, managed.",
+        "kind": "info"
+      },
+      {
+        "label": "Keep to yourself",
+        "effects": {
+          "mental": 5
+        },
+        "log": "To each their own.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_neighbor_02002",
+    "min": 14,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🏘️",
+    "title": "The Neighbors",
+    "text": "Your neighbor builds a fence too high.",
+    "choices": [
+      {
+        "label": "Address it kindly",
+        "effects": {
+          "karma": 4,
+          "mental": 2
+        },
+        "log": "Neighborly relations, managed.",
+        "kind": "info"
+      },
+      {
+        "label": "Let it go",
+        "effects": {
+          "happiness": 1
+        },
+        "log": "To each their own.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_neighbor_02003",
+    "min": 14,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🏘️",
+    "title": "The Neighbors",
+    "text": "Your neighbor adopts a noisy rooster.",
+    "choices": [
+      {
+        "label": "Be a good neighbor",
+        "effects": {
+          "karma": 6,
+          "happiness": 3
+        },
+        "log": "Neighborly relations, managed.",
+        "kind": "info"
+      },
+      {
+        "label": "Keep to yourself",
+        "effects": {
+          "mental": 5
+        },
+        "log": "To each their own.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_neighbor_02004",
+    "min": 14,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🏘️",
+    "title": "The Neighbors",
+    "text": "Your neighbor adopts a noisy rooster.",
+    "choices": [
+      {
+        "label": "Address it kindly",
+        "effects": {
+          "karma": 4,
+          "mental": 2
+        },
+        "log": "Neighborly relations, managed.",
+        "kind": "info"
+      },
+      {
+        "label": "Let it go",
+        "effects": {
+          "happiness": 1
+        },
+        "log": "To each their own.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_neighbor_02005",
+    "min": 14,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🏘️",
+    "title": "The Neighbors",
+    "text": "Your neighbor starts a community garden.",
+    "choices": [
+      {
+        "label": "Be a good neighbor",
+        "effects": {
+          "karma": 6,
+          "happiness": 3
+        },
+        "log": "Neighborly relations, managed.",
+        "kind": "info"
+      },
+      {
+        "label": "Keep to yourself",
+        "effects": {
+          "mental": 5
+        },
+        "log": "To each their own.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_neighbor_02006",
+    "min": 14,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🏘️",
+    "title": "The Neighbors",
+    "text": "Your neighbor starts a community garden.",
+    "choices": [
+      {
+        "label": "Address it kindly",
+        "effects": {
+          "karma": 4,
+          "mental": 2
+        },
+        "log": "Neighborly relations, managed.",
+        "kind": "info"
+      },
+      {
+        "label": "Let it go",
+        "effects": {
+          "happiness": 1
+        },
+        "log": "To each their own.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_neighbor_02007",
+    "min": 14,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🏘️",
+    "title": "The Neighbors",
+    "text": "Your neighbor leaves passive-aggressive notes.",
+    "choices": [
+      {
+        "label": "Be a good neighbor",
+        "effects": {
+          "karma": 6,
+          "happiness": 3
+        },
+        "log": "Neighborly relations, managed.",
+        "kind": "info"
+      },
+      {
+        "label": "Keep to yourself",
+        "effects": {
+          "mental": 5
+        },
+        "log": "To each their own.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_neighbor_02008",
+    "min": 14,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🏘️",
+    "title": "The Neighbors",
+    "text": "Your neighbor leaves passive-aggressive notes.",
+    "choices": [
+      {
+        "label": "Address it kindly",
+        "effects": {
+          "karma": 4,
+          "mental": 2
+        },
+        "log": "Neighborly relations, managed.",
+        "kind": "info"
+      },
+      {
+        "label": "Let it go",
+        "effects": {
+          "happiness": 1
+        },
+        "log": "To each their own.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_neighbor_02009",
+    "min": 14,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🏘️",
+    "title": "The Neighbors",
+    "text": "Your neighbor offers to carpool.",
+    "choices": [
+      {
+        "label": "Be a good neighbor",
+        "effects": {
+          "karma": 6,
+          "happiness": 3
+        },
+        "log": "Neighborly relations, managed.",
+        "kind": "info"
+      },
+      {
+        "label": "Keep to yourself",
+        "effects": {
+          "mental": 5
+        },
+        "log": "To each their own.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_neighbor_02010",
+    "min": 14,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🏘️",
+    "title": "The Neighbors",
+    "text": "Your neighbor offers to carpool.",
+    "choices": [
+      {
+        "label": "Address it kindly",
+        "effects": {
+          "karma": 4,
+          "mental": 2
+        },
+        "log": "Neighborly relations, managed.",
+        "kind": "info"
+      },
+      {
+        "label": "Let it go",
+        "effects": {
+          "happiness": 1
+        },
+        "log": "To each their own.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_neighbor_02011",
+    "min": 14,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🏘️",
+    "title": "The Neighbors",
+    "text": "Your neighbor hosts a yard sale.",
+    "choices": [
+      {
+        "label": "Be a good neighbor",
+        "effects": {
+          "karma": 6,
+          "happiness": 3
+        },
+        "log": "Neighborly relations, managed.",
+        "kind": "info"
+      },
+      {
+        "label": "Keep to yourself",
+        "effects": {
+          "mental": 5
+        },
+        "log": "To each their own.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_neighbor_02012",
+    "min": 14,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🏘️",
+    "title": "The Neighbors",
+    "text": "Your neighbor hosts a yard sale.",
+    "choices": [
+      {
+        "label": "Address it kindly",
+        "effects": {
+          "karma": 4,
+          "mental": 2
+        },
+        "log": "Neighborly relations, managed.",
+        "kind": "info"
+      },
+      {
+        "label": "Let it go",
+        "effects": {
+          "happiness": 1
+        },
+        "log": "To each their own.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_neighbor_02013",
+    "min": 14,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🏘️",
+    "title": "The Neighbors",
+    "text": "Your neighbor feeds the stray cats.",
+    "choices": [
+      {
+        "label": "Be a good neighbor",
+        "effects": {
+          "karma": 6,
+          "happiness": 3
+        },
+        "log": "Neighborly relations, managed.",
+        "kind": "info"
+      },
+      {
+        "label": "Keep to yourself",
+        "effects": {
+          "mental": 5
+        },
+        "log": "To each their own.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_neighbor_02014",
+    "min": 14,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🏘️",
+    "title": "The Neighbors",
+    "text": "Your neighbor feeds the stray cats.",
+    "choices": [
+      {
+        "label": "Address it kindly",
+        "effects": {
+          "karma": 4,
+          "mental": 2
+        },
+        "log": "Neighborly relations, managed.",
+        "kind": "info"
+      },
+      {
+        "label": "Let it go",
+        "effects": {
+          "happiness": 1
+        },
+        "log": "To each their own.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_neighbor_02015",
+    "min": 14,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🏘️",
+    "title": "The Neighbors",
+    "text": "Your neighbor shovels your driveway.",
+    "choices": [
+      {
+        "label": "Be a good neighbor",
+        "effects": {
+          "karma": 6,
+          "happiness": 3
+        },
+        "log": "Neighborly relations, managed.",
+        "kind": "info"
+      },
+      {
+        "label": "Keep to yourself",
+        "effects": {
+          "mental": 5
+        },
+        "log": "To each their own.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_neighbor_02016",
+    "min": 14,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🏘️",
+    "title": "The Neighbors",
+    "text": "Your neighbor shovels your driveway.",
+    "choices": [
+      {
+        "label": "Address it kindly",
+        "effects": {
+          "karma": 4,
+          "mental": 2
+        },
+        "log": "Neighborly relations, managed.",
+        "kind": "info"
+      },
+      {
+        "label": "Let it go",
+        "effects": {
+          "happiness": 1
+        },
+        "log": "To each their own.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_neighbor_02017",
+    "min": 14,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🏘️",
+    "title": "The Neighbors",
+    "text": "Your neighbor complains about everything.",
+    "choices": [
+      {
+        "label": "Be a good neighbor",
+        "effects": {
+          "karma": 6,
+          "happiness": 3
+        },
+        "log": "Neighborly relations, managed.",
+        "kind": "info"
+      },
+      {
+        "label": "Keep to yourself",
+        "effects": {
+          "mental": 5
+        },
+        "log": "To each their own.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_neighbor_02018",
+    "min": 14,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🏘️",
+    "title": "The Neighbors",
+    "text": "Your neighbor complains about everything.",
+    "choices": [
+      {
+        "label": "Address it kindly",
+        "effects": {
+          "karma": 4,
+          "mental": 2
+        },
+        "log": "Neighborly relations, managed.",
+        "kind": "info"
+      },
+      {
+        "label": "Let it go",
+        "effects": {
+          "happiness": 1
+        },
+        "log": "To each their own.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_neighbor_02019",
+    "min": 14,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🏘️",
+    "title": "The Neighbors",
+    "text": "Your neighbor organizes a street cleanup.",
+    "choices": [
+      {
+        "label": "Be a good neighbor",
+        "effects": {
+          "karma": 6,
+          "happiness": 3
+        },
+        "log": "Neighborly relations, managed.",
+        "kind": "info"
+      },
+      {
+        "label": "Keep to yourself",
+        "effects": {
+          "mental": 5
+        },
+        "log": "To each their own.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_neighbor_02020",
+    "min": 14,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🏘️",
+    "title": "The Neighbors",
+    "text": "Your neighbor organizes a street cleanup.",
+    "choices": [
+      {
+        "label": "Address it kindly",
+        "effects": {
+          "karma": 4,
+          "mental": 2
+        },
+        "log": "Neighborly relations, managed.",
+        "kind": "info"
+      },
+      {
+        "label": "Let it go",
+        "effects": {
+          "happiness": 1
+        },
+        "log": "To each their own.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_style_02021",
+    "min": 12,
+    "max": 90,
+    "weight": 0.2,
+    "icon": "👗",
+    "title": "Style Switch-Up",
+    "text": "You're tempted by a bold new haircut.",
+    "choices": [
+      {
+        "label": "Rock it confidently",
+        "effects": {
+          "looks": 4,
+          "happiness": 5
+        },
+        "log": "You looked great.",
+        "kind": "good"
+      },
+      {
+        "label": "Play it safe",
+        "effects": {
+          "looks": 1,
+          "happiness": 2
+        },
+        "log": "A subtle refresh.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_style_02022",
+    "min": 12,
+    "max": 90,
+    "weight": 0.2,
+    "icon": "👗",
+    "title": "Style Switch-Up",
+    "text": "You're tempted by a bold new haircut.",
+    "choices": [
+      {
+        "label": "Treat yourself to it",
+        "effects": {
+          "money": -70,
+          "looks": 3,
+          "happiness": 4
+        },
+        "log": "You looked great.",
+        "kind": "good"
+      },
+      {
+        "label": "Recreate it cheaply",
+        "effects": {
+          "looks": 2,
+          "happiness": 3
+        },
+        "log": "A subtle refresh.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_style_02023",
+    "min": 12,
+    "max": 90,
+    "weight": 0.2,
+    "icon": "👗",
+    "title": "Style Switch-Up",
+    "text": "You're tempted by a thrift-store treasure.",
+    "choices": [
+      {
+        "label": "Rock it confidently",
+        "effects": {
+          "looks": 4,
+          "happiness": 5
+        },
+        "log": "You looked great.",
+        "kind": "good"
+      },
+      {
+        "label": "Play it safe",
+        "effects": {
+          "looks": 1,
+          "happiness": 2
+        },
+        "log": "A subtle refresh.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_style_02024",
+    "min": 12,
+    "max": 90,
+    "weight": 0.2,
+    "icon": "👗",
+    "title": "Style Switch-Up",
+    "text": "You're tempted by a thrift-store treasure.",
+    "choices": [
+      {
+        "label": "Treat yourself to it",
+        "effects": {
+          "money": -70,
+          "looks": 3,
+          "happiness": 4
+        },
+        "log": "You looked great.",
+        "kind": "good"
+      },
+      {
+        "label": "Recreate it cheaply",
+        "effects": {
+          "looks": 2,
+          "happiness": 3
+        },
+        "log": "A subtle refresh.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_style_02025",
+    "min": 12,
+    "max": 90,
+    "weight": 0.2,
+    "icon": "👗",
+    "title": "Style Switch-Up",
+    "text": "You're tempted by a daring outfit.",
+    "choices": [
+      {
+        "label": "Rock it confidently",
+        "effects": {
+          "looks": 4,
+          "happiness": 5
+        },
+        "log": "You looked great.",
+        "kind": "good"
+      },
+      {
+        "label": "Play it safe",
+        "effects": {
+          "looks": 1,
+          "happiness": 2
+        },
+        "log": "A subtle refresh.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_style_02026",
+    "min": 12,
+    "max": 90,
+    "weight": 0.2,
+    "icon": "👗",
+    "title": "Style Switch-Up",
+    "text": "You're tempted by a daring outfit.",
+    "choices": [
+      {
+        "label": "Treat yourself to it",
+        "effects": {
+          "money": -70,
+          "looks": 3,
+          "happiness": 4
+        },
+        "log": "You looked great.",
+        "kind": "good"
+      },
+      {
+        "label": "Recreate it cheaply",
+        "effects": {
+          "looks": 2,
+          "happiness": 3
+        },
+        "log": "A subtle refresh.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_style_02027",
+    "min": 12,
+    "max": 90,
+    "weight": 0.2,
+    "icon": "👗",
+    "title": "Style Switch-Up",
+    "text": "You're tempted by a signature scent.",
+    "choices": [
+      {
+        "label": "Rock it confidently",
+        "effects": {
+          "looks": 4,
+          "happiness": 5
+        },
+        "log": "You looked great.",
+        "kind": "good"
+      },
+      {
+        "label": "Play it safe",
+        "effects": {
+          "looks": 1,
+          "happiness": 2
+        },
+        "log": "A subtle refresh.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_style_02028",
+    "min": 12,
+    "max": 90,
+    "weight": 0.2,
+    "icon": "👗",
+    "title": "Style Switch-Up",
+    "text": "You're tempted by a signature scent.",
+    "choices": [
+      {
+        "label": "Treat yourself to it",
+        "effects": {
+          "money": -70,
+          "looks": 3,
+          "happiness": 4
+        },
+        "log": "You looked great.",
+        "kind": "good"
+      },
+      {
+        "label": "Recreate it cheaply",
+        "effects": {
+          "looks": 2,
+          "happiness": 3
+        },
+        "log": "A subtle refresh.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_style_02029",
+    "min": 12,
+    "max": 90,
+    "weight": 0.2,
+    "icon": "👗",
+    "title": "Style Switch-Up",
+    "text": "You're tempted by a classic capsule wardrobe.",
+    "choices": [
+      {
+        "label": "Rock it confidently",
+        "effects": {
+          "looks": 4,
+          "happiness": 5
+        },
+        "log": "You looked great.",
+        "kind": "good"
+      },
+      {
+        "label": "Play it safe",
+        "effects": {
+          "looks": 1,
+          "happiness": 2
+        },
+        "log": "A subtle refresh.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_style_02030",
+    "min": 12,
+    "max": 90,
+    "weight": 0.2,
+    "icon": "👗",
+    "title": "Style Switch-Up",
+    "text": "You're tempted by a classic capsule wardrobe.",
+    "choices": [
+      {
+        "label": "Treat yourself to it",
+        "effects": {
+          "money": -70,
+          "looks": 3,
+          "happiness": 4
+        },
+        "log": "You looked great.",
+        "kind": "good"
+      },
+      {
+        "label": "Recreate it cheaply",
+        "effects": {
+          "looks": 2,
+          "happiness": 3
+        },
+        "log": "A subtle refresh.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_style_02031",
+    "min": 12,
+    "max": 90,
+    "weight": 0.2,
+    "icon": "👗",
+    "title": "Style Switch-Up",
+    "text": "You're tempted by statement glasses.",
+    "choices": [
+      {
+        "label": "Rock it confidently",
+        "effects": {
+          "looks": 4,
+          "happiness": 5
+        },
+        "log": "You looked great.",
+        "kind": "good"
+      },
+      {
+        "label": "Play it safe",
+        "effects": {
+          "looks": 1,
+          "happiness": 2
+        },
+        "log": "A subtle refresh.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_style_02032",
+    "min": 12,
+    "max": 90,
+    "weight": 0.2,
+    "icon": "👗",
+    "title": "Style Switch-Up",
+    "text": "You're tempted by statement glasses.",
+    "choices": [
+      {
+        "label": "Treat yourself to it",
+        "effects": {
+          "money": -70,
+          "looks": 3,
+          "happiness": 4
+        },
+        "log": "You looked great.",
+        "kind": "good"
+      },
+      {
+        "label": "Recreate it cheaply",
+        "effects": {
+          "looks": 2,
+          "happiness": 3
+        },
+        "log": "A subtle refresh.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_style_02033",
+    "min": 12,
+    "max": 90,
+    "weight": 0.2,
+    "icon": "👗",
+    "title": "Style Switch-Up",
+    "text": "You're tempted by a vintage look.",
+    "choices": [
+      {
+        "label": "Rock it confidently",
+        "effects": {
+          "looks": 4,
+          "happiness": 5
+        },
+        "log": "You looked great.",
+        "kind": "good"
+      },
+      {
+        "label": "Play it safe",
+        "effects": {
+          "looks": 1,
+          "happiness": 2
+        },
+        "log": "A subtle refresh.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_style_02034",
+    "min": 12,
+    "max": 90,
+    "weight": 0.2,
+    "icon": "👗",
+    "title": "Style Switch-Up",
+    "text": "You're tempted by a vintage look.",
+    "choices": [
+      {
+        "label": "Treat yourself to it",
+        "effects": {
+          "money": -70,
+          "looks": 3,
+          "happiness": 4
+        },
+        "log": "You looked great.",
+        "kind": "good"
+      },
+      {
+        "label": "Recreate it cheaply",
+        "effects": {
+          "looks": 2,
+          "happiness": 3
+        },
+        "log": "A subtle refresh.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_style_02035",
+    "min": 12,
+    "max": 90,
+    "weight": 0.2,
+    "icon": "👗",
+    "title": "Style Switch-Up",
+    "text": "You're tempted by a minimalist style.",
+    "choices": [
+      {
+        "label": "Rock it confidently",
+        "effects": {
+          "looks": 4,
+          "happiness": 5
+        },
+        "log": "You looked great.",
+        "kind": "good"
+      },
+      {
+        "label": "Play it safe",
+        "effects": {
+          "looks": 1,
+          "happiness": 2
+        },
+        "log": "A subtle refresh.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_style_02036",
+    "min": 12,
+    "max": 90,
+    "weight": 0.2,
+    "icon": "👗",
+    "title": "Style Switch-Up",
+    "text": "You're tempted by a minimalist style.",
+    "choices": [
+      {
+        "label": "Treat yourself to it",
+        "effects": {
+          "money": -70,
+          "looks": 3,
+          "happiness": 4
+        },
+        "log": "You looked great.",
+        "kind": "good"
+      },
+      {
+        "label": "Recreate it cheaply",
+        "effects": {
+          "looks": 2,
+          "happiness": 3
+        },
+        "log": "A subtle refresh.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_style_02037",
+    "min": 12,
+    "max": 90,
+    "weight": 0.2,
+    "icon": "👗",
+    "title": "Style Switch-Up",
+    "text": "You're tempted by bright colors.",
+    "choices": [
+      {
+        "label": "Rock it confidently",
+        "effects": {
+          "looks": 4,
+          "happiness": 5
+        },
+        "log": "You looked great.",
+        "kind": "good"
+      },
+      {
+        "label": "Play it safe",
+        "effects": {
+          "looks": 1,
+          "happiness": 2
+        },
+        "log": "A subtle refresh.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_style_02038",
+    "min": 12,
+    "max": 90,
+    "weight": 0.2,
+    "icon": "👗",
+    "title": "Style Switch-Up",
+    "text": "You're tempted by bright colors.",
+    "choices": [
+      {
+        "label": "Treat yourself to it",
+        "effects": {
+          "money": -70,
+          "looks": 3,
+          "happiness": 4
+        },
+        "log": "You looked great.",
+        "kind": "good"
+      },
+      {
+        "label": "Recreate it cheaply",
+        "effects": {
+          "looks": 2,
+          "happiness": 3
+        },
+        "log": "A subtle refresh.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_style_02039",
+    "min": 12,
+    "max": 90,
+    "weight": 0.2,
+    "icon": "👗",
+    "title": "Style Switch-Up",
+    "text": "You're tempted by an all-black ensemble.",
+    "choices": [
+      {
+        "label": "Rock it confidently",
+        "effects": {
+          "looks": 4,
+          "happiness": 5
+        },
+        "log": "You looked great.",
+        "kind": "good"
+      },
+      {
+        "label": "Play it safe",
+        "effects": {
+          "looks": 1,
+          "happiness": 2
+        },
+        "log": "A subtle refresh.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_style_02040",
+    "min": 12,
+    "max": 90,
+    "weight": 0.2,
+    "icon": "👗",
+    "title": "Style Switch-Up",
+    "text": "You're tempted by an all-black ensemble.",
+    "choices": [
+      {
+        "label": "Treat yourself to it",
+        "effects": {
+          "money": -70,
+          "looks": 3,
+          "happiness": 4
+        },
+        "log": "You looked great.",
+        "kind": "good"
+      },
+      {
+        "label": "Recreate it cheaply",
+        "effects": {
+          "looks": 2,
+          "happiness": 3
+        },
+        "log": "A subtle refresh.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_style_02041",
+    "min": 12,
+    "max": 90,
+    "weight": 0.2,
+    "icon": "👗",
+    "title": "Style Switch-Up",
+    "text": "You're tempted by a handmade accessory.",
+    "choices": [
+      {
+        "label": "Rock it confidently",
+        "effects": {
+          "looks": 4,
+          "happiness": 5
+        },
+        "log": "You looked great.",
+        "kind": "good"
+      },
+      {
+        "label": "Play it safe",
+        "effects": {
+          "looks": 1,
+          "happiness": 2
+        },
+        "log": "A subtle refresh.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_style_02042",
+    "min": 12,
+    "max": 90,
+    "weight": 0.2,
+    "icon": "👗",
+    "title": "Style Switch-Up",
+    "text": "You're tempted by a handmade accessory.",
+    "choices": [
+      {
+        "label": "Treat yourself to it",
+        "effects": {
+          "money": -70,
+          "looks": 3,
+          "happiness": 4
+        },
+        "log": "You looked great.",
+        "kind": "good"
+      },
+      {
+        "label": "Recreate it cheaply",
+        "effects": {
+          "looks": 2,
+          "happiness": 3
+        },
+        "log": "A subtle refresh.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_style_02043",
+    "min": 12,
+    "max": 90,
+    "weight": 0.2,
+    "icon": "👗",
+    "title": "Style Switch-Up",
+    "text": "You're tempted by designer shoes on sale.",
+    "choices": [
+      {
+        "label": "Rock it confidently",
+        "effects": {
+          "looks": 4,
+          "happiness": 5
+        },
+        "log": "You looked great.",
+        "kind": "good"
+      },
+      {
+        "label": "Play it safe",
+        "effects": {
+          "looks": 1,
+          "happiness": 2
+        },
+        "log": "A subtle refresh.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_style_02044",
+    "min": 12,
+    "max": 90,
+    "weight": 0.2,
+    "icon": "👗",
+    "title": "Style Switch-Up",
+    "text": "You're tempted by designer shoes on sale.",
+    "choices": [
+      {
+        "label": "Treat yourself to it",
+        "effects": {
+          "money": -70,
+          "looks": 3,
+          "happiness": 4
+        },
+        "log": "You looked great.",
+        "kind": "good"
+      },
+      {
+        "label": "Recreate it cheaply",
+        "effects": {
+          "looks": 2,
+          "happiness": 3
+        },
+        "log": "A subtle refresh.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_style_02045",
+    "min": 12,
+    "max": 90,
+    "weight": 0.2,
+    "icon": "👗",
+    "title": "Style Switch-Up",
+    "text": "You're tempted by a tailored fit.",
+    "choices": [
+      {
+        "label": "Rock it confidently",
+        "effects": {
+          "looks": 4,
+          "happiness": 5
+        },
+        "log": "You looked great.",
+        "kind": "good"
+      },
+      {
+        "label": "Play it safe",
+        "effects": {
+          "looks": 1,
+          "happiness": 2
+        },
+        "log": "A subtle refresh.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_style_02046",
+    "min": 12,
+    "max": 90,
+    "weight": 0.2,
+    "icon": "👗",
+    "title": "Style Switch-Up",
+    "text": "You're tempted by a tailored fit.",
+    "choices": [
+      {
+        "label": "Treat yourself to it",
+        "effects": {
+          "money": -70,
+          "looks": 3,
+          "happiness": 4
+        },
+        "log": "You looked great.",
+        "kind": "good"
+      },
+      {
+        "label": "Recreate it cheaply",
+        "effects": {
+          "looks": 2,
+          "happiness": 3
+        },
+        "log": "A subtle refresh.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_style_02047",
+    "min": 12,
+    "max": 90,
+    "weight": 0.2,
+    "icon": "👗",
+    "title": "Style Switch-Up",
+    "text": "You're tempted by a cozy oversized look.",
+    "choices": [
+      {
+        "label": "Rock it confidently",
+        "effects": {
+          "looks": 4,
+          "happiness": 5
+        },
+        "log": "You looked great.",
+        "kind": "good"
+      },
+      {
+        "label": "Play it safe",
+        "effects": {
+          "looks": 1,
+          "happiness": 2
+        },
+        "log": "A subtle refresh.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_style_02048",
+    "min": 12,
+    "max": 90,
+    "weight": 0.2,
+    "icon": "👗",
+    "title": "Style Switch-Up",
+    "text": "You're tempted by a cozy oversized look.",
+    "choices": [
+      {
+        "label": "Treat yourself to it",
+        "effects": {
+          "money": -70,
+          "looks": 3,
+          "happiness": 4
+        },
+        "log": "You looked great.",
+        "kind": "good"
+      },
+      {
+        "label": "Recreate it cheaply",
+        "effects": {
+          "looks": 2,
+          "happiness": 3
+        },
+        "log": "A subtle refresh.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_style_02049",
+    "min": 12,
+    "max": 90,
+    "weight": 0.2,
+    "icon": "👗",
+    "title": "Style Switch-Up",
+    "text": "You're tempted by a retro throwback.",
+    "choices": [
+      {
+        "label": "Rock it confidently",
+        "effects": {
+          "looks": 4,
+          "happiness": 5
+        },
+        "log": "You looked great.",
+        "kind": "good"
+      },
+      {
+        "label": "Play it safe",
+        "effects": {
+          "looks": 1,
+          "happiness": 2
+        },
+        "log": "A subtle refresh.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_style_02050",
+    "min": 12,
+    "max": 90,
+    "weight": 0.2,
+    "icon": "👗",
+    "title": "Style Switch-Up",
+    "text": "You're tempted by a retro throwback.",
+    "choices": [
+      {
+        "label": "Treat yourself to it",
+        "effects": {
+          "money": -70,
+          "looks": 3,
+          "happiness": 4
+        },
+        "log": "You looked great.",
+        "kind": "good"
+      },
+      {
+        "label": "Recreate it cheaply",
+        "effects": {
+          "looks": 2,
+          "happiness": 3
+        },
+        "log": "A subtle refresh.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_style_02051",
+    "min": 12,
+    "max": 90,
+    "weight": 0.2,
+    "icon": "👗",
+    "title": "Style Switch-Up",
+    "text": "You're tempted by a fresh seasonal refresh.",
+    "choices": [
+      {
+        "label": "Rock it confidently",
+        "effects": {
+          "looks": 4,
+          "happiness": 5
+        },
+        "log": "You looked great.",
+        "kind": "good"
+      },
+      {
+        "label": "Play it safe",
+        "effects": {
+          "looks": 1,
+          "happiness": 2
+        },
+        "log": "A subtle refresh.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_style_02052",
+    "min": 12,
+    "max": 90,
+    "weight": 0.2,
+    "icon": "👗",
+    "title": "Style Switch-Up",
+    "text": "You're tempted by a fresh seasonal refresh.",
+    "choices": [
+      {
+        "label": "Treat yourself to it",
+        "effects": {
+          "money": -70,
+          "looks": 3,
+          "happiness": 4
+        },
+        "log": "You looked great.",
+        "kind": "good"
+      },
+      {
+        "label": "Recreate it cheaply",
+        "effects": {
+          "looks": 2,
+          "happiness": 3
+        },
+        "log": "A subtle refresh.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_media_02053",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🎬",
+    "title": "Entertainment",
+    "text": "You discovered a band you'd forgotten about.",
+    "choices": [
+      {
+        "label": "Lose yourself in it",
+        "effects": {
+          "happiness": 6,
+          "mental": 3
+        },
+        "log": "Great entertainment.",
+        "kind": "good"
+      },
+      {
+        "label": "Half-watch it",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "A pleasant distraction.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_media_02054",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🎬",
+    "title": "Entertainment",
+    "text": "You discovered a band you'd forgotten about.",
+    "choices": [
+      {
+        "label": "Share it with friends",
+        "effects": {
+          "happiness": 5,
+          "karma": 2
+        },
+        "log": "Great entertainment.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it your secret",
+        "effects": {
+          "mental": 2,
+          "happiness": 2
+        },
+        "log": "A pleasant distraction.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_media_02055",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🎬",
+    "title": "Entertainment",
+    "text": "You discovered a gripping new series.",
+    "choices": [
+      {
+        "label": "Lose yourself in it",
+        "effects": {
+          "happiness": 6,
+          "mental": 3
+        },
+        "log": "Great entertainment.",
+        "kind": "good"
+      },
+      {
+        "label": "Half-watch it",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "A pleasant distraction.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_media_02056",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🎬",
+    "title": "Entertainment",
+    "text": "You discovered a gripping new series.",
+    "choices": [
+      {
+        "label": "Share it with friends",
+        "effects": {
+          "happiness": 5,
+          "karma": 2
+        },
+        "log": "Great entertainment.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it your secret",
+        "effects": {
+          "mental": 2,
+          "happiness": 2
+        },
+        "log": "A pleasant distraction.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_media_02057",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🎬",
+    "title": "Entertainment",
+    "text": "You discovered an indie film.",
+    "choices": [
+      {
+        "label": "Lose yourself in it",
+        "effects": {
+          "happiness": 6,
+          "mental": 3
+        },
+        "log": "Great entertainment.",
+        "kind": "good"
+      },
+      {
+        "label": "Half-watch it",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "A pleasant distraction.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_media_02058",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🎬",
+    "title": "Entertainment",
+    "text": "You discovered an indie film.",
+    "choices": [
+      {
+        "label": "Share it with friends",
+        "effects": {
+          "happiness": 5,
+          "karma": 2
+        },
+        "log": "Great entertainment.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it your secret",
+        "effects": {
+          "mental": 2,
+          "happiness": 2
+        },
+        "log": "A pleasant distraction.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_media_02059",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🎬",
+    "title": "Entertainment",
+    "text": "You discovered a nostalgic soundtrack.",
+    "choices": [
+      {
+        "label": "Lose yourself in it",
+        "effects": {
+          "happiness": 6,
+          "mental": 3
+        },
+        "log": "Great entertainment.",
+        "kind": "good"
+      },
+      {
+        "label": "Half-watch it",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "A pleasant distraction.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_media_02060",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🎬",
+    "title": "Entertainment",
+    "text": "You discovered a nostalgic soundtrack.",
+    "choices": [
+      {
+        "label": "Share it with friends",
+        "effects": {
+          "happiness": 5,
+          "karma": 2
+        },
+        "log": "Great entertainment.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it your secret",
+        "effects": {
+          "mental": 2,
+          "happiness": 2
+        },
+        "log": "A pleasant distraction.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_media_02061",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🎬",
+    "title": "Entertainment",
+    "text": "You discovered a live gig downtown.",
+    "choices": [
+      {
+        "label": "Lose yourself in it",
+        "effects": {
+          "happiness": 6,
+          "mental": 3
+        },
+        "log": "Great entertainment.",
+        "kind": "good"
+      },
+      {
+        "label": "Half-watch it",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "A pleasant distraction.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_media_02062",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🎬",
+    "title": "Entertainment",
+    "text": "You discovered a live gig downtown.",
+    "choices": [
+      {
+        "label": "Share it with friends",
+        "effects": {
+          "happiness": 5,
+          "karma": 2
+        },
+        "log": "Great entertainment.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it your secret",
+        "effects": {
+          "mental": 2,
+          "happiness": 2
+        },
+        "log": "A pleasant distraction.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_media_02063",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🎬",
+    "title": "Entertainment",
+    "text": "You discovered a podcast that hooks you.",
+    "choices": [
+      {
+        "label": "Lose yourself in it",
+        "effects": {
+          "happiness": 6,
+          "mental": 3
+        },
+        "log": "Great entertainment.",
+        "kind": "good"
+      },
+      {
+        "label": "Half-watch it",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "A pleasant distraction.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_media_02064",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🎬",
+    "title": "Entertainment",
+    "text": "You discovered a podcast that hooks you.",
+    "choices": [
+      {
+        "label": "Share it with friends",
+        "effects": {
+          "happiness": 5,
+          "karma": 2
+        },
+        "log": "Great entertainment.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it your secret",
+        "effects": {
+          "mental": 2,
+          "happiness": 2
+        },
+        "log": "A pleasant distraction.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_media_02065",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🎬",
+    "title": "Entertainment",
+    "text": "You discovered a classic album on vinyl.",
+    "choices": [
+      {
+        "label": "Lose yourself in it",
+        "effects": {
+          "happiness": 6,
+          "mental": 3
+        },
+        "log": "Great entertainment.",
+        "kind": "good"
+      },
+      {
+        "label": "Half-watch it",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "A pleasant distraction.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_media_02066",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🎬",
+    "title": "Entertainment",
+    "text": "You discovered a classic album on vinyl.",
+    "choices": [
+      {
+        "label": "Share it with friends",
+        "effects": {
+          "happiness": 5,
+          "karma": 2
+        },
+        "log": "Great entertainment.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it your secret",
+        "effects": {
+          "mental": 2,
+          "happiness": 2
+        },
+        "log": "A pleasant distraction.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_media_02067",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🎬",
+    "title": "Entertainment",
+    "text": "You discovered a foreign-language drama.",
+    "choices": [
+      {
+        "label": "Lose yourself in it",
+        "effects": {
+          "happiness": 6,
+          "mental": 3
+        },
+        "log": "Great entertainment.",
+        "kind": "good"
+      },
+      {
+        "label": "Half-watch it",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "A pleasant distraction.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_media_02068",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🎬",
+    "title": "Entertainment",
+    "text": "You discovered a foreign-language drama.",
+    "choices": [
+      {
+        "label": "Share it with friends",
+        "effects": {
+          "happiness": 5,
+          "karma": 2
+        },
+        "log": "Great entertainment.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it your secret",
+        "effects": {
+          "mental": 2,
+          "happiness": 2
+        },
+        "log": "A pleasant distraction.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_media_02069",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🎬",
+    "title": "Entertainment",
+    "text": "You discovered a comedy special.",
+    "choices": [
+      {
+        "label": "Lose yourself in it",
+        "effects": {
+          "happiness": 6,
+          "mental": 3
+        },
+        "log": "Great entertainment.",
+        "kind": "good"
+      },
+      {
+        "label": "Half-watch it",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "A pleasant distraction.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_media_02070",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🎬",
+    "title": "Entertainment",
+    "text": "You discovered a comedy special.",
+    "choices": [
+      {
+        "label": "Share it with friends",
+        "effects": {
+          "happiness": 5,
+          "karma": 2
+        },
+        "log": "Great entertainment.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it your secret",
+        "effects": {
+          "mental": 2,
+          "happiness": 2
+        },
+        "log": "A pleasant distraction.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_media_02071",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🎬",
+    "title": "Entertainment",
+    "text": "You discovered an orchestra in the park.",
+    "choices": [
+      {
+        "label": "Lose yourself in it",
+        "effects": {
+          "happiness": 6,
+          "mental": 3
+        },
+        "log": "Great entertainment.",
+        "kind": "good"
+      },
+      {
+        "label": "Half-watch it",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "A pleasant distraction.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_media_02072",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🎬",
+    "title": "Entertainment",
+    "text": "You discovered an orchestra in the park.",
+    "choices": [
+      {
+        "label": "Share it with friends",
+        "effects": {
+          "happiness": 5,
+          "karma": 2
+        },
+        "log": "Great entertainment.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it your secret",
+        "effects": {
+          "mental": 2,
+          "happiness": 2
+        },
+        "log": "A pleasant distraction.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_media_02073",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🎬",
+    "title": "Entertainment",
+    "text": "You discovered a street performer.",
+    "choices": [
+      {
+        "label": "Lose yourself in it",
+        "effects": {
+          "happiness": 6,
+          "mental": 3
+        },
+        "log": "Great entertainment.",
+        "kind": "good"
+      },
+      {
+        "label": "Half-watch it",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "A pleasant distraction.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_media_02074",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🎬",
+    "title": "Entertainment",
+    "text": "You discovered a street performer.",
+    "choices": [
+      {
+        "label": "Share it with friends",
+        "effects": {
+          "happiness": 5,
+          "karma": 2
+        },
+        "log": "Great entertainment.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it your secret",
+        "effects": {
+          "mental": 2,
+          "happiness": 2
+        },
+        "log": "A pleasant distraction.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_media_02075",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🎬",
+    "title": "Entertainment",
+    "text": "You discovered a documentary that moves you.",
+    "choices": [
+      {
+        "label": "Lose yourself in it",
+        "effects": {
+          "happiness": 6,
+          "mental": 3
+        },
+        "log": "Great entertainment.",
+        "kind": "good"
+      },
+      {
+        "label": "Half-watch it",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "A pleasant distraction.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_media_02076",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🎬",
+    "title": "Entertainment",
+    "text": "You discovered a documentary that moves you.",
+    "choices": [
+      {
+        "label": "Share it with friends",
+        "effects": {
+          "happiness": 5,
+          "karma": 2
+        },
+        "log": "Great entertainment.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it your secret",
+        "effects": {
+          "mental": 2,
+          "happiness": 2
+        },
+        "log": "A pleasant distraction.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_media_02077",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🎬",
+    "title": "Entertainment",
+    "text": "You discovered an open-mic night.",
+    "choices": [
+      {
+        "label": "Lose yourself in it",
+        "effects": {
+          "happiness": 6,
+          "mental": 3
+        },
+        "log": "Great entertainment.",
+        "kind": "good"
+      },
+      {
+        "label": "Half-watch it",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "A pleasant distraction.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_media_02078",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🎬",
+    "title": "Entertainment",
+    "text": "You discovered an open-mic night.",
+    "choices": [
+      {
+        "label": "Share it with friends",
+        "effects": {
+          "happiness": 5,
+          "karma": 2
+        },
+        "log": "Great entertainment.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it your secret",
+        "effects": {
+          "mental": 2,
+          "happiness": 2
+        },
+        "log": "A pleasant distraction.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_media_02079",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🎬",
+    "title": "Entertainment",
+    "text": "You discovered a musical.",
+    "choices": [
+      {
+        "label": "Lose yourself in it",
+        "effects": {
+          "happiness": 6,
+          "mental": 3
+        },
+        "log": "Great entertainment.",
+        "kind": "good"
+      },
+      {
+        "label": "Half-watch it",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "A pleasant distraction.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_media_02080",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🎬",
+    "title": "Entertainment",
+    "text": "You discovered a musical.",
+    "choices": [
+      {
+        "label": "Share it with friends",
+        "effects": {
+          "happiness": 5,
+          "karma": 2
+        },
+        "log": "Great entertainment.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it your secret",
+        "effects": {
+          "mental": 2,
+          "happiness": 2
+        },
+        "log": "A pleasant distraction.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_media_02081",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🎬",
+    "title": "Entertainment",
+    "text": "You discovered a film festival.",
+    "choices": [
+      {
+        "label": "Lose yourself in it",
+        "effects": {
+          "happiness": 6,
+          "mental": 3
+        },
+        "log": "Great entertainment.",
+        "kind": "good"
+      },
+      {
+        "label": "Half-watch it",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "A pleasant distraction.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_media_02082",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🎬",
+    "title": "Entertainment",
+    "text": "You discovered a film festival.",
+    "choices": [
+      {
+        "label": "Share it with friends",
+        "effects": {
+          "happiness": 5,
+          "karma": 2
+        },
+        "log": "Great entertainment.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it your secret",
+        "effects": {
+          "mental": 2,
+          "happiness": 2
+        },
+        "log": "A pleasant distraction.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_media_02083",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🎬",
+    "title": "Entertainment",
+    "text": "You discovered a karaoke bar.",
+    "choices": [
+      {
+        "label": "Lose yourself in it",
+        "effects": {
+          "happiness": 6,
+          "mental": 3
+        },
+        "log": "Great entertainment.",
+        "kind": "good"
+      },
+      {
+        "label": "Half-watch it",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "A pleasant distraction.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_media_02084",
+    "min": 8,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🎬",
+    "title": "Entertainment",
+    "text": "You discovered a karaoke bar.",
+    "choices": [
+      {
+        "label": "Share it with friends",
+        "effects": {
+          "happiness": 5,
+          "karma": 2
+        },
+        "log": "Great entertainment.",
+        "kind": "good"
+      },
+      {
+        "label": "Keep it your secret",
+        "effects": {
+          "mental": 2,
+          "happiness": 2
+        },
+        "log": "A pleasant distraction.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_deed_02085",
+    "min": 12,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🤝",
+    "title": "Lend a Hand",
+    "text": "There's a beach cleanup happening nearby.",
+    "choices": [
+      {
+        "label": "Give your time",
+        "effects": {
+          "karma": 8,
+          "happiness": 5,
+          "mental": 3
+        },
+        "log": "You made a difference.",
+        "kind": "good"
+      },
+      {
+        "label": "Donate instead",
+        "effects": {
+          "money": -40,
+          "karma": 5
+        },
+        "log": "Every bit helps.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "gen_deed_02086",
+    "min": 12,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🤝",
+    "title": "Lend a Hand",
+    "text": "There's a beach cleanup happening nearby.",
+    "choices": [
+      {
+        "label": "Recruit friends too",
+        "effects": {
+          "karma": 7,
+          "happiness": 5
+        },
+        "log": "You made a difference.",
+        "kind": "good"
+      },
+      {
+        "label": "Quietly help",
+        "effects": {
+          "karma": 6
+        },
+        "log": "Every bit helps.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "gen_deed_02087",
+    "min": 12,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🤝",
+    "title": "Lend a Hand",
+    "text": "There's a soup kitchen happening nearby.",
+    "choices": [
+      {
+        "label": "Give your time",
+        "effects": {
+          "karma": 8,
+          "happiness": 5,
+          "mental": 3
+        },
+        "log": "You made a difference.",
+        "kind": "good"
+      },
+      {
+        "label": "Donate instead",
+        "effects": {
+          "money": -40,
+          "karma": 5
+        },
+        "log": "Every bit helps.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "gen_deed_02088",
+    "min": 12,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🤝",
+    "title": "Lend a Hand",
+    "text": "There's a soup kitchen happening nearby.",
+    "choices": [
+      {
+        "label": "Recruit friends too",
+        "effects": {
+          "karma": 7,
+          "happiness": 5
+        },
+        "log": "You made a difference.",
+        "kind": "good"
+      },
+      {
+        "label": "Quietly help",
+        "effects": {
+          "karma": 6
+        },
+        "log": "Every bit helps.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "gen_deed_02089",
+    "min": 12,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🤝",
+    "title": "Lend a Hand",
+    "text": "There's a charity run happening nearby.",
+    "choices": [
+      {
+        "label": "Give your time",
+        "effects": {
+          "karma": 8,
+          "happiness": 5,
+          "mental": 3
+        },
+        "log": "You made a difference.",
+        "kind": "good"
+      },
+      {
+        "label": "Donate instead",
+        "effects": {
+          "money": -40,
+          "karma": 5
+        },
+        "log": "Every bit helps.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "gen_deed_02090",
+    "min": 12,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🤝",
+    "title": "Lend a Hand",
+    "text": "There's a charity run happening nearby.",
+    "choices": [
+      {
+        "label": "Recruit friends too",
+        "effects": {
+          "karma": 7,
+          "happiness": 5
+        },
+        "log": "You made a difference.",
+        "kind": "good"
+      },
+      {
+        "label": "Quietly help",
+        "effects": {
+          "karma": 6
+        },
+        "log": "Every bit helps.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "gen_deed_02091",
+    "min": 12,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🤝",
+    "title": "Lend a Hand",
+    "text": "There's tutoring kids happening nearby.",
+    "choices": [
+      {
+        "label": "Give your time",
+        "effects": {
+          "karma": 8,
+          "happiness": 5,
+          "mental": 3
+        },
+        "log": "You made a difference.",
+        "kind": "good"
+      },
+      {
+        "label": "Donate instead",
+        "effects": {
+          "money": -40,
+          "karma": 5
+        },
+        "log": "Every bit helps.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "gen_deed_02092",
+    "min": 12,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🤝",
+    "title": "Lend a Hand",
+    "text": "There's tutoring kids happening nearby.",
+    "choices": [
+      {
+        "label": "Recruit friends too",
+        "effects": {
+          "karma": 7,
+          "happiness": 5
+        },
+        "log": "You made a difference.",
+        "kind": "good"
+      },
+      {
+        "label": "Quietly help",
+        "effects": {
+          "karma": 6
+        },
+        "log": "Every bit helps.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "gen_deed_02093",
+    "min": 12,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🤝",
+    "title": "Lend a Hand",
+    "text": "There's a blood drive happening nearby.",
+    "choices": [
+      {
+        "label": "Give your time",
+        "effects": {
+          "karma": 8,
+          "happiness": 5,
+          "mental": 3
+        },
+        "log": "You made a difference.",
+        "kind": "good"
+      },
+      {
+        "label": "Donate instead",
+        "effects": {
+          "money": -40,
+          "karma": 5
+        },
+        "log": "Every bit helps.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "gen_deed_02094",
+    "min": 12,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🤝",
+    "title": "Lend a Hand",
+    "text": "There's a blood drive happening nearby.",
+    "choices": [
+      {
+        "label": "Recruit friends too",
+        "effects": {
+          "karma": 7,
+          "happiness": 5
+        },
+        "log": "You made a difference.",
+        "kind": "good"
+      },
+      {
+        "label": "Quietly help",
+        "effects": {
+          "karma": 6
+        },
+        "log": "Every bit helps.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "gen_deed_02095",
+    "min": 12,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🤝",
+    "title": "Lend a Hand",
+    "text": "There's an animal shelter happening nearby.",
+    "choices": [
+      {
+        "label": "Give your time",
+        "effects": {
+          "karma": 8,
+          "happiness": 5,
+          "mental": 3
+        },
+        "log": "You made a difference.",
+        "kind": "good"
+      },
+      {
+        "label": "Donate instead",
+        "effects": {
+          "money": -40,
+          "karma": 5
+        },
+        "log": "Every bit helps.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "gen_deed_02096",
+    "min": 12,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🤝",
+    "title": "Lend a Hand",
+    "text": "There's an animal shelter happening nearby.",
+    "choices": [
+      {
+        "label": "Recruit friends too",
+        "effects": {
+          "karma": 7,
+          "happiness": 5
+        },
+        "log": "You made a difference.",
+        "kind": "good"
+      },
+      {
+        "label": "Quietly help",
+        "effects": {
+          "karma": 6
+        },
+        "log": "Every bit helps.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "gen_deed_02097",
+    "min": 12,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🤝",
+    "title": "Lend a Hand",
+    "text": "There's a tree-planting day happening nearby.",
+    "choices": [
+      {
+        "label": "Give your time",
+        "effects": {
+          "karma": 8,
+          "happiness": 5,
+          "mental": 3
+        },
+        "log": "You made a difference.",
+        "kind": "good"
+      },
+      {
+        "label": "Donate instead",
+        "effects": {
+          "money": -40,
+          "karma": 5
+        },
+        "log": "Every bit helps.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "gen_deed_02098",
+    "min": 12,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🤝",
+    "title": "Lend a Hand",
+    "text": "There's a tree-planting day happening nearby.",
+    "choices": [
+      {
+        "label": "Recruit friends too",
+        "effects": {
+          "karma": 7,
+          "happiness": 5
+        },
+        "log": "You made a difference.",
+        "kind": "good"
+      },
+      {
+        "label": "Quietly help",
+        "effects": {
+          "karma": 6
+        },
+        "log": "Every bit helps.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "gen_deed_02099",
+    "min": 12,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🤝",
+    "title": "Lend a Hand",
+    "text": "There's a food bank happening nearby.",
+    "choices": [
+      {
+        "label": "Give your time",
+        "effects": {
+          "karma": 8,
+          "happiness": 5,
+          "mental": 3
+        },
+        "log": "You made a difference.",
+        "kind": "good"
+      },
+      {
+        "label": "Donate instead",
+        "effects": {
+          "money": -40,
+          "karma": 5
+        },
+        "log": "Every bit helps.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "gen_deed_02100",
+    "min": 12,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🤝",
+    "title": "Lend a Hand",
+    "text": "There's a food bank happening nearby.",
+    "choices": [
+      {
+        "label": "Recruit friends too",
+        "effects": {
+          "karma": 7,
+          "happiness": 5
+        },
+        "log": "You made a difference.",
+        "kind": "good"
+      },
+      {
+        "label": "Quietly help",
+        "effects": {
+          "karma": 6
+        },
+        "log": "Every bit helps.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "gen_deed_02101",
+    "min": 12,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🤝",
+    "title": "Lend a Hand",
+    "text": "There's a fundraiser happening nearby.",
+    "choices": [
+      {
+        "label": "Give your time",
+        "effects": {
+          "karma": 8,
+          "happiness": 5,
+          "mental": 3
+        },
+        "log": "You made a difference.",
+        "kind": "good"
+      },
+      {
+        "label": "Donate instead",
+        "effects": {
+          "money": -40,
+          "karma": 5
+        },
+        "log": "Every bit helps.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "gen_deed_02102",
+    "min": 12,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🤝",
+    "title": "Lend a Hand",
+    "text": "There's a fundraiser happening nearby.",
+    "choices": [
+      {
+        "label": "Recruit friends too",
+        "effects": {
+          "karma": 7,
+          "happiness": 5
+        },
+        "log": "You made a difference.",
+        "kind": "good"
+      },
+      {
+        "label": "Quietly help",
+        "effects": {
+          "karma": 6
+        },
+        "log": "Every bit helps.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "gen_deed_02103",
+    "min": 12,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🤝",
+    "title": "Lend a Hand",
+    "text": "There's helping at a care home happening nearby.",
+    "choices": [
+      {
+        "label": "Give your time",
+        "effects": {
+          "karma": 8,
+          "happiness": 5,
+          "mental": 3
+        },
+        "log": "You made a difference.",
+        "kind": "good"
+      },
+      {
+        "label": "Donate instead",
+        "effects": {
+          "money": -40,
+          "karma": 5
+        },
+        "log": "Every bit helps.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "gen_deed_02104",
+    "min": 12,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🤝",
+    "title": "Lend a Hand",
+    "text": "There's helping at a care home happening nearby.",
+    "choices": [
+      {
+        "label": "Recruit friends too",
+        "effects": {
+          "karma": 7,
+          "happiness": 5
+        },
+        "log": "You made a difference.",
+        "kind": "good"
+      },
+      {
+        "label": "Quietly help",
+        "effects": {
+          "karma": 6
+        },
+        "log": "Every bit helps.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "gen_deed_02105",
+    "min": 12,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🤝",
+    "title": "Lend a Hand",
+    "text": "There's a community repair café happening nearby.",
+    "choices": [
+      {
+        "label": "Give your time",
+        "effects": {
+          "karma": 8,
+          "happiness": 5,
+          "mental": 3
+        },
+        "log": "You made a difference.",
+        "kind": "good"
+      },
+      {
+        "label": "Donate instead",
+        "effects": {
+          "money": -40,
+          "karma": 5
+        },
+        "log": "Every bit helps.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "gen_deed_02106",
+    "min": 12,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🤝",
+    "title": "Lend a Hand",
+    "text": "There's a community repair café happening nearby.",
+    "choices": [
+      {
+        "label": "Recruit friends too",
+        "effects": {
+          "karma": 7,
+          "happiness": 5
+        },
+        "log": "You made a difference.",
+        "kind": "good"
+      },
+      {
+        "label": "Quietly help",
+        "effects": {
+          "karma": 6
+        },
+        "log": "Every bit helps.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "gen_deed_02107",
+    "min": 12,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🤝",
+    "title": "Lend a Hand",
+    "text": "There's mentoring a teen happening nearby.",
+    "choices": [
+      {
+        "label": "Give your time",
+        "effects": {
+          "karma": 8,
+          "happiness": 5,
+          "mental": 3
+        },
+        "log": "You made a difference.",
+        "kind": "good"
+      },
+      {
+        "label": "Donate instead",
+        "effects": {
+          "money": -40,
+          "karma": 5
+        },
+        "log": "Every bit helps.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "gen_deed_02108",
+    "min": 12,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🤝",
+    "title": "Lend a Hand",
+    "text": "There's mentoring a teen happening nearby.",
+    "choices": [
+      {
+        "label": "Recruit friends too",
+        "effects": {
+          "karma": 7,
+          "happiness": 5
+        },
+        "log": "You made a difference.",
+        "kind": "good"
+      },
+      {
+        "label": "Quietly help",
+        "effects": {
+          "karma": 6
+        },
+        "log": "Every bit helps.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "gen_deed_02109",
+    "min": 12,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🤝",
+    "title": "Lend a Hand",
+    "text": "There's a disaster relief drive happening nearby.",
+    "choices": [
+      {
+        "label": "Give your time",
+        "effects": {
+          "karma": 8,
+          "happiness": 5,
+          "mental": 3
+        },
+        "log": "You made a difference.",
+        "kind": "good"
+      },
+      {
+        "label": "Donate instead",
+        "effects": {
+          "money": -40,
+          "karma": 5
+        },
+        "log": "Every bit helps.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "gen_deed_02110",
+    "min": 12,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🤝",
+    "title": "Lend a Hand",
+    "text": "There's a disaster relief drive happening nearby.",
+    "choices": [
+      {
+        "label": "Recruit friends too",
+        "effects": {
+          "karma": 7,
+          "happiness": 5
+        },
+        "log": "You made a difference.",
+        "kind": "good"
+      },
+      {
+        "label": "Quietly help",
+        "effects": {
+          "karma": 6
+        },
+        "log": "Every bit helps.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "gen_deed_02111",
+    "min": 12,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🤝",
+    "title": "Lend a Hand",
+    "text": "There's a park restoration happening nearby.",
+    "choices": [
+      {
+        "label": "Give your time",
+        "effects": {
+          "karma": 8,
+          "happiness": 5,
+          "mental": 3
+        },
+        "log": "You made a difference.",
+        "kind": "good"
+      },
+      {
+        "label": "Donate instead",
+        "effects": {
+          "money": -40,
+          "karma": 5
+        },
+        "log": "Every bit helps.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "gen_deed_02112",
+    "min": 12,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🤝",
+    "title": "Lend a Hand",
+    "text": "There's a park restoration happening nearby.",
+    "choices": [
+      {
+        "label": "Recruit friends too",
+        "effects": {
+          "karma": 7,
+          "happiness": 5
+        },
+        "log": "You made a difference.",
+        "kind": "good"
+      },
+      {
+        "label": "Quietly help",
+        "effects": {
+          "karma": 6
+        },
+        "log": "Every bit helps.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "gen_deed_02113",
+    "min": 12,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🤝",
+    "title": "Lend a Hand",
+    "text": "There's a clothing donation drive happening nearby.",
+    "choices": [
+      {
+        "label": "Give your time",
+        "effects": {
+          "karma": 8,
+          "happiness": 5,
+          "mental": 3
+        },
+        "log": "You made a difference.",
+        "kind": "good"
+      },
+      {
+        "label": "Donate instead",
+        "effects": {
+          "money": -40,
+          "karma": 5
+        },
+        "log": "Every bit helps.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "gen_deed_02114",
+    "min": 12,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🤝",
+    "title": "Lend a Hand",
+    "text": "There's a clothing donation drive happening nearby.",
+    "choices": [
+      {
+        "label": "Recruit friends too",
+        "effects": {
+          "karma": 7,
+          "happiness": 5
+        },
+        "log": "You made a difference.",
+        "kind": "good"
+      },
+      {
+        "label": "Quietly help",
+        "effects": {
+          "karma": 6
+        },
+        "log": "Every bit helps.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "gen_deed_02115",
+    "min": 12,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🤝",
+    "title": "Lend a Hand",
+    "text": "There's reading to the elderly happening nearby.",
+    "choices": [
+      {
+        "label": "Give your time",
+        "effects": {
+          "karma": 8,
+          "happiness": 5,
+          "mental": 3
+        },
+        "log": "You made a difference.",
+        "kind": "good"
+      },
+      {
+        "label": "Donate instead",
+        "effects": {
+          "money": -40,
+          "karma": 5
+        },
+        "log": "Every bit helps.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "gen_deed_02116",
+    "min": 12,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🤝",
+    "title": "Lend a Hand",
+    "text": "There's reading to the elderly happening nearby.",
+    "choices": [
+      {
+        "label": "Recruit friends too",
+        "effects": {
+          "karma": 7,
+          "happiness": 5
+        },
+        "log": "You made a difference.",
+        "kind": "good"
+      },
+      {
+        "label": "Quietly help",
+        "effects": {
+          "karma": 6
+        },
+        "log": "Every bit helps.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "gen_game_02117",
+    "min": 8,
+    "max": 80,
+    "weight": 0.2,
+    "icon": "🎮",
+    "title": "Game On",
+    "text": "Someone invites you to a pickup basketball game.",
+    "choices": [
+      {
+        "label": "Play to win",
+        "effects": {
+          "fitness": 3,
+          "happiness": 5,
+          "mental": -1
+        },
+        "log": "Good game!",
+        "kind": "good"
+      },
+      {
+        "label": "Just have fun",
+        "effects": {
+          "happiness": 6
+        },
+        "log": "Fun times.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_game_02118",
+    "min": 8,
+    "max": 80,
+    "weight": 0.2,
+    "icon": "🎮",
+    "title": "Game On",
+    "text": "Someone invites you to a pickup basketball game.",
+    "choices": [
+      {
+        "label": "Join a league",
+        "effects": {
+          "fitness": 4,
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "Good game!",
+        "kind": "good"
+      },
+      {
+        "label": "One-off only",
+        "effects": {
+          "happiness": 3
+        },
+        "log": "Fun times.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_game_02119",
+    "min": 8,
+    "max": 80,
+    "weight": 0.2,
+    "icon": "🎮",
+    "title": "Game On",
+    "text": "Someone invites you to a chess match in the park.",
+    "choices": [
+      {
+        "label": "Play to win",
+        "effects": {
+          "fitness": 3,
+          "happiness": 5,
+          "mental": -1
+        },
+        "log": "Good game!",
+        "kind": "good"
+      },
+      {
+        "label": "Just have fun",
+        "effects": {
+          "happiness": 6
+        },
+        "log": "Fun times.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_game_02120",
+    "min": 8,
+    "max": 80,
+    "weight": 0.2,
+    "icon": "🎮",
+    "title": "Game On",
+    "text": "Someone invites you to a chess match in the park.",
+    "choices": [
+      {
+        "label": "Join a league",
+        "effects": {
+          "fitness": 4,
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "Good game!",
+        "kind": "good"
+      },
+      {
+        "label": "One-off only",
+        "effects": {
+          "happiness": 3
+        },
+        "log": "Fun times.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_game_02121",
+    "min": 8,
+    "max": 80,
+    "weight": 0.2,
+    "icon": "🎮",
+    "title": "Game On",
+    "text": "Someone invites you to a video game tournament.",
+    "choices": [
+      {
+        "label": "Play to win",
+        "effects": {
+          "fitness": 3,
+          "happiness": 5,
+          "mental": -1
+        },
+        "log": "Good game!",
+        "kind": "good"
+      },
+      {
+        "label": "Just have fun",
+        "effects": {
+          "happiness": 6
+        },
+        "log": "Fun times.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_game_02122",
+    "min": 8,
+    "max": 80,
+    "weight": 0.2,
+    "icon": "🎮",
+    "title": "Game On",
+    "text": "Someone invites you to a video game tournament.",
+    "choices": [
+      {
+        "label": "Join a league",
+        "effects": {
+          "fitness": 4,
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "Good game!",
+        "kind": "good"
+      },
+      {
+        "label": "One-off only",
+        "effects": {
+          "happiness": 3
+        },
+        "log": "Fun times.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_game_02123",
+    "min": 8,
+    "max": 80,
+    "weight": 0.2,
+    "icon": "🎮",
+    "title": "Game On",
+    "text": "Someone invites you to a friendly tennis match.",
+    "choices": [
+      {
+        "label": "Play to win",
+        "effects": {
+          "fitness": 3,
+          "happiness": 5,
+          "mental": -1
+        },
+        "log": "Good game!",
+        "kind": "good"
+      },
+      {
+        "label": "Just have fun",
+        "effects": {
+          "happiness": 6
+        },
+        "log": "Fun times.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_game_02124",
+    "min": 8,
+    "max": 80,
+    "weight": 0.2,
+    "icon": "🎮",
+    "title": "Game On",
+    "text": "Someone invites you to a friendly tennis match.",
+    "choices": [
+      {
+        "label": "Join a league",
+        "effects": {
+          "fitness": 4,
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "Good game!",
+        "kind": "good"
+      },
+      {
+        "label": "One-off only",
+        "effects": {
+          "happiness": 3
+        },
+        "log": "Fun times.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_game_02125",
+    "min": 8,
+    "max": 80,
+    "weight": 0.2,
+    "icon": "🎮",
+    "title": "Game On",
+    "text": "Someone invites you to a bowling night.",
+    "choices": [
+      {
+        "label": "Play to win",
+        "effects": {
+          "fitness": 3,
+          "happiness": 5,
+          "mental": -1
+        },
+        "log": "Good game!",
+        "kind": "good"
+      },
+      {
+        "label": "Just have fun",
+        "effects": {
+          "happiness": 6
+        },
+        "log": "Fun times.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_game_02126",
+    "min": 8,
+    "max": 80,
+    "weight": 0.2,
+    "icon": "🎮",
+    "title": "Game On",
+    "text": "Someone invites you to a bowling night.",
+    "choices": [
+      {
+        "label": "Join a league",
+        "effects": {
+          "fitness": 4,
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "Good game!",
+        "kind": "good"
+      },
+      {
+        "label": "One-off only",
+        "effects": {
+          "happiness": 3
+        },
+        "log": "Fun times.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_game_02127",
+    "min": 8,
+    "max": 80,
+    "weight": 0.2,
+    "icon": "🎮",
+    "title": "Game On",
+    "text": "Someone invites you to a trivia quiz.",
+    "choices": [
+      {
+        "label": "Play to win",
+        "effects": {
+          "fitness": 3,
+          "happiness": 5,
+          "mental": -1
+        },
+        "log": "Good game!",
+        "kind": "good"
+      },
+      {
+        "label": "Just have fun",
+        "effects": {
+          "happiness": 6
+        },
+        "log": "Fun times.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_game_02128",
+    "min": 8,
+    "max": 80,
+    "weight": 0.2,
+    "icon": "🎮",
+    "title": "Game On",
+    "text": "Someone invites you to a trivia quiz.",
+    "choices": [
+      {
+        "label": "Join a league",
+        "effects": {
+          "fitness": 4,
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "Good game!",
+        "kind": "good"
+      },
+      {
+        "label": "One-off only",
+        "effects": {
+          "happiness": 3
+        },
+        "log": "Fun times.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_game_02129",
+    "min": 8,
+    "max": 80,
+    "weight": 0.2,
+    "icon": "🎮",
+    "title": "Game On",
+    "text": "Someone invites you to a poker night.",
+    "choices": [
+      {
+        "label": "Play to win",
+        "effects": {
+          "fitness": 3,
+          "happiness": 5,
+          "mental": -1
+        },
+        "log": "Good game!",
+        "kind": "good"
+      },
+      {
+        "label": "Just have fun",
+        "effects": {
+          "happiness": 6
+        },
+        "log": "Fun times.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_game_02130",
+    "min": 8,
+    "max": 80,
+    "weight": 0.2,
+    "icon": "🎮",
+    "title": "Game On",
+    "text": "Someone invites you to a poker night.",
+    "choices": [
+      {
+        "label": "Join a league",
+        "effects": {
+          "fitness": 4,
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "Good game!",
+        "kind": "good"
+      },
+      {
+        "label": "One-off only",
+        "effects": {
+          "happiness": 3
+        },
+        "log": "Fun times.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_game_02131",
+    "min": 8,
+    "max": 80,
+    "weight": 0.2,
+    "icon": "🎮",
+    "title": "Game On",
+    "text": "Someone invites you to a soccer kickabout.",
+    "choices": [
+      {
+        "label": "Play to win",
+        "effects": {
+          "fitness": 3,
+          "happiness": 5,
+          "mental": -1
+        },
+        "log": "Good game!",
+        "kind": "good"
+      },
+      {
+        "label": "Just have fun",
+        "effects": {
+          "happiness": 6
+        },
+        "log": "Fun times.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_game_02132",
+    "min": 8,
+    "max": 80,
+    "weight": 0.2,
+    "icon": "🎮",
+    "title": "Game On",
+    "text": "Someone invites you to a soccer kickabout.",
+    "choices": [
+      {
+        "label": "Join a league",
+        "effects": {
+          "fitness": 4,
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "Good game!",
+        "kind": "good"
+      },
+      {
+        "label": "One-off only",
+        "effects": {
+          "happiness": 3
+        },
+        "log": "Fun times.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_game_02133",
+    "min": 8,
+    "max": 80,
+    "weight": 0.2,
+    "icon": "🎮",
+    "title": "Game On",
+    "text": "Someone invites you to a marathon.",
+    "choices": [
+      {
+        "label": "Play to win",
+        "effects": {
+          "fitness": 3,
+          "happiness": 5,
+          "mental": -1
+        },
+        "log": "Good game!",
+        "kind": "good"
+      },
+      {
+        "label": "Just have fun",
+        "effects": {
+          "happiness": 6
+        },
+        "log": "Fun times.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_game_02134",
+    "min": 8,
+    "max": 80,
+    "weight": 0.2,
+    "icon": "🎮",
+    "title": "Game On",
+    "text": "Someone invites you to a marathon.",
+    "choices": [
+      {
+        "label": "Join a league",
+        "effects": {
+          "fitness": 4,
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "Good game!",
+        "kind": "good"
+      },
+      {
+        "label": "One-off only",
+        "effects": {
+          "happiness": 3
+        },
+        "log": "Fun times.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_game_02135",
+    "min": 8,
+    "max": 80,
+    "weight": 0.2,
+    "icon": "🎮",
+    "title": "Game On",
+    "text": "Someone invites you to a rock-climbing session.",
+    "choices": [
+      {
+        "label": "Play to win",
+        "effects": {
+          "fitness": 3,
+          "happiness": 5,
+          "mental": -1
+        },
+        "log": "Good game!",
+        "kind": "good"
+      },
+      {
+        "label": "Just have fun",
+        "effects": {
+          "happiness": 6
+        },
+        "log": "Fun times.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_game_02136",
+    "min": 8,
+    "max": 80,
+    "weight": 0.2,
+    "icon": "🎮",
+    "title": "Game On",
+    "text": "Someone invites you to a rock-climbing session.",
+    "choices": [
+      {
+        "label": "Join a league",
+        "effects": {
+          "fitness": 4,
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "Good game!",
+        "kind": "good"
+      },
+      {
+        "label": "One-off only",
+        "effects": {
+          "happiness": 3
+        },
+        "log": "Fun times.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_game_02137",
+    "min": 8,
+    "max": 80,
+    "weight": 0.2,
+    "icon": "🎮",
+    "title": "Game On",
+    "text": "Someone invites you to a ping-pong showdown.",
+    "choices": [
+      {
+        "label": "Play to win",
+        "effects": {
+          "fitness": 3,
+          "happiness": 5,
+          "mental": -1
+        },
+        "log": "Good game!",
+        "kind": "good"
+      },
+      {
+        "label": "Just have fun",
+        "effects": {
+          "happiness": 6
+        },
+        "log": "Fun times.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_game_02138",
+    "min": 8,
+    "max": 80,
+    "weight": 0.2,
+    "icon": "🎮",
+    "title": "Game On",
+    "text": "Someone invites you to a ping-pong showdown.",
+    "choices": [
+      {
+        "label": "Join a league",
+        "effects": {
+          "fitness": 4,
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "Good game!",
+        "kind": "good"
+      },
+      {
+        "label": "One-off only",
+        "effects": {
+          "happiness": 3
+        },
+        "log": "Fun times.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_game_02139",
+    "min": 8,
+    "max": 80,
+    "weight": 0.2,
+    "icon": "🎮",
+    "title": "Game On",
+    "text": "Someone invites you to a dodgeball league.",
+    "choices": [
+      {
+        "label": "Play to win",
+        "effects": {
+          "fitness": 3,
+          "happiness": 5,
+          "mental": -1
+        },
+        "log": "Good game!",
+        "kind": "good"
+      },
+      {
+        "label": "Just have fun",
+        "effects": {
+          "happiness": 6
+        },
+        "log": "Fun times.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_game_02140",
+    "min": 8,
+    "max": 80,
+    "weight": 0.2,
+    "icon": "🎮",
+    "title": "Game On",
+    "text": "Someone invites you to a dodgeball league.",
+    "choices": [
+      {
+        "label": "Join a league",
+        "effects": {
+          "fitness": 4,
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "Good game!",
+        "kind": "good"
+      },
+      {
+        "label": "One-off only",
+        "effects": {
+          "happiness": 3
+        },
+        "log": "Fun times.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_game_02141",
+    "min": 8,
+    "max": 80,
+    "weight": 0.2,
+    "icon": "🎮",
+    "title": "Game On",
+    "text": "Someone invites you to a fantasy sports draft.",
+    "choices": [
+      {
+        "label": "Play to win",
+        "effects": {
+          "fitness": 3,
+          "happiness": 5,
+          "mental": -1
+        },
+        "log": "Good game!",
+        "kind": "good"
+      },
+      {
+        "label": "Just have fun",
+        "effects": {
+          "happiness": 6
+        },
+        "log": "Fun times.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_game_02142",
+    "min": 8,
+    "max": 80,
+    "weight": 0.2,
+    "icon": "🎮",
+    "title": "Game On",
+    "text": "Someone invites you to a fantasy sports draft.",
+    "choices": [
+      {
+        "label": "Join a league",
+        "effects": {
+          "fitness": 4,
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "Good game!",
+        "kind": "good"
+      },
+      {
+        "label": "One-off only",
+        "effects": {
+          "happiness": 3
+        },
+        "log": "Fun times.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_game_02143",
+    "min": 8,
+    "max": 80,
+    "weight": 0.2,
+    "icon": "🎮",
+    "title": "Game On",
+    "text": "Someone invites you to a darts match.",
+    "choices": [
+      {
+        "label": "Play to win",
+        "effects": {
+          "fitness": 3,
+          "happiness": 5,
+          "mental": -1
+        },
+        "log": "Good game!",
+        "kind": "good"
+      },
+      {
+        "label": "Just have fun",
+        "effects": {
+          "happiness": 6
+        },
+        "log": "Fun times.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_game_02144",
+    "min": 8,
+    "max": 80,
+    "weight": 0.2,
+    "icon": "🎮",
+    "title": "Game On",
+    "text": "Someone invites you to a darts match.",
+    "choices": [
+      {
+        "label": "Join a league",
+        "effects": {
+          "fitness": 4,
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "Good game!",
+        "kind": "good"
+      },
+      {
+        "label": "One-off only",
+        "effects": {
+          "happiness": 3
+        },
+        "log": "Fun times.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_game_02145",
+    "min": 8,
+    "max": 80,
+    "weight": 0.2,
+    "icon": "🎮",
+    "title": "Game On",
+    "text": "Someone invites you to a mini-golf round.",
+    "choices": [
+      {
+        "label": "Play to win",
+        "effects": {
+          "fitness": 3,
+          "happiness": 5,
+          "mental": -1
+        },
+        "log": "Good game!",
+        "kind": "good"
+      },
+      {
+        "label": "Just have fun",
+        "effects": {
+          "happiness": 6
+        },
+        "log": "Fun times.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_game_02146",
+    "min": 8,
+    "max": 80,
+    "weight": 0.2,
+    "icon": "🎮",
+    "title": "Game On",
+    "text": "Someone invites you to a mini-golf round.",
+    "choices": [
+      {
+        "label": "Join a league",
+        "effects": {
+          "fitness": 4,
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "Good game!",
+        "kind": "good"
+      },
+      {
+        "label": "One-off only",
+        "effects": {
+          "happiness": 3
+        },
+        "log": "Fun times.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_game_02147",
+    "min": 8,
+    "max": 80,
+    "weight": 0.2,
+    "icon": "🎮",
+    "title": "Game On",
+    "text": "Someone invites you to a swim meet.",
+    "choices": [
+      {
+        "label": "Play to win",
+        "effects": {
+          "fitness": 3,
+          "happiness": 5,
+          "mental": -1
+        },
+        "log": "Good game!",
+        "kind": "good"
+      },
+      {
+        "label": "Just have fun",
+        "effects": {
+          "happiness": 6
+        },
+        "log": "Fun times.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_game_02148",
+    "min": 8,
+    "max": 80,
+    "weight": 0.2,
+    "icon": "🎮",
+    "title": "Game On",
+    "text": "Someone invites you to a swim meet.",
+    "choices": [
+      {
+        "label": "Join a league",
+        "effects": {
+          "fitness": 4,
+          "happiness": 4,
+          "karma": 2
+        },
+        "log": "Good game!",
+        "kind": "good"
+      },
+      {
+        "label": "One-off only",
+        "effects": {
+          "happiness": 3
+        },
+        "log": "Fun times.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_nature_02149",
+    "min": 5,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🌿",
+    "title": "A Moment in Nature",
+    "text": "You came across a deer in the backyard.",
+    "choices": [
+      {
+        "label": "Pause and appreciate it",
+        "effects": {
+          "mental": 5,
+          "happiness": 4
+        },
+        "log": "Nature is healing.",
+        "kind": "good"
+      },
+      {
+        "label": "Snap a quick pic",
+        "effects": {
+          "happiness": 3,
+          "followers": 50
+        },
+        "log": "A nice glimpse of nature.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_nature_02150",
+    "min": 5,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🌿",
+    "title": "A Moment in Nature",
+    "text": "You came across a deer in the backyard.",
+    "choices": [
+      {
+        "label": "Sit with it a while",
+        "effects": {
+          "mental": 6
+        },
+        "log": "Nature is healing.",
+        "kind": "good"
+      },
+      {
+        "label": "Carry on",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "A nice glimpse of nature.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_nature_02151",
+    "min": 5,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🌿",
+    "title": "A Moment in Nature",
+    "text": "You came across a spectacular sunrise.",
+    "choices": [
+      {
+        "label": "Pause and appreciate it",
+        "effects": {
+          "mental": 5,
+          "happiness": 4
+        },
+        "log": "Nature is healing.",
+        "kind": "good"
+      },
+      {
+        "label": "Snap a quick pic",
+        "effects": {
+          "happiness": 3,
+          "followers": 50
+        },
+        "log": "A nice glimpse of nature.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_nature_02152",
+    "min": 5,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🌿",
+    "title": "A Moment in Nature",
+    "text": "You came across a spectacular sunrise.",
+    "choices": [
+      {
+        "label": "Sit with it a while",
+        "effects": {
+          "mental": 6
+        },
+        "log": "Nature is healing.",
+        "kind": "good"
+      },
+      {
+        "label": "Carry on",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "A nice glimpse of nature.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_nature_02153",
+    "min": 5,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🌿",
+    "title": "A Moment in Nature",
+    "text": "You came across a field of wildflowers.",
+    "choices": [
+      {
+        "label": "Pause and appreciate it",
+        "effects": {
+          "mental": 5,
+          "happiness": 4
+        },
+        "log": "Nature is healing.",
+        "kind": "good"
+      },
+      {
+        "label": "Snap a quick pic",
+        "effects": {
+          "happiness": 3,
+          "followers": 50
+        },
+        "log": "A nice glimpse of nature.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_nature_02154",
+    "min": 5,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🌿",
+    "title": "A Moment in Nature",
+    "text": "You came across a field of wildflowers.",
+    "choices": [
+      {
+        "label": "Sit with it a while",
+        "effects": {
+          "mental": 6
+        },
+        "log": "Nature is healing.",
+        "kind": "good"
+      },
+      {
+        "label": "Carry on",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "A nice glimpse of nature.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_nature_02155",
+    "min": 5,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🌿",
+    "title": "A Moment in Nature",
+    "text": "You came across a curious fox.",
+    "choices": [
+      {
+        "label": "Pause and appreciate it",
+        "effects": {
+          "mental": 5,
+          "happiness": 4
+        },
+        "log": "Nature is healing.",
+        "kind": "good"
+      },
+      {
+        "label": "Snap a quick pic",
+        "effects": {
+          "happiness": 3,
+          "followers": 50
+        },
+        "log": "A nice glimpse of nature.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_nature_02156",
+    "min": 5,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🌿",
+    "title": "A Moment in Nature",
+    "text": "You came across a curious fox.",
+    "choices": [
+      {
+        "label": "Sit with it a while",
+        "effects": {
+          "mental": 6
+        },
+        "log": "Nature is healing.",
+        "kind": "good"
+      },
+      {
+        "label": "Carry on",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "A nice glimpse of nature.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_nature_02157",
+    "min": 5,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🌿",
+    "title": "A Moment in Nature",
+    "text": "You came across a flock of migrating birds.",
+    "choices": [
+      {
+        "label": "Pause and appreciate it",
+        "effects": {
+          "mental": 5,
+          "happiness": 4
+        },
+        "log": "Nature is healing.",
+        "kind": "good"
+      },
+      {
+        "label": "Snap a quick pic",
+        "effects": {
+          "happiness": 3,
+          "followers": 50
+        },
+        "log": "A nice glimpse of nature.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_nature_02158",
+    "min": 5,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🌿",
+    "title": "A Moment in Nature",
+    "text": "You came across a flock of migrating birds.",
+    "choices": [
+      {
+        "label": "Sit with it a while",
+        "effects": {
+          "mental": 6
+        },
+        "log": "Nature is healing.",
+        "kind": "good"
+      },
+      {
+        "label": "Carry on",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "A nice glimpse of nature.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_nature_02159",
+    "min": 5,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🌿",
+    "title": "A Moment in Nature",
+    "text": "You came across a tide pool full of life.",
+    "choices": [
+      {
+        "label": "Pause and appreciate it",
+        "effects": {
+          "mental": 5,
+          "happiness": 4
+        },
+        "log": "Nature is healing.",
+        "kind": "good"
+      },
+      {
+        "label": "Snap a quick pic",
+        "effects": {
+          "happiness": 3,
+          "followers": 50
+        },
+        "log": "A nice glimpse of nature.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_nature_02160",
+    "min": 5,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🌿",
+    "title": "A Moment in Nature",
+    "text": "You came across a tide pool full of life.",
+    "choices": [
+      {
+        "label": "Sit with it a while",
+        "effects": {
+          "mental": 6
+        },
+        "log": "Nature is healing.",
+        "kind": "good"
+      },
+      {
+        "label": "Carry on",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "A nice glimpse of nature.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_nature_02161",
+    "min": 5,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🌿",
+    "title": "A Moment in Nature",
+    "text": "You came across a giant old oak tree.",
+    "choices": [
+      {
+        "label": "Pause and appreciate it",
+        "effects": {
+          "mental": 5,
+          "happiness": 4
+        },
+        "log": "Nature is healing.",
+        "kind": "good"
+      },
+      {
+        "label": "Snap a quick pic",
+        "effects": {
+          "happiness": 3,
+          "followers": 50
+        },
+        "log": "A nice glimpse of nature.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_nature_02162",
+    "min": 5,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🌿",
+    "title": "A Moment in Nature",
+    "text": "You came across a giant old oak tree.",
+    "choices": [
+      {
+        "label": "Sit with it a while",
+        "effects": {
+          "mental": 6
+        },
+        "log": "Nature is healing.",
+        "kind": "good"
+      },
+      {
+        "label": "Carry on",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "A nice glimpse of nature.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_nature_02163",
+    "min": 5,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🌿",
+    "title": "A Moment in Nature",
+    "text": "You came across a family of ducks.",
+    "choices": [
+      {
+        "label": "Pause and appreciate it",
+        "effects": {
+          "mental": 5,
+          "happiness": 4
+        },
+        "log": "Nature is healing.",
+        "kind": "good"
+      },
+      {
+        "label": "Snap a quick pic",
+        "effects": {
+          "happiness": 3,
+          "followers": 50
+        },
+        "log": "A nice glimpse of nature.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_nature_02164",
+    "min": 5,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🌿",
+    "title": "A Moment in Nature",
+    "text": "You came across a family of ducks.",
+    "choices": [
+      {
+        "label": "Sit with it a while",
+        "effects": {
+          "mental": 6
+        },
+        "log": "Nature is healing.",
+        "kind": "good"
+      },
+      {
+        "label": "Carry on",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "A nice glimpse of nature.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_nature_02165",
+    "min": 5,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🌿",
+    "title": "A Moment in Nature",
+    "text": "You came across a butterfly garden.",
+    "choices": [
+      {
+        "label": "Pause and appreciate it",
+        "effects": {
+          "mental": 5,
+          "happiness": 4
+        },
+        "log": "Nature is healing.",
+        "kind": "good"
+      },
+      {
+        "label": "Snap a quick pic",
+        "effects": {
+          "happiness": 3,
+          "followers": 50
+        },
+        "log": "A nice glimpse of nature.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_nature_02166",
+    "min": 5,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🌿",
+    "title": "A Moment in Nature",
+    "text": "You came across a butterfly garden.",
+    "choices": [
+      {
+        "label": "Sit with it a while",
+        "effects": {
+          "mental": 6
+        },
+        "log": "Nature is healing.",
+        "kind": "good"
+      },
+      {
+        "label": "Carry on",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "A nice glimpse of nature.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_nature_02167",
+    "min": 5,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🌿",
+    "title": "A Moment in Nature",
+    "text": "You came across a clear night full of stars.",
+    "choices": [
+      {
+        "label": "Pause and appreciate it",
+        "effects": {
+          "mental": 5,
+          "happiness": 4
+        },
+        "log": "Nature is healing.",
+        "kind": "good"
+      },
+      {
+        "label": "Snap a quick pic",
+        "effects": {
+          "happiness": 3,
+          "followers": 50
+        },
+        "log": "A nice glimpse of nature.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_nature_02168",
+    "min": 5,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🌿",
+    "title": "A Moment in Nature",
+    "text": "You came across a clear night full of stars.",
+    "choices": [
+      {
+        "label": "Sit with it a while",
+        "effects": {
+          "mental": 6
+        },
+        "log": "Nature is healing.",
+        "kind": "good"
+      },
+      {
+        "label": "Carry on",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "A nice glimpse of nature.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_nature_02169",
+    "min": 5,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🌿",
+    "title": "A Moment in Nature",
+    "text": "You came across a babbling creek.",
+    "choices": [
+      {
+        "label": "Pause and appreciate it",
+        "effects": {
+          "mental": 5,
+          "happiness": 4
+        },
+        "log": "Nature is healing.",
+        "kind": "good"
+      },
+      {
+        "label": "Snap a quick pic",
+        "effects": {
+          "happiness": 3,
+          "followers": 50
+        },
+        "log": "A nice glimpse of nature.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_nature_02170",
+    "min": 5,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🌿",
+    "title": "A Moment in Nature",
+    "text": "You came across a babbling creek.",
+    "choices": [
+      {
+        "label": "Sit with it a while",
+        "effects": {
+          "mental": 6
+        },
+        "log": "Nature is healing.",
+        "kind": "good"
+      },
+      {
+        "label": "Carry on",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "A nice glimpse of nature.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_nature_02171",
+    "min": 5,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🌿",
+    "title": "A Moment in Nature",
+    "text": "You came across a snail crossing the path.",
+    "choices": [
+      {
+        "label": "Pause and appreciate it",
+        "effects": {
+          "mental": 5,
+          "happiness": 4
+        },
+        "log": "Nature is healing.",
+        "kind": "good"
+      },
+      {
+        "label": "Snap a quick pic",
+        "effects": {
+          "happiness": 3,
+          "followers": 50
+        },
+        "log": "A nice glimpse of nature.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_nature_02172",
+    "min": 5,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🌿",
+    "title": "A Moment in Nature",
+    "text": "You came across a snail crossing the path.",
+    "choices": [
+      {
+        "label": "Sit with it a while",
+        "effects": {
+          "mental": 6
+        },
+        "log": "Nature is healing.",
+        "kind": "good"
+      },
+      {
+        "label": "Carry on",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "A nice glimpse of nature.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_nature_02173",
+    "min": 5,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🌿",
+    "title": "A Moment in Nature",
+    "text": "You came across a hawk circling above.",
+    "choices": [
+      {
+        "label": "Pause and appreciate it",
+        "effects": {
+          "mental": 5,
+          "happiness": 4
+        },
+        "log": "Nature is healing.",
+        "kind": "good"
+      },
+      {
+        "label": "Snap a quick pic",
+        "effects": {
+          "happiness": 3,
+          "followers": 50
+        },
+        "log": "A nice glimpse of nature.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_nature_02174",
+    "min": 5,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🌿",
+    "title": "A Moment in Nature",
+    "text": "You came across a hawk circling above.",
+    "choices": [
+      {
+        "label": "Sit with it a while",
+        "effects": {
+          "mental": 6
+        },
+        "log": "Nature is healing.",
+        "kind": "good"
+      },
+      {
+        "label": "Carry on",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "A nice glimpse of nature.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_nature_02175",
+    "min": 5,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🌿",
+    "title": "A Moment in Nature",
+    "text": "You came across a meadow at golden hour.",
+    "choices": [
+      {
+        "label": "Pause and appreciate it",
+        "effects": {
+          "mental": 5,
+          "happiness": 4
+        },
+        "log": "Nature is healing.",
+        "kind": "good"
+      },
+      {
+        "label": "Snap a quick pic",
+        "effects": {
+          "happiness": 3,
+          "followers": 50
+        },
+        "log": "A nice glimpse of nature.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_nature_02176",
+    "min": 5,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🌿",
+    "title": "A Moment in Nature",
+    "text": "You came across a meadow at golden hour.",
+    "choices": [
+      {
+        "label": "Sit with it a while",
+        "effects": {
+          "mental": 6
+        },
+        "log": "Nature is healing.",
+        "kind": "good"
+      },
+      {
+        "label": "Carry on",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "A nice glimpse of nature.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_nature_02177",
+    "min": 5,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🌿",
+    "title": "A Moment in Nature",
+    "text": "You came across fresh snow on pines.",
+    "choices": [
+      {
+        "label": "Pause and appreciate it",
+        "effects": {
+          "mental": 5,
+          "happiness": 4
+        },
+        "log": "Nature is healing.",
+        "kind": "good"
+      },
+      {
+        "label": "Snap a quick pic",
+        "effects": {
+          "happiness": 3,
+          "followers": 50
+        },
+        "log": "A nice glimpse of nature.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_nature_02178",
+    "min": 5,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🌿",
+    "title": "A Moment in Nature",
+    "text": "You came across fresh snow on pines.",
+    "choices": [
+      {
+        "label": "Sit with it a while",
+        "effects": {
+          "mental": 6
+        },
+        "log": "Nature is healing.",
+        "kind": "good"
+      },
+      {
+        "label": "Carry on",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "A nice glimpse of nature.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_nature_02179",
+    "min": 5,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🌿",
+    "title": "A Moment in Nature",
+    "text": "You came across a rainbow after rain.",
+    "choices": [
+      {
+        "label": "Pause and appreciate it",
+        "effects": {
+          "mental": 5,
+          "happiness": 4
+        },
+        "log": "Nature is healing.",
+        "kind": "good"
+      },
+      {
+        "label": "Snap a quick pic",
+        "effects": {
+          "happiness": 3,
+          "followers": 50
+        },
+        "log": "A nice glimpse of nature.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_nature_02180",
+    "min": 5,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🌿",
+    "title": "A Moment in Nature",
+    "text": "You came across a rainbow after rain.",
+    "choices": [
+      {
+        "label": "Sit with it a while",
+        "effects": {
+          "mental": 6
+        },
+        "log": "Nature is healing.",
+        "kind": "good"
+      },
+      {
+        "label": "Carry on",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "A nice glimpse of nature.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_home_02181",
+    "min": 18,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🏠",
+    "title": "Home Life",
+    "text": "You've got a leaky faucet on your mind.",
+    "choices": [
+      {
+        "label": "Tackle it this weekend",
+        "effects": {
+          "happiness": 5,
+          "money": -50,
+          "mental": 3
+        },
+        "log": "Home sweet home.",
+        "kind": "info"
+      },
+      {
+        "label": "Add it to the list",
+        "effects": {
+          "happiness": 1
+        },
+        "log": "It'll keep.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_home_02182",
+    "min": 18,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🏠",
+    "title": "Home Life",
+    "text": "You've got a leaky faucet on your mind.",
+    "choices": [
+      {
+        "label": "Do it properly",
+        "effects": {
+          "happiness": 6,
+          "money": -120
+        },
+        "log": "Home sweet home.",
+        "kind": "info"
+      },
+      {
+        "label": "Quick fix for now",
+        "effects": {
+          "happiness": 2,
+          "money": -15
+        },
+        "log": "It'll keep.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_home_02183",
+    "min": 18,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🏠",
+    "title": "Home Life",
+    "text": "You've got a deep-clean urge on your mind.",
+    "choices": [
+      {
+        "label": "Tackle it this weekend",
+        "effects": {
+          "happiness": 5,
+          "money": -50,
+          "mental": 3
+        },
+        "log": "Home sweet home.",
+        "kind": "info"
+      },
+      {
+        "label": "Add it to the list",
+        "effects": {
+          "happiness": 1
+        },
+        "log": "It'll keep.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_home_02184",
+    "min": 18,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🏠",
+    "title": "Home Life",
+    "text": "You've got a deep-clean urge on your mind.",
+    "choices": [
+      {
+        "label": "Do it properly",
+        "effects": {
+          "happiness": 6,
+          "money": -120
+        },
+        "log": "Home sweet home.",
+        "kind": "info"
+      },
+      {
+        "label": "Quick fix for now",
+        "effects": {
+          "happiness": 2,
+          "money": -15
+        },
+        "log": "It'll keep.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_home_02185",
+    "min": 18,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🏠",
+    "title": "Home Life",
+    "text": "You've got a rearrange-the-furniture mood on your mind.",
+    "choices": [
+      {
+        "label": "Tackle it this weekend",
+        "effects": {
+          "happiness": 5,
+          "money": -50,
+          "mental": 3
+        },
+        "log": "Home sweet home.",
+        "kind": "info"
+      },
+      {
+        "label": "Add it to the list",
+        "effects": {
+          "happiness": 1
+        },
+        "log": "It'll keep.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_home_02186",
+    "min": 18,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🏠",
+    "title": "Home Life",
+    "text": "You've got a rearrange-the-furniture mood on your mind.",
+    "choices": [
+      {
+        "label": "Do it properly",
+        "effects": {
+          "happiness": 6,
+          "money": -120
+        },
+        "log": "Home sweet home.",
+        "kind": "info"
+      },
+      {
+        "label": "Quick fix for now",
+        "effects": {
+          "happiness": 2,
+          "money": -15
+        },
+        "log": "It'll keep.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_home_02187",
+    "min": 18,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🏠",
+    "title": "Home Life",
+    "text": "You've got a DIY project on your mind.",
+    "choices": [
+      {
+        "label": "Tackle it this weekend",
+        "effects": {
+          "happiness": 5,
+          "money": -50,
+          "mental": 3
+        },
+        "log": "Home sweet home.",
+        "kind": "info"
+      },
+      {
+        "label": "Add it to the list",
+        "effects": {
+          "happiness": 1
+        },
+        "log": "It'll keep.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_home_02188",
+    "min": 18,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🏠",
+    "title": "Home Life",
+    "text": "You've got a DIY project on your mind.",
+    "choices": [
+      {
+        "label": "Do it properly",
+        "effects": {
+          "happiness": 6,
+          "money": -120
+        },
+        "log": "Home sweet home.",
+        "kind": "info"
+      },
+      {
+        "label": "Quick fix for now",
+        "effects": {
+          "happiness": 2,
+          "money": -15
+        },
+        "log": "It'll keep.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_home_02189",
+    "min": 18,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🏠",
+    "title": "Home Life",
+    "text": "You've got a clutter-clearing weekend on your mind.",
+    "choices": [
+      {
+        "label": "Tackle it this weekend",
+        "effects": {
+          "happiness": 5,
+          "money": -50,
+          "mental": 3
+        },
+        "log": "Home sweet home.",
+        "kind": "info"
+      },
+      {
+        "label": "Add it to the list",
+        "effects": {
+          "happiness": 1
+        },
+        "log": "It'll keep.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_home_02190",
+    "min": 18,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🏠",
+    "title": "Home Life",
+    "text": "You've got a clutter-clearing weekend on your mind.",
+    "choices": [
+      {
+        "label": "Do it properly",
+        "effects": {
+          "happiness": 6,
+          "money": -120
+        },
+        "log": "Home sweet home.",
+        "kind": "info"
+      },
+      {
+        "label": "Quick fix for now",
+        "effects": {
+          "happiness": 2,
+          "money": -15
+        },
+        "log": "It'll keep.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_home_02191",
+    "min": 18,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🏠",
+    "title": "Home Life",
+    "text": "You've got a new houseplant collection on your mind.",
+    "choices": [
+      {
+        "label": "Tackle it this weekend",
+        "effects": {
+          "happiness": 5,
+          "money": -50,
+          "mental": 3
+        },
+        "log": "Home sweet home.",
+        "kind": "info"
+      },
+      {
+        "label": "Add it to the list",
+        "effects": {
+          "happiness": 1
+        },
+        "log": "It'll keep.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_home_02192",
+    "min": 18,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🏠",
+    "title": "Home Life",
+    "text": "You've got a new houseplant collection on your mind.",
+    "choices": [
+      {
+        "label": "Do it properly",
+        "effects": {
+          "happiness": 6,
+          "money": -120
+        },
+        "log": "Home sweet home.",
+        "kind": "info"
+      },
+      {
+        "label": "Quick fix for now",
+        "effects": {
+          "happiness": 2,
+          "money": -15
+        },
+        "log": "It'll keep.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_home_02193",
+    "min": 18,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🏠",
+    "title": "Home Life",
+    "text": "You've got a cozy reading nook idea on your mind.",
+    "choices": [
+      {
+        "label": "Tackle it this weekend",
+        "effects": {
+          "happiness": 5,
+          "money": -50,
+          "mental": 3
+        },
+        "log": "Home sweet home.",
+        "kind": "info"
+      },
+      {
+        "label": "Add it to the list",
+        "effects": {
+          "happiness": 1
+        },
+        "log": "It'll keep.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_home_02194",
+    "min": 18,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🏠",
+    "title": "Home Life",
+    "text": "You've got a cozy reading nook idea on your mind.",
+    "choices": [
+      {
+        "label": "Do it properly",
+        "effects": {
+          "happiness": 6,
+          "money": -120
+        },
+        "log": "Home sweet home.",
+        "kind": "info"
+      },
+      {
+        "label": "Quick fix for now",
+        "effects": {
+          "happiness": 2,
+          "money": -15
+        },
+        "log": "It'll keep.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_home_02195",
+    "min": 18,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🏠",
+    "title": "Home Life",
+    "text": "You've got a paint-the-walls plan on your mind.",
+    "choices": [
+      {
+        "label": "Tackle it this weekend",
+        "effects": {
+          "happiness": 5,
+          "money": -50,
+          "mental": 3
+        },
+        "log": "Home sweet home.",
+        "kind": "info"
+      },
+      {
+        "label": "Add it to the list",
+        "effects": {
+          "happiness": 1
+        },
+        "log": "It'll keep.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_home_02196",
+    "min": 18,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🏠",
+    "title": "Home Life",
+    "text": "You've got a paint-the-walls plan on your mind.",
+    "choices": [
+      {
+        "label": "Do it properly",
+        "effects": {
+          "happiness": 6,
+          "money": -120
+        },
+        "log": "Home sweet home.",
+        "kind": "info"
+      },
+      {
+        "label": "Quick fix for now",
+        "effects": {
+          "happiness": 2,
+          "money": -15
+        },
+        "log": "It'll keep.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_home_02197",
+    "min": 18,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🏠",
+    "title": "Home Life",
+    "text": "You've got a smart-home gadget on your mind.",
+    "choices": [
+      {
+        "label": "Tackle it this weekend",
+        "effects": {
+          "happiness": 5,
+          "money": -50,
+          "mental": 3
+        },
+        "log": "Home sweet home.",
+        "kind": "info"
+      },
+      {
+        "label": "Add it to the list",
+        "effects": {
+          "happiness": 1
+        },
+        "log": "It'll keep.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_home_02198",
+    "min": 18,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🏠",
+    "title": "Home Life",
+    "text": "You've got a smart-home gadget on your mind.",
+    "choices": [
+      {
+        "label": "Do it properly",
+        "effects": {
+          "happiness": 6,
+          "money": -120
+        },
+        "log": "Home sweet home.",
+        "kind": "info"
+      },
+      {
+        "label": "Quick fix for now",
+        "effects": {
+          "happiness": 2,
+          "money": -15
+        },
+        "log": "It'll keep.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_home_02199",
+    "min": 18,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🏠",
+    "title": "Home Life",
+    "text": "You've got a garden makeover on your mind.",
+    "choices": [
+      {
+        "label": "Tackle it this weekend",
+        "effects": {
+          "happiness": 5,
+          "money": -50,
+          "mental": 3
+        },
+        "log": "Home sweet home.",
+        "kind": "info"
+      },
+      {
+        "label": "Add it to the list",
+        "effects": {
+          "happiness": 1
+        },
+        "log": "It'll keep.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_home_02200",
+    "min": 18,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🏠",
+    "title": "Home Life",
+    "text": "You've got a garden makeover on your mind.",
+    "choices": [
+      {
+        "label": "Do it properly",
+        "effects": {
+          "happiness": 6,
+          "money": -120
+        },
+        "log": "Home sweet home.",
+        "kind": "info"
+      },
+      {
+        "label": "Quick fix for now",
+        "effects": {
+          "happiness": 2,
+          "money": -15
+        },
+        "log": "It'll keep.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_home_02201",
+    "min": 18,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🏠",
+    "title": "Home Life",
+    "text": "You've got a kitchen upgrade on your mind.",
+    "choices": [
+      {
+        "label": "Tackle it this weekend",
+        "effects": {
+          "happiness": 5,
+          "money": -50,
+          "mental": 3
+        },
+        "log": "Home sweet home.",
+        "kind": "info"
+      },
+      {
+        "label": "Add it to the list",
+        "effects": {
+          "happiness": 1
+        },
+        "log": "It'll keep.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_home_02202",
+    "min": 18,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🏠",
+    "title": "Home Life",
+    "text": "You've got a kitchen upgrade on your mind.",
+    "choices": [
+      {
+        "label": "Do it properly",
+        "effects": {
+          "happiness": 6,
+          "money": -120
+        },
+        "log": "Home sweet home.",
+        "kind": "info"
+      },
+      {
+        "label": "Quick fix for now",
+        "effects": {
+          "happiness": 2,
+          "money": -15
+        },
+        "log": "It'll keep.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_home_02203",
+    "min": 18,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🏠",
+    "title": "Home Life",
+    "text": "You've got a closet overhaul on your mind.",
+    "choices": [
+      {
+        "label": "Tackle it this weekend",
+        "effects": {
+          "happiness": 5,
+          "money": -50,
+          "mental": 3
+        },
+        "log": "Home sweet home.",
+        "kind": "info"
+      },
+      {
+        "label": "Add it to the list",
+        "effects": {
+          "happiness": 1
+        },
+        "log": "It'll keep.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_home_02204",
+    "min": 18,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🏠",
+    "title": "Home Life",
+    "text": "You've got a closet overhaul on your mind.",
+    "choices": [
+      {
+        "label": "Do it properly",
+        "effects": {
+          "happiness": 6,
+          "money": -120
+        },
+        "log": "Home sweet home.",
+        "kind": "info"
+      },
+      {
+        "label": "Quick fix for now",
+        "effects": {
+          "happiness": 2,
+          "money": -15
+        },
+        "log": "It'll keep.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_home_02205",
+    "min": 18,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🏠",
+    "title": "Home Life",
+    "text": "You've got a gallery wall on your mind.",
+    "choices": [
+      {
+        "label": "Tackle it this weekend",
+        "effects": {
+          "happiness": 5,
+          "money": -50,
+          "mental": 3
+        },
+        "log": "Home sweet home.",
+        "kind": "info"
+      },
+      {
+        "label": "Add it to the list",
+        "effects": {
+          "happiness": 1
+        },
+        "log": "It'll keep.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_home_02206",
+    "min": 18,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🏠",
+    "title": "Home Life",
+    "text": "You've got a gallery wall on your mind.",
+    "choices": [
+      {
+        "label": "Do it properly",
+        "effects": {
+          "happiness": 6,
+          "money": -120
+        },
+        "log": "Home sweet home.",
+        "kind": "info"
+      },
+      {
+        "label": "Quick fix for now",
+        "effects": {
+          "happiness": 2,
+          "money": -15
+        },
+        "log": "It'll keep.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_home_02207",
+    "min": 18,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🏠",
+    "title": "Home Life",
+    "text": "You've got a balcony garden on your mind.",
+    "choices": [
+      {
+        "label": "Tackle it this weekend",
+        "effects": {
+          "happiness": 5,
+          "money": -50,
+          "mental": 3
+        },
+        "log": "Home sweet home.",
+        "kind": "info"
+      },
+      {
+        "label": "Add it to the list",
+        "effects": {
+          "happiness": 1
+        },
+        "log": "It'll keep.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_home_02208",
+    "min": 18,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🏠",
+    "title": "Home Life",
+    "text": "You've got a balcony garden on your mind.",
+    "choices": [
+      {
+        "label": "Do it properly",
+        "effects": {
+          "happiness": 6,
+          "money": -120
+        },
+        "log": "Home sweet home.",
+        "kind": "info"
+      },
+      {
+        "label": "Quick fix for now",
+        "effects": {
+          "happiness": 2,
+          "money": -15
+        },
+        "log": "It'll keep.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_home_02209",
+    "min": 18,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🏠",
+    "title": "Home Life",
+    "text": "You've got a pantry reorganization on your mind.",
+    "choices": [
+      {
+        "label": "Tackle it this weekend",
+        "effects": {
+          "happiness": 5,
+          "money": -50,
+          "mental": 3
+        },
+        "log": "Home sweet home.",
+        "kind": "info"
+      },
+      {
+        "label": "Add it to the list",
+        "effects": {
+          "happiness": 1
+        },
+        "log": "It'll keep.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_home_02210",
+    "min": 18,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🏠",
+    "title": "Home Life",
+    "text": "You've got a pantry reorganization on your mind.",
+    "choices": [
+      {
+        "label": "Do it properly",
+        "effects": {
+          "happiness": 6,
+          "money": -120
+        },
+        "log": "Home sweet home.",
+        "kind": "info"
+      },
+      {
+        "label": "Quick fix for now",
+        "effects": {
+          "happiness": 2,
+          "money": -15
+        },
+        "log": "It'll keep.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_home_02211",
+    "min": 18,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🏠",
+    "title": "Home Life",
+    "text": "You've got a fresh set of linens on your mind.",
+    "choices": [
+      {
+        "label": "Tackle it this weekend",
+        "effects": {
+          "happiness": 5,
+          "money": -50,
+          "mental": 3
+        },
+        "log": "Home sweet home.",
+        "kind": "info"
+      },
+      {
+        "label": "Add it to the list",
+        "effects": {
+          "happiness": 1
+        },
+        "log": "It'll keep.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_home_02212",
+    "min": 18,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🏠",
+    "title": "Home Life",
+    "text": "You've got a fresh set of linens on your mind.",
+    "choices": [
+      {
+        "label": "Do it properly",
+        "effects": {
+          "happiness": 6,
+          "money": -120
+        },
+        "log": "Home sweet home.",
+        "kind": "info"
+      },
+      {
+        "label": "Quick fix for now",
+        "effects": {
+          "happiness": 2,
+          "money": -15
+        },
+        "log": "It'll keep.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_growth_02213",
+    "min": 14,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🌱",
+    "title": "Personal Growth",
+    "text": "You set a bold new goal.",
+    "choices": [
+      {
+        "label": "Go for it",
+        "effects": {
+          "mental": 6,
+          "happiness": 4
+        },
+        "log": "You grew a little.",
+        "kind": "good"
+      },
+      {
+        "label": "Reflect on it",
+        "effects": {
+          "mental": 3
+        },
+        "log": "Growth takes time.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_growth_02214",
+    "min": 14,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🌱",
+    "title": "Personal Growth",
+    "text": "You set a bold new goal.",
+    "choices": [
+      {
+        "label": "Embrace it",
+        "effects": {
+          "mental": 5,
+          "smarts": 2,
+          "happiness": 3
+        },
+        "log": "You grew a little.",
+        "kind": "good"
+      },
+      {
+        "label": "Reflect on it",
+        "effects": {
+          "mental": 3
+        },
+        "log": "Growth takes time.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_growth_02215",
+    "min": 14,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🌱",
+    "title": "Personal Growth",
+    "text": "You face an old fear.",
+    "choices": [
+      {
+        "label": "Go for it",
+        "effects": {
+          "mental": 5,
+          "smarts": 2,
+          "happiness": 3
+        },
+        "log": "You grew a little.",
+        "kind": "good"
+      },
+      {
+        "label": "Reflect on it",
+        "effects": {
+          "mental": 3
+        },
+        "log": "Growth takes time.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_growth_02216",
+    "min": 14,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🌱",
+    "title": "Personal Growth",
+    "text": "You face an old fear.",
+    "choices": [
+      {
+        "label": "Embrace it",
+        "effects": {
+          "mental": 7,
+          "happiness": 3
+        },
+        "log": "You grew a little.",
+        "kind": "good"
+      },
+      {
+        "label": "Reflect on it",
+        "effects": {
+          "mental": 3
+        },
+        "log": "Growth takes time.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_growth_02217",
+    "min": 14,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🌱",
+    "title": "Personal Growth",
+    "text": "You forgive someone.",
+    "choices": [
+      {
+        "label": "Go for it",
+        "effects": {
+          "mental": 7,
+          "happiness": 3
+        },
+        "log": "You grew a little.",
+        "kind": "good"
+      },
+      {
+        "label": "Reflect on it",
+        "effects": {
+          "mental": 3
+        },
+        "log": "Growth takes time.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_growth_02218",
+    "min": 14,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🌱",
+    "title": "Personal Growth",
+    "text": "You forgive someone.",
+    "choices": [
+      {
+        "label": "Embrace it",
+        "effects": {
+          "happiness": 5,
+          "mental": 4
+        },
+        "log": "You grew a little.",
+        "kind": "good"
+      },
+      {
+        "label": "Reflect on it",
+        "effects": {
+          "mental": 3
+        },
+        "log": "Growth takes time.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_growth_02219",
+    "min": 14,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🌱",
+    "title": "Personal Growth",
+    "text": "You say no for once.",
+    "choices": [
+      {
+        "label": "Go for it",
+        "effects": {
+          "happiness": 5,
+          "mental": 4
+        },
+        "log": "You grew a little.",
+        "kind": "good"
+      },
+      {
+        "label": "Reflect on it",
+        "effects": {
+          "mental": 3
+        },
+        "log": "Growth takes time.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_growth_02220",
+    "min": 14,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🌱",
+    "title": "Personal Growth",
+    "text": "You say no for once.",
+    "choices": [
+      {
+        "label": "Embrace it",
+        "effects": {
+          "mental": 6,
+          "happiness": 4
+        },
+        "log": "You grew a little.",
+        "kind": "good"
+      },
+      {
+        "label": "Reflect on it",
+        "effects": {
+          "mental": 3
+        },
+        "log": "Growth takes time.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_growth_02221",
+    "min": 14,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🌱",
+    "title": "Personal Growth",
+    "text": "You ask for help.",
+    "choices": [
+      {
+        "label": "Go for it",
+        "effects": {
+          "mental": 6,
+          "happiness": 4
+        },
+        "log": "You grew a little.",
+        "kind": "good"
+      },
+      {
+        "label": "Reflect on it",
+        "effects": {
+          "mental": 3
+        },
+        "log": "Growth takes time.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_growth_02222",
+    "min": 14,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🌱",
+    "title": "Personal Growth",
+    "text": "You ask for help.",
+    "choices": [
+      {
+        "label": "Embrace it",
+        "effects": {
+          "mental": 5,
+          "smarts": 2,
+          "happiness": 3
+        },
+        "log": "You grew a little.",
+        "kind": "good"
+      },
+      {
+        "label": "Reflect on it",
+        "effects": {
+          "mental": 3
+        },
+        "log": "Growth takes time.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_growth_02223",
+    "min": 14,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🌱",
+    "title": "Personal Growth",
+    "text": "You start journaling.",
+    "choices": [
+      {
+        "label": "Go for it",
+        "effects": {
+          "mental": 5,
+          "smarts": 2,
+          "happiness": 3
+        },
+        "log": "You grew a little.",
+        "kind": "good"
+      },
+      {
+        "label": "Reflect on it",
+        "effects": {
+          "mental": 3
+        },
+        "log": "Growth takes time.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_growth_02224",
+    "min": 14,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🌱",
+    "title": "Personal Growth",
+    "text": "You start journaling.",
+    "choices": [
+      {
+        "label": "Embrace it",
+        "effects": {
+          "mental": 7,
+          "happiness": 3
+        },
+        "log": "You grew a little.",
+        "kind": "good"
+      },
+      {
+        "label": "Reflect on it",
+        "effects": {
+          "mental": 3
+        },
+        "log": "Growth takes time.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_growth_02225",
+    "min": 14,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🌱",
+    "title": "Personal Growth",
+    "text": "You let go of a grudge.",
+    "choices": [
+      {
+        "label": "Go for it",
+        "effects": {
+          "mental": 7,
+          "happiness": 3
+        },
+        "log": "You grew a little.",
+        "kind": "good"
+      },
+      {
+        "label": "Reflect on it",
+        "effects": {
+          "mental": 3
+        },
+        "log": "Growth takes time.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_growth_02226",
+    "min": 14,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🌱",
+    "title": "Personal Growth",
+    "text": "You let go of a grudge.",
+    "choices": [
+      {
+        "label": "Embrace it",
+        "effects": {
+          "happiness": 5,
+          "mental": 4
+        },
+        "log": "You grew a little.",
+        "kind": "good"
+      },
+      {
+        "label": "Reflect on it",
+        "effects": {
+          "mental": 3
+        },
+        "log": "Growth takes time.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_growth_02227",
+    "min": 14,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🌱",
+    "title": "Personal Growth",
+    "text": "You try something scary.",
+    "choices": [
+      {
+        "label": "Go for it",
+        "effects": {
+          "happiness": 5,
+          "mental": 4
+        },
+        "log": "You grew a little.",
+        "kind": "good"
+      },
+      {
+        "label": "Reflect on it",
+        "effects": {
+          "mental": 3
+        },
+        "log": "Growth takes time.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_growth_02228",
+    "min": 14,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🌱",
+    "title": "Personal Growth",
+    "text": "You try something scary.",
+    "choices": [
+      {
+        "label": "Embrace it",
+        "effects": {
+          "mental": 6,
+          "happiness": 4
+        },
+        "log": "You grew a little.",
+        "kind": "good"
+      },
+      {
+        "label": "Reflect on it",
+        "effects": {
+          "mental": 3
+        },
+        "log": "Growth takes time.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_growth_02229",
+    "min": 14,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🌱",
+    "title": "Personal Growth",
+    "text": "You set a boundary.",
+    "choices": [
+      {
+        "label": "Go for it",
+        "effects": {
+          "mental": 6,
+          "happiness": 4
+        },
+        "log": "You grew a little.",
+        "kind": "good"
+      },
+      {
+        "label": "Reflect on it",
+        "effects": {
+          "mental": 3
+        },
+        "log": "Growth takes time.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_growth_02230",
+    "min": 14,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🌱",
+    "title": "Personal Growth",
+    "text": "You set a boundary.",
+    "choices": [
+      {
+        "label": "Embrace it",
+        "effects": {
+          "mental": 5,
+          "smarts": 2,
+          "happiness": 3
+        },
+        "log": "You grew a little.",
+        "kind": "good"
+      },
+      {
+        "label": "Reflect on it",
+        "effects": {
+          "mental": 3
+        },
+        "log": "Growth takes time.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_growth_02231",
+    "min": 14,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🌱",
+    "title": "Personal Growth",
+    "text": "You celebrate a small win.",
+    "choices": [
+      {
+        "label": "Go for it",
+        "effects": {
+          "mental": 5,
+          "smarts": 2,
+          "happiness": 3
+        },
+        "log": "You grew a little.",
+        "kind": "good"
+      },
+      {
+        "label": "Reflect on it",
+        "effects": {
+          "mental": 3
+        },
+        "log": "Growth takes time.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_growth_02232",
+    "min": 14,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🌱",
+    "title": "Personal Growth",
+    "text": "You celebrate a small win.",
+    "choices": [
+      {
+        "label": "Embrace it",
+        "effects": {
+          "mental": 7,
+          "happiness": 3
+        },
+        "log": "You grew a little.",
+        "kind": "good"
+      },
+      {
+        "label": "Reflect on it",
+        "effects": {
+          "mental": 3
+        },
+        "log": "Growth takes time.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_growth_02233",
+    "min": 14,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🌱",
+    "title": "Personal Growth",
+    "text": "You reflect on the year.",
+    "choices": [
+      {
+        "label": "Go for it",
+        "effects": {
+          "mental": 7,
+          "happiness": 3
+        },
+        "log": "You grew a little.",
+        "kind": "good"
+      },
+      {
+        "label": "Reflect on it",
+        "effects": {
+          "mental": 3
+        },
+        "log": "Growth takes time.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_growth_02234",
+    "min": 14,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🌱",
+    "title": "Personal Growth",
+    "text": "You reflect on the year.",
+    "choices": [
+      {
+        "label": "Embrace it",
+        "effects": {
+          "happiness": 5,
+          "mental": 4
+        },
+        "log": "You grew a little.",
+        "kind": "good"
+      },
+      {
+        "label": "Reflect on it",
+        "effects": {
+          "mental": 3
+        },
+        "log": "Growth takes time.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_growth_02235",
+    "min": 14,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🌱",
+    "title": "Personal Growth",
+    "text": "You make a five-year plan.",
+    "choices": [
+      {
+        "label": "Go for it",
+        "effects": {
+          "happiness": 5,
+          "mental": 4
+        },
+        "log": "You grew a little.",
+        "kind": "good"
+      },
+      {
+        "label": "Reflect on it",
+        "effects": {
+          "mental": 3
+        },
+        "log": "Growth takes time.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_growth_02236",
+    "min": 14,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🌱",
+    "title": "Personal Growth",
+    "text": "You make a five-year plan.",
+    "choices": [
+      {
+        "label": "Embrace it",
+        "effects": {
+          "mental": 6,
+          "happiness": 4
+        },
+        "log": "You grew a little.",
+        "kind": "good"
+      },
+      {
+        "label": "Reflect on it",
+        "effects": {
+          "mental": 3
+        },
+        "log": "Growth takes time.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_growth_02237",
+    "min": 14,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🌱",
+    "title": "Personal Growth",
+    "text": "You break a bad habit.",
+    "choices": [
+      {
+        "label": "Go for it",
+        "effects": {
+          "mental": 6,
+          "happiness": 4
+        },
+        "log": "You grew a little.",
+        "kind": "good"
+      },
+      {
+        "label": "Reflect on it",
+        "effects": {
+          "mental": 3
+        },
+        "log": "Growth takes time.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_growth_02238",
+    "min": 14,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🌱",
+    "title": "Personal Growth",
+    "text": "You break a bad habit.",
+    "choices": [
+      {
+        "label": "Embrace it",
+        "effects": {
+          "mental": 5,
+          "smarts": 2,
+          "happiness": 3
+        },
+        "log": "You grew a little.",
+        "kind": "good"
+      },
+      {
+        "label": "Reflect on it",
+        "effects": {
+          "mental": 3
+        },
+        "log": "Growth takes time.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_growth_02239",
+    "min": 14,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🌱",
+    "title": "Personal Growth",
+    "text": "You apologize sincerely.",
+    "choices": [
+      {
+        "label": "Go for it",
+        "effects": {
+          "mental": 5,
+          "smarts": 2,
+          "happiness": 3
+        },
+        "log": "You grew a little.",
+        "kind": "good"
+      },
+      {
+        "label": "Reflect on it",
+        "effects": {
+          "mental": 3
+        },
+        "log": "Growth takes time.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_growth_02240",
+    "min": 14,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🌱",
+    "title": "Personal Growth",
+    "text": "You apologize sincerely.",
+    "choices": [
+      {
+        "label": "Embrace it",
+        "effects": {
+          "mental": 7,
+          "happiness": 3
+        },
+        "log": "You grew a little.",
+        "kind": "good"
+      },
+      {
+        "label": "Reflect on it",
+        "effects": {
+          "mental": 3
+        },
+        "log": "Growth takes time.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_growth_02241",
+    "min": 14,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🌱",
+    "title": "Personal Growth",
+    "text": "You take a leap of faith.",
+    "choices": [
+      {
+        "label": "Go for it",
+        "effects": {
+          "mental": 7,
+          "happiness": 3
+        },
+        "log": "You grew a little.",
+        "kind": "good"
+      },
+      {
+        "label": "Reflect on it",
+        "effects": {
+          "mental": 3
+        },
+        "log": "Growth takes time.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_growth_02242",
+    "min": 14,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🌱",
+    "title": "Personal Growth",
+    "text": "You take a leap of faith.",
+    "choices": [
+      {
+        "label": "Embrace it",
+        "effects": {
+          "happiness": 5,
+          "mental": 4
+        },
+        "log": "You grew a little.",
+        "kind": "good"
+      },
+      {
+        "label": "Reflect on it",
+        "effects": {
+          "mental": 3
+        },
+        "log": "Growth takes time.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_growth_02243",
+    "min": 14,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🌱",
+    "title": "Personal Growth",
+    "text": "You practice gratitude.",
+    "choices": [
+      {
+        "label": "Go for it",
+        "effects": {
+          "happiness": 5,
+          "mental": 4
+        },
+        "log": "You grew a little.",
+        "kind": "good"
+      },
+      {
+        "label": "Reflect on it",
+        "effects": {
+          "mental": 3
+        },
+        "log": "Growth takes time.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_growth_02244",
+    "min": 14,
+    "max": 95,
+    "weight": 0.2,
+    "icon": "🌱",
+    "title": "Personal Growth",
+    "text": "You practice gratitude.",
+    "choices": [
+      {
+        "label": "Embrace it",
+        "effects": {
+          "mental": 6,
+          "happiness": 4
+        },
+        "log": "You grew a little.",
+        "kind": "good"
+      },
+      {
+        "label": "Reflect on it",
+        "effects": {
+          "mental": 3
+        },
+        "log": "Growth takes time.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_commute_02245",
+    "min": 16,
+    "max": 75,
+    "weight": 0.2,
+    "icon": "🚌",
+    "title": "On the Move",
+    "text": "On your way today, the bus is running late again.",
+    "choices": [
+      {
+        "label": "Make the best of it",
+        "effects": {
+          "mental": 3,
+          "happiness": 3
+        },
+        "log": "Another journey done.",
+        "kind": "info"
+      },
+      {
+        "label": "Grumble through it",
+        "effects": {
+          "happiness": 1
+        },
+        "log": "You got there eventually.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_commute_02246",
+    "min": 16,
+    "max": 75,
+    "weight": 0.2,
+    "icon": "🚌",
+    "title": "On the Move",
+    "text": "On your way today, the bus is running late again.",
+    "choices": [
+      {
+        "label": "Use the time well",
+        "effects": {
+          "smarts": 2,
+          "happiness": 2
+        },
+        "log": "Another journey done.",
+        "kind": "info"
+      },
+      {
+        "label": "Zone out",
+        "effects": {
+          "mental": 2
+        },
+        "log": "You got there eventually.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_commute_02247",
+    "min": 16,
+    "max": 75,
+    "weight": 0.2,
+    "icon": "🚌",
+    "title": "On the Move",
+    "text": "On your way today, you snag the best seat on the train.",
+    "choices": [
+      {
+        "label": "Make the best of it",
+        "effects": {
+          "mental": 3,
+          "happiness": 3
+        },
+        "log": "Another journey done.",
+        "kind": "info"
+      },
+      {
+        "label": "Grumble through it",
+        "effects": {
+          "happiness": 1
+        },
+        "log": "You got there eventually.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_commute_02248",
+    "min": 16,
+    "max": 75,
+    "weight": 0.2,
+    "icon": "🚌",
+    "title": "On the Move",
+    "text": "On your way today, you snag the best seat on the train.",
+    "choices": [
+      {
+        "label": "Use the time well",
+        "effects": {
+          "smarts": 2,
+          "happiness": 2
+        },
+        "log": "Another journey done.",
+        "kind": "info"
+      },
+      {
+        "label": "Zone out",
+        "effects": {
+          "mental": 2
+        },
+        "log": "You got there eventually.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_commute_02249",
+    "min": 16,
+    "max": 75,
+    "weight": 0.2,
+    "icon": "🚌",
+    "title": "On the Move",
+    "text": "On your way today, traffic is at a standstill.",
+    "choices": [
+      {
+        "label": "Make the best of it",
+        "effects": {
+          "mental": 3,
+          "happiness": 3
+        },
+        "log": "Another journey done.",
+        "kind": "info"
+      },
+      {
+        "label": "Grumble through it",
+        "effects": {
+          "happiness": 1
+        },
+        "log": "You got there eventually.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_commute_02250",
+    "min": 16,
+    "max": 75,
+    "weight": 0.2,
+    "icon": "🚌",
+    "title": "On the Move",
+    "text": "On your way today, traffic is at a standstill.",
+    "choices": [
+      {
+        "label": "Use the time well",
+        "effects": {
+          "smarts": 2,
+          "happiness": 2
+        },
+        "log": "Another journey done.",
+        "kind": "info"
+      },
+      {
+        "label": "Zone out",
+        "effects": {
+          "mental": 2
+        },
+        "log": "You got there eventually.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_commute_02251",
+    "min": 16,
+    "max": 75,
+    "weight": 0.2,
+    "icon": "🚌",
+    "title": "On the Move",
+    "text": "On your way today, you discover a scenic shortcut.",
+    "choices": [
+      {
+        "label": "Make the best of it",
+        "effects": {
+          "mental": 3,
+          "happiness": 3
+        },
+        "log": "Another journey done.",
+        "kind": "info"
+      },
+      {
+        "label": "Grumble through it",
+        "effects": {
+          "happiness": 1
+        },
+        "log": "You got there eventually.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_commute_02252",
+    "min": 16,
+    "max": 75,
+    "weight": 0.2,
+    "icon": "🚌",
+    "title": "On the Move",
+    "text": "On your way today, you discover a scenic shortcut.",
+    "choices": [
+      {
+        "label": "Use the time well",
+        "effects": {
+          "smarts": 2,
+          "happiness": 2
+        },
+        "log": "Another journey done.",
+        "kind": "info"
+      },
+      {
+        "label": "Zone out",
+        "effects": {
+          "mental": 2
+        },
+        "log": "You got there eventually.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_commute_02253",
+    "min": 16,
+    "max": 75,
+    "weight": 0.2,
+    "icon": "🚌",
+    "title": "On the Move",
+    "text": "On your way today, a stranger strikes up a chat.",
+    "choices": [
+      {
+        "label": "Make the best of it",
+        "effects": {
+          "mental": 3,
+          "happiness": 3
+        },
+        "log": "Another journey done.",
+        "kind": "info"
+      },
+      {
+        "label": "Grumble through it",
+        "effects": {
+          "happiness": 1
+        },
+        "log": "You got there eventually.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_commute_02254",
+    "min": 16,
+    "max": 75,
+    "weight": 0.2,
+    "icon": "🚌",
+    "title": "On the Move",
+    "text": "On your way today, a stranger strikes up a chat.",
+    "choices": [
+      {
+        "label": "Use the time well",
+        "effects": {
+          "smarts": 2,
+          "happiness": 2
+        },
+        "log": "Another journey done.",
+        "kind": "info"
+      },
+      {
+        "label": "Zone out",
+        "effects": {
+          "mental": 2
+        },
+        "log": "You got there eventually.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_commute_02255",
+    "min": 16,
+    "max": 75,
+    "weight": 0.2,
+    "icon": "🚌",
+    "title": "On the Move",
+    "text": "On your way today, you miss your stop daydreaming.",
+    "choices": [
+      {
+        "label": "Make the best of it",
+        "effects": {
+          "mental": 3,
+          "happiness": 3
+        },
+        "log": "Another journey done.",
+        "kind": "info"
+      },
+      {
+        "label": "Grumble through it",
+        "effects": {
+          "happiness": 1
+        },
+        "log": "You got there eventually.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_commute_02256",
+    "min": 16,
+    "max": 75,
+    "weight": 0.2,
+    "icon": "🚌",
+    "title": "On the Move",
+    "text": "On your way today, you miss your stop daydreaming.",
+    "choices": [
+      {
+        "label": "Use the time well",
+        "effects": {
+          "smarts": 2,
+          "happiness": 2
+        },
+        "log": "Another journey done.",
+        "kind": "info"
+      },
+      {
+        "label": "Zone out",
+        "effects": {
+          "mental": 2
+        },
+        "log": "You got there eventually.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_commute_02257",
+    "min": 16,
+    "max": 75,
+    "weight": 0.2,
+    "icon": "🚌",
+    "title": "On the Move",
+    "text": "On your way today, your favorite podcast drops a new episode.",
+    "choices": [
+      {
+        "label": "Make the best of it",
+        "effects": {
+          "mental": 3,
+          "happiness": 3
+        },
+        "log": "Another journey done.",
+        "kind": "info"
+      },
+      {
+        "label": "Grumble through it",
+        "effects": {
+          "happiness": 1
+        },
+        "log": "You got there eventually.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_commute_02258",
+    "min": 16,
+    "max": 75,
+    "weight": 0.2,
+    "icon": "🚌",
+    "title": "On the Move",
+    "text": "On your way today, your favorite podcast drops a new episode.",
+    "choices": [
+      {
+        "label": "Use the time well",
+        "effects": {
+          "smarts": 2,
+          "happiness": 2
+        },
+        "log": "Another journey done.",
+        "kind": "info"
+      },
+      {
+        "label": "Zone out",
+        "effects": {
+          "mental": 2
+        },
+        "log": "You got there eventually.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_commute_02259",
+    "min": 16,
+    "max": 75,
+    "weight": 0.2,
+    "icon": "🚌",
+    "title": "On the Move",
+    "text": "On your way today, it starts pouring as you leave.",
+    "choices": [
+      {
+        "label": "Make the best of it",
+        "effects": {
+          "mental": 3,
+          "happiness": 3
+        },
+        "log": "Another journey done.",
+        "kind": "info"
+      },
+      {
+        "label": "Grumble through it",
+        "effects": {
+          "happiness": 1
+        },
+        "log": "You got there eventually.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_commute_02260",
+    "min": 16,
+    "max": 75,
+    "weight": 0.2,
+    "icon": "🚌",
+    "title": "On the Move",
+    "text": "On your way today, it starts pouring as you leave.",
+    "choices": [
+      {
+        "label": "Use the time well",
+        "effects": {
+          "smarts": 2,
+          "happiness": 2
+        },
+        "log": "Another journey done.",
+        "kind": "info"
+      },
+      {
+        "label": "Zone out",
+        "effects": {
+          "mental": 2
+        },
+        "log": "You got there eventually.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_commute_02261",
+    "min": 16,
+    "max": 75,
+    "weight": 0.2,
+    "icon": "🚌",
+    "title": "On the Move",
+    "text": "On your way today, you help a lost tourist.",
+    "choices": [
+      {
+        "label": "Make the best of it",
+        "effects": {
+          "mental": 3,
+          "happiness": 3
+        },
+        "log": "Another journey done.",
+        "kind": "info"
+      },
+      {
+        "label": "Grumble through it",
+        "effects": {
+          "happiness": 1
+        },
+        "log": "You got there eventually.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_commute_02262",
+    "min": 16,
+    "max": 75,
+    "weight": 0.2,
+    "icon": "🚌",
+    "title": "On the Move",
+    "text": "On your way today, you help a lost tourist.",
+    "choices": [
+      {
+        "label": "Use the time well",
+        "effects": {
+          "smarts": 2,
+          "happiness": 2
+        },
+        "log": "Another journey done.",
+        "kind": "info"
+      },
+      {
+        "label": "Zone out",
+        "effects": {
+          "mental": 2
+        },
+        "log": "You got there eventually.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_commute_02263",
+    "min": 16,
+    "max": 75,
+    "weight": 0.2,
+    "icon": "🚌",
+    "title": "On the Move",
+    "text": "On your way today, the carpool falls through.",
+    "choices": [
+      {
+        "label": "Make the best of it",
+        "effects": {
+          "mental": 3,
+          "happiness": 3
+        },
+        "log": "Another journey done.",
+        "kind": "info"
+      },
+      {
+        "label": "Grumble through it",
+        "effects": {
+          "happiness": 1
+        },
+        "log": "You got there eventually.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_commute_02264",
+    "min": 16,
+    "max": 75,
+    "weight": 0.2,
+    "icon": "🚌",
+    "title": "On the Move",
+    "text": "On your way today, the carpool falls through.",
+    "choices": [
+      {
+        "label": "Use the time well",
+        "effects": {
+          "smarts": 2,
+          "happiness": 2
+        },
+        "log": "Another journey done.",
+        "kind": "info"
+      },
+      {
+        "label": "Zone out",
+        "effects": {
+          "mental": 2
+        },
+        "log": "You got there eventually.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_commute_02265",
+    "min": 16,
+    "max": 75,
+    "weight": 0.2,
+    "icon": "🚌",
+    "title": "On the Move",
+    "text": "On your way today, you bike to work for the first time.",
+    "choices": [
+      {
+        "label": "Make the best of it",
+        "effects": {
+          "mental": 3,
+          "happiness": 3
+        },
+        "log": "Another journey done.",
+        "kind": "info"
+      },
+      {
+        "label": "Grumble through it",
+        "effects": {
+          "happiness": 1
+        },
+        "log": "You got there eventually.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_commute_02266",
+    "min": 16,
+    "max": 75,
+    "weight": 0.2,
+    "icon": "🚌",
+    "title": "On the Move",
+    "text": "On your way today, you bike to work for the first time.",
+    "choices": [
+      {
+        "label": "Use the time well",
+        "effects": {
+          "smarts": 2,
+          "happiness": 2
+        },
+        "log": "Another journey done.",
+        "kind": "info"
+      },
+      {
+        "label": "Zone out",
+        "effects": {
+          "mental": 2
+        },
+        "log": "You got there eventually.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_commute_02267",
+    "min": 16,
+    "max": 75,
+    "weight": 0.2,
+    "icon": "🚌",
+    "title": "On the Move",
+    "text": "On your way today, a delay gives you reading time.",
+    "choices": [
+      {
+        "label": "Make the best of it",
+        "effects": {
+          "mental": 3,
+          "happiness": 3
+        },
+        "log": "Another journey done.",
+        "kind": "info"
+      },
+      {
+        "label": "Grumble through it",
+        "effects": {
+          "happiness": 1
+        },
+        "log": "You got there eventually.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_commute_02268",
+    "min": 16,
+    "max": 75,
+    "weight": 0.2,
+    "icon": "🚌",
+    "title": "On the Move",
+    "text": "On your way today, a delay gives you reading time.",
+    "choices": [
+      {
+        "label": "Use the time well",
+        "effects": {
+          "smarts": 2,
+          "happiness": 2
+        },
+        "log": "Another journey done.",
+        "kind": "info"
+      },
+      {
+        "label": "Zone out",
+        "effects": {
+          "mental": 2
+        },
+        "log": "You got there eventually.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_commute_02269",
+    "min": 16,
+    "max": 75,
+    "weight": 0.2,
+    "icon": "🚌",
+    "title": "On the Move",
+    "text": "On your way today, you find money in your coat.",
+    "choices": [
+      {
+        "label": "Make the best of it",
+        "effects": {
+          "mental": 3,
+          "happiness": 3
+        },
+        "log": "Another journey done.",
+        "kind": "info"
+      },
+      {
+        "label": "Grumble through it",
+        "effects": {
+          "happiness": 1
+        },
+        "log": "You got there eventually.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_commute_02270",
+    "min": 16,
+    "max": 75,
+    "weight": 0.2,
+    "icon": "🚌",
+    "title": "On the Move",
+    "text": "On your way today, you find money in your coat.",
+    "choices": [
+      {
+        "label": "Use the time well",
+        "effects": {
+          "smarts": 2,
+          "happiness": 2
+        },
+        "log": "Another journey done.",
+        "kind": "info"
+      },
+      {
+        "label": "Zone out",
+        "effects": {
+          "mental": 2
+        },
+        "log": "You got there eventually.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_commute_02271",
+    "min": 16,
+    "max": 75,
+    "weight": 0.2,
+    "icon": "🚌",
+    "title": "On the Move",
+    "text": "On your way today, the elevator is out again.",
+    "choices": [
+      {
+        "label": "Make the best of it",
+        "effects": {
+          "mental": 3,
+          "happiness": 3
+        },
+        "log": "Another journey done.",
+        "kind": "info"
+      },
+      {
+        "label": "Grumble through it",
+        "effects": {
+          "happiness": 1
+        },
+        "log": "You got there eventually.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_commute_02272",
+    "min": 16,
+    "max": 75,
+    "weight": 0.2,
+    "icon": "🚌",
+    "title": "On the Move",
+    "text": "On your way today, the elevator is out again.",
+    "choices": [
+      {
+        "label": "Use the time well",
+        "effects": {
+          "smarts": 2,
+          "happiness": 2
+        },
+        "log": "Another journey done.",
+        "kind": "info"
+      },
+      {
+        "label": "Zone out",
+        "effects": {
+          "mental": 2
+        },
+        "log": "You got there eventually.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_commute_02273",
+    "min": 16,
+    "max": 75,
+    "weight": 0.2,
+    "icon": "🚌",
+    "title": "On the Move",
+    "text": "On your way today, you beat your personal best time.",
+    "choices": [
+      {
+        "label": "Make the best of it",
+        "effects": {
+          "mental": 3,
+          "happiness": 3
+        },
+        "log": "Another journey done.",
+        "kind": "info"
+      },
+      {
+        "label": "Grumble through it",
+        "effects": {
+          "happiness": 1
+        },
+        "log": "You got there eventually.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_commute_02274",
+    "min": 16,
+    "max": 75,
+    "weight": 0.2,
+    "icon": "🚌",
+    "title": "On the Move",
+    "text": "On your way today, you beat your personal best time.",
+    "choices": [
+      {
+        "label": "Use the time well",
+        "effects": {
+          "smarts": 2,
+          "happiness": 2
+        },
+        "log": "Another journey done.",
+        "kind": "info"
+      },
+      {
+        "label": "Zone out",
+        "effects": {
+          "mental": 2
+        },
+        "log": "You got there eventually.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_commute_02275",
+    "min": 16,
+    "max": 75,
+    "weight": 0.2,
+    "icon": "🚌",
+    "title": "On the Move",
+    "text": "On your way today, you forget something at home.",
+    "choices": [
+      {
+        "label": "Make the best of it",
+        "effects": {
+          "mental": 3,
+          "happiness": 3
+        },
+        "log": "Another journey done.",
+        "kind": "info"
+      },
+      {
+        "label": "Grumble through it",
+        "effects": {
+          "happiness": 1
+        },
+        "log": "You got there eventually.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_commute_02276",
+    "min": 16,
+    "max": 75,
+    "weight": 0.2,
+    "icon": "🚌",
+    "title": "On the Move",
+    "text": "On your way today, you forget something at home.",
+    "choices": [
+      {
+        "label": "Use the time well",
+        "effects": {
+          "smarts": 2,
+          "happiness": 2
+        },
+        "log": "Another journey done.",
+        "kind": "info"
+      },
+      {
+        "label": "Zone out",
+        "effects": {
+          "mental": 2
+        },
+        "log": "You got there eventually.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_reflect_02277",
+    "min": 20,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "🍂",
+    "title": "Reflection",
+    "text": "You flip through old photos.",
+    "choices": [
+      {
+        "label": "Take it in",
+        "effects": {
+          "mental": 5,
+          "happiness": 3
+        },
+        "log": "A thoughtful moment.",
+        "kind": "good"
+      },
+      {
+        "label": "Let it pass",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Life goes on.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_reflect_02278",
+    "min": 20,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "🍂",
+    "title": "Reflection",
+    "text": "You flip through old photos.",
+    "choices": [
+      {
+        "label": "Cherish it",
+        "effects": {
+          "mental": 5,
+          "happiness": 4
+        },
+        "log": "A thoughtful moment.",
+        "kind": "good"
+      },
+      {
+        "label": "Let it pass",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Life goes on.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_reflect_02279",
+    "min": 20,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "🍂",
+    "title": "Reflection",
+    "text": "You bump into a place from your past.",
+    "choices": [
+      {
+        "label": "Take it in",
+        "effects": {
+          "mental": 5,
+          "happiness": 3
+        },
+        "log": "A thoughtful moment.",
+        "kind": "good"
+      },
+      {
+        "label": "Let it pass",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Life goes on.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_reflect_02280",
+    "min": 20,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "🍂",
+    "title": "Reflection",
+    "text": "You bump into a place from your past.",
+    "choices": [
+      {
+        "label": "Cherish it",
+        "effects": {
+          "mental": 5,
+          "happiness": 4
+        },
+        "log": "A thoughtful moment.",
+        "kind": "good"
+      },
+      {
+        "label": "Let it pass",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Life goes on.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_reflect_02281",
+    "min": 20,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "🍂",
+    "title": "Reflection",
+    "text": "An old song takes you back.",
+    "choices": [
+      {
+        "label": "Take it in",
+        "effects": {
+          "mental": 5,
+          "happiness": 3
+        },
+        "log": "A thoughtful moment.",
+        "kind": "good"
+      },
+      {
+        "label": "Let it pass",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Life goes on.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_reflect_02282",
+    "min": 20,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "🍂",
+    "title": "Reflection",
+    "text": "An old song takes you back.",
+    "choices": [
+      {
+        "label": "Cherish it",
+        "effects": {
+          "mental": 5,
+          "happiness": 4
+        },
+        "log": "A thoughtful moment.",
+        "kind": "good"
+      },
+      {
+        "label": "Let it pass",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Life goes on.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_reflect_02283",
+    "min": 20,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "🍂",
+    "title": "Reflection",
+    "text": "You find a childhood keepsake.",
+    "choices": [
+      {
+        "label": "Take it in",
+        "effects": {
+          "mental": 5,
+          "happiness": 3
+        },
+        "log": "A thoughtful moment.",
+        "kind": "good"
+      },
+      {
+        "label": "Let it pass",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Life goes on.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_reflect_02284",
+    "min": 20,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "🍂",
+    "title": "Reflection",
+    "text": "You find a childhood keepsake.",
+    "choices": [
+      {
+        "label": "Cherish it",
+        "effects": {
+          "mental": 5,
+          "happiness": 4
+        },
+        "log": "A thoughtful moment.",
+        "kind": "good"
+      },
+      {
+        "label": "Let it pass",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Life goes on.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_reflect_02285",
+    "min": 20,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "🍂",
+    "title": "Reflection",
+    "text": "You think about who you've become.",
+    "choices": [
+      {
+        "label": "Take it in",
+        "effects": {
+          "mental": 5,
+          "happiness": 3
+        },
+        "log": "A thoughtful moment.",
+        "kind": "good"
+      },
+      {
+        "label": "Let it pass",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Life goes on.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_reflect_02286",
+    "min": 20,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "🍂",
+    "title": "Reflection",
+    "text": "You think about who you've become.",
+    "choices": [
+      {
+        "label": "Cherish it",
+        "effects": {
+          "mental": 5,
+          "happiness": 4
+        },
+        "log": "A thoughtful moment.",
+        "kind": "good"
+      },
+      {
+        "label": "Let it pass",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Life goes on.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_reflect_02287",
+    "min": 20,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "🍂",
+    "title": "Reflection",
+    "text": "You write a letter to your younger self.",
+    "choices": [
+      {
+        "label": "Take it in",
+        "effects": {
+          "mental": 5,
+          "happiness": 3
+        },
+        "log": "A thoughtful moment.",
+        "kind": "good"
+      },
+      {
+        "label": "Let it pass",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Life goes on.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_reflect_02288",
+    "min": 20,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "🍂",
+    "title": "Reflection",
+    "text": "You write a letter to your younger self.",
+    "choices": [
+      {
+        "label": "Cherish it",
+        "effects": {
+          "mental": 5,
+          "happiness": 4
+        },
+        "log": "A thoughtful moment.",
+        "kind": "good"
+      },
+      {
+        "label": "Let it pass",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Life goes on.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_reflect_02289",
+    "min": 20,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "🍂",
+    "title": "Reflection",
+    "text": "You notice how much has changed.",
+    "choices": [
+      {
+        "label": "Take it in",
+        "effects": {
+          "mental": 5,
+          "happiness": 3
+        },
+        "log": "A thoughtful moment.",
+        "kind": "good"
+      },
+      {
+        "label": "Let it pass",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Life goes on.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_reflect_02290",
+    "min": 20,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "🍂",
+    "title": "Reflection",
+    "text": "You notice how much has changed.",
+    "choices": [
+      {
+        "label": "Cherish it",
+        "effects": {
+          "mental": 5,
+          "happiness": 4
+        },
+        "log": "A thoughtful moment.",
+        "kind": "good"
+      },
+      {
+        "label": "Let it pass",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Life goes on.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_reflect_02291",
+    "min": 20,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "🍂",
+    "title": "Reflection",
+    "text": "You make peace with a regret.",
+    "choices": [
+      {
+        "label": "Take it in",
+        "effects": {
+          "mental": 5,
+          "happiness": 3
+        },
+        "log": "A thoughtful moment.",
+        "kind": "good"
+      },
+      {
+        "label": "Let it pass",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Life goes on.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_reflect_02292",
+    "min": 20,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "🍂",
+    "title": "Reflection",
+    "text": "You make peace with a regret.",
+    "choices": [
+      {
+        "label": "Cherish it",
+        "effects": {
+          "mental": 5,
+          "happiness": 4
+        },
+        "log": "A thoughtful moment.",
+        "kind": "good"
+      },
+      {
+        "label": "Let it pass",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Life goes on.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_reflect_02293",
+    "min": 20,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "🍂",
+    "title": "Reflection",
+    "text": "You appreciate how far you've come.",
+    "choices": [
+      {
+        "label": "Take it in",
+        "effects": {
+          "mental": 5,
+          "happiness": 3
+        },
+        "log": "A thoughtful moment.",
+        "kind": "good"
+      },
+      {
+        "label": "Let it pass",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Life goes on.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_reflect_02294",
+    "min": 20,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "🍂",
+    "title": "Reflection",
+    "text": "You appreciate how far you've come.",
+    "choices": [
+      {
+        "label": "Cherish it",
+        "effects": {
+          "mental": 5,
+          "happiness": 4
+        },
+        "log": "A thoughtful moment.",
+        "kind": "good"
+      },
+      {
+        "label": "Let it pass",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Life goes on.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_reflect_02295",
+    "min": 20,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "🍂",
+    "title": "Reflection",
+    "text": "You wonder about the road not taken.",
+    "choices": [
+      {
+        "label": "Take it in",
+        "effects": {
+          "mental": 5,
+          "happiness": 3
+        },
+        "log": "A thoughtful moment.",
+        "kind": "good"
+      },
+      {
+        "label": "Let it pass",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Life goes on.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_reflect_02296",
+    "min": 20,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "🍂",
+    "title": "Reflection",
+    "text": "You wonder about the road not taken.",
+    "choices": [
+      {
+        "label": "Cherish it",
+        "effects": {
+          "mental": 5,
+          "happiness": 4
+        },
+        "log": "A thoughtful moment.",
+        "kind": "good"
+      },
+      {
+        "label": "Let it pass",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Life goes on.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_reflect_02297",
+    "min": 20,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "🍂",
+    "title": "Reflection",
+    "text": "You feel grateful for the small things.",
+    "choices": [
+      {
+        "label": "Take it in",
+        "effects": {
+          "mental": 5,
+          "happiness": 3
+        },
+        "log": "A thoughtful moment.",
+        "kind": "good"
+      },
+      {
+        "label": "Let it pass",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Life goes on.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_reflect_02298",
+    "min": 20,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "🍂",
+    "title": "Reflection",
+    "text": "You feel grateful for the small things.",
+    "choices": [
+      {
+        "label": "Cherish it",
+        "effects": {
+          "mental": 5,
+          "happiness": 4
+        },
+        "log": "A thoughtful moment.",
+        "kind": "good"
+      },
+      {
+        "label": "Let it pass",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Life goes on.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_reflect_02299",
+    "min": 20,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "🍂",
+    "title": "Reflection",
+    "text": "You realize a dream quietly came true.",
+    "choices": [
+      {
+        "label": "Take it in",
+        "effects": {
+          "mental": 5,
+          "happiness": 3
+        },
+        "log": "A thoughtful moment.",
+        "kind": "good"
+      },
+      {
+        "label": "Let it pass",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Life goes on.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_reflect_02300",
+    "min": 20,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "🍂",
+    "title": "Reflection",
+    "text": "You realize a dream quietly came true.",
+    "choices": [
+      {
+        "label": "Cherish it",
+        "effects": {
+          "mental": 5,
+          "happiness": 4
+        },
+        "log": "A thoughtful moment.",
+        "kind": "good"
+      },
+      {
+        "label": "Let it pass",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Life goes on.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_reflect_02301",
+    "min": 20,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "🍂",
+    "title": "Reflection",
+    "text": "You forgive your past self.",
+    "choices": [
+      {
+        "label": "Take it in",
+        "effects": {
+          "mental": 5,
+          "happiness": 3
+        },
+        "log": "A thoughtful moment.",
+        "kind": "good"
+      },
+      {
+        "label": "Let it pass",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Life goes on.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_reflect_02302",
+    "min": 20,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "🍂",
+    "title": "Reflection",
+    "text": "You forgive your past self.",
+    "choices": [
+      {
+        "label": "Cherish it",
+        "effects": {
+          "mental": 5,
+          "happiness": 4
+        },
+        "log": "A thoughtful moment.",
+        "kind": "good"
+      },
+      {
+        "label": "Let it pass",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Life goes on.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_reflect_02303",
+    "min": 20,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "🍂",
+    "title": "Reflection",
+    "text": "You set an intention for the future.",
+    "choices": [
+      {
+        "label": "Take it in",
+        "effects": {
+          "mental": 5,
+          "happiness": 3
+        },
+        "log": "A thoughtful moment.",
+        "kind": "good"
+      },
+      {
+        "label": "Let it pass",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Life goes on.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_reflect_02304",
+    "min": 20,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "🍂",
+    "title": "Reflection",
+    "text": "You set an intention for the future.",
+    "choices": [
+      {
+        "label": "Cherish it",
+        "effects": {
+          "mental": 5,
+          "happiness": 4
+        },
+        "log": "A thoughtful moment.",
+        "kind": "good"
+      },
+      {
+        "label": "Let it pass",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Life goes on.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_reflect_02305",
+    "min": 20,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "🍂",
+    "title": "Reflection",
+    "text": "You savor an ordinary perfect day.",
+    "choices": [
+      {
+        "label": "Take it in",
+        "effects": {
+          "mental": 5,
+          "happiness": 3
+        },
+        "log": "A thoughtful moment.",
+        "kind": "good"
+      },
+      {
+        "label": "Let it pass",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Life goes on.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_reflect_02306",
+    "min": 20,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "🍂",
+    "title": "Reflection",
+    "text": "You savor an ordinary perfect day.",
+    "choices": [
+      {
+        "label": "Cherish it",
+        "effects": {
+          "mental": 5,
+          "happiness": 4
+        },
+        "log": "A thoughtful moment.",
+        "kind": "good"
+      },
+      {
+        "label": "Let it pass",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Life goes on.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_reflect_02307",
+    "min": 20,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "🍂",
+    "title": "Reflection",
+    "text": "You count the people you love.",
+    "choices": [
+      {
+        "label": "Take it in",
+        "effects": {
+          "mental": 5,
+          "happiness": 3
+        },
+        "log": "A thoughtful moment.",
+        "kind": "good"
+      },
+      {
+        "label": "Let it pass",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Life goes on.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "gen_reflect_02308",
+    "min": 20,
+    "max": 110,
+    "weight": 0.2,
+    "icon": "🍂",
+    "title": "Reflection",
+    "text": "You count the people you love.",
+    "choices": [
+      {
+        "label": "Cherish it",
+        "effects": {
+          "mental": 5,
+          "happiness": 4
+        },
+        "log": "A thoughtful moment.",
+        "kind": "good"
+      },
+      {
+        "label": "Let it pass",
+        "effects": {
+          "happiness": 2
+        },
+        "log": "Life goes on.",
+        "kind": "info"
+      }
+    ]
+  }
+]

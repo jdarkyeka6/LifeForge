@@ -1,0 +1,308 @@
+[
+  {
+    "id": "wd_recession",
+    "min": 18,
+    "max": 90,
+    "weight": 0.5,
+    "icon": "📉",
+    "title": "Economic Recession",
+    "text": "A global recession has hit. Markets are tumbling.",
+    "choices": [
+      {
+        "label": "Tighten the belt",
+        "effects": {
+          "money": -2000,
+          "happiness": -4
+        },
+        "log": "You cut spending to weather the storm.",
+        "kind": "money"
+      },
+      {
+        "label": "Buy the dip",
+        "effects": {},
+        "log": "You invested while others panicked...",
+        "kind": "info",
+        "outcomes": [
+          {
+            "chance": 0.5,
+            "effects": {
+              "money": 8000,
+              "happiness": 6
+            },
+            "log": "It rebounded — you profited big!",
+            "kind": "money"
+          },
+          {
+            "chance": 0.5,
+            "effects": {
+              "money": -6000
+            },
+            "log": "It kept falling. Ouch.",
+            "kind": "bad"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "wd_boom",
+    "min": 18,
+    "max": 90,
+    "weight": 0.5,
+    "icon": "📈",
+    "title": "Economic Boom",
+    "text": "The economy is booming! Opportunity is everywhere.",
+    "choices": [
+      {
+        "label": "Ride the wave",
+        "effects": {
+          "money": 4000,
+          "happiness": 6
+        },
+        "log": "Good times — your money grew.",
+        "kind": "money"
+      },
+      {
+        "label": "Ask for a raise",
+        "effects": {},
+        "log": "You leveraged the boom...",
+        "kind": "info",
+        "outcomes": [
+          {
+            "chance": 0.6,
+            "effects": {
+              "raise": 0.1,
+              "happiness": 6
+            },
+            "log": "You scored a 10% raise!",
+            "kind": "money"
+          },
+          {
+            "chance": 0.4,
+            "effects": {},
+            "log": "No luck, but worth a shot.",
+            "kind": "info"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "wd_pandemic",
+    "min": 1,
+    "max": 120,
+    "weight": 0.4,
+    "icon": "🤒",
+    "title": "Global Pandemic",
+    "text": "A pandemic is spreading across the world.",
+    "choices": [
+      {
+        "label": "Stay safe at home",
+        "effects": {
+          "happiness": -6,
+          "mental": -4
+        },
+        "log": "Lockdown was lonely but safe.",
+        "kind": "info"
+      },
+      {
+        "label": "Carry on as normal",
+        "effects": {},
+        "log": "You took your chances...",
+        "kind": "info",
+        "outcomes": [
+          {
+            "chance": 0.4,
+            "effects": {
+              "health": -18,
+              "addCondition": true
+            },
+            "log": "You caught it and got seriously ill.",
+            "kind": "bad"
+          },
+          {
+            "chance": 0.6,
+            "effects": {
+              "happiness": 3
+            },
+            "log": "You stayed healthy, somehow.",
+            "kind": "info"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "wd_techboom",
+    "min": 14,
+    "max": 90,
+    "weight": 0.4,
+    "icon": "💻",
+    "title": "Tech Revolution",
+    "text": "A new technology is changing everything overnight.",
+    "choices": [
+      {
+        "label": "Embrace it",
+        "effects": {
+          "smarts": 4,
+          "happiness": 4
+        },
+        "log": "You got ahead of the curve.",
+        "kind": "good"
+      },
+      {
+        "label": "Invest in it",
+        "effects": {},
+        "log": "You bet on the new tech...",
+        "kind": "info",
+        "outcomes": [
+          {
+            "chance": 0.45,
+            "effects": {
+              "money": 15000,
+              "fame": 3
+            },
+            "log": "You backed a winner!",
+            "kind": "money"
+          },
+          {
+            "chance": 0.55,
+            "effects": {
+              "money": -3000
+            },
+            "log": "It was overhyped. Lost some money.",
+            "kind": "bad"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "wd_war",
+    "min": 16,
+    "max": 70,
+    "weight": 0.3,
+    "icon": "🚨",
+    "title": "War Breaks Out",
+    "text": "Your country has gone to war.",
+    "choices": [
+      {
+        "label": "Enlist to serve",
+        "effects": {},
+        "log": "You answered the call...",
+        "kind": "info",
+        "outcomes": [
+          {
+            "chance": 0.5,
+            "effects": {
+              "fame": 6,
+              "karma": 6,
+              "health": -10
+            },
+            "log": "You served honorably and came home a hero.",
+            "kind": "good"
+          },
+          {
+            "chance": 0.5,
+            "effects": {
+              "health": -25,
+              "mental": -12,
+              "addCondition": true
+            },
+            "log": "War left deep scars.",
+            "kind": "bad"
+          }
+        ]
+      },
+      {
+        "label": "Keep your head down",
+        "effects": {
+          "mental": -4
+        },
+        "log": "You stayed out of the fighting.",
+        "kind": "info"
+      },
+      {
+        "label": "Profiteer from it",
+        "cls": "danger",
+        "effects": {
+          "money": 12000,
+          "karma": -12
+        },
+        "log": "You made money off the chaos.",
+        "kind": "money"
+      }
+    ]
+  },
+  {
+    "id": "wd_disaster",
+    "min": 3,
+    "max": 120,
+    "weight": 0.4,
+    "icon": "🌦️",
+    "title": "Natural Disaster",
+    "text": "A major natural disaster struck your region.",
+    "choices": [
+      {
+        "label": "Help your neighbors",
+        "effects": {
+          "karma": 10,
+          "happiness": 4,
+          "health": -4
+        },
+        "log": "You pitched in to rebuild.",
+        "kind": "good"
+      },
+      {
+        "label": "Protect your own",
+        "effects": {
+          "money": -1500
+        },
+        "log": "You secured your home and family.",
+        "kind": "money"
+      }
+    ]
+  },
+  {
+    "id": "wd_housing",
+    "min": 20,
+    "max": 80,
+    "weight": 0.4,
+    "icon": "🏠",
+    "title": "Housing Crash",
+    "text": "Property prices have crashed.",
+    "choices": [
+      {
+        "label": "Snap up cheap property",
+        "effects": {},
+        "log": "You went bargain hunting...",
+        "kind": "info",
+        "outcomes": [
+          {
+            "chance": 0.5,
+            "effects": {
+              "money": 20000,
+              "happiness": 6
+            },
+            "log": "Prices recovered — great investment!",
+            "kind": "money"
+          },
+          {
+            "chance": 0.5,
+            "effects": {
+              "money": -8000
+            },
+            "log": "They fell further. Bad timing.",
+            "kind": "bad"
+          }
+        ]
+      },
+      {
+        "label": "Sit tight",
+        "effects": {},
+        "log": "You waited it out.",
+        "kind": "info"
+      }
+    ]
+  }
+]

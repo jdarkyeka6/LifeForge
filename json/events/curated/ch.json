@@ -1,0 +1,710 @@
+[
+  {
+    "id": "ch_firstword",
+    "min": 1,
+    "max": 2,
+    "once": true,
+    "icon": "👶",
+    "title": "First Word",
+    "text": "You said your first word!",
+    "choices": [
+      {
+        "label": "Say \"Mama\"",
+        "effects": {
+          "happiness": 5,
+          "relRandom": 6
+        },
+        "log": "Your family melted. 🥹",
+        "kind": "good"
+      },
+      {
+        "label": "Say \"Dada\"",
+        "effects": {
+          "happiness": 5,
+          "relRandom": 6
+        },
+        "log": "Everyone cheered!",
+        "kind": "good"
+      },
+      {
+        "label": "Say \"No!\"",
+        "effects": {
+          "happiness": 3
+        },
+        "log": "A troublemaker already.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "ch_steps",
+    "min": 1,
+    "max": 2,
+    "once": true,
+    "icon": "🚼",
+    "title": "First Steps",
+    "text": "You're trying to walk!",
+    "choices": [
+      {
+        "label": "Take a step",
+        "effects": {
+          "happiness": 6,
+          "health": 2
+        },
+        "log": "You took your first steps! 👏",
+        "kind": "good",
+        "outcomes": [
+          {
+            "chance": 0.3,
+            "effects": {
+              "happiness": -2
+            },
+            "log": "...then plopped on your bottom.",
+            "kind": "info"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ch_toy",
+    "min": 3,
+    "max": 9,
+    "icon": "🧸",
+    "title": "Pick a Gift",
+    "text": "Your parents offer you one thing. Which?",
+    "choices": [
+      {
+        "label": "🧸 The toy",
+        "effects": {
+          "happiness": 7
+        },
+        "log": "So much fun!",
+        "kind": "good"
+      },
+      {
+        "label": "📕 The book",
+        "effects": {
+          "smarts": 6
+        },
+        "log": "You loved story time.",
+        "kind": "good"
+      },
+      {
+        "label": "⚽ The ball",
+        "effects": {
+          "fitness": 5,
+          "happiness": 3
+        },
+        "log": "You ran around all day.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "ch_imaginary",
+    "min": 3,
+    "max": 7,
+    "icon": "🐉",
+    "title": "Imaginary Friend",
+    "text": "You invented an imaginary friend named Mr. Whiskers.",
+    "choices": [
+      {
+        "label": "Play with them daily",
+        "effects": {
+          "happiness": 6,
+          "smarts": 3
+        },
+        "log": "Your imagination soared.",
+        "kind": "good"
+      },
+      {
+        "label": "Tell everyone they're real",
+        "effects": {
+          "happiness": 4
+        },
+        "log": "Your parents are a little worried.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "ch_veggies",
+    "min": 3,
+    "max": 8,
+    "icon": "🥦",
+    "title": "Dinner Time",
+    "text": "There's broccoli on your plate.",
+    "choices": [
+      {
+        "label": "Eat it up",
+        "effects": {
+          "health": 5,
+          "relRandom": 3
+        },
+        "log": "Your parents are proud.",
+        "kind": "good"
+      },
+      {
+        "label": "Throw it on the floor",
+        "effects": {
+          "happiness": 3,
+          "relRandom": -4
+        },
+        "log": "{person} sighed loudly.",
+        "kind": "bad"
+      }
+    ]
+  },
+  {
+    "id": "ch_petbeg",
+    "min": 4,
+    "max": 10,
+    "cond": {
+      "hasPet": false
+    },
+    "icon": "🐶",
+    "title": "Pretty Please",
+    "text": "You really, really want a pet.",
+    "choices": [
+      {
+        "label": "Beg your parents",
+        "effects": {},
+        "log": "You begged for weeks...",
+        "kind": "info",
+        "outcomes": [
+          {
+            "chance": 0.45,
+            "effects": {
+              "newPet": true,
+              "happiness": 14
+            },
+            "log": "They caved — you got a pet! 🐾",
+            "kind": "good"
+          },
+          {
+            "chance": 0.55,
+            "effects": {
+              "happiness": -4
+            },
+            "log": "\"Maybe when you're older.\"",
+            "kind": "bad"
+          }
+        ]
+      },
+      {
+        "label": "Accept a no",
+        "effects": {
+          "smarts": 2
+        },
+        "log": "You understood. Very mature.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "ch_bully",
+    "min": 6,
+    "max": 12,
+    "icon": "🏫",
+    "title": "On the Playground",
+    "text": "A classmate is being picked on.",
+    "choices": [
+      {
+        "label": "Stand up for them",
+        "effects": {
+          "karma": 9,
+          "happiness": 4
+        },
+        "log": "You made a friend for life.",
+        "kind": "good",
+        "outcomes": [
+          {
+            "chance": 0.3,
+            "effects": {
+              "newFriend": true
+            },
+            "log": "They became your friend!",
+            "kind": "good"
+          }
+        ]
+      },
+      {
+        "label": "Join in",
+        "cls": "danger",
+        "effects": {
+          "karma": -12,
+          "happiness": 2
+        },
+        "log": "Not your finest moment.",
+        "kind": "bad"
+      },
+      {
+        "label": "Walk away",
+        "effects": {},
+        "log": "You stayed out of it.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "ch_spelling",
+    "min": 7,
+    "max": 11,
+    "icon": "🐝",
+    "title": "Spelling Bee",
+    "text": "You're in the school spelling bee!",
+    "choices": [
+      {
+        "label": "Give it your best",
+        "effects": {},
+        "log": "You stepped up to the mic...",
+        "kind": "info",
+        "outcomes": [
+          {
+            "chance": 0.4,
+            "effects": {
+              "smarts": 6,
+              "happiness": 8
+            },
+            "log": "You WON the spelling bee! 🏆",
+            "kind": "good"
+          },
+          {
+            "chance": 0.6,
+            "effects": {
+              "smarts": 2
+            },
+            "log": "You got out in round three. Good effort.",
+            "kind": "info"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ch_treehouse",
+    "min": 6,
+    "max": 11,
+    "icon": "🌳",
+    "title": "Treehouse Dare",
+    "text": "Friends dare you to climb the tallest tree.",
+    "choices": [
+      {
+        "label": "Climb it!",
+        "effects": {
+          "happiness": 6,
+          "fitness": 3
+        },
+        "log": "King of the treehouse!",
+        "kind": "good",
+        "outcomes": [
+          {
+            "chance": 0.25,
+            "effects": {
+              "health": -12,
+              "addCondition": "a broken arm"
+            },
+            "log": "You fell and broke your arm. 😣",
+            "kind": "bad"
+          }
+        ]
+      },
+      {
+        "label": "Stay grounded",
+        "effects": {},
+        "log": "Better safe than sorry.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "ch_santa",
+    "min": 4,
+    "max": 8,
+    "icon": "🎅",
+    "title": "The Big Question",
+    "text": "You ask: is Santa real?",
+    "choices": [
+      {
+        "label": "Believe with all your heart",
+        "effects": {
+          "happiness": 6
+        },
+        "log": "The magic is alive!",
+        "kind": "good"
+      },
+      {
+        "label": "Investigate the truth",
+        "effects": {
+          "smarts": 5,
+          "happiness": -3
+        },
+        "log": "You found the presents in the closet... 😶",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "ch_sick",
+    "min": 2,
+    "max": 10,
+    "icon": "🤒",
+    "title": "Feeling Poorly",
+    "text": "You've caught a nasty cold.",
+    "choices": [
+      {
+        "label": "Rest up",
+        "effects": {
+          "health": -6
+        },
+        "log": "You spent the week in bed.",
+        "kind": "bad",
+        "outcomes": [
+          {
+            "chance": 0.4,
+            "effects": {
+              "relRandom": 4
+            },
+            "log": "{person} took great care of you.",
+            "kind": "good"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ch_lemonade",
+    "min": 6,
+    "max": 12,
+    "icon": "🍋",
+    "title": "Lemonade Stand",
+    "text": "You set up a lemonade stand!",
+    "choices": [
+      {
+        "label": "Sell all day",
+        "effects": {
+          "money": 40,
+          "smarts": 3,
+          "happiness": 4
+        },
+        "log": "You made your first dollars! 🍋",
+        "kind": "money"
+      },
+      {
+        "label": "Drink the profits",
+        "effects": {
+          "happiness": 5,
+          "health": -2
+        },
+        "log": "Delicious, but bad for business.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "ch_art",
+    "min": 4,
+    "max": 10,
+    "icon": "🎨",
+    "title": "Art Class",
+    "text": "You painted a masterpiece (your family).",
+    "choices": [
+      {
+        "label": "Give it to your parents",
+        "effects": {
+          "relRandom": 7,
+          "happiness": 4
+        },
+        "log": "It's on the fridge forever.",
+        "kind": "good"
+      },
+      {
+        "label": "Sell it to a classmate",
+        "effects": {
+          "money": 5,
+          "smarts": 2
+        },
+        "log": "A budding entrepreneur.",
+        "kind": "money"
+      }
+    ]
+  },
+  {
+    "id": "ch_lost",
+    "min": 3,
+    "max": 8,
+    "icon": "🛒",
+    "title": "Lost in the Store",
+    "text": "You got separated from your parents at the mall.",
+    "choices": [
+      {
+        "label": "Find a staff member",
+        "effects": {
+          "smarts": 5,
+          "happiness": -2
+        },
+        "log": "Smart kid — reunited safely.",
+        "kind": "good"
+      },
+      {
+        "label": "Cry loudly",
+        "effects": {
+          "happiness": -5,
+          "relRandom": 3
+        },
+        "log": "Your parents found you fast.",
+        "kind": "info"
+      },
+      {
+        "label": "Explore the toy aisle",
+        "effects": {
+          "happiness": 6
+        },
+        "log": "Mom found you playing with LEGO.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "ch_birthday",
+    "min": 5,
+    "max": 11,
+    "icon": "🎂",
+    "title": "Birthday Party",
+    "text": "It's your birthday party!",
+    "choices": [
+      {
+        "label": "Invite the whole class",
+        "effects": {
+          "happiness": 8,
+          "newFriend": true,
+          "money": -30
+        },
+        "log": "Best party ever! 🎉",
+        "kind": "good"
+      },
+      {
+        "label": "Small family party",
+        "effects": {
+          "happiness": 5,
+          "relRandom": 5
+        },
+        "log": "Cozy and sweet.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "ch_homework",
+    "min": 7,
+    "max": 12,
+    "icon": "📝",
+    "title": "Homework",
+    "text": "You've got a big assignment due.",
+    "choices": [
+      {
+        "label": "Do it carefully",
+        "effects": {
+          "smarts": 5,
+          "happiness": -2
+        },
+        "log": "Top marks!",
+        "kind": "good"
+      },
+      {
+        "label": "Copy a friend",
+        "effects": {
+          "smarts": -1,
+          "karma": -3
+        },
+        "log": "Risky shortcut.",
+        "kind": "bad",
+        "outcomes": [
+          {
+            "chance": 0.3,
+            "effects": {
+              "happiness": -5
+            },
+            "log": "You got caught cheating!",
+            "kind": "bad"
+          }
+        ]
+      },
+      {
+        "label": "Don't bother",
+        "effects": {
+          "smarts": -3
+        },
+        "log": "You forgot all about it.",
+        "kind": "bad"
+      }
+    ]
+  },
+  {
+    "id": "ch_swim",
+    "min": 5,
+    "max": 11,
+    "once": true,
+    "icon": "🏊",
+    "title": "Learning to Swim",
+    "text": "Time for swimming lessons!",
+    "choices": [
+      {
+        "label": "Jump in",
+        "effects": {
+          "fitness": 5,
+          "health": 3,
+          "happiness": 4
+        },
+        "log": "You can swim now! 🏊",
+        "kind": "good",
+        "outcomes": [
+          {
+            "chance": 0.2,
+            "effects": {
+              "happiness": -6
+            },
+            "log": "You swallowed half the pool first.",
+            "kind": "info"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ch_cookies",
+    "min": 3,
+    "max": 9,
+    "icon": "🍪",
+    "title": "The Cookie Jar",
+    "text": "Fresh cookies, no one's looking...",
+    "choices": [
+      {
+        "label": "Sneak one",
+        "effects": {
+          "happiness": 5
+        },
+        "log": "Worth it.",
+        "kind": "good",
+        "outcomes": [
+          {
+            "chance": 0.4,
+            "effects": {
+              "relRandom": -5,
+              "happiness": -3
+            },
+            "log": "Caught red-handed!",
+            "kind": "bad"
+          }
+        ]
+      },
+      {
+        "label": "Ask first",
+        "effects": {
+          "karma": 3,
+          "relRandom": 3
+        },
+        "log": "You got two for being polite!",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "ch_nightmare",
+    "min": 3,
+    "max": 8,
+    "icon": "🌙",
+    "title": "Bad Dream",
+    "text": "You had a scary nightmare.",
+    "choices": [
+      {
+        "label": "Run to your parents",
+        "effects": {
+          "relRandom": 4,
+          "mental": 3
+        },
+        "log": "They tucked you back in.",
+        "kind": "good"
+      },
+      {
+        "label": "Be brave alone",
+        "effects": {
+          "mental": 5
+        },
+        "log": "You faced the dark and won.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "ch_friend",
+    "min": 5,
+    "max": 12,
+    "cond": {},
+    "icon": "🧑‍🤝‍🧑",
+    "title": "New Kid",
+    "text": "A new kid joined your class.",
+    "choices": [
+      {
+        "label": "Say hi",
+        "effects": {
+          "newFriend": true,
+          "happiness": 5
+        },
+        "log": "You made a new friend!",
+        "kind": "good"
+      },
+      {
+        "label": "Ignore them",
+        "effects": {},
+        "log": "Maybe another time.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "ch_talent",
+    "min": 7,
+    "max": 12,
+    "icon": "🎤",
+    "title": "Talent Show",
+    "text": "The school talent show needs an act.",
+    "choices": [
+      {
+        "label": "Sing a song",
+        "effects": {
+          "happiness": 6,
+          "looks": 2
+        },
+        "log": "The crowd cheered!",
+        "kind": "good",
+        "outcomes": [
+          {
+            "chance": 0.25,
+            "effects": {
+              "happiness": -6
+            },
+            "log": "You forgot the words mid-song. 😬",
+            "kind": "bad"
+          }
+        ]
+      },
+      {
+        "label": "Do magic tricks",
+        "effects": {
+          "smarts": 3,
+          "happiness": 4
+        },
+        "log": "Abracadabra! Decent applause.",
+        "kind": "good"
+      },
+      {
+        "label": "Skip it",
+        "effects": {},
+        "log": "Stage fright won.",
+        "kind": "info"
+      }
+    ]
+  }
+]

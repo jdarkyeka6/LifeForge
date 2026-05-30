@@ -1,0 +1,392 @@
+[
+  {
+    "id": "vh_license",
+    "min": 16,
+    "max": 18,
+    "once": true,
+    "weight": 2,
+    "icon": "🪪",
+    "title": "Driving Test",
+    "text": "It's time to take your driving test.",
+    "choices": [
+      {
+        "label": "Take it confidently",
+        "effects": {},
+        "log": "You slid into the driver's seat.",
+        "kind": "info",
+        "outcomes": [
+          {
+            "chance": 0.7,
+            "effects": {
+              "happiness": 8,
+              "smarts": 1
+            },
+            "log": "You passed! Freedom of the open road.",
+            "kind": "good"
+          },
+          {
+            "chance": 0.3,
+            "effects": {
+              "happiness": -4,
+              "money": -80
+            },
+            "log": "Failed — you'll have to retake it.",
+            "kind": "bad"
+          }
+        ]
+      },
+      {
+        "label": "Cram with extra lessons first",
+        "effects": {
+          "money": -300
+        },
+        "log": "You booked more practice.",
+        "kind": "money",
+        "outcomes": [
+          {
+            "chance": 0.9,
+            "effects": {
+              "happiness": 8
+            },
+            "log": "All that practice paid off — passed easily!",
+            "kind": "good"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vh_first_car",
+    "min": 17,
+    "max": 100,
+    "weight": 0.8,
+    "icon": "🚗",
+    "title": "First Set of Wheels",
+    "cond": {
+      "ownCar": false,
+      "moneyMin": 1500
+    },
+    "text": "You've saved up — time to look at your first car.",
+    "choices": [
+      {
+        "label": "Buy a reliable used car",
+        "effects": {
+          "money": -4000,
+          "happiness": 7
+        },
+        "log": "Not flashy, but it's yours.",
+        "kind": "money"
+      },
+      {
+        "label": "Stretch for something sporty",
+        "effects": {
+          "money": -9000,
+          "happiness": 9,
+          "looks": 2
+        },
+        "log": "Impractical, but oh so fun.",
+        "kind": "money",
+        "outcomes": [
+          {
+            "chance": 0.3,
+            "effects": {
+              "money": -1500,
+              "mental": -3
+            },
+            "log": "It broke down within a month. Lemon!",
+            "kind": "bad"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vh_roadtrip",
+    "min": 18,
+    "max": 90,
+    "weight": 0.8,
+    "icon": "🛣️",
+    "title": "Road Trip",
+    "cond": {
+      "ownCar": true
+    },
+    "text": "A spontaneous road trip is calling your name.",
+    "choices": [
+      {
+        "label": "Pack up and just go",
+        "effects": {
+          "money": -600,
+          "happiness": 12,
+          "mental": 6
+        },
+        "log": "The best kind of adventure.",
+        "kind": "good"
+      },
+      {
+        "label": "Bring a friend along",
+        "effects": {
+          "money": -700,
+          "happiness": 10,
+          "relRandom": 6
+        },
+        "log": "Memories made on the open road.",
+        "kind": "good"
+      },
+      {
+        "label": "Stay home this time",
+        "effects": {},
+        "log": "Maybe next season.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "vh_breakdown",
+    "min": 18,
+    "max": 100,
+    "weight": 0.8,
+    "icon": "🔧",
+    "title": "Breakdown",
+    "cond": {
+      "ownCar": true
+    },
+    "text": "Your car splutters and dies on the side of the highway.",
+    "choices": [
+      {
+        "label": "Call roadside assistance",
+        "effects": {
+          "money": -250,
+          "happiness": -2
+        },
+        "log": "Towed and fixed. Annoying but handled.",
+        "kind": "money"
+      },
+      {
+        "label": "Pop the hood and try yourself",
+        "effects": {},
+        "log": "You channeled your inner mechanic.",
+        "kind": "info",
+        "outcomes": [
+          {
+            "chance": 0.45,
+            "effects": {
+              "smarts": 2,
+              "happiness": 4,
+              "money": -40
+            },
+            "log": "You fixed it roadside! Hero moment.",
+            "kind": "good"
+          },
+          {
+            "chance": 0.55,
+            "effects": {
+              "money": -900,
+              "mental": -3
+            },
+            "log": "You made it worse and needed a full repair.",
+            "kind": "bad"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vh_speeding",
+    "min": 17,
+    "max": 100,
+    "weight": 0.9,
+    "icon": "🚓",
+    "title": "Pulled Over",
+    "cond": {
+      "ownCar": true
+    },
+    "text": "Flashing lights in your mirror — you were going a little fast.",
+    "choices": [
+      {
+        "label": "Be polite and apologetic",
+        "effects": {},
+        "log": "You played it cool.",
+        "kind": "info",
+        "outcomes": [
+          {
+            "chance": 0.5,
+            "effects": {
+              "happiness": 3
+            },
+            "log": "Let off with a warning. Phew.",
+            "kind": "good"
+          },
+          {
+            "chance": 0.5,
+            "effects": {
+              "money": -220
+            },
+            "log": "You got the ticket anyway.",
+            "kind": "money"
+          }
+        ]
+      },
+      {
+        "label": "Argue with the officer",
+        "effects": {
+          "karma": -2
+        },
+        "log": "You decided to push back.",
+        "kind": "info",
+        "outcomes": [
+          {
+            "chance": 0.7,
+            "effects": {
+              "money": -400,
+              "mental": -3
+            },
+            "log": "That went poorly — bigger fine.",
+            "kind": "bad"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vh_street_race",
+    "min": 17,
+    "max": 45,
+    "weight": 0.6,
+    "icon": "🏁",
+    "title": "Street Race",
+    "cond": {
+      "ownCar": true
+    },
+    "text": "Someone revs up next to you at the light, challenging you to race.",
+    "choices": [
+      {
+        "label": "Floor it",
+        "effects": {},
+        "log": "You took the bait.",
+        "kind": "info",
+        "outcomes": [
+          {
+            "chance": 0.45,
+            "effects": {
+              "happiness": 10,
+              "looks": 2,
+              "notoriety": 2
+            },
+            "log": "You smoked them! Local legend.",
+            "kind": "good"
+          },
+          {
+            "chance": 0.35,
+            "effects": {
+              "money": -500,
+              "mental": -2
+            },
+            "log": "You lost, and your pride with it.",
+            "kind": "bad"
+          },
+          {
+            "chance": 0.2,
+            "effects": {
+              "health": -20,
+              "addCondition": "whiplash",
+              "jail": 1
+            },
+            "log": "You crashed and got arrested for reckless driving.",
+            "kind": "bad"
+          }
+        ]
+      },
+      {
+        "label": "Let them go",
+        "effects": {
+          "smarts": 1
+        },
+        "log": "Not worth your life. Wise.",
+        "kind": "good"
+      }
+    ]
+  },
+  {
+    "id": "vh_dream_car",
+    "min": 30,
+    "max": 100,
+    "weight": 0.5,
+    "icon": "🏎️",
+    "title": "Dream Car",
+    "cond": {
+      "ownCar": true,
+      "moneyMin": 80000
+    },
+    "text": "The supercar you've always wanted is sitting in the showroom window.",
+    "choices": [
+      {
+        "label": "Buy it — you've earned it",
+        "effects": {
+          "money": -75000,
+          "happiness": 15,
+          "looks": 4,
+          "fame": 1
+        },
+        "log": "Pure adrenaline every time you drive it.",
+        "kind": "money"
+      },
+      {
+        "label": "Stay sensible",
+        "effects": {
+          "smarts": 1,
+          "money": 200
+        },
+        "log": "You walked away. Your bank account thanks you.",
+        "kind": "info"
+      }
+    ]
+  },
+  {
+    "id": "vh_parking",
+    "min": 18,
+    "max": 100,
+    "weight": 0.7,
+    "icon": "🅿️",
+    "title": "Parking Drama",
+    "cond": {
+      "ownCar": true
+    },
+    "text": "You come back to find someone has dinged your door and driven off.",
+    "choices": [
+      {
+        "label": "Track them down via the cameras",
+        "effects": {},
+        "log": "You played detective.",
+        "kind": "info",
+        "outcomes": [
+          {
+            "chance": 0.5,
+            "effects": {
+              "money": 600,
+              "happiness": 3
+            },
+            "log": "Found them — they paid for the damage.",
+            "kind": "money"
+          },
+          {
+            "chance": 0.5,
+            "effects": {
+              "money": -400,
+              "mental": -2
+            },
+            "log": "No luck. You paid for the repair.",
+            "kind": "bad"
+          }
+        ]
+      },
+      {
+        "label": "Let it go",
+        "effects": {
+          "happiness": -2
+        },
+        "log": "Not worth the stress. You moved on.",
+        "kind": "info"
+      }
+    ]
+  }
+]

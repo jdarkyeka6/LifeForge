@@ -84,5 +84,28 @@ for (const fn of ["prisonPanel","petPanel","sportsCenter","handleSportsAction"])
 }
 if (vm.runInContext(`typeof LF.settingsPanel`, sandbox) !== "function") fail("LF.settingsPanel is missing");
 
+// ---- JSON event library (json/) ----
+try {
+  const idxPath = path.join(ROOT, "json", "index.json");
+  if (fs.existsSync(idxPath)) {
+    const idx = JSON.parse(fs.readFileSync(idxPath, "utf8"));
+    const libIds = new Set(); let libDup = 0, libBad = 0; const libEff = new Set(), libCond = new Set();
+    (idx.generated || []).forEach(file => {
+      const arr = JSON.parse(fs.readFileSync(path.join(ROOT, "json", "events", file), "utf8"));
+      arr.forEach(e => {
+        if (libIds.has(e.id)) libDup++; libIds.add(e.id);
+        if (!e.id || !Array.isArray(e.choices) || !e.choices.length || e.min == null || e.max == null) { libBad++; return; }
+        for (const k of Object.keys(e.cond || {})) if (!CONDS.has(k)) libCond.add(k);
+        e.choices.forEach(c => { for (const k of Object.keys(c.effects || {})) if (!EFFECTS.has(k)) libEff.add(k); (c.outcomes || []).forEach(o => { for (const k of Object.keys(o.effects || {})) if (!EFFECTS.has(k)) libEff.add(k); }); });
+      });
+    });
+    if (libDup) fail(`json library: ${libDup} duplicate id(s)`);
+    if (libBad) fail(`json library: ${libBad} malformed event(s)`);
+    if (libEff.size) fail(`json library: unsupported effect keys: ${[...libEff].join(", ")}`);
+    if (libCond.size) fail(`json library: unsupported cond keys: ${[...libCond].join(", ")}`);
+    if (!libDup && !libBad && !libEff.size && !libCond.size) ok(`json library valid (${libIds.size} generated events)`);
+  }
+} catch (e) { fail(`json library check failed: ${e.message}`); }
+
 if (process.exitCode) { console.error("\nVALIDATION FAILED"); }
 else console.log("\nAll checks passed ✅");
